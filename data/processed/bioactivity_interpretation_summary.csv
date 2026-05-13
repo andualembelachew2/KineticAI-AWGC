@@ -1,0 +1,6 @@
+temperature_C,bioactivity_interpretation,basis,note
+700,risk,cytotoxicity concern at high extraction concentration,qualitative label from thesis interpretation
+800,moderate,measurable bioactivity,qualitative label from thesis interpretation
+900,moderate,measurable bioactivity,qualitative label from thesis interpretation
+1000,high_density,highest reported density/strong stability,qualitative label from thesis interpretation
+1100,highest_bioactivity,strongest reported bioactivity response,qualitative label from thesis interpretation
