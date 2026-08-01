@@ -23,7 +23,7 @@
     "from IPython.display import IFrame\n",
     "\n",
     "# Replace 'your_document.pdf' with the actual path to your PDF file\n",
-    "IFrame(\"your_document.pdf\", width=800, height=600)"
+    "IFrame('your_document.pdf', width=800, height=600)"
    ]
   },
   {
@@ -91,8 +91,7 @@
     "- Biological Response Dataset\n",
     "- Raw XRD Pattern Dataset\n",
     "- SEM Metadata Dataset\n",
-    "- SEM Image Archive\n",
-    "```"
+    "- SEM Image Archive"
    ]
   },
   {
