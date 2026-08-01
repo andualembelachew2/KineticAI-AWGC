@@ -2,6 +2,7 @@ Publications
 
 This document presents the peer-reviewed research foundation underpinning KineticAI-AWGC and the Kinetic Blueprint framework. Together, these studies establish a mechanistic understanding of how thermal processing, crystallization pathways, mass transport, surface reactivity, and bio-interface performance can be systematically controlled in glass-ceramic systems, providing a pathway toward deterministic materials design.
 
+
 Research Progression
 
 The publications are organized to illustrate the evolution of the Kinetic Blueprint framework, from experimental investigations of bioactivity and cytocompatibility to predictive control of crystallization behavior, mass transport, surface reactivity, and bio-interface engineering.
@@ -24,6 +25,7 @@ This publication provides the experimental foundation for the KineticAI-AWGC pro
 Workie, A. B. & Shih, S.-J.
 
 DOI: https://doi.org/10.1016/j.ceramint.2025.11.191
+
 A Kinetic Blueprint for Bioactive Ceramics: Programming the Bio-interface through Thermal Processing.
 
 Ceramics International (2025)
@@ -38,6 +40,7 @@ Workie, A. B. & Taye, M. B.
 Sequential Crystallization Pathways in Apatite–Wollastonite Glass-Ceramics via Spray Pyrolysis.
 
 RSC Advances (2026)
+
 DOI: https://doi.org/10.1039/d5ra08885b
 
 Repository Relevance
@@ -49,6 +52,7 @@ Workie, A. B., Taye, M. B., Melchels, F. P. W., & Mamo, M. D.
 
 Predictive Mass-Transport Kinetics in Phase-Programmed Silicate Glass-Ceramics for Controlled Microenvironmental Engineering.
 Biomaterials Science (2026)
+
 DOI: https://doi.org/10.1039/D6BM00997B
 
 2026
