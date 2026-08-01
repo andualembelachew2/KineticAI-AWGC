@@ -39,7 +39,7 @@ Publication information is available in:
 - Model-result summary output
 - Feature-importance analysis
 - Degradation summary for the 1100 °C sample
-- Scientific documentation for FAU M.Sc. AI relevance
+- Materials informatics relevance
 
 ---
 
