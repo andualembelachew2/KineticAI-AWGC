@@ -1,0 +1,6 @@
+Temperature_C,Amorphous_Percent,Wollastonite_Percent,Hydroxyapatite_Percent,Whitlockite_Percent,Bulk_Density_g_cm3,MassLoss_21d_Percent,Final_pH_21d,Ca_Release_21d_mM,Si_Release_21d_mM,NBO_BO_Ratio,Kinetic_Exponent_n,Transport_Mechanism
+700,52.20,4.00,35.80,8.00,2.02,10.20,8.38,4.02,1.34,6.35,0.25,Quasi-Fickian burst release
+800,59.60,10.10,6.73,23.57,2.32,7.90,8.10,3.11,1.04,4.85,0.38,Anomalous transport
+900,36.00,9.60,22.40,32.00,2.61,5.80,7.70,2.28,0.76,3.20,0.44,Anomalous transport
+1000,30.80,14.42,20.18,34.60,2.80,3.80,7.50,1.49,0.50,2.75,0.49,Anomalous transport
+1100,22.60,21.67,12.38,43.34,2.78,2.59,7.82,1.02,0.34,2.10,0.58,Diffusion-governed transport
