@@ -1,3 +1,6 @@
+## Kinetic Blueprint Framework
+
+figures/kinetic_blueprint_framework.png
 # Figures
 
 This folder will store generated figures from the KineticAI-AWGC analysis workflow.
