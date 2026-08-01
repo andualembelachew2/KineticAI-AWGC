@@ -86,3 +86,15 @@ This dataset contains X-ray diffraction patterns collected from spray-pyrolyzed 
 ## Scientific Significance
 
 The XRD dataset represents the primary experimental evidence underlying phase evolution, crystallization pathways, and phase-fraction analysis within the Kinetic Blueprint framework.
+
+# SEM Image Dataset
+
+## Description
+
+This dataset contains scanning electron microscopy images collected from spray-pyrolyzed apatite–wollastonite glass-ceramic samples.
+
+## Scientific Significance
+
+The SEM dataset provides microstructural evidence linking phase architecture to transport behavior, degradation processes, and bioactivity.
+
+It complements the XRD dataset by capturing morphological evolution that cannot be observed through diffraction measurements alone.
