@@ -1,10 +1,15 @@
 # KineticAI-AWGC
 
-KineticAI-AWGC is an open computational materials-science platform that combines experimental bioactive glass data, kinetic modeling, and machine learning to investigate phase evolution, bioactivity, degradation behavior, and structure–property relationships in apatite–wollastonite glass-ceramic systems.
+KineticAI-AWGC is an open computational materials-science platform that integrates experimental bioactive glass data, phase-evolution analysis, and kinetic reasoning to investigate bioactivity, degradation behavior, and structure–property relationships in apatite–wollastonite glass-ceramic systems.
 
 The project documents the transition from experimental materials science toward computational materials design and serves as an early computational foundation for the Kinetic Blueprint framework for deterministic design of advanced ceramics and biomaterials.
 
-## Current Status
+## Publications
+ 
+For publications associated with KineticAI-AWGC and the broader Kinetic Blueprint framework, see:
+- docs/publications.md
+
+  ## Current Status
 
 Completed:
 
@@ -37,7 +42,3 @@ Future work:
 - Add SEM image-based morphology classification
 - Extend model validation using larger experimental datasets
 
-## Publications
- 
-For publications associated with KineticAI-AWGC and the broader Kinetic Blueprint framework, see:
-- docs/publications.md
