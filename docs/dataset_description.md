@@ -2,7 +2,7 @@
   "project": {
     "name": "Kinetic Blueprint",
     "version": "1.0.0",
-    "description": "Open experimental datasets and computational framework for deterministic materials design through thermal processing, phase architecture, transport behavior, and biointerface engineering.",
+    "description": "Open experimental datasets and computational framework for deterministic materials design through thermal processing, phase architecture, network connectivity, transport behavior, and biointerface engineering.",
     "keywords": [
       "glass-ceramics",
       "biomaterials",
@@ -27,9 +27,120 @@
         "description": "Experimental dataset describing the relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bioactivity in apatite–wollastonite glass-ceramic systems."
       },
       {
-        "name": "pH Time-Series Dataset",
-        "file": "data/ph_time_series.csv",
-        "description": "Time-dependent solution pH evolution during SBF immersion for samples sintered between 700 °C and 1100 °C."
+        "name": "Interfacial pH Time-Series Dataset",
+        "file": "data/interfacial_ph_timeseries.csv",
+        "description": "Time-resolved pH evolution during SBF immersion for apatite–wollastonite glass-ceramic samples, capturing interfacial microenvironment evolution and classification.",
+        "variables": [
+          {
+            "name": "Time_Days",
+            "type": "integer",
+            "unit": "days",
+            "description": "Immersion time in simulated body fluid (SBF)."
+          },
+          {
+            "name": "Temperature_C",
+            "type": "integer",
+            "unit": "°C",
+            "description": "Sintering temperature of the sample."
+          },
+          {
+            "name": "pH_Value",
+            "type": "number",
+            "unit": "pH",
+            "description": "Measured solution pH."
+          },
+          {
+            "name": "Interfacial_Classification",
+            "type": "string",
+            "description": "Functional classification of the interfacial chemical environment."
+          }
+        ],
+        "records": [
+          {
+            "Time_Days": 0,
+            "Temperature_C": 700,
+            "pH_Value": 7.40,
+            "Interfacial_Classification": "Baseline SBF"
+          },
+          {
+            "Time_Days": 1,
+            "Temperature_C": 700,
+            "pH_Value": 8.32,
+            "Interfacial_Classification": "Alkaline Shock"
+          },
+          {
+            "Time_Days": 3,
+            "Temperature_C": 700,
+            "pH_Value": 8.55,
+            "Interfacial_Classification": "Peak Alkaline Shock"
+          },
+          {
+            "Time_Days": 5,
+            "Temperature_C": 700,
+            "pH_Value": 8.48,
+            "Interfacial_Classification": "Cytotoxic Region"
+          },
+          {
+            "Time_Days": 7,
+            "Temperature_C": 700,
+            "pH_Value": 8.42,
+            "Interfacial_Classification": "Cytotoxic Region"
+          },
+          {
+            "Time_Days": 14,
+            "Temperature_C": 700,
+            "pH_Value": 8.38,
+            "Interfacial_Classification": "Cytotoxic Region"
+          },
+          {
+            "Time_Days": 21,
+            "Temperature_C": 700,
+            "pH_Value": 8.35,
+            "Interfacial_Classification": "Cytotoxic Region"
+          },
+          {
+            "Time_Days": 0,
+            "Temperature_C": 1100,
+            "pH_Value": 7.40,
+            "Interfacial_Classification": "Baseline SBF"
+          },
+          {
+            "Time_Days": 1,
+            "Temperature_C": 1100,
+            "pH_Value": 7.48,
+            "Interfacial_Classification": "Homeostatic Buffer"
+          },
+          {
+            "Time_Days": 3,
+            "Temperature_C": 1100,
+            "pH_Value": 7.55,
+            "Interfacial_Classification": "Homeostatic Buffer"
+          },
+          {
+            "Time_Days": 5,
+            "Temperature_C": 1100,
+            "pH_Value": 7.60,
+            "Interfacial_Classification": "Homeostatic Buffer"
+          },
+          {
+            "Time_Days": 7,
+            "Temperature_C": 1100,
+            "pH_Value": 7.65,
+            "Interfacial_Classification": "Homeostatic Buffer"
+          },
+          {
+            "Time_Days": 14,
+            "Temperature_C": 1100,
+            "pH_Value": 7.72,
+            "Interfacial_Classification": "Homeostatic Buffer"
+          },
+          {
+            "Time_Days": 21,
+            "Temperature_C": 1100,
+            "pH_Value": 7.82,
+            "Interfacial_Classification": "Homeostatic Buffer"
+          }
+        ]
       }
     ],
     "scientific_workflow": [
@@ -37,6 +148,7 @@
       "Phase Architecture",
       "Network Connectivity",
       "Transport Behavior",
+      "Interfacial Microenvironment",
       "Biointerface Performance"
     ],
     "future_modules": [
