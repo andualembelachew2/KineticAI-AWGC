@@ -58,8 +58,4 @@ The project will proceed through four stages:
 
 ## Why This Project Matters
 
-This project demonstrates how experimental materials science data can be converted into a structured artificial-intelligence workflow.
-
-Rather than using generic datasets, this repository uses real experimental data from spray pyrolysis, XRD-based phase quantification, and SBF bioactivity testing.
-
-The project represents a first step toward AI-assisted design of bioactive glass-ceramics.
+This repository also supports the broader Kinetic Blueprint framework developed by Dr. Andualem Belachew Workie. The long-term vision is to integrate experimental data, thermodynamic reasoning, kinetic modeling, and machine learning into a unified platform for deterministic design of advanced ceramics and biomaterials.
