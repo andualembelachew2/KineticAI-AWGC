@@ -61,6 +61,7 @@ Taye, M. B., Workie, A. B., & Shih, S.-J.
 Rational Engineering of Mesoporous Bioactive Glass Surface Reactivity: NBO/BO Ratio Control via Synergistic Ag and Ce Co-Doping by Spray Pyrolysis.
 
 Ceramics International (2026)
+
 DOI: https://doi.org/10.1016/j.ceramint.2026.01.486
 
 Contribution Context
