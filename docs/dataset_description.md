@@ -67,37 +67,37 @@ This document provides the machine-readable metadata for the **Kinetic Blueprint
             "Time_Days": 0,
             "Temperature_C": 700,
             "pH_Value": 7.40,
-            "Interfacial_Classification": "Baseline SBF"
+            "Microenvironment_Region": "Baseline SBF"
           },
           {
             "Time_Days": 1,
             "Temperature_C": 700,
             "pH_Value": 8.32,
-            "Interfacial_Classification": "Alkaline Shock"
+            "Microenvironment_Region": "Alkaline Shock"
           },
           {
             "Time_Days": 3,
             "Temperature_C": 700,
             "pH_Value": 8.55,
-            "Interfacial_Classification": "Peak Alkaline Shock"
+            "Microenvironment_Region": "Peak Alkaline Shock"
           },
           {
             "Time_Days": 5,
             "Temperature_C": 700,
             "pH_Value": 8.48,
-            "Interfacial_Classification": "Cytotoxic Region"
+            "Microenvironment_Region": "Cytotoxic Region"
           },
           {
             "Time_Days": 7,
             "Temperature_C": 700,
             "pH_Value": 8.42,
-            "Interfacial_Classification": "Cytotoxic Region"
+            "Microenvironment_Region": "Cytotoxic Region"
           },
           {
             "Time_Days": 14,
             "Temperature_C": 700,
             "pH_Value": 8.38,
-            "Interfacial_Classification": "Cytotoxic Region"
+            "Microenvironment_Region": "Cytotoxic Region"
           },
           {
             "Time_Days": 21,
@@ -109,43 +109,43 @@ This document provides the machine-readable metadata for the **Kinetic Blueprint
             "Time_Days": 0,
             "Temperature_C": 1100,
             "pH_Value": 7.40,
-            "Interfacial_Classification": "Baseline SBF"
+            "Microenvironment_Region": "Baseline SBF"
           },
           {
             "Time_Days": 1,
             "Temperature_C": 1100,
             "pH_Value": 7.48,
-            "Interfacial_Classification": "Homeostatic Buffer"
+            "Microenvironment_Region": "Homeostatic Buffer"
           },
           {
             "Time_Days": 3,
             "Temperature_C": 1100,
             "pH_Value": 7.55,
-            "Interfacial_Classification": "Homeostatic Buffer"
+            "Microenvironment_Region": "Homeostatic Buffer"
           },
           {
             "Time_Days": 5,
             "Temperature_C": 1100,
             "pH_Value": 7.60,
-            "Interfacial_Classification": "Homeostatic Buffer"
+            "Microenvironment_Region": "Homeostatic Buffer"
           },
           {
             "Time_Days": 7,
             "Temperature_C": 1100,
             "pH_Value": 7.65,
-            "Interfacial_Classification": "Homeostatic Buffer"
+            "Microenvironment_Region": "Homeostatic Buffer"
           },
           {
             "Time_Days": 14,
             "Temperature_C": 1100,
             "pH_Value": 7.72,
-            "Interfacial_Classification": "Homeostatic Buffer"
+            "Microenvironment_Region": "Homeostatic Buffer"
           },
           {
             "Time_Days": 21,
             "Temperature_C": 1100,
             "pH_Value": 7.82,
-            "Interfacial_Classification": "Homeostatic Buffer"
+            "Microenvironment_Region": "Homeostatic Buffer"
           }
         ]
       }
@@ -155,7 +155,7 @@ This document provides the machine-readable metadata for the **Kinetic Blueprint
       "Phase Architecture",
       "Network Connectivity",
       "Transport Behavior",
-      "Interfacial Microenvironment",
+      "Microenvironment_Region",
       "Biointerface Performance"
     ],
     "future_modules": [
