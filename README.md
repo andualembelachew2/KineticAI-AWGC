@@ -36,3 +36,8 @@ Future work:
 - Add raw XRD pattern files for automated phase-recognition modeling
 - Add SEM image-based morphology classification
 - Extend model validation using larger experimental datasets
+
+## Publications
+ 
+For publications associated with KineticAI-AWGC and the broader Kinetic Blueprint framework, see:
+- docs/publications.md
