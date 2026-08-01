@@ -96,5 +96,7 @@ This dataset contains scanning electron microscopy images collected from spray-p
 ## Scientific Significance
 
 The SEM dataset provides microstructural evidence linking phase architecture to transport behavior, degradation processes, and bioactivity.
-
 It complements the XRD dataset by capturing morphological evolution that cannot be observed through diffraction measurements alone.
+
+Location:
+data/raw/sem_images/
