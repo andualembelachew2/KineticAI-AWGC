@@ -53,11 +53,9 @@ Ceramics International (2026)
 DOI: https://doi.org/10.1016/j.ceramint.2026.01.486
 
 Contribution Context
+
 Contributed to the conceptual development, materials processing, characterization, and interpretation of structure–reactivity relationships in bioactive glass systems
 
-Repository Relevance
-
-This publication advances the predictive modeling of mass-transport kinetics in phase-programmed silicate glass-ceramics and supports the broader Kinetic Blueprint framework. The study strengthens the scientific foundation for integrating experimental characterization, kinetic modeling, and computational materials design within KineticAI-AWGC.
 
 ## Research Vision
 
