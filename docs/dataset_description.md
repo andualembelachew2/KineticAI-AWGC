@@ -100,3 +100,8 @@ It complements the XRD dataset by capturing morphological evolution that cannot 
 
 Location:
 data/raw/sem_images/
+## Processed Metadata
+
+The SEM metadata table provides structured descriptions of observed microstructural features.
+Location:
+data/processed/sem_metadata.csv
