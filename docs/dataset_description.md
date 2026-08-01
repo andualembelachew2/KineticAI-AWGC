@@ -23,3 +23,16 @@ The dataset was derived from peer-reviewed experimental studies forming the foun
 | NBO_BO_Ratio | Non-bridging oxygen to bridging oxygen ratio |
 | Kinetic_Exponent_n | Transport exponent |
 | Transport_Mechanism | Mechanistic interpretation of transport behavior |
+
+
+## Scientific Significance
+
+The Kinetic Blueprint Master Dataset was created to explore how thermal processing governs phase architecture, network connectivity, transport behavior, and bioactivity in glass-ceramic systems.
+
+The dataset integrates structural descriptors (phase fractions, density, NBO/BO ratio) with functional outcomes (mass loss, ion release, pH evolution, and transport mechanism) to support the development of deterministic materials-design strategies.
+
+## Dataset Origin
+
+The dataset integrates experimental measurements reported across multiple peer-reviewed studies on spray-pyrolyzed apatite–wollastonite and related glass-ceramic systems. Variables were selected to capture the relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bio-interface performance.
+
+The dataset serves as the foundational data resource for the KineticAI-AWGC computational research platform and the broader Kinetic Blueprint framework.
