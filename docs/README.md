@@ -1,12 +1,17 @@
 # Documentation
 
-This folder contains scientific and technical documentation for the KineticAI-AWGC project.
+This folder contains scientific, computational, and framework documentation for the KineticAI-AWGC project.
 
-Current documents include:
+## Core Documents
 
-- `project_summary.md`
-- `scientific_background.md`
-- `fau_relevance.md`
-- `publications.md`
+- project_summary.md
+- scientific_background.md
+- publications.md
+- dataset_description.md
+- framework_overview.md
 
-These documents will describe the scientific motivation, dataset origin, machine-learning workflow, project limitations, and relevance to artificial intelligence and materials informatics.
+## Computational and Research Context
+
+- materials_informatics_relevance.md
+
+These documents describe the scientific foundation, datasets, computational workflows, Kinetic Blueprint framework, and long-term vision for deterministic materials design.
