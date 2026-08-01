@@ -9,6 +9,7 @@ The publications are organized to illustrate the evolution of the Kinetic Bluepr
 
 
 2023
+
 Workie, A. B., Ningsih, H. S., Yeh, W.-L., & Shih, S.-J.
 An Investigation of In Vitro Bioactivities and Cytotoxicities of Spray Pyrolyzed Apatite–Wollastonite Glass-Ceramics.
 
@@ -35,6 +36,7 @@ Repository Relevance
 This publication establishes the conceptual foundation of the Kinetic Blueprint framework. It demonstrates how thermal processing can be used to program phase evolution and bio-interface behavior, providing the scientific basis for deterministic materials design explored throughout KineticAI-AWGC.
 
 2026
+
 Workie, A. B. & Taye, M. B.
 
 Sequential Crystallization Pathways in Apatite–Wollastonite Glass-Ceramics via Spray Pyrolysis.
@@ -48,6 +50,7 @@ Repository Relevance
 This publication investigates the crystallization pathways governing phase formation in spray-pyrolyzed apatite–wollastonite glass-ceramics. The findings provide mechanistic insight into phase evolution and thermal-processing effects, forming a key link between materials synthesis and the Kinetic Blueprint framework for deterministic materials design.
 
 2026
+
 Workie, A. B., Taye, M. B., Melchels, F. P. W., & Mamo, M. D.
 
 Predictive Mass-Transport Kinetics in Phase-Programmed Silicate Glass-Ceramics for Controlled Microenvironmental Engineering.
