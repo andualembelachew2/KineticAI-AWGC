@@ -1,155 +1,75 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# Kinetic Blueprint Framework\n",
-    "\n",
-    "![Kinetic Blueprint Framework](figures/kinetic_blueprint_framework.png)\n",
-    "\n",
-    "## Overview\n",
-    "\n",
-    "The Kinetic Blueprint framework links thermal processing, crystallization pathways, phase architecture, microstructure, transport behavior, microenvironment evolution, and biological response into a deterministic materials-design strategy."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# NOTE: If you need to display a PDF instead of an image, use this code block:\n",
-    "from IPython.display import IFrame\n",
-    "\n",
-    "# Replace 'your_document.pdf' with the actual path to your PDF file\n",
-    "IFrame('your_document.pdf', width=800, height=600)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# KineticAI-AWGC\n",
-    "\n",
-    "## Overview\n",
-    "\n",
-    "KineticAI-AWGC is an open computational materials-science platform integrating experimental characterization, data analytics, machine learning, and mechanistic interpretation to investigate advanced glass-ceramic systems.\n",
-    "\n",
-    "The platform serves as the computational foundation of the Kinetic Blueprint framework for deterministic design of ceramics and biomaterials."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Repository Structure\n",
-    "\n",
-    "```text\n",
-    "docs/        Scientific documentation\n",
-    "data/        Experimental and processed datasets\n",
-    "figures/     Framework and analysis figures\n",
-    "notebooks/   Analytical workflows\n",
-    "```"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Scientific Workflow\n",
-    "\n",
-    "```text\n",
-    "Thermal Processing\n",
-    "        ↓\n",
-    "Crystallization Pathways\n",
-    "        ↓\n",
-    "Phase Architecture\n",
-    "        ↓\n",
-    "Microstructure\n",
-    "        ↓\n",
-    "Transport Behavior\n",
-    "        ↓\n",
-    "Microenvironment Evolution\n",
-    "        ↓\n",
-    "Biological Response\n",
-    "        ↓\n",
-    "Deterministic Materials Design\n",
-    "```"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Datasets\n",
-    "\n",
-    "The repository currently contains:\n",
-    "\n",
-    "- Kinetic Blueprint Master Dataset\n",
-    "- pH Time-Series Dataset\n",
-    "- Biological Response Dataset\n",
-    "- Raw XRD Pattern Dataset\n",
-    "- SEM Metadata Dataset\n",
-    "- SEM Image Archive"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Analytical Notebooks\n",
-    "\n",
-    "```text\n",
-    "01 Data Cleaning\n",
-    "02 Exploratory Analysis\n",
-    "03 Phase Prediction Model\n",
-    "04 Bioactivity Interpretation\n",
-    "05 Microenvironment Evolution\n",
-    "06 Biological Response\n",
-    "07 XRD Pattern Analysis\n",
-    "08 Microstructure Analysis\n",
-    "```"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Publications\n",
-    "\n",
-    "Publication information is available in:\n",
-    "\n",
-    "docs/publications.md"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Documentation\n",
-    "\n",
-    "Additional project documentation is available in:\n",
-    "\n",
-    "- docs/project_summary.md\n",
-    "- docs/scientific_background.md\n",
-    "- docs/framework_overview.md\n",
-    "- docs/dataset_description.md\n",
-    "- docs/materials_informatics_relevance.md"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "name": "python",
-   "version": "3.10"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# KineticAI-AWGC
+
+![Kinetic Blueprint Framework](figures/kinetic_blueprint_framework.png)
+
+## Overview
+
+**KineticAI-AWGC** is an open computational materials-science platform integrating experimental characterization, data analytics, machine learning, and mechanistic interpretation to investigate advanced glass-ceramic systems.
+
+The platform serves as the computational foundation of the **Kinetic Blueprint Framework**, which links thermal processing, crystallization pathways, phase architecture, microstructure, transport behavior, microenvironment evolution, and biological response into a deterministic materials-design strategy.
+
+## Scientific Workflow
+
+The framework follows a sequential pipeline to achieve deterministic design:
+
+```text
+Thermal Processing
+        ↓
+Crystallization Pathways
+        ↓
+Phase Architecture
+        ↓
+Microstructure
+        ↓
+Transport Behavior
+        ↓
+Microenvironment Evolution
+        ↓
+Biological Response
+        ↓
+Deterministic Materials Design
+```
+
+## Repository Structure
+
+```text
+docs/        Scientific documentation
+data/        Experimental and processed datasets
+figures/     Framework and analysis figures
+notebooks/   Analytical workflows
+```
+
+## Datasets
+
+The repository currently contains the following datasets within the `data/` directory:
+
+- Kinetic Blueprint Master Dataset
+- pH Time-Series Dataset
+- Biological Response Dataset
+- Raw XRD Pattern Dataset
+- SEM Metadata Dataset
+- SEM Image Archive
+
+## Analytical Notebooks
+
+The `notebooks/` directory contains analytical workflows broken down into the following stages:
+
+- **01** Data Cleaning
+- **02** Exploratory Analysis
+- **03** Phase Prediction Model
+- **04** Bioactivity Interpretation
+- **05** Microenvironment Evolution
+- **06** Biological Response
+- **07** XRD Pattern Analysis
+- **08** Microstructure Analysis
+
+## Documentation & Publications
+
+Additional project documentation and publication information are available in the `docs/` directory:
+
+- **Publications:** `docs/publications.md`
+- **Project Summary:** `docs/project_summary.md`
+- **Scientific Background:** `docs/scientific_background.md`
+- **Framework Overview:** `docs/framework_overview.md`
+- **Dataset Description:** `docs/dataset_description.md`
+- **Materials Informatics Relevance:** `docs/materials_informatics_relevance.md`
