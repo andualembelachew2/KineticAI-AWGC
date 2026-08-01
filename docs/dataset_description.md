@@ -1,179 +1,68 @@
-# Dataset Description
+# Kinetic Blueprint Master Dataset
 
-## Overview
+## Description
 
-This document provides the machine-readable metadata for the **Kinetic Blueprint** project, including the experimental datasets, scientific workflow, and planned computational modules.
+This dataset summarizes the relationships between thermal processing, phase architecture, transport behavior, and network connectivity in spray-pyrolyzed apatite–wollastonite glass-ceramic systems.
 
-```json
-{
-  "project": {
-    "name": "Kinetic Blueprint",
-    "version": "1.0.0",
-    "description": "Open experimental datasets and computational framework for deterministic materials design through thermal processing, phase architecture, network connectivity, transport behavior, and biointerface engineering.",
-    "keywords": [
-      "glass-ceramics",
-      "biomaterials",
-      "bone-regeneration",
-      "materials-science",
-      "kinetics",
-      "transport",
-      "machine-learning",
-      "kinetic-blueprint",
-      "kineticai",
-      "apatite",
-      "wollastonite",
-      "open-science"
-    ],
-    "license": "MIT",
-    "repository": "https://github.com/yourusername/Kinetic-Blueprint",
-    "homepage": "https://github.com/yourusername/Kinetic-Blueprint",
-    "datasets": [
-      {
-        "name": "Kinetic Blueprint Master Dataset",
-        "file": "data/kinetic_blueprint_master.csv",
-        "description": "Experimental dataset describing relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bioactivity in apatite–wollastonite glass-ceramic systems."
-      },
-      {
-        "name": "Interfacial pH Time-Series Dataset",
-        "file": "data/interfacial_ph_timeseries.csv",
-        "description": "Time-resolved pH evolution during SBF immersion capturing interfacial microenvironment evolution and functional classification.",
-        "variables": [
-          {
-            "name": "Time_Days",
-            "type": "integer",
-            "unit": "days",
-            "description": "Immersion time in simulated body fluid (SBF)."
-          },
-          {
-            "name": "Temperature_C",
-            "type": "integer",
-            "unit": "°C",
-            "description": "Sintering temperature."
-          },
-          {
-            "name": "pH_Value",
-            "type": "number",
-            "unit": "pH",
-            "description": "Measured solution pH."
-          },
-          {
-            "name": "Interfacial_Classification",
-            "type": "string",
-            "description": "Classification of the interfacial chemical environment."
-          }
-        ],
-        "records": [
-          {
-            "Time_Days": 0,
-            "Temperature_C": 700,
-            "pH_Value": 7.40,
-            "Microenvironment_Region": "Baseline SBF"
-          },
-          {
-            "Time_Days": 1,
-            "Temperature_C": 700,
-            "pH_Value": 8.32,
-            "Microenvironment_Region": "Alkaline Shock"
-          },
-          {
-            "Time_Days": 3,
-            "Temperature_C": 700,
-            "pH_Value": 8.55,
-            "Microenvironment_Region": "Peak Alkaline Shock"
-          },
-          {
-            "Time_Days": 5,
-            "Temperature_C": 700,
-            "pH_Value": 8.48,
-            "Microenvironment_Region": "Cytotoxic Region"
-          },
-          {
-            "Time_Days": 7,
-            "Temperature_C": 700,
-            "pH_Value": 8.42,
-            "Microenvironment_Region": "Cytotoxic Region"
-          },
-          {
-            "Time_Days": 14,
-            "Temperature_C": 700,
-            "pH_Value": 8.38,
-            "Microenvironment_Region": "Cytotoxic Region"
-          },
-          {
-            "Time_Days": 21,
-            "Temperature_C": 700,
-            "pH_Value": 8.35,
-            "Interfacial_Classification": "Cytotoxic Region"
-          },
-          {
-            "Time_Days": 0,
-            "Temperature_C": 1100,
-            "pH_Value": 7.40,
-            "Microenvironment_Region": "Baseline SBF"
-          },
-          {
-            "Time_Days": 1,
-            "Temperature_C": 1100,
-            "pH_Value": 7.48,
-            "Microenvironment_Region": "Homeostatic Buffer"
-          },
-          {
-            "Time_Days": 3,
-            "Temperature_C": 1100,
-            "pH_Value": 7.55,
-            "Microenvironment_Region": "Homeostatic Buffer"
-          },
-          {
-            "Time_Days": 5,
-            "Temperature_C": 1100,
-            "pH_Value": 7.60,
-            "Microenvironment_Region": "Homeostatic Buffer"
-          },
-          {
-            "Time_Days": 7,
-            "Temperature_C": 1100,
-            "pH_Value": 7.65,
-            "Microenvironment_Region": "Homeostatic Buffer"
-          },
-          {
-            "Time_Days": 14,
-            "Temperature_C": 1100,
-            "pH_Value": 7.72,
-            "Microenvironment_Region": "Homeostatic Buffer"
-          },
-          {
-            "Time_Days": 21,
-            "Temperature_C": 1100,
-            "pH_Value": 7.82,
-            "Microenvironment_Region": "Homeostatic Buffer"
-          }
-        ]
-      }
-    ],
-    "scientific_workflow": [
-      "Thermal Processing",
-      "Phase Architecture",
-      "Network Connectivity",
-      "Transport Behavior",
-      "Microenvironment_Region",
-      "Biointerface Performance"
-    ],
-    "future_modules": [
-      "Python Analysis",
-      "Machine Learning",
-      "Physics-Informed Modeling",
-      "Interactive Visualization",
-      "KineticAI-AWGC"
-    ]
-  }
-}
-```
+The dataset was derived from peer-reviewed experimental studies forming the foundation of the Kinetic Blueprint framework.
 
-## Notes
+---
 
-- **Master Dataset:** `data/kinetic_blueprint_master.csv`
-- **Interfacial pH Dataset:** `data/interfacial_ph_timeseries.csv`
-- **Framework:** Kinetic Blueprint
-- **Platform:** KineticAI-AWGC
+## Variables
 
-This metadata describes the datasets, scientific workflow, and future computational development of the Kinetic Blueprint framework.
+| Variable | Description |
+|-----------|-------------|
+| Temperature_C | Sintering temperature |
+| Amorphous_Percent | Residual amorphous phase content |
+| Wollastonite_Percent | Wollastonite phase fraction |
+| Hydroxyapatite_Percent | Hydroxyapatite phase fraction |
+| Whitlockite_Percent | Whitlockite phase fraction |
+| Bulk_Density_g_cm3 | Measured bulk density |
+| MassLoss_21d_Percent | Mass loss after 21 days SBF immersion |
+| Final_pH_21d | Solution pH after 21 days |
+| Ca_Release_21d_mM | Calcium release after 21 days |
+| Si_Release_21d_mM | Silicon release after 21 days |
+| NBO_BO_Ratio | Non-bridging oxygen to bridging oxygen ratio |
+| Kinetic_Exponent_n | Transport exponent |
+| Transport_Mechanism | Mechanistic interpretation of transport behavior |
+
+---
+
+## Scientific Significance
+
+The Kinetic Blueprint Master Dataset was created to explore how thermal processing governs phase architecture, network connectivity, transport behavior, and bioactivity in glass-ceramic systems.
+
+The dataset integrates structural descriptors (phase fractions, density, NBO/BO ratio) with functional outcomes (mass loss, ion release, pH evolution, and transport mechanism) to support the development of deterministic materials-design strategies.
+
+---
+
+## Dataset Origin
+
+The dataset integrates experimental measurements reported across multiple peer-reviewed studies on spray-pyrolyzed apatite–wollastonite and related glass-ceramic systems. Variables were selected to capture the relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bio-interface performance.
+
+The dataset serves as the foundational data resource for the KineticAI-AWGC computational research platform and the broader Kinetic Blueprint framework.
+
+---
+
+# pH Time-Series Dataset
+
+This dataset captures the evolution of solution pH during SBF immersion for AWGC samples sintered between 700 °C and 1100 °C.
+
+---
+
+## Variables
+
+| Variable | Description |
+|-----------|-------------|
+| Time_Days | SBF immersion duration |
+| Temperature_C | Sintering temperature |
+| pH_Value | Measured solution pH |
+| Microenvironment_Region | Functional classification of the interfacial chemical environment |
+
+---
+
+## Scientific Significance
+
+The pH dataset provides a direct measure of microenvironment evolution during degradation and bioactivity processes.
+
+It serves as a bridge between transport behavior and biological response within the Kinetic Blueprint framework.
