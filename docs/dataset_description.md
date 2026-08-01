@@ -1,3 +1,10 @@
+# Dataset Description
+
+## Overview
+
+This document provides the machine-readable metadata for the **Kinetic Blueprint** project, including the experimental datasets, scientific workflow, and planned computational modules.
+
+```json
 {
   "project": {
     "name": "Kinetic Blueprint",
@@ -24,12 +31,12 @@
       {
         "name": "Kinetic Blueprint Master Dataset",
         "file": "data/kinetic_blueprint_master.csv",
-        "description": "Experimental dataset describing the relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bioactivity in apatite–wollastonite glass-ceramic systems."
+        "description": "Experimental dataset describing relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bioactivity in apatite–wollastonite glass-ceramic systems."
       },
       {
         "name": "Interfacial pH Time-Series Dataset",
         "file": "data/interfacial_ph_timeseries.csv",
-        "description": "Time-resolved pH evolution during SBF immersion for apatite–wollastonite glass-ceramic samples, capturing interfacial microenvironment evolution and classification.",
+        "description": "Time-resolved pH evolution during SBF immersion capturing interfacial microenvironment evolution and functional classification.",
         "variables": [
           {
             "name": "Time_Days",
@@ -41,7 +48,7 @@
             "name": "Temperature_C",
             "type": "integer",
             "unit": "°C",
-            "description": "Sintering temperature of the sample."
+            "description": "Sintering temperature."
           },
           {
             "name": "pH_Value",
@@ -52,7 +59,7 @@
           {
             "name": "Interfacial_Classification",
             "type": "string",
-            "description": "Functional classification of the interfacial chemical environment."
+            "description": "Classification of the interfacial chemical environment."
           }
         ],
         "records": [
@@ -160,3 +167,13 @@
     ]
   }
 }
+```
+
+## Notes
+
+- **Master Dataset:** `data/kinetic_blueprint_master.csv`
+- **Interfacial pH Dataset:** `data/interfacial_ph_timeseries.csv`
+- **Framework:** Kinetic Blueprint
+- **Platform:** KineticAI-AWGC
+
+This metadata describes the datasets, scientific workflow, and future computational development of the Kinetic Blueprint framework.
