@@ -1,4 +1,5 @@
 Publications
+
 This document presents the peer-reviewed research foundation underpinning KineticAI-AWGC and the Kinetic Blueprint framework. Together, these studies establish a mechanistic understanding of how thermal processing, crystallization pathways, mass transport, surface reactivity, and bio-interface performance can be systematically controlled in glass-ceramic systems, providing a pathway toward deterministic materials design.
 
 Research Progression
@@ -19,6 +20,7 @@ Repository Relevance
 This publication provides the experimental foundation for the KineticAI-AWGC project. Through systematic investigation of bioactivity and cytotoxicity in spray-pyrolyzed apatite–wollastonite glass-ceramics, the study established key relationships between processing, phase composition, and biological response that later informed the development of the Kinetic Blueprint framework.
 
 2025
+
 Workie, A. B. & Shih, S.-J.
 
 DOI: https://doi.org/10.1016/j.ceramint.2025.11.191
