@@ -6,11 +6,24 @@
    "source": [
     "# Kinetic Blueprint Framework\n",
     "\n",
-    "figures/kinetic_blueprint_framework.png\n",
+    "![Kinetic Blueprint Framework](figures/kinetic_blueprint_framework.png)\n",
     "\n",
     "## Overview\n",
     "\n",
     "The Kinetic Blueprint framework links thermal processing, crystallization pathways, phase architecture, microstructure, transport behavior, microenvironment evolution, and biological response into a deterministic materials-design strategy."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# NOTE: If you need to display a PDF instead of an image, use this code block:\n",
+    "from IPython.display import IFrame\n",
+    "\n",
+    "# Replace 'your_document.pdf' with the actual path to your PDF file\n",
+    "IFrame(\"your_document.pdf\", width=800, height=600)"
    ]
   },
   {
@@ -78,7 +91,8 @@
     "- Biological Response Dataset\n",
     "- Raw XRD Pattern Dataset\n",
     "- SEM Metadata Dataset\n",
-    "- SEM Image Archive"
+    "- SEM Image Archive\n",
+    "```"
    ]
   },
   {
