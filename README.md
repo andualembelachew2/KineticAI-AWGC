@@ -1,3 +1,5 @@
+https://doi.org/10.5281/zenodo.21759552
+
 # KineticAI-AWGC
 
 ![Kinetic Blueprint Framework](figures/kinetic_blueprint_framework.png)
