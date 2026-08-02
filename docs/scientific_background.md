@@ -1,29 +1,37 @@
-
 # Scientific Background
 
-## Apatite-Wollastonite Glass-Ceramics
+## Scientific Motivation
 
-Apatite-wollastonite glass-ceramics are bioactive ceramic materials designed for biomedical applications such as bone repair, implant coatings, and regenerative scaffolds.
+The development of advanced materials increasingly requires predictive frameworks capable of linking processing conditions to evolving structure, transport behavior, and functional performance.
 
-Their performance depends on the controlled balance between:
+Traditional materials development often relies on empirical optimization, where processing parameters are adjusted through trial and error. In contrast, predictive computational materials research seeks to establish mechanistic relationships that enable performance to be anticipated before experimental validation.
 
-- Bioactivity
-- Mechanical stability
-- Controlled degradation
-- Phase composition
+The KineticAI-AWGC platform was developed as a step toward this objective by integrating experimental observations, quantitative characterization, and computational analysis within a unified framework.
+
+---
+
+## Materials System
+
+Apatite–wollastonite glass-ceramic systems serve as a representative model material for investigating processing–structure–property relationships.
+
+These materials exhibit complex interactions between:
+
+- Crystallization behavior
+- Phase evolution
+- Transport phenomena
 - Surface reactivity
+- Microstructural development
+- Functional performance
 
-## Role of Spray Pyrolysis
+As a result, they provide an ideal platform for studying how processing history influences material behavior across multiple length and time scales.
 
-Spray pyrolysis is a scalable aerosol-based synthesis method that enables the preparation of chemically homogeneous precursor powders.
+---
 
-In this project, spray pyrolysis provides a platform for preparing apatite-wollastonite glass-ceramic precursor powders with controlled composition and morphology.
+## Processing and Structure Evolution
 
-## Role of Sintering Temperature
+Thermal processing governs the crystallization pathways and phase architecture of the material.
 
-Sintering temperature is the main processing variable in this dataset.
-
-The samples were sintered at:
+The experimental system investigated in this project includes samples processed between:
 
 - 700 °C
 - 800 °C
@@ -31,20 +39,33 @@ The samples were sintered at:
 - 1000 °C
 - 1100 °C
 
-Changing the sintering temperature modifies the phase assemblage of the material.
+Changes in processing conditions produce systematic variations in:
 
-The main phases considered in this project are:
+- Amorphous content
+- Wollastonite formation
+- Hydroxyapatite formation
+- Whitlockite formation
+- Microstructural organization
 
-- Amorphous phase
-- Wollastonite
-- Hydroxyapatite
-- Whitlockite
+These transformations establish the structural foundation that subsequently controls transport and performance.
 
-## Simulated Body Fluid Response
+---
 
-Simulated body fluid immersion is used to evaluate in vitro bioactivity.
+## Role of Spray Pyrolysis
 
-The samples were immersed for:
+Spray pyrolysis provides a scalable aerosol-based synthesis route for generating chemically homogeneous precursor powders.
+
+Within this framework, spray pyrolysis serves as a model processing platform for investigating how synthesis conditions influence crystallization pathways, phase evolution, and resulting material behavior.
+
+The methodology is broadly relevant to advanced ceramics, biomaterials, and functional oxide systems requiring precise compositional and microstructural control.
+
+---
+
+## Transport and Surface Evolution
+
+Following thermal processing, the materials undergo dynamic evolution during exposure to simulated physiological environments.
+
+Samples were evaluated during immersion periods of:
 
 - 3 days
 - 5 days
@@ -52,17 +73,47 @@ The samples were immersed for:
 - 14 days
 - 21 days
 
-During immersion, the surface phase composition changes due to dissolution, precipitation, and hydroxyapatite formation.
+During immersion, coupled transport and reaction processes drive:
 
-## Materials Informatics Perspective
+- Dissolution
+- Ion release
+- Surface transformation
+- Mineral precipitation
+- Microenvironment evolution
 
-This project treats the experimental dataset as a materials informatics problem.
+These processes provide an experimental basis for understanding the relationship between structure evolution and functional response.
 
-The central relationship is:
+---
+
+## Characterization Framework
+
+The repository integrates multiple characterization modalities to capture materials evolution across scales.
+
+These include:
+
+- XRD for crystallization and phase evolution
+- SEM for microstructural characterization
+- pH monitoring for microenvironment evolution
+- Biological response measurements
+- Quantitative transport analysis
+
+Together, these datasets support mechanistic interpretation rather than simple empirical observation.
+
+---
+
+## Computational Materials Perspective
+
+This project treats materials development as a predictive computational problem.
+
+The central philosophy is:
 
 ```text
-Sintering temperature + SBF soaking time
-↓
-Phase evolution
-↓
-Bioactivity-related response
+Processing
+        ↓
+Structure Evolution
+        ↓
+Transport Phenomena
+        ↓
+Property Evolution
+        ↓
+Performance Prediction
