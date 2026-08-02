@@ -6,9 +6,9 @@ https://doi.org/10.5281/zenodo.21759552
 
 ## Overview
 
-**KineticAI-AWGC** is an open computational materials-science platform integrating experimental characterization, data analytics, machine learning, and mechanistic interpretation to investigate advanced glass-ceramic systems.
+KineticAI: An open computational research platform for predictive materials design through physics-informed modeling, kinetic analysis, multiscale characterization, and data-driven materials engineering.
 
-The platform serves as the computational foundation of the **Kinetic Blueprint Framework**, which links thermal processing, crystallization pathways, phase architecture, microstructure, transport behavior, microenvironment evolution, and biological response into a deterministic materials-design strategy.
+The platform integrates experimental observations, mechanistic understanding, and computational workflows to establish predictive processing–structure–property relationships across complex materials systems.
 
 ## Scientific Workflow
 
