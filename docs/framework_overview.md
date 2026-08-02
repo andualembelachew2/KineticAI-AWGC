@@ -2,49 +2,148 @@
 
 ## Vision
 
-The Kinetic Blueprint framework seeks to establish deterministic relationships between processing conditions, phase architecture, transport behavior, and bioactivity in advanced glass-ceramic systems.
+The Kinetic Blueprint Framework is a conceptual and computational framework for understanding how material processing governs structure evolution, transport behavior, and functional performance.
+
+The framework seeks to establish quantitative relationships between processing history, evolving material structure, and observable material response, enabling a transition from empirical materials development toward predictive materials design.
+
+---
+
+## Scientific Motivation
+
+Materials performance emerges from a hierarchy of interconnected physical processes operating across multiple spatial and temporal scales.
+
+Traditional materials development often focuses on isolated measurements or individual properties. The Kinetic Blueprint Framework instead treats material behavior as a dynamic system in which processing conditions influence structure evolution, transport phenomena, and ultimately functional performance.
+
+---
 
 ## Core Principle
 
+The framework is built upon the hypothesis that material performance can be understood through a sequence of causally connected processes:
+
+```text
+Processing
+        ↓
+Structure Evolution
+        ↓
+Transport Phenomena
+        ↓
+Property Evolution
+        ↓
+Performance
+```
+
+This hierarchy provides a foundation for predictive computational materials research.
+
+---
+
+## Framework Architecture
+
+Within the current implementation, the framework is represented by:
+
+```text
 Thermal Processing
-↓
+        ↓
+Crystallization Pathways
+        ↓
 Phase Architecture
-↓
-Network Connectivity
-↓
+        ↓
+Microstructure
+        ↓
 Transport Behavior
-↓
-Bioactivity
-↓
-Deterministic Materials Design
+        ↓
+Microenvironment Evolution
+        ↓
+Biological Response
+        ↓
+Predictive Materials Design
+```
 
-## Structural Variables
+Although demonstrated using glass-ceramic systems, the framework is intended to be broadly applicable across complex materials systems.
 
-- Amorphous Phase Fraction
-- Hydroxyapatite Fraction
-- Wollastonite Fraction
-- Whitlockite Fraction
-- Bulk Density
-- NBO/BO Ratio
+---
 
-## Functional Variables
+## Structural Descriptors
 
-- Mass Loss
-- Calcium Release
-- Silicon Release
-- Transport Mechanism
+The framework incorporates quantitative descriptors that characterize evolving material structure.
 
-## Design Regions
+Examples include:
 
-### Region I — Reactive Transport Domain
-700–800 °C
+- Phase fractions
+- Crystallinity
+- Amorphous content
+- Bulk density
+- Network connectivity
+- NBO/BO ratio
+- Microstructural features
 
-### Region II — Balanced Transport Domain
-900–1000 °C
+These variables describe how processing conditions shape material architecture.
 
-### Region III — Condensed Diffusion Domain
-1100 °C
+---
 
-## Long-Term Goal
+## Functional Descriptors
 
-To integrate experimental characterization, kinetic modeling, and computational analysis into a predictive framework for deterministic materials design.
+Material response is characterized through measurable indicators of evolving behavior.
+
+Examples include:
+
+- Mass change
+- Ion release
+- Transport behavior
+- Surface transformation
+- Microenvironment evolution
+- Biological response
+
+These variables describe how structure influences performance.
+
+---
+
+## Computational Perspective
+
+The Kinetic Blueprint Framework combines:
+
+- Experimental characterization
+- Quantitative analysis
+- Data integration
+- Machine learning
+- Mechanistic interpretation
+- Reproducible computational workflows
+
+to transform experimental observations into predictive scientific knowledge.
+
+---
+
+## Current Demonstration System
+
+The framework is currently demonstrated using spray-pyrolyzed apatite–wollastonite glass-ceramic systems.
+
+Three characteristic behavioral regions were identified:
+
+### Region I — Reactive Transport Regime
+
+Lower processing temperatures produce highly reactive structures with rapid transport behavior and accelerated surface evolution.
+
+### Region II — Balanced Transport Regime
+
+Intermediate processing conditions generate balanced interactions between structural stability and transport activity.
+
+### Region III — Transport-Limited Regime
+
+Higher processing temperatures produce condensed structures characterized by slower transport behavior and increased structural stability.
+
+These regions illustrate how processing-induced structural variation can govern material performance.
+
+---
+
+## Long-Term Vision
+
+The long-term objective of the Kinetic Blueprint Framework is to support predictive computational materials research through the integration of:
+
+- Experimental characterization
+- Physics-informed modeling
+- Transport analysis
+- Data-driven discovery
+- Multiscale materials understanding
+
+into unified frameworks capable of connecting processing history, structure evolution, and performance prediction.
+
+Ultimately, the framework seeks to contribute to the development of computationally guided materials design strategies across a broad range of advanced materials systems.
