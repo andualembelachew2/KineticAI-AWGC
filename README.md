@@ -12,7 +12,7 @@ KineticAI: An open computational research platform for predictive materials desi
 
 The platform integrates experimental observations, mechanistic understanding, and computational workflows to establish predictive processing–structure–property relationships across complex materials systems.
 
-## Broader Research Context
+## Research Context
 
 While developed using bioactive glass-ceramic systems, the computational principles demonstrated in KineticAI-AWGC are broadly applicable to predictive materials research involving:
 
