@@ -2,47 +2,40 @@
 
 ## Motivation
 
-KineticAI-AWGC was developed to explore how experimental materials-science datasets can be integrated with computational analysis to support deterministic materials design.
+KineticAI-AWGC was developed to explore how experimental observations, computational analysis, and mechanistic understanding can be integrated into predictive materials research.
+
+The platform moves beyond isolated data analysis by connecting processing history, structure evolution, transport behavior, and functional performance within a unified computational framework.
+
+---
 
 ## Materials Informatics Perspective
 
-The repository combines:
+The repository combines diverse experimental and computational resources, including:
 
-- Experimental phase-fraction datasets
-- Phase-evolution analysis
+- Experimental characterization datasets
+- Crystallization and phase-evolution analysis
 - Transport-behavior analysis
-- Feature engineering
+- Microstructural characterization
+- Feature engineering and data integration
 - Machine-learning workflows
-- Scientific interpretation
+- Physics-informed interpretation
+- Reproducible scientific computing
 
-## Computational Design Perspective
+Rather than treating materials data as independent measurements, the platform seeks to identify relationships that govern material evolution and performance.
 
-The Kinetic Blueprint framework proposes that:
+---
 
-Thermal Processing
-↓
-Phase Architecture
-↓
-Network Connectivity
-↓
-Transport Behavior
-↓
-Bioactivity
-↓
-Materials Design
+## Computational Materials Design Perspective
 
-can be analyzed through data-driven and computational approaches.
+The central philosophy of the project is that material performance emerges from a hierarchy of interconnected physical processes.
 
-## Research Applications
-
-Potential applications include:
-
-- Biomaterials design
-- Glass-ceramic optimization
-- Transport-property prediction
-- Phase-evolution modeling
-- Materials informatics research
-
-## Long-Term Vision
-
-To establish a computational framework that connects experimental characterization, kinetic analysis, and predictive modeling for deterministic materials design.
+```text
+Processing
+        ↓
+Structure Evolution
+        ↓
+Transport Phenomena
+        ↓
+Property Evolution
+        ↓
+Performance
