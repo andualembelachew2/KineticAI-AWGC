@@ -1,4 +1,7 @@
-https://doi.org/10.5281/zenodo.21759552
+Open Science Resources
+
+- Zenodo Archive: https://doi.org/10.5281/zenodo.21759552
+- GitHub Repository: https://github.com/<username>/KineticAI-AWGC
 
 # KineticAI-AWGC
 
@@ -118,6 +121,12 @@ The `notebooks/` directory contains analytical workflows broken down into the fo
 - **06** Biological Response
 - **07** XRD Pattern Analysis
 - **08** Microstructure Analysis
+
+## Research Vision
+
+KineticAI-AWGC serves as a demonstration platform for the Kinetic Blueprint Framework and contributes toward the broader goal of predictive computational materials research.
+
+The long-term vision is to integrate experimental characterization, physics-informed modeling, quantitative analysis, and machine learning into reproducible frameworks capable of connecting processing history, structure evolution, and performance prediction across complex materials systems.
 
 ## Documentation & Publications
 
