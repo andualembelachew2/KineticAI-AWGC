@@ -1,12 +1,40 @@
 # Source Code
 
-This folder will contain reusable Python scripts for the KineticAI-AWGC project.
+This directory contains reusable Python modules supporting the analytical workflows of the KineticAI-AWGC platform.
 
-Planned scripts include:
+The source code supports data preparation, visualization, machine learning, and scientific interpretation across the Kinetic Blueprint framework.
 
-- `data_processing.py`
-- `visualization.py`
-- `models.py`
-- `metrics.py`
+## Scientific Scope
 
-These scripts will support data loading, feature engineering, visualization, model training, and evaluation.
+The source code supports:
+
+- Experimental data integration
+- Feature engineering
+- Crystallization analysis
+- Transport-behavior analysis
+- Microenvironment evolution analysis
+- Biological-response analysis
+- Machine-learning workflows
+- Figure generation
+
+## Relationship to Notebooks
+
+The notebooks provide reproducible scientific workflows, while the source code contains reusable implementations that can be shared across analyses.
+
+Scientific Workflow:
+
+Thermal Processing
+↓
+Crystallization Pathways
+↓
+Phase Architecture
+↓
+Microstructure
+↓
+Transport Behavior
+↓
+Microenvironment Evolution
+↓
+Biological Response
+↓
+Deterministic Materials Design
