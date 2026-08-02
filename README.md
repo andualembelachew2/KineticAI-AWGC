@@ -1,7 +1,6 @@
 Open Science Resources
 
 - Zenodo Archive: https://doi.org/10.5281/zenodo.21759552
-- GitHub Repository: https://github.com/<username>/KineticAI-AWGC
 
 # KineticAI-AWGC
 
