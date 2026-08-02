@@ -76,6 +76,23 @@ The repository currently contains the following datasets within the `data/` dire
 - Raw XRD Pattern Dataset
 - SEM Metadata Dataset
 - SEM Image Archive
+## Installation
+
+Install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Core dependencies:
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- scipy
+- jupyter
 
 ## Analytical Notebooks
 
