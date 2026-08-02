@@ -38,7 +38,34 @@ data/        Experimental and processed datasets
 figures/     Framework and analysis figures
 notebooks/   Analytical workflows
 ```
+## Quick Start
 
+Clone the repository:
+
+```bash
+git clone https://github.com/<username>/KineticAI-AWGC.git
+cd KineticAI-AWGC
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter:
+
+```bash
+jupyter notebook
+```
+
+Recommended workflow:
+
+1. Start with `07_xrd_pattern_analysis.ipynb`
+2. Continue to `08_microstructure_analysis.ipynb`
+3. Explore `02_exploratory_analysis.ipynb`
+4. Review `05_microenvironment_evolution.ipynb`
+5. Finish with `06_biological_response.ipynb`
 ## Datasets
 
 The repository currently contains the following datasets within the `data/` directory:
