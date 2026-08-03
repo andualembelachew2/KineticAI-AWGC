@@ -16,13 +16,10 @@
     "\n",
     "**KineticAI** is an open computational research platform for predictive materials design through physics-informed modeling, kinetic analysis, multiscale characterization, and data-driven materials engineering.\n",
     "\n",
-    "The platform integrates experimental observations, mechanistic understanding, and computational workflows to establish predictive processing–structure–property relationships across complex materials systems."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
+    "The platform integrates experimental observations, mechanistic understanding, and computational workflows to establish predictive processing–structure–property relationships across complex materials systems.\n",
+    "\n",
+    "---\n",
+    "\n",
     "## Research Context\n",
     "\n",
     "While developed using bioactive glass-ceramic systems, the computational principles demonstrated in **KineticAI-AWGC** are broadly applicable to predictive materials research involving:\n",
@@ -31,11 +28,16 @@
     "* Transport phenomena\n",
     "* Reaction kinetics\n",
     "* Property evolution\n",
-    "* Data-driven materials design\n",
-    "\n",
-    "---\n",
-    "\n",
+    "* Data-driven materials design"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "## Scientific Workflow\n",
+    "\n",
+    "The framework follows a sequential pipeline to achieve predictive materials design:\n",
     "\n",
     "```text\n",
     "Thermal Processing\n",
@@ -53,13 +55,10 @@
     "Biological Response\n",
     "        ↓\n",
     "Predictive Materials Design\n",
-    "```"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
     "## Repository Structure\n",
     "\n",
     "```text\n",
@@ -68,10 +67,13 @@
     "notebooks/   Reproducible computational workflows\n",
     "results/     Scientific findings and interpretations\n",
     "figures/     Framework and analysis figures\n",
-    "```\n",
-    "\n",
-    "---\n",
-    "\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "## Research Assets\n",
     "\n",
     "Key quantitative evidence and analysis domains within the framework:\n",
@@ -98,6 +100,8 @@
    "metadata": {},
    "source": [
     "## Reproducible Workflows\n",
+    "\n",
+    "Key computational modules demonstrating end-to-end data transformation and parameter estimation:\n",
     "\n",
     "### 09 — Transport Model Validation\n",
     "Experimental dissolution data are analyzed using the Korsmeyer–Peppas framework to extract:\n",
@@ -134,13 +138,10 @@
     "* **07** XRD Pattern Analysis\n",
     "* **08** Microstructure Analysis\n",
     "* **09** Transport Model Validation\n",
-    "* **10** Phase Evolution Analysis"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
+    "* **10** Phase Evolution Analysis\n",
+    "\n",
+    "---\n",
+    "\n",
     "## Current Datasets\n",
     "\n",
     "The repository maintains the following core and processed datasets in the `data/` directory:\n",
@@ -152,10 +153,13 @@
     "* `ph_evolution.csv`\n",
     "* Raw XRD Pattern Dataset\n",
     "* SEM Metadata Dataset & Image Archive\n",
-    "* Biological Response Dataset\n",
-    "\n",
-    "---\n",
-    "\n",
+    "* Biological Response Dataset"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "## Model Validation\n",
     "\n",
     "The repository includes reproducible transport-model validation workflows based on experimentally measured mass attenuation data.\n",
@@ -174,10 +178,15 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "# Environment Setup & Quick Start\n",
-    "!git clone https://github.com/<username>/KineticAI-AWGC.git\n",
-    "%cd KineticAI-AWGC\n",
-    "!pip install -r requirements.txt"
+    "# Verify Environment & Dependencies\n",
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "import sklearn\n",
+    "import scipy\n",
+    "\n",
+    "print(\"All core dependencies loaded successfully!\")"
    ]
   },
   {
