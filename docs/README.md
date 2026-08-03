@@ -1,110 +1,101 @@
 # Documentation
 
-This directory contains the scientific, computational, and conceptual documentation supporting the KineticAI-AWGC platform and the Kinetic Blueprint Framework.
-
-The documentation provides the theoretical foundation, scientific context, computational perspective, and research vision underlying the repository.
+This directory contains the scientific documentation supporting the KineticAI-AWGC platform and the Kinetic Blueprint Framework.
 
 ---
 
-## Core Documents
+## Recommended Reading Order
 
-### project_summary.md
+New visitors can explore the repository documentation in the following order:
 
-Overview of the KineticAI-AWGC platform, its objectives, scientific scope, and long-term vision.
+### 1. Project Summary
 
----
+**File:** `project_summary.md`
 
-### scientific_background.md
-
-Scientific motivation, materials-system context, processing–structure–property relationships, and computational research perspective.
+Provides an overview of the platform, research objectives, scientific scope, and long-term direction.
 
 ---
 
-### publications.md
+### 2. Scientific Background
 
-Peer-reviewed publications that contribute to and support the development of the Kinetic Blueprint Framework.
+**File:** `scientific_background.md`
 
----
-
-### dataset_description.md
-
-Description of experimental datasets, processed datasets, variables, and data organization.
+Introduces the materials system, processing–structure–property relationships, and the scientific context motivating the work.
 
 ---
 
-### framework_overview.md
+### 3. Framework Overview
 
-Conceptual foundation, scientific philosophy, and architecture of the Kinetic Blueprint Framework.
+**File:** `framework_overview.md`
 
----
-
-### materials_informatics_relevance.md
-
-Discussion of the relationship between KineticAI-AWGC, materials informatics, computational materials science, data-driven materials engineering, and predictive materials design.
+Describes the Kinetic Blueprint Framework, its conceptual architecture, and the relationships linking processing, structure evolution, transport behavior, and performance.
 
 ---
 
-## Documentation Philosophy
+### 4. Experimental Evidence
 
-The documentation is designed to connect experimental observations, computational workflows, and mechanistic understanding within a unified scientific framework.
+**File:** `kinetic_blueprint_evidence.md`
 
-Rather than treating individual measurements independently, the repository emphasizes the relationships linking processing history, structure evolution, transport phenomena, and material performance.
+Summarizes the experimental observations supporting the framework.
+
+Key topics include:
+
+- Phase evolution
+- Density evolution
+- Transport behavior
+- Microenvironment evolution
 
 ---
 
-## Framework Perspective
+### 5. Research Assets
 
-The documentation collectively supports the Kinetic Blueprint Framework:
+**File:** `research_assets.md`
+
+Catalog of datasets, computational workflows, notebooks, and scientific outputs available in the repository.
+
+---
+
+### 6. Publications
+
+**File:** `publications.md`
+
+Peer-reviewed publications supporting the development of the Kinetic Blueprint Framework and KineticAI-AWGC.
+
+---
+
+## Documentation Structure
+
+```text
+project_summary.md
+scientific_background.md
+framework_overview.md
+kinetic_blueprint_evidence.md
+research_assets.md
+publications.md
+```
+
+---
+
+## Scientific Theme
+
+The documentation collectively supports the investigation of relationships among:
 
 ```text
 Processing
         ↓
 Structure Evolution
         ↓
-Transport Phenomena
-        ↓
-Property Evolution
-        ↓
-Performance
-        ↓
-Predictive Materials Design
-```
-
----
-
-## Current Framework Implementation
-
-Within KineticAI-AWGC, the framework is represented by:
-
-```text
-Thermal Processing
-        ↓
-Crystallization Pathways
-        ↓
-Phase Architecture
-        ↓
-Microstructure
-        ↓
 Transport Behavior
         ↓
 Microenvironment Evolution
         ↓
-Biological Response
-        ↓
-Predictive Materials Design
+Performance
 ```
+
+using experimental datasets, computational workflows, and reproducible research assets.
 
 ---
 
-## Long-Term Vision
+## Repository Role
 
-The long-term objective of the documentation is to support the development of reproducible and predictive computational materials research through the integration of:
-
-- Experimental characterization
-- Physics-informed modeling
-- Quantitative analysis
-- Machine learning
-- Open science practices
-- Data-driven materials engineering
-
-The documentation serves as a bridge between experimental materials science and computationally guided materials design.
+The documentation serves as a reference layer for the datasets, notebooks, results, and computational workflows contained within the KineticAI-AWGC platform.
