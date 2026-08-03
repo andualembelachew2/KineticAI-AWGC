@@ -131,6 +131,19 @@ See:
 
 - `docs/model_validation.md`
 - `data/processed/transport_kinetics.csv`
+
+## Reproducible Research
+
+The repository contains reproducible computational workflows that transform raw experimental measurements into published analytical figures.
+
+Example:
+
+transport_kinetics.csv
+        ↓
+09_transport_model_validation.ipynb
+        ↓
+mass_loss_profiles.png
+  
 ## Research Vision
 
 KineticAI-AWGC serves as a demonstration platform for the Kinetic Blueprint Framework and contributes toward the broader goal of predictive computational materials research.
