@@ -41,3 +41,26 @@ Microenvironment Evolution
 Biological Response
         ↓
 Predictive Materials Design
+## Research Assets
+
+The repository contains reproducible research assets derived from peer-reviewed experimental studies.
+
+### Experimental Datasets
+
+- Phase Composition
+- Density Evolution
+- Transport Kinetics
+- pH Evolution
+- Raw XRD Patterns
+
+### Computational Workflows
+
+- XRD Pattern Analysis
+- Phase Evolution Analysis
+- Transport Model Validation
+
+### Scientific Outputs
+
+- Parameter Identification
+- Transport-Regime Classification
+- Crystallization Evolution Analysis
