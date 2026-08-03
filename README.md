@@ -10,17 +10,6 @@
 The platform integrates experimental observations, mechanistic understanding, and computational workflows to establish predictive processing–structure–property relationships across complex materials systems.
 
 --- 
-
-## Research Context
-
-While developed using bioactive glass-ceramic systems, the computational principles demonstrated in **KineticAI-AWGC** are broadly applicable to predictive materials research involving:
-
-* Structure evolution
-* Transport phenomena
-* Reaction kinetics
-* Property evolution
-* Data-driven materials design
-
 ## Research Assets
 
 The repository contains reproducible research assets derived from peer-reviewed experimental studies.
@@ -45,6 +34,15 @@ The repository contains reproducible research assets derived from peer-reviewed 
 - Transport-Regime Classification
 - Crystallization Evolution Analysis
 
+## Research Context
+
+While developed using bioactive glass-ceramic systems, the computational principles demonstrated in **KineticAI-AWGC** are broadly applicable to predictive materials research involving:
+
+* Structure evolution
+* Transport phenomena
+* Reaction kinetics
+* Property evolution
+* Data-driven materials design
 
 ## Scientific Workflow
 
