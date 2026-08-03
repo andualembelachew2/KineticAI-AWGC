@@ -120,7 +120,17 @@ The `notebooks/` directory contains analytical workflows broken down into the fo
 - **06** Biological Response
 - **07** XRD Pattern Analysis
 - **08** Microstructure Analysis
+## Model Validation
 
+The repository includes reproducible workflows for:
+
+- Transport-model comparison
+- Parameter estimation
+- Kinetic-regime identification
+- Model validation
+- Figure reproduction
+
+These workflows demonstrate how experimental observations can be transformed into predictive computational models.
 ## Research Vision
 
 KineticAI-AWGC serves as a demonstration platform for the Kinetic Blueprint Framework and contributes toward the broader goal of predictive computational materials research.
