@@ -1,107 +1,97 @@
-# Kinetic Blueprint Master Dataset
+# Data Catalog
 
-## Description
-
-This dataset summarizes the relationships between thermal processing, phase architecture, transport behavior, and network connectivity in spray-pyrolyzed apatite–wollastonite glass-ceramic systems.
-
-The dataset was derived from peer-reviewed experimental studies forming the foundation of the Kinetic Blueprint framework.
+This document describes the datasets supporting the KineticAI-AWGC platform.
 
 ---
+
+# Dataset 1 — Kinetic Blueprint Master Dataset
+
+## Purpose
+
+Integrates processing, phase architecture, transport behavior, and functional response into a single analytical dataset.
+
+## Location
+
+```text
+data/processed/kinetic_blueprint_master.csv
+```
 
 ## Variables
 
 | Variable | Description |
-|-----------|-------------|
+|----------|-------------|
 | Temperature_C | Sintering temperature |
 | Amorphous_Percent | Residual amorphous phase content |
-| Wollastonite_Percent | Wollastonite phase fraction |
-| Hydroxyapatite_Percent | Hydroxyapatite phase fraction |
-| Whitlockite_Percent | Whitlockite phase fraction |
-| Bulk_Density_g_cm3 | Measured bulk density |
-| MassLoss_21d_Percent | Mass loss after 21 days SBF immersion |
-| Final_pH_21d | Solution pH after 21 days |
-| Ca_Release_21d_mM | Calcium release after 21 days |
-| Si_Release_21d_mM | Silicon release after 21 days |
-| NBO_BO_Ratio | Non-bridging oxygen to bridging oxygen ratio |
-| Kinetic_Exponent_n | Transport exponent |
-| Transport_Mechanism | Mechanistic interpretation of transport behavior |
+| ... | ... |
+
+## Scientific Role
+
+Supports analysis of processing–structure–transport relationships.
 
 ---
 
-## Scientific Significance
+# Dataset 2 — pH Evolution Dataset
 
-The Kinetic Blueprint Master Dataset was created to explore how thermal processing governs phase architecture, network connectivity, transport behavior, and bioactivity in glass-ceramic systems.
+## Purpose
 
-The dataset integrates structural descriptors (phase fractions, density, NBO/BO ratio) with functional outcomes (mass loss, ion release, pH evolution, and transport mechanism) to support the development of deterministic materials-design strategies.
+Tracks microenvironment evolution during SBF immersion.
 
----
+## Location
 
-## Dataset Origin
-
-The dataset integrates experimental measurements reported across multiple peer-reviewed studies on spray-pyrolyzed apatite–wollastonite and related glass-ceramic systems. Variables were selected to capture the relationships among thermal processing, phase architecture, network connectivity, transport behavior, and bio-interface performance.
-
-The dataset serves as the foundational data resource for the KineticAI-AWGC computational research platform and the broader Kinetic Blueprint framework.
-
----
-
-# pH Time-Series Dataset
-
-This dataset captures the evolution of solution pH during SBF immersion for AWGC samples sintered between 700 °C and 1100 °C.
-
----
+```text
+data/processed/ph_evolution.csv
+```
 
 ## Variables
 
 | Variable | Description |
-|-----------|-------------|
-| Time_Days | SBF immersion duration |
-| Temperature_C | Sintering temperature |
-| pH_Value | Measured solution pH |
-| Microenvironment_Region | Functional classification of the interfacial chemical environment |
+|----------|-------------|
+| Time_Days | Immersion time |
+| Temperature_C | Processing temperature |
+| pH_Value | Measured pH |
+
+## Scientific Role
+
+Links transport behavior to microenvironment regulation.
 
 ---
 
-## Scientific Significance
+# Dataset 3 — Raw XRD Pattern Dataset
 
-The pH dataset provides a direct measure of microenvironment evolution during degradation and bioactivity processes.
+## Purpose
 
-It serves as a bridge between transport behavior and biological response within the Kinetic Blueprint framework.
- and # Raw XRD Pattern Dataset
+Provides primary crystallographic evidence of phase evolution.
 
-## Description
+## Location
 
-This dataset contains X-ray diffraction patterns collected from spray-pyrolyzed apatite–wollastonite glass-ceramics sintered between 700 °C and 1100 °C.
+```text
+data/raw/xrd_patterns.csv
+```
 
-## Variables
+## Scientific Role
 
-| Variable | Description |
-|-----------|-------------|
-| 2Theta_deg | Diffraction angle (degrees) |
-| Intensity_700C | XRD intensity for the 700 °C sample |
-| Intensity_800C | XRD intensity for the 800 °C sample |
-| Intensity_900C | XRD intensity for the 900 °C sample |
-| Intensity_1000C | XRD intensity for the 1000 °C sample |
-| Intensity_1100C | XRD intensity for the 1100 °C sample |
+Supports crystallization and phase-fraction analysis.
 
-## Scientific Significance
+---
 
-The XRD dataset represents the primary experimental evidence underlying phase evolution, crystallization pathways, and phase-fraction analysis within the Kinetic Blueprint framework.
+# Dataset 4 — SEM Image Dataset
 
-# SEM Image Dataset
+## Purpose
 
-## Description
+Provides microstructural evidence of morphology evolution.
 
-This dataset contains scanning electron microscopy images collected from spray-pyrolyzed apatite–wollastonite glass-ceramic samples.
+## Location
 
-## Scientific Significance
-
-The SEM dataset provides microstructural evidence linking phase architecture to transport behavior, degradation processes, and bioactivity.
-It complements the XRD dataset by capturing morphological evolution that cannot be observed through diffraction measurements alone.
-
-Location:
+```text
 data/raw/sem_images/
-## Processed Metadata
+```
 
-The SEM metadata table provides structured descriptions of observed microstructural features.
-Location:
+## Associated Metadata
+
+```text
 data/processed/sem_metadata.csv
+```
+
+## Scientific Role
+
+Supports interpretation of phase architecture and transport behavior.
