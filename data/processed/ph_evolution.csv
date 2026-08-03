@@ -1,0 +1,15 @@
+Time_Days,Temperature_C,pH_Value,Interfacial_Microenvironment
+0,700,7.40,Baseline SBF
+1,700,8.32,Alkaline Spike
+3,700,8.55,Peak Alkaline Shock
+5,700,8.48,Cytotoxic Region
+7,700,8.42,Cytotoxic Region
+14,700,8.38,Cytotoxic Region
+21,700,8.35,Cytotoxic Region
+0,1100,7.40,Baseline SBF
+1,1100,7.48,Buffered Homeostasis
+3,1100,7.55,Buffered Homeostasis
+5,1100,7.60,Buffered Homeostasis
+7,1100,7.65,Buffered Homeostasis
+14,1100,7.72,Buffered Homeostasis
+21,1100,7.82,Buffered Homeostasis
