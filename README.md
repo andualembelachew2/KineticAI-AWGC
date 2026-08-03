@@ -90,6 +90,22 @@ The repository currently contains the following datasets within the `data/` dire
 - Raw XRD Pattern Dataset
 - SEM Metadata Dataset
 - SEM Image Archive
+
+## Model Validation
+
+The repository includes reproducible transport-model validation workflows based on experimentally measured mass attenuation data.
+
+The Korsmeyer-Peppas model provided the highest goodness-of-fit (R² > 0.99) and revealed a transition from quasi-Fickian burst transport (700°C) to controlled anomalous transport (1100°C).
+
+Resources:
+
+- `data/processed/transport_kinetics.csv`
+- `docs/model_validation.md`
+- `notebooks/09_transport_model_validation.ipynb`
+
+## Installation
+
+
 ## Installation
 
 Install required packages:
@@ -120,17 +136,6 @@ The `notebooks/` directory contains analytical workflows broken down into the fo
 - **06** Biological Response
 - **07** XRD Pattern Analysis
 - **08** Microstructure Analysis
-
-## Model Validation
-
-The repository includes transport-model validation workflows based on experimentally measured mass attenuation data.
-
-The Korsmeyer-Peppas model provided the highest goodness-of-fit (R² > 0.99) and revealed a transition from quasi-Fickian burst transport (700°C) to controlled anomalous transport (1100°C).
-
-See:
-
-- `docs/model_validation.md`
-- `data/processed/transport_kinetics.csv`
 
 ## Reproducible Research
 
