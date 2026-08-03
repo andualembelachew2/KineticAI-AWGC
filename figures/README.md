@@ -82,3 +82,17 @@ Figures in this directory are either:
 1. Repository framework illustrations.
 2. Generated from reproducible computational workflows.
 3. Derived from experimentally validated datasets reported in peer-reviewed publications.
+4. ## Characterization Figures
+
+### xrd_phase_evolution.png
+
+Comparison of XRD patterns across thermal processing conditions.
+
+Related assets:
+
+- data/raw/xrd_patterns.csv
+- notebooks/11_xrd_pattern_visualization.ipynb
+
+Scientific role:
+
+Provides experimental evidence of crystallization and phase evolution.
