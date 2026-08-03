@@ -120,17 +120,17 @@ The `notebooks/` directory contains analytical workflows broken down into the fo
 - **06** Biological Response
 - **07** XRD Pattern Analysis
 - **08** Microstructure Analysis
+
 ## Model Validation
 
-The repository includes reproducible workflows for:
+The repository includes transport-model validation workflows based on experimentally measured mass attenuation data.
 
-- Transport-model comparison
-- Parameter estimation
-- Kinetic-regime identification
-- Model validation
-- Figure reproduction
+The Korsmeyer-Peppas model provided the highest goodness-of-fit (R² > 0.99) and revealed a transition from quasi-Fickian burst transport (700°C) to controlled anomalous transport (1100°C).
 
-These workflows demonstrate how experimental observations can be transformed into predictive computational models.
+See:
+
+- `docs/model_validation.md`
+- `data/processed/transport_kinetics.csv`
 ## Research Vision
 
 KineticAI-AWGC serves as a demonstration platform for the Kinetic Blueprint Framework and contributes toward the broader goal of predictive computational materials research.
