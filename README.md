@@ -21,26 +21,6 @@ While developed using bioactive glass-ceramic systems, the computational princip
 * Property evolution
 * Data-driven materials design
 
-## Scientific Workflow
-
-The framework follows a sequential pipeline to achieve predictive materials design:
-
-```text
-Thermal Processing
-        ↓
-Crystallization Pathways
-        ↓
-Phase Architecture
-        ↓
-Microstructure
-        ↓
-Transport Behavior
-        ↓
-Microenvironment Evolution
-        ↓
-Biological Response
-        ↓
-Predictive Materials Design
 ## Research Assets
 
 The repository contains reproducible research assets derived from peer-reviewed experimental studies.
@@ -64,3 +44,25 @@ The repository contains reproducible research assets derived from peer-reviewed 
 - Parameter Identification
 - Transport-Regime Classification
 - Crystallization Evolution Analysis
+
+
+## Scientific Workflow
+
+The framework follows a sequential pipeline to achieve predictive materials design:
+
+```text
+Thermal Processing
+        ↓
+Crystallization Pathways
+        ↓
+Phase Architecture
+        ↓
+Microstructure
+        ↓
+Transport Behavior
+        ↓
+Microenvironment Evolution
+        ↓
+Biological Response
+        ↓
+Predictive Materials Design
