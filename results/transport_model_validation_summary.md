@@ -15,9 +15,11 @@ Korsmeyer–Peppas
 ## Results
 
 | Temperature (°C) | n | k | R² |
-|------------------|----|---------|------|
-| 700 | 0.25 | 4.71E-02 | 0.993 |
-| 1100 | 0.58 | 4.55E-03 | 0.997 |
+|------------------|----|---------|-------|
+| 700 | 0.256 | 4.69E-02 | 0.9990 |
+| 1100 | 0.581 | 4.49E-03 | 0.9997 |
+
+*Parameters reproduced by re-running `notebooks/09_transport_model_validation.ipynb` on the committed dataset.*
 
 ## Transport Regime Interpretation
 
