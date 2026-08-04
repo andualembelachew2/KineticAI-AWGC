@@ -1,5 +1,10 @@
 # Evaluation — KineticAI-AWGC
 
+> **Status: RESOLVED (2026-08-05).** All findings below were fixed and the
+> repository was re-validated end-to-end — see **[VALIDATION.md](VALIDATION.md)**
+> for the verification report. This document is kept as the historical record
+> of the initial review.
+
 **Repo:** `andualembelachew2/KineticAI-AWGC` · **Branch reviewed:** `main` @ `dd4af49` (single commit) · **Date:** 2026-08-04
 **Method:** full static review of data/docs/code, execution of all 10 notebooks and all `src/` scripts in a fresh venv, cross-checks of committed results against reproducible runs, DOI verification.
 
