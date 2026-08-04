@@ -1,11 +1,11 @@
-Image_ID,Filename,Relative_Path,Sintering_Temp_C,Condition,Immersion_Days,Scale_Bar_um,Observed_Surface_Morphology,Paper_Figure_Ref
-SEM_700C_0D_01,700C_0day_as_sintered.png,data/sem_images/700C/700C_0day_as_sintered.png,700,As-sintered,0,1.0,Un-consolidated porous precursor matrix with high amorphous content,Figure 3a
-SEM_700C_21D_01,700C_21day_SBF.png,data/sem_images/700C/700C_21day_SBF.png,700,SBF-exposed,21,1.0,Severe micro-fissuring and structural fragmentation with disordered apatite,Figure 3a
-SEM_800C_0D_01,800C_0day_as_sintered.png,data/sem_images/800C/800C_0day_as_sintered.png,800,As-sintered,0,1.0,Partially consolidated matrix with early grain boundary formation,Figure 3
-SEM_800C_21D_01,800C_21day_SBF.png,data/sem_images/800C/800C_21day_SBF.png,800,SBF-exposed,21,1.0,Moderate surface degradation with scattered apatite clusters,Figure 3
-SEM_900C_0D_01,900C_0day_as_sintered.png,data/sem_images/900C/900C_0day_as_sintered.png,900,As-sintered,0,1.0,Moderately dense crystalline matrix with reduced surface porosity,Figure 3
-SEM_900C_21D_01,900C_21day_SBF.png,data/sem_images/900C/900C_21day_SBF.png,900,SBF-exposed,21,1.0,Uniform apatite precipitation with minimal localized degradation,Figure 3
-SEM_1000C_0D_01,1000C_0day_as_sintered.png,data/sem_images/1000C/1000C_0day_as_sintered.png,1000,As-sintered,0,1.0,Maximal consolidated bulk density (2.80 g cm-3) and low pore fraction,Figure 1b/3
-SEM_1000C_21D_01,1000C_21day_SBF.png,data/sem_images/1000C/1000C_21day_SBF.png,1000,SBF-exposed,21,1.0,Dense interconnected fluorapatite mineral layer covering surface,Figure 3
-SEM_1100C_0D_01,1100C_0day_as_sintered.png,data/sem_images/1100C/1100C_0day_as_sintered.png,1100,As-sintered,0,1.0,Dense Wollastonite/Whitlockite phase-optimized core structure,Figure 3a
-SEM_1100C_21D_01,1100C_21day_SBF.png,data/sem_images/1100C/1100C_21day_SBF.png,1100,SBF-exposed,21,1.0,Compact uniform needle-like fluorapatite protective mineral barrier,Figure 3a
+Image_ID,Filename,Sintering_Temp_C,Condition,Immersion_Days,Scale_Bar_um,Observed_Surface_Morphology,Paper_Figure_Ref
+SEM_700C_0D_01,700C_0day_as_sintered.png,700,As-sintered,0,1.0,Un-consolidated porous precursor matrix with high amorphous content,Figure 3a
+SEM_700C_21D_01,700C_21day_SBF.png,700,SBF-exposed,21,1.0,Severe micro-fissuring and structural fragmentation with disordered apatite,Figure 3a
+SEM_800C_0D_01,800C_0day_as_sintered.png,800,As-sintered,0,1.0,Partially consolidated matrix with early grain boundary formation,Figure 3
+SEM_800C_21D_01,800C_21day_SBF.png,800,SBF-exposed,21,1.0,Moderate surface degradation with scattered apatite clusters,Figure 3
+SEM_900C_0D_01,900C_0day_as_sintered.png,900,As-sintered,0,1.0,Moderately dense crystalline matrix with reduced surface porosity,Figure 3
+SEM_900C_21D_01,900C_21day_SBF.png,900,SBF-exposed,21,1.0,Uniform apatite precipitation with minimal localized degradation,Figure 3
+SEM_1000C_0D_01,1000C_0day_as_sintered.png,1000,As-sintered,0,1.0,Maximal consolidated bulk density (2.80 g cm-3) and low pore fraction,Figure 1b/3
+SEM_1000C_21D_01,1000C_21day_SBF.png,1000,SBF-exposed,21,1.0,Dense interconnected fluorapatite mineral layer covering surface,Figure 3
+SEM_1100C_0D_01,1100C_0day_as_sintered.png,1100,As-sintered,0,1.0,Dense Wollastonite/Whitlockite phase-optimized core structure,Figure 3a
+SEM_1100C_21D_01,1100C_21day_SBF.png,1100,SBF-exposed,21,1.0,Compact uniform needle-like fluorapatite protective mineral barrier,Figure 3a
