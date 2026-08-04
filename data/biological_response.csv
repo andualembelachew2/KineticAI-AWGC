@@ -14,18 +14,18 @@ Extract_Percent,Sintering_Temp_C,Replicate_ID,Cell_Viability_Percent,ISO_10993_S
 100,700,R1,58.0,Cytotoxic (<70%)
 100,700,R2,54.8,Cytotoxic (<70%)
 100,700,R3,56.7,Cytotoxic (<70%)
-20,1100,R1,195.2,Upregulated
-20,1100,R2,189.5,Upregulated
-20,1100,R3,191.3,Upregulated
-40,1100,R1,241.0,Upregulated
-40,1100,R2,235.2,Upregulated
-40,1100,R3,237.8,Upregulated
-60,1100,R1,271.5,Upregulated
-60,1100,R2,264.8,Upregulated
-60,1100,R3,267.7,Upregulated
-80,1100,R1,291.0,Upregulated
-80,1100,R2,284.5,Upregulated
-80,1100,R3,288.5,Upregulated
-100,1100,R1,305.8,Upregulated (~300%)
-100,1100,R2,298.2,Upregulated (~300%)
-100,1100,R3,302.0,Upregulated (~300%)
+20,1100,R1,195.2,Non-Cytotoxic
+20,1100,R2,189.5,Non-Cytotoxic
+20,1100,R3,191.3,Non-Cytotoxic
+40,1100,R1,241.0,Non-Cytotoxic
+40,1100,R2,235.2,Non-Cytotoxic
+40,1100,R3,237.8,Non-Cytotoxic
+60,1100,R1,271.5,Non-Cytotoxic
+60,1100,R2,264.8,Non-Cytotoxic
+60,1100,R3,267.7,Non-Cytotoxic
+80,1100,R1,291.0,Non-Cytotoxic
+80,1100,R2,284.5,Non-Cytotoxic
+80,1100,R3,288.5,Non-Cytotoxic
+100,1100,R1,305.8,Non-Cytotoxic
+100,1100,R2,298.2,Non-Cytotoxic
+100,1100,R3,302.0,Non-Cytotoxic
