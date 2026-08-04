@@ -21,11 +21,11 @@ Density increased from 2.02 g/cm³ to 2.80 g/cm³.
 ## Transport Behavior
 
 700°C:
-- n = 0.25
+- n = 0.256
 - Quasi-Fickian transport
 
 1100°C:
-- n = 0.58
+- n = 0.581
 - Anomalous transport
 
 ↓
