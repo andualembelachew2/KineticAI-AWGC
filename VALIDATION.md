@@ -89,3 +89,13 @@ The mechanistic component — Korsmeyer–Peppas transport modeling — is well 
 | Placeholder XRD scan + corrupt figure | removed / regenerated |
 | ISO status labels non-standard | relabeled to ISO 10993-5 categories |
 | Missing metadata | added `CITATION.cff`, `.zenodo.json` |
+| Stale `sem_images/` references | removed (`sem_metadata.csv`, notebook 08) |
+
+## 8. Automated Validation (2026-08-05)
+
+The invariants verified manually in this report are now codified in a dedicated test suite:
+
+- **Test suite** (`tests/test_data_integrity.py`) — phase-fraction closure (sum = 100 % ± 0.06), absence of missing values, `Final_pH_21d` consistency, ISO 10993-5 label conformity, reproducibility of the Korsmeyer–Peppas parameters, presence of both evaluation schemes in `model_results.csv`, and the expected shape of the machine-learning dataset. Executed with `python -m pytest tests/ -v`; all nine tests pass.
+- **Validation workflow** (`.github/workflows/validate.yml`) — a GitHub Actions definition that installs the declared dependencies, runs the test suite, regenerates the processed datasets, executes all notebooks in an isolated directory, and confirms that the regenerated results match the committed versions. The workflow is activated once the repository's workflows permission is enabled.
+
+Together, the test suite and the workflow constitute the continuous-validation layer of the repository: any change that violates the documented invariants is rejected before it can be merged.
