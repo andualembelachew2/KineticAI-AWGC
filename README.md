@@ -75,6 +75,16 @@ jupyter nbconvert --to notebook --execute *.ipynb
 
 A full verification of notebooks, scripts, datasets, and figures is documented in [VALIDATION.md](VALIDATION.md).
 
+### Running the Validation Suite
+
+The repository includes a test suite that codifies the data-integrity and reproducibility invariants described in `VALIDATION.md`:
+
+```bash
+python -m pytest tests/ -v
+```
+
+A GitHub Actions workflow definition (`.github/workflows/validate.yml`) is provided to execute this suite, regenerate the datasets, and run all notebooks on every push and pull request; it is activated once the repository's workflows permission is enabled. Contribution guidelines are provided in [CONTRIBUTING.md](CONTRIBUTING.md), and the release history is maintained in [CHANGELOG.md](CHANGELOG.md).
+
 ---
 
 ## Key Validated Results
