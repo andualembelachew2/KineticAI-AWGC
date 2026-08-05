@@ -16,8 +16,7 @@ Purpose:
 
 Key Outputs:
 
-- Processed machine-learning dataset
-- Kinetic Blueprint master dataset
+- Processed machine-learning dataset (`data/processed/awgc_ml_dataset.csv`)
 
 ---
 
@@ -99,18 +98,20 @@ Key Topics:
 
 ---
 
-## 07 XRD Pattern Analysis
+## 07 XRD-Derived Phase Composition Analysis
 
 Purpose:
 
-- Investigation of crystallization pathways using raw XRD patterns
+- Investigation of crystallization pathways using XRD-quantified phase composition
 
 Key Topics:
 
-- Crystallization evolution
-- Peak development
+- Phase architecture vs sintering temperature
+- Crystallinity evolution
+- Crystallization trends
 - Phase-architecture foundation
-- Raw diffraction analysis
+
+Note: the raw diffraction spectra are published with the source studies (see `docs/publications.md`); this repository ships the XRD-quantified phase fractions extracted from them.
 
 ---
 

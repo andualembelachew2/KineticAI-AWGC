@@ -13,6 +13,10 @@ The experimental data were fitted using:
 - Higuchi diffusion model
 - Korsmeyer-Peppas model
 
+## Data
+
+Fits use the committed degradation time series in `data/processed/transport_kinetics.csv` (notebook `09_transport_model_validation.ipynb`). The reported parameters below are reproduced exactly by re-running that notebook.
+
 ## Results
 
 ### 700°C Sample
@@ -23,8 +27,9 @@ Korsmeyer-Peppas
 
 Parameters:
 
-- n = 0.25
-- R² = 0.993
+- n = 0.256
+- k = 4.69E-02
+- R² = 0.9990
 
 Interpretation:
 
@@ -40,8 +45,9 @@ Korsmeyer-Peppas
 
 Parameters:
 
-- n = 0.58
-- R² = 0.997
+- n = 0.581
+- k = 4.49E-03
+- R² = 0.9997
 
 Interpretation:
 
@@ -64,4 +70,3 @@ Burst dissolution
 Controlled diffusion-governed transport
 
 This transition forms the basis of the Kinetic Blueprint Framework.
-``
