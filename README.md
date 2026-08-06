@@ -140,7 +140,13 @@ While developed using bioactive glass-ceramics, the computational principles —
 | [publications.md](docs/publications.md) | Source publications |
 
 ---
+### 🏅 Academic Honors & Key Publications
 
+> 🌟 **MDPI Editor's Choice Award (2023)**  
+> **An Investigation of In Vitro Bioactivities and Cytotoxicities of Spray Pyrolyzed Apatite Wollastonite Glass-Ceramics**  
+> *Andualem Belachew Workie, H.S. Ningsih, W.L. Yeh, S.J. Shih*  
+> **Journal:** *Crystals* (MDPI), 13(7), 1049. DOI: [10.3390/cryst13071049](https://doi.org/10.3390/cryst13071049)  
+> *Selected by journal scientific editors as a featured, high-impact publication representing top-tier research in spray-pyrolyzed bioactive glass-ceramics.*
 ## Publications
 
 The datasets and analyses are derived from peer-reviewed studies by the author and collaborators:
