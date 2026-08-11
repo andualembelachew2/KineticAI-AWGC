@@ -33,7 +33,7 @@ Thermal Processing → Crystallization Pathways → Phase Architecture → Micro
 
 The objective is to make that chain *predictable* — shifting the field from empirical bioactivity testing toward rational, computation-guided design.
 
-The project is led by **Dr. Andualem Belachew Workie** ([GitHub profile](https://github.com/andualembelachew2/andualembelachew2) · [ORCID 0000-0003-3162-4257](https://orcid.org/0000-0003-3162-4257)), and all repository assets derive from the peer-reviewed studies listed under [Publications](#publications).
+The project is led by **Dr. Andualem Belachew Workie** ([GitHub profile]([https://github.com/andualembelachew2/andualembelachew2](https://github.com/andualembelachew2/KineticAI-AWGC) · [ORCID 0000-0003-3162-4257](https://orcid.org/0000-0003-3162-4257)), and all repository assets derive from the peer-reviewed studies listed under [Publications](#publications).
 
 ---
 
