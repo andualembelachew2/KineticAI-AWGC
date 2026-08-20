@@ -55,6 +55,9 @@ def train_baseline_models(test_size=0.2, random_state=42):
     """
     Train baseline machine-learning models for phase-fraction prediction.
 
+    Evaluation uses one reproducible random train/test holdout. This is not
+    cross-validation and does not hold out complete temperatures.
+
     Parameters
     ----------
     test_size : float

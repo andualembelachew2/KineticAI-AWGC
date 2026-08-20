@@ -13,7 +13,7 @@ Integrates processing, phase architecture, transport behavior, and functional re
 ## Location
 
 ```text
-data/processed/kinetic_blueprint_master.csv
+data/kinetic_blueprint_master.csv
 ```
 
 ## Variables
@@ -78,18 +78,18 @@ Supports crystallization and phase-fraction analysis.
 
 ## Purpose
 
-Provides microstructural evidence of morphology evolution.
+Provides microstructural evidence of morphology evolution when microscopy images are available.
 
 ## Location
 
 ```text
-data/raw/sem_images/
+SEM image files are not currently included in this repository.
 ```
 
 ## Associated Metadata
 
 ```text
-data/processed/sem_metadata.csv
+data/sem_metadata.csv
 ```
 
 ## Scientific Role
