@@ -32,7 +32,7 @@ Thermal processing -> Crystallization pathways -> Phase architecture
     -> Biological response
 ```
 
-The project is led by [Dr. Andualem Belachew Workie](https://github.com/andualembelachew2). Research context and related publications are documented in [docs/publications.md](docs/publications.md).
+The project is led by [Dr. Andualem](https://github.com/andualembelachew2). Research context and related publications are documented in [docs/publications.md](docs/publications.md).
 
 ## The Kinetic Blueprint Framework
 
@@ -50,7 +50,7 @@ The framework connects thermal processing to phase evolution, transport behavior
 
 ## Installation
 
-The source scripts are written for Python 3.9 or newer. Create an isolated environment, then install the dependencies:
+The source scripts are written for Python 3.9. Create an isolated environment, then install the dependencies:
 
 ```bash
 git clone https://github.com/andualembelachew2/KineticAI-AWGC.git
