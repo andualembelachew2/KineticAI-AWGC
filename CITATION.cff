@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use KineticAI-AWGC in your research, please cite this repository."
+title: "KineticAI-AWGC"
+type: software
+authors:
+  - given-names: "Andualem Belachew"
+    family-names: "Workie"
+    orcid: "https://orcid.org/0000-0003-3162-4257"
+repository-code: "https://github.com/andualembelachew2/KineticAI-AWGC"
+abstract: >-
+  Open computational infrastructure for studying processing-structure-property
+  relationships in spray-pyrolyzed apatite-wollastonite glass-ceramics through
+  experimental datasets, kinetic analysis, and machine learning.
+keywords:
+  - apatite-wollastonite glass-ceramics
+  - bioactive materials
+  - kinetic modeling
+  - machine learning
+  - materials informatics
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21759552"
+    description: "Zenodo record for the KineticAI-AWGC repository"
