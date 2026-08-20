@@ -1,6 +1,6 @@
 # KineticAI-AWGC
 
-**Open computational infrastructure for studying processing-structure-property relationships in spray-pyrolyzed apatite-wollastonite glass-ceramics.**
+**Open computational platform for predictive design of spray-pyrolyzed apatite–wollastonite glass-ceramics, linking processing, structure, and performance.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759552.svg)](https://doi.org/10.5281/zenodo.21759552)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
