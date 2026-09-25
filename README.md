@@ -39,7 +39,7 @@ The model combines:
   <img src="figures/exports/fig4_rtz_tube.svg" alt="Target-zone trajectory tube" width="85%"/>
 </p>
 
-Additional recovered figures: [phase evolution](docs/assets/legacy_figures/figures__characterization__xrd_phase_evolution.png), [feature importance](docs/assets/legacy_figures/figures__feature_importance.png), [hydroxyapatite gain](docs/assets/legacy_figures/figures__hydroxyapatite_gain_day21.png), [initial phase composition](docs/assets/legacy_figures/figures__initial_phase_composition.png), [mass-loss profiles](docs/assets/legacy_figures/figures__mass_loss_profiles.png), [predicted vs. experimental phases](docs/assets/legacy_figures/figures__predicted_vs_experimental_phase_fractions.png), [SBF hydroxyapatite evolution](docs/assets/legacy_figures/figures__sbf_hydroxyapatite_evolution.png), [SBF wollastonite evolution](docs/assets/legacy_figures/figures__sbf_wollastonite_evolution.png).
+Additional figures: [phase evolution](docs/assets/legacy_figures/figures__characterization__xrd_phase_evolution.png), [feature importance](docs/assets/legacy_figures/figures__feature_importance.png), [hydroxyapatite gain](docs/assets/legacy_figures/figures__hydroxyapatite_gain_day21.png), [initial phase composition](docs/assets/legacy_figures/figures__initial_phase_composition.png), [mass-loss profiles](docs/assets/legacy_figures/figures__mass_loss_profiles.png), [predicted vs. experimental phases](docs/assets/legacy_figures/figures__predicted_vs_experimental_phase_fractions.png), [SBF hydroxyapatite evolution](docs/assets/legacy_figures/figures__sbf_hydroxyapatite_evolution.png), [SBF wollastonite evolution](docs/assets/legacy_figures/figures__sbf_wollastonite_evolution.png).
 
 ## Governing equations
 
