@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use KineticAI-AWGC in your research, please cite this repository."
-title: "KineticAI-AWGC"
+title: "Spatiotemporal Trajectory Engineering in Bioactive Silicate Ceramics"
 type: software
 authors:
   - given-names: "Andualem Belachew"
@@ -8,9 +8,9 @@ authors:
     orcid: "https://orcid.org/0000-0003-3162-4257"
 repository-code: "https://github.com/andualembelachew2/KineticAI-AWGC"
 abstract: >-
-  Open computational infrastructure for studying processing-structure-property
-  relationships in spray-pyrolyzed apatite-wollastonite glass-ceramics through
-  experimental datasets, kinetic analysis, and machine learning.
+  Open computational infrastructure for modeling chemistry-architecture-transport
+  trajectories in apatite-wollastonite glass-ceramics through moving-boundary
+  reaction-diffusion, regime analysis, and regenerative target-zone validation.
 keywords:
   - apatite-wollastonite glass-ceramics
   - bioactive materials
