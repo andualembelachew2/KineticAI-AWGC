@@ -17,6 +17,30 @@ The model combines:
 - Damköhler–Péclet dimensionless analysis to classify reaction- vs. transport-limited regimes,
 - a defined target range ("regenerative target zone") that acceptable ion-release trajectories must stay within over time.
 
+## Figures
+
+<p align="center">
+  <img src="docs/assets/legacy_figures/figures__kinetic_blueprint_framework.png" alt="Kinetic Blueprint Framework" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="figures/exports/fig1_chemical_trajectory.svg" alt="Chemical trajectory families" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="figures/exports/fig2_moving_boundary_erosion.svg" alt="Moving-boundary strut erosion and dynamic transport" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="figures/exports/fig3_regime_map.svg" alt="Damkohler-Peclet regime map" width="75%"/>
+</p>
+
+<p align="center">
+  <img src="figures/exports/fig4_rtz_tube.svg" alt="Target-zone trajectory tube" width="85%"/>
+</p>
+
+Additional recovered figures: [phase evolution](docs/assets/legacy_figures/figures__characterization__xrd_phase_evolution.png), [feature importance](docs/assets/legacy_figures/figures__feature_importance.png), [hydroxyapatite gain](docs/assets/legacy_figures/figures__hydroxyapatite_gain_day21.png), [initial phase composition](docs/assets/legacy_figures/figures__initial_phase_composition.png), [mass-loss profiles](docs/assets/legacy_figures/figures__mass_loss_profiles.png), [predicted vs. experimental phases](docs/assets/legacy_figures/figures__predicted_vs_experimental_phase_fractions.png), [SBF hydroxyapatite evolution](docs/assets/legacy_figures/figures__sbf_hydroxyapatite_evolution.png), [SBF wollastonite evolution](docs/assets/legacy_figures/figures__sbf_wollastonite_evolution.png).
+
 ## Governing equations
 
 Concentration transport:
