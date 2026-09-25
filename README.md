@@ -24,6 +24,30 @@ $$
 | Stimuli-responsive material | A response triggered by an external cue | Often requires a separate activation event or controller |
 | Spatiotemporal trajectory engineering | The complete chemistry--transport path through an admissibility tube | Requires coupled models and time-resolved validation |
 
+## Research program and background
+
+KineticAI-AWGC is an open computational research platform for predictive materials design through physics-informed modeling, kinetic analysis, multiscale characterization, and data-driven materials engineering. It was developed around apatite-wollastonite glass-ceramics, a bioactive materials family relevant to bone-regeneration research, and connects experimental observations with mechanistic processing--structure--property relationships.
+
+The broader Kinetic Blueprint Framework follows the material system from synthesis to biological response:
+
+```text
+Thermal processing -> Crystallization pathways -> Phase architecture
+  -> Microstructure -> Transport behavior -> Microenvironment evolution
+  -> Biological response -> Predictive materials design
+```
+
+The computational principles are applicable to materials systems involving structure evolution, transport phenomena, reaction kinetics, property evolution, and data-driven design.
+
+## Research assets
+
+The repository contains reproducible assets derived from experimental studies and their computational interpretation:
+
+- **Experimental datasets:** phase composition, density evolution, degradation, transport kinetics, pH evolution, biological response, and raw XRD patterns.
+- **Computational workflows:** XRD pattern analysis, phase evolution analysis, transport-model validation, and biological-response interpretation.
+- **Scientific outputs:** parameter identification, transport-regime classification, crystallization evolution analysis, and trajectory-engineering figures.
+
+The original numbered workflow remains available in [notebooks/README.md](notebooks/README.md), from [01_data_cleaning.ipynb](notebooks/01_data_cleaning.ipynb) through [10_phase_evolution_analysis.ipynb](notebooks/10_phase_evolution_analysis.ipynb). The two trajectory-engineering demonstrations are linked below.
+
 ## Visual architecture gallery
 
 <p align="center">
@@ -110,6 +134,36 @@ print("RTZ admissible:", admissible_tube(trajectory, lower, upper))
 
 Interactive demonstrations are available in [notebooks/01_moving_boundary_simulation.ipynb](notebooks/01_moving_boundary_simulation.ipynb) and [notebooks/02_da_pe_regime_and_rtz_optimization.ipynb](notebooks/02_da_pe_regime_and_rtz_optimization.ipynb).
 
+## Existing analysis workflow
+
+The experimental-data pipeline can be reproduced from repository-relative paths:
+
+```text
+data/raw/*.csv
+  |
+  v
+src/data_processing.py
+  |
+  v
+data/processed/awgc_ml_dataset.csv
+  |
+  v
+src/models.py -> baseline metrics
+
+data/raw/*.csv -> src/visualization.py -> figures/*.png
+```
+
+For the original analysis modules:
+
+```bash
+python src/data_processing.py
+python src/models.py
+python src/visualization.py
+jupyter notebook notebooks
+```
+
+The current transport-model fits, including Korsmeyer--Peppas analysis for the 700 and 1100 C samples, are summarized in [docs/model_validation.md](docs/model_validation.md).
+
 ## Documentation
 
 | Topic | Document |
@@ -121,6 +175,35 @@ Interactive demonstrations are available in [notebooks/01_moving_boundary_simula
 | SciML and Bayesian validation | [05_sciml_bayesian_pipeline.md](docs/theory/05_sciml_bayesian_pipeline.md) |
 | Manuscript source | [docs/trajectory_engineering.tex](docs/trajectory_engineering.tex) |
 | Equation inventory | [docs/equations_reference.md](docs/equations_reference.md) |
+
+## Publication collection
+
+The publication record documents the progression from experimental bioactivity and cytotoxicity to phase programming, crystallization pathways, mass-transport kinetics, and surface reactivity:
+
+- Workie, Ningsih, Yeh, and Shih, “An Investigation of In Vitro Bioactivities and Cytotoxicities of Spray Pyrolyzed Apatite--Wollastonite Glass-Ceramics,” *Crystals* (2023). [DOI](https://doi.org/10.3390/cryst13071049)
+- Workie and Shih, “A Kinetic Blueprint for Bioactive Ceramics: Programming the Bio-interface through Thermal Processing,” *Ceramics International* (2025). [DOI](https://doi.org/10.1016/j.ceramint.2025.11.191)
+- Workie and Taye, “Sequential Crystallization Pathways in Apatite--Wollastonite Glass-Ceramics via Spray Pyrolysis,” *RSC Advances* (2026). [DOI](https://doi.org/10.1039/d5ra08885b)
+- Workie, Taye, Melchels, and Mamo, “Predictive Mass-Transport Kinetics in Phase-Programmed Silicate Glass-Ceramics for Controlled Microenvironmental Engineering,” *Biomaterials Science* (2026). [DOI](https://doi.org/10.1039/D6BM00997B)
+- Taye, Workie, and Shih, “Rational Engineering of Mesoporous Bioactive Glass Surface Reactivity: NBO/BO Ratio Control via Synergistic Ag and Ce Co-Doping by Spray Pyrolysis,” *Ceramics International* (2026). [DOI](https://doi.org/10.1016/j.ceramint.2026.01.486)
+
+The complete publication context and repository relevance notes are maintained in [docs/publications.md](docs/publications.md).
+
+## Repository structure
+
+```text
+KineticAI-AWGC/
+├── data/                # Raw and processed experimental datasets
+├── notebooks/           # Numbered analysis workflow and demonstrations
+├── src/                 # Data, chemistry, transport, and analysis modules
+├── docs/                # Manuscript, theory, equations, and publications
+├── results/             # Model-validation and trajectory summaries
+├── figures/             # Generated PNG and SVG figures
+├── scripts/             # Reproducible figure-generation utilities
+├── tests/               # Physics and mathematical regression tests
+├── requirements.txt     # Python dependencies
+├── CITATION.cff
+└── LICENSE
+```
 
 ## Citation
 
