@@ -164,11 +164,12 @@ $$
 
 ## 4. Biological Validation & Real-Time Zone (RTZ) Tube
 
-### 4.1 Continuous Admissibility Tube Definition
+ ## 4.1 Continuous Admissibility Tube Definition
+
 The functional domain preserving cytocompatibility and biological viability:
 
 $$
-\mathrm{RTZ}(t) = \left\lbrace \mathbf{S}(\cdot) \in C^0([0,T];\mathbb{R}^6) \;\middle|\; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),\; [\mathrm{H}^+](t) \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},\; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},\; \forall t \in (0,T] \right\rbrace
+\mathrm{RTZ}(t) = \left\lbrace \mathbf{S}(\cdot) \in C^0([0,T];\mathbb{R}^6) ;\middle|; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),; \mathrm{H}^+ \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},; \forall t \in (0,T] \right\rbrace
 $$
 
 ### 4.2 Tube Distance Metric
@@ -177,6 +178,8 @@ Maximum functional Euclidean distance to the admissibility projection:
 $$
 d_{\mathrm{RTZ}}(\mathbf{S}) = \max_{t\in[0,T]}\left\lVert\mathbf{S}(t) - \Pi_{\mathrm{RTZ}}(\mathbf{S}(t))\right\rVert_2, \qquad \mathbf{S}\in\mathrm{RTZ} \iff d_{\mathrm{RTZ}}(\mathbf{S}) \le \delta^*
 $$
+
+
 
 ### 4.3 Phase-Indexed Tube Boundaries
 Convex combination of stage-specific physiological bounds:
