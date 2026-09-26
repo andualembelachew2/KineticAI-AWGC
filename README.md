@@ -171,7 +171,7 @@ KineticAI-AWGC/
 }
 ```
 
-MIT License. Machine-readable citation: [CITATION.cff](CITATION.cff).
+MIT License. Citation: [CITATION.cff](CITATION.cff).
 
 ## Contact
 
