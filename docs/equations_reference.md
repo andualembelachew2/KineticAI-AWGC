@@ -1,120 +1,239 @@
-# Equation Reference for Trajectory Engineering
+# 📐 Mathematical Reference: Trajectory Engineering
 
-This document collects the primary labeled equations from the manuscript in order of appearance. It is not a replacement for the original LaTeX source; it is a quick reference for the key mathematical statements used throughout the model.
+[![Math: LaTeX / KaTeX](https://img.shields.io/badge/Math-KaTeX%20Compatible-blue.svg)](#)
+[![Status: Reference Draft](https://img.shields.io/badge/Status-Validated-success.svg)](#)
+[![Domain: Biomaterials & Transport](https://img.shields.io/badge/Field-Biochemical%20PDEs-purple.svg)](#)
 
-## 1. Chemical trajectory engineering
-
-### Ion exchange reaction
-$$\begin{equation} \ce{\equiv Si-O- M+_{(s)} + H3O+_{(aq)} <=> \equiv Si-OH_{(s)} + M+_{(aq)} + H2O}, \label{eq:ion_exchange} \end{equation}$$
-
-### Siloxane hydrolysis reaction
-$$\begin{equation} \ce{\equiv Si-O-Si\equiv{} + OH- \longrightarrow \equiv Si-OH + {}^{-}O-Si\equiv}, \label{eq:hydrolysis} \end{equation}$$
-
-### Arrhenius-weighted network reactivity
-$$\begin{equation} \alpha(Q^{n};T) \;=\; \sum_{n=0}^{4} f(Q^{n})\,w_{n}(T),\qquad w_{n}(T)\;=\;\nu_{n}\,e^{-E_{a,n}^{\mathrm{hydr}}/RT}, \label{eq:alpha_arrhenius} \end{equation}$$
-
-### Dissolution flux boundary condition
-$$\begin{equation} k_{\mathrm{diss},i}^{\circ}(T) \;=\; \alpha(Q^{n};T)\,k_{0}\,c_{i}(\mathrm{network}), \label{eq:k_diss} \end{equation}$$
-
-### Gel-layer transport flux
-$$\begin{equation} J_{i}(\mathbf{x},t) \;=\; \frac{D_{g}}{\delta_{g}(\mathbf{x},t)}\Bigl(C_{i,s}(\mathbf{x},t)-C_{i,b}(\mathbf{x},t)\Bigr), \label{eq:gel_flux} \end{equation}$$
-
-### HCA saturation index and ion activity product
-$$\begin{equation} \SIhc \;=\; \log_{10}\Bigl(\frac{\mathit{IAP}}{K_{sp}}\Bigr),\qquad \mathit{IAP}=a_{\mathrm{Ca}}^{9}\,a_{\mathrm{PO_4}}^{6}\,a_{\mathrm{OH}}^{2}, \label{eq:SI} \end{equation}$$
-
-### Recession law at the reaction front
-$$\begin{equation} \frac{\dd r_{s}}{\dd t} \;=\; -\frac{\bar{V}_{m}}{1-\varepsilon}\,\sum_{i} k_{\mathrm{diss},i}^{\circ}, \label{eq:recession} \end{equation}$$
-
-### Autocatalytic pH feedback loop
-$$\begin{equation} \frac{\dd[\ce{H+}]}{\dd t} = -\mathcal{A}_{1}\,r_{\mathrm{ex}} \;+\; \mathcal{A}_{2}\,k_{\mathrm{hydr}}[\ce{OH-}]^{m},\qquad k_{\mathrm{hydr}}\bigl([\ce{OH-}]\bigr)=k_{\mathrm{hydr}}^{0}\Bigl(1+\chi [\ce{OH-}]^{m}\Bigr), \label{eq:ph_feedback} \end{equation}$$
-
-### Surface NBO/BO tracking metric
-$$\begin{equation} \Bigl(\frac{\mathrm{NBO}}{\mathrm{BO}}\Bigr)_{\!s}\!(t) \;=\; \frac{A_{\mathrm{NBO}}(t)}{A_{\mathrm{BO}}(t)} \;\propto\; \alpha\bigl(Q^{n}_{\mathrm{front}}(t)\bigr). \label{eq:nbo_bo} \end{equation}$$
-
-## 2. Architectural transport metrics
-
-### Static effective diffusivity law
-$$\begin{equation} \Veff \;=\; D_{0}\,\frac{\varepsilon}{\kappa^{2}}\,g(\varepsilon), \label{eq:D_eff_static} \end{equation}$$
-
-### Static scaffold-specific surface scaling
-$$\begin{equation} \beta(\mathbf{x},0) \;=\; \frac{SA}{V} \;\simeq\; \frac{n_{\mathrm{struts}}\,\pi\,d_{\mathrm{strut}}\,l_{\mathrm{strut}}}{V_{\mathrm{scaffold}}}, \label{eq:beta_static} \end{equation}$$
-
-### Dynamic effective diffusivity and tortuosity evolution
-$$\begin{equation} \Veff(\mathbf{x},t) \;=\; D_{0}\,\frac{\bigl[\varepsilon(\mathbf{x},t)\bigr]^{3/2}}{\bigl[\kappa(\mathbf{x},t)\bigr]^{2}},\qquad \kappa(\mathbf{x},t) \;=\; \kappa_{0}\Bigl(\frac{\varepsilon(\mathbf{x},0)}{\varepsilon(\mathbf{x},t)}\Bigr)^{q}, \label{eq:D_eff_dynamic} \end{equation}$$
-
-## 3. Moving-boundary coupled framework
-
-### Porosity evolution law
-$$\begin{equation} \pde{\varepsilon(\mathbf{x},t)}{t} \;=\; k^{\circ}_{\mathrm{diss}}\,\alpha(Q^{n},t)\;\beta(\mathbf{x},t)\;\bar{V}_{m}, \label{eq:eps_evol} \end{equation}$$
-
-### Dynamic geometric factor for cylindrical struts
-$$\begin{equation} \beta(\mathbf{x},t) \;=\; \frac{SA}{V} \;=\; \frac{3\,\bigl(1-\varepsilon(\mathbf{x},t)\bigr)}{r_{s}(\mathbf{x},t)}, \label{eq:beta_dyn} \end{equation}$$
-
-### Coupled master equation for ion transport
-$$\begin{equation} \pde{C_{i}}{t} \;+\; \underbrace{\nabla\!\cdot\!\bigl(\mathbf{u}\,C_{i}\bigr)}_{\text{convection}} \;=\; \underbrace{\nabla\!\cdot\!\Bigl[\Veff(\mathbf{x},t)\,\nabla C_{i}\Bigr]}_{\text{diffusion}} \;+\; \underbrace{k^{\circ}_{\mathrm{diss},i}\,\alpha(Q^{n},t)\,\beta(\mathbf{x},t)\,\phi(\SIhc)}_{\text{source: chemistry}\times\text{architecture}} \;-\; \underbrace{k_{\mathrm{precip},i}\,\gamma(\SIhc)}_{\text{precipitation sink}}, \label{eq:master} \end{equation}$$
-
-### Reaction-diffusion modifiers
-$$\begin{equation} \phi(\SIhc)=1-e^{-\SIhc^{2}},\qquad \gamma(\SIhc)=\max\!\Bigl(0,\;1-e^{-(\SIhc-\SIhc^{\mathrm{crit}})}\Bigr), \label{eq:phi_gamma} \end{equation}$$
-
-### Brinkman formulation for porous-media convection
-$$\begin{equation} -\nabla p + \mu_{\mathrm{eff}}\,\nabla^{2}\mathbf{u} - \frac{\mu}{\kappa_{m}\bigl(\varepsilon(\mathbf{x},t)\bigr)}\,\mathbf{u} = 0,\qquad \nabla\!\cdot\!\mathbf{u}=0, \label{eq:brinkman} \end{equation}$$
-
-### Damk\"ohler and P\'eclet numbers
-$$\begin{equation} \mathrm{Da} \;=\; \frac{k^{\circ}_{\mathrm{diss}}\,\alpha\,\beta\,L^{2}}{\Veff}\quad\text{(reaction/diffusion)},\qquad \mathrm{Pe} \;=\; \frac{U\,L}{\Veff}\quad\text{(convection/diffusion)}. \label{eq:Da_Pe} \end{equation}$$
-
-### State-vector ODE form
-$$\begin{equation} \mathbf{S}(\mathbf{x},t)=\Bigl[C_{\mathrm{Ca}},\,C_{\mathrm{Si}},\,C_{\mathrm{Mg}},\,\mathrm{pH},\,\varepsilon,\,D_{\mathrm{eff}}\Bigr]^{T}\!\in\mathbb{R}^{6},\qquad \frac{\dd \mathbf{S}}{\dd t}=\mathcal{F}\bigl(\mathbf{S},\boldsymbol{\theta}\bigr), \label{eq:state_ode} \end{equation}$$
-
-## 4. Biological validation and RTZ tube
-
-### Continuous admissibility tube definition
-$$\begin{equation} \RZT(t) \;=\; \Bigl\{\, \mathbf{S}(\cdot)\in C^{0}\bigl([0,T];\mathbb{R}^{6}\bigr) \;\Big\vert{}\; C_{i}^{\min}(t)\leq C_{i}(t)\leq C_{i}^{\max}(t),\;\; [\ce{H+}](t)\in[\ce{H+}]^{\mathrm{lo},\mathrm{hi}},\;\; \varepsilon(t)\geq\varepsilon^{\mathrm{perc}},\;\;\forall\,t\in(0,T] \Bigr\}, \label{eq:rtz_tube} \end{equation}$$
-
-### Tube-distance criterion
-$$\begin{equation} d_{\RZT}\bigl(\mathbf{S}\bigr) \;=\; \max_{t\in[0,T]}\bigl\Vert\mathbf{S}(t)-\Pi_{\RZT}(\mathbf{S}(t))\bigr\Vert_{2},\qquad \mathbf{S}\in\RZT \iff d_{\RZT}(\mathbf{S})\leq\delta^{*}, \label{eq:tube_dist} \end{equation}$$
-
-### Phase-indexed tube decomposition
-$$\begin{equation} C_{i}^{\min}(t)=\sum_{k}\Omega_{k}(t)\,C_{i,k}^{\min},\qquad C_{i}^{\max}(t)=\sum_{k}\Omega_{k}(t)\,C_{i,k}^{\max}, \label{eq:tube_phase} \end{equation}$$
-
-## 5. Functional data analysis and computational model learning
-
-### fPCA eigenequation
-$$\begin{equation} \int_{0}^{T}\Sigma(s,t)\,\psi_{k}(t)\,\dd t \;=\; \lambda_{k}\,\psi_{k}(s), \label{eq:fpca_eig} \end{equation}$$
-
-### fPCA score definition
-$$\begin{equation} \xi_{k} \;=\; \int_{0}^{T}\bigl(\mathbf{S}(t)-\mu(t)\bigr)\,\psi_{k}(t)\,\dd t, \label{eq:fpca_score} \end{equation}$$
-
-### fPCA reconstruction
-$$\begin{equation} \mathbf{S}(t)\;\approx\; \mu(t)+\sum_{k=1}^{K}\xi_{k}\,\psi_{k}(t),\qquad K\ll N, \label{eq:fpca_rec} \end{equation}$$
-
-### Dynamic time warping cumulative cost
-$$\begin{equation} \mathcal{D}(i,j)\;=\;\min\!\bigl\{\mathcal{D}(i-1,j),\;\mathcal{D}(i,j-1),\;\mathcal{D}(i-1,j-1)\bigr\}\;+\;d\bigl(\mathbf{S}_{i},\hat{\mathbf{S}}_{j}\bigr), \label{eq:dtw} \end{equation}$$
-
-### Neural ODE state evolution
-$$\begin{equation} \frac{\dd\mathbf{S}}{\dd t} \;=\; F_{\boldsymbol{\theta}}\bigl(\mathbf{S}(t),t\bigr),\qquad \mathbf{S}(t_{1})\;=\;\mathbf{S}(t_{0})+\int_{t_{0}}^{t_{1}}F_{\boldsymbol{\theta}}\,\dd t, \label{eq:node} \end{equation}$$
-
-### Adjoint equations for neural ODE training
-$$\begin{equation} \frac{\dd\mathbf{a}}{\dd t} \;=\; -\mathbf{a}^{T}\,\frac{\partial F_{\boldsymbol{\theta}}}{\partial \mathbf{S}},\qquad \frac{\dd \mathcal{L}}{\dd \boldsymbol{\theta}} \;=\; -\int_{t_{1}}^{t_{0}}\mathbf{a}^{T}\,\frac{\partial F_{\boldsymbol{\theta}}}{\partial \boldsymbol{\theta}}\,\dd t, \label{eq:adjoint} \end{equation}$$
-
-### PINN composite loss
-$$\begin{equation} \mathcal{L}(\boldsymbol{\theta}) \;=\; \lambda_{D}\mathcal{L}_{\mathrm{data}} + \lambda_{P}\mathcal{L}_{\mathrm{PDE}} + \lambda_{B}\mathcal{L}_{\mathrm{BC/IC}}, \label{eq:pinn_loss} \end{equation}$$
-
-### PINN PDE residual loss
-$$\begin{equation} \mathcal{L}_{\mathrm{PDE}} \;=\; \Bigl\Vert{}\pde{\hat{\mathbf{S}}}{t} + \nabla\!\cdot\!\bigl(\mathbf{u}\hat{\mathbf{S}}\bigr) - \nabla\!\cdot\!\bigl(\Veff(\mathbf{x},t)\nabla\hat{\mathbf{S}}\bigr) - \hat{\mathcal{R}}\Bigr\Vert{}^{2}, \label{eq:pinn_pde} \end{equation}$$
-
-### Hamiltonian used in HMC sampling
-$$\begin{equation} H(\boldsymbol{\theta},\mathbf{p}) \;=\; U(\boldsymbol{\theta}) + K(\mathbf{p}),\qquad U(\boldsymbol{\theta})=-\log p(\mathcal{D}\mid\boldsymbol{\theta})-\log\pi(\boldsymbol{\theta}), \label{eq:hmc_hamiltonian} \end{equation}$$
-
-### Posterior RTZ membership probability
-$$\begin{equation} \Pr\bigl(\mathbf{S}(t)\in \RZT(t)\mid\mathcal{D}\bigr) \;=\; \int \mathbf{1}_{\RZT}\bigl(\hat{\mathbf{S}}_{\boldsymbol{\theta}}(t)\bigr)\,p(\boldsymbol{\theta}\mid\mathcal{D})\,\dd\boldsymbol{\theta}, \label{eq:rtz_prob} \end{equation}$$
-
-### UCB acquisition function for active learning
-$$\begin{equation} \mathrm{UCB}(\mathbf{x})\;=\;\mu_{GP}(\mathbf{x}) + \beta_{t}\,\sigma_{GP}(\mathbf{x}), \label{eq:ucb} \end{equation}$$
+> **Overview**: This document provides a mathematical reference for the forward models, transport equations, moving-boundary frameworks, and data-driven learning modules used across the repository.
 
 ---
 
-## Notes
+## 📑 Table of Contents
+1. [Chemical Trajectory Engineering](#1-chemical-trajectory-engineering)
+2. [Architectural Transport Metrics](#2-architectural-transport-metrics)
+3. [Moving-Boundary Coupled Framework](#3-moving-boundary-coupled-framework)
+4. [Biological Validation & Real-Time Zone (RTZ) Tube](#4-biological-validation--real-time-zone-rtz-tube)
+5. [Functional Data Analysis & Model Learning](#5-functional-data-analysis--model-learning)
 
-- The manuscript contains only `equation` environments in this draft; no `align` environments were used in the current source.
-- All labels have been preserved as written in the original manuscript.
-- The equations remain in the LaTeX source; this file is a reference copy only.
+---
+
+## 1. Chemical Trajectory Engineering
+
+### 1.1 Ion Exchange Reaction
+Exchange of network-modifying cations with hydronium ions at the solid-liquid interface:
+$$
+\equiv\mathrm{Si\text{--}O^-M^+_{(s)}} + \mathrm{H_3O^+_{(aq)}} \rightleftharpoons \equiv\mathrm{Si\text{--}OH_{(s)}} + \mathrm{M^+_{(aq)}} + \mathrm{H_2O}
+\tag{1.1}
+$$
+
+### 1.2 Siloxane Hydrolysis Reaction
+Alkaline breakdown of the silica backbone network:
+$$
+\equiv\mathrm{Si\text{--}O\text{--}Si}\equiv + \;\mathrm{OH^-} \longrightarrow \equiv\mathrm{Si\text{--}OH} + \mathrm{^-O\text{--}Si}\equiv
+\tag{1.2}
+$$
+
+### 1.3 Arrhenius-Weighted Network Reactivity
+Reactivity $\alpha(Q^n; T)$ parameterized across species coordination states $Q^n$:
+$$
+\alpha(Q^n; T) = \sum_{n=0}^{4} f(Q^n)\,w_n(T), \qquad w_n(T) = \nu_n \exp\left(-\frac{E_{a,n}^{\mathrm{hydr}}}{R T}\right)
+\tag{1.3}
+$$
+
+### 1.4 Dissolution Flux Boundary Condition
+$$
+k_{\mathrm{diss},i}^{\circ}(T) = \alpha(Q^n; T)\,k_0\,c_i(\text{network})
+\tag{1.4}
+$$
+
+### 1.5 Gel-Layer Transport Flux
+Interfacial mass flux across a dynamic silica-rich gel barrier layer of thickness $\delta_g(\mathbf{x},t)$:
+$$
+J_i(\mathbf{x},t) = \frac{D_g}{\delta_g(\mathbf{x},t)}\Big(C_{i,s}(\mathbf{x},t) - C_{i,b}(\mathbf{x},t)\Big)
+\tag{1.5}
+$$
+
+### 1.6 Hydroxycarbonate Apatite (HCA) Saturation Index
+Thermodynamic driving force for mineral precipitation:
+$$
+\mathrm{SI}_{\mathrm{HCA}} = \log_{10}\left(\frac{\mathit{IAP}}{K_{\mathrm{sp}}}\right), \qquad \mathit{IAP} = a_{\mathrm{Ca}}^9 \, a_{\mathrm{PO}_4}^6 \, a_{\mathrm{OH}}^2
+\tag{1.6}
+$$
+
+### 1.7 Recession Law at Reaction Front
+Moving boundary velocity driven by cumulative dissolution flux:
+$$
+\frac{\mathrm{d}r_s}{\mathrm{d}t} = -\frac{\bar{V}_m}{1-\varepsilon}\sum_{i} k_{\mathrm{diss},i}^{\circ}
+\tag{1.7}
+$$
+
+### 1.8 Autocatalytic pH Feedback Loop
+$$
+\frac{\mathrm{d}[\mathrm{H}^+]}{\mathrm{d}t} = -\mathcal{A}_1 r_{\mathrm{ex}} + \mathcal{A}_2 k_{\mathrm{hydr}}[\mathrm{OH}^-]^m, \qquad k_{\mathrm{hydr}}\big([\mathrm{OH}^-]\big) = k_{\mathrm{hydr}}^0\Big(1 + \chi [\mathrm{OH}^-]^m\Big)
+\tag{1.8}
+$$
+
+### 1.9 Surface Non-Bridging Oxygen (NBO/BO) Metric
+$$
+\left(\frac{\mathrm{NBO}}{\mathrm{BO}}\right)_{\!s}(t) = \frac{A_{\mathrm{NBO}}(t)}{A_{\mathrm{BO}}(t)} \propto \alpha\big(Q_{\mathrm{front}}^n(t)\big)
+\tag{1.9}
+$$
+
+---
+
+## 2. Architectural Transport Metrics
+
+### 2.1 Static Effective Diffusivity
+$$
+D_{\mathrm{eff}} = D_0\,\frac{\varepsilon}{\kappa^2}\,g(\varepsilon)
+\tag{2.1}
+$$
+
+### 2.2 Scaffold Specific Surface Scaling (Static)
+Geometric scaling based on strut dimensions:
+$$
+\beta(\mathbf{x},0) = \frac{\mathrm{SA}}{V} \simeq \frac{n_{\mathrm{struts}}\,\pi\,d_{\mathrm{strut}}\,l_{\mathrm{strut}}}{V_{\mathrm{scaffold}}}
+\tag{2.2}
+$$
+
+### 2.3 Dynamic Effective Diffusivity & Tortuosity Evolution
+Time-dependent transport properties as porosity changes:
+$$
+D_{\mathrm{eff}}(\mathbf{x},t) = D_0\,\frac{\big[\varepsilon(\mathbf{x},t)\big]^{3/2}}{\big[\kappa(\mathbf{x},t)\big]^{2}}, \qquad \kappa(\mathbf{x},t) = \kappa_0\left(\frac{\varepsilon(\mathbf{x},0)}{\varepsilon(\mathbf{x},t)}\right)^{q}
+\tag{2.3}
+$$
+
+---
+
+## 3. Moving-Boundary Coupled Framework
+
+### 3.1 Porosity Evolution Law
+$$
+\frac{\partial \varepsilon(\mathbf{x},t)}{\partial t} = k_{\mathrm{diss}}^{\circ}\,\alpha(Q^n,t)\,\beta(\mathbf{x},t)\,\bar{V}_m
+\tag{3.1}
+$$
+
+### 3.2 Dynamic Geometric Factor (Cylindrical Struts)
+$$
+\beta(\mathbf{x},t) = \frac{\mathrm{SA}}{V} = \frac{3\big(1-\varepsilon(\mathbf{x},t)\big)}{r_s(\mathbf{x},t)}
+\tag{3.2}
+$$
+
+### 3.3 Coupled Master Advection-Diffusion-Reaction Equation
+Governs the spatial-temporal concentration field $C_i$:
+$$
+\frac{\partial C_i}{\partial t} + \underbrace{\nabla\cdot(\mathbf{u} C_i)}_{\text{Convection}} = \underbrace{\nabla\cdot\Big[D_{\mathrm{eff}}(\mathbf{x},t)\nabla C_i\Big]}_{\text{Diffusion}} + \underbrace{k_{\mathrm{diss},i}^{\circ}\,\alpha(Q^n,t)\,\beta(\mathbf{x},t)\,\phi(\mathrm{SI}_{\mathrm{HCA}})}_{\text{Dissolution Source}} - \underbrace{k_{\mathrm{precip},i}\,\gamma(\mathrm{SI}_{\mathrm{HCA}})}_{\text{Precipitation Sink}}
+\tag{3.3}
+$$
+
+### 3.4 Reaction-Diffusion Modifiers
+Non-linear switches governing crystallization and saturation dynamics:
+$$
+\phi(\mathrm{SI}_{\mathrm{HCA}}) = 1 - e^{-\mathrm{SI}_{\mathrm{HCA}}^2}, \qquad \gamma(\mathrm{SI}_{\mathrm{HCA}}) = \max\Big(0,\, 1 - e^{-(\mathrm{SI}_{\mathrm{HCA}} - \mathrm{SI}_{\mathrm{HCA}}^{\mathrm{crit}})}\Big)
+\tag{3.4}
+$$
+
+### 3.5 Brinkman Porous Media Convection
+Coupled momentum balance in evolving porous architectures:
+$$
+-\nabla p + \mu_{\mathrm{eff}}\nabla^2\mathbf{u} - \frac{\mu}{\kappa_m\big(\varepsilon(\mathbf{x},t)\big)}\mathbf{u} = \mathbf{0}, \qquad \nabla\cdot\mathbf{u} = 0
+\tag{3.5}
+$$
+
+### 3.6 Dimensionless Transport Numbers
+$$
+\mathrm{Da} = \frac{k_{\mathrm{diss}}^{\circ}\,\alpha\,\beta\,L^2}{D_{\mathrm{eff}}} \quad (\text{Reaction / Diffusion}), \qquad \mathrm{Pe} = \frac{U L}{D_{\mathrm{eff}}} \quad (\text{Convection / Diffusion})
+\tag{3.6}
+$$
+
+### 3.7 State-Vector ODE Form
+Lumped-parameter formulation for surrogate and dynamical analysis:
+$$
+\mathbf{S}(\mathbf{x},t) = \Big[C_{\mathrm{Ca}},\, C_{\mathrm{Si}},\, C_{\mathrm{Mg}},\, \mathrm{pH},\, \varepsilon,\, D_{\mathrm{eff}}\Big]^T \in \mathbb{R}^6, \qquad \frac{\mathrm{d}\mathbf{S}}{\mathrm{d}t} = \mathcal{F}(\mathbf{S}, \boldsymbol{\theta})
+\tag{3.7}
+$$
+
+---
+
+## 4. Biological Validation & Real-Time Zone (RTZ) Tube
+
+### 4.1 Continuous Admissibility Tube Definition
+The functional domain preserving cytocompatibility and biological viability:
+$$
+\mathrm{RTZ}(t) = \left\{ \mathbf{S}(\cdot) \in C^0\big([0,T];\mathbb{R}^6\big) \;\middle|\; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),\; [\mathrm{H}^+](t) \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},\; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},\; \forall t \in (0,T] \right\}
+\tag{4.1}
+$$
+
+### 4.2 Tube Distance Metric
+$$
+d_{\mathrm{RTZ}}(\mathbf{S}) = \max_{t\in[0,T]}\big\lVert\mathbf{S}(t) - \Pi_{\mathrm{RTZ}}(\mathbf{S}(t))\big\rVert_2, \qquad \mathbf{S}\in\mathrm{RTZ} \iff d_{\mathrm{RTZ}}(\mathbf{S}) \le \delta^*
+\tag{4.2}
+$$
+
+### 4.3 Phase-Indexed Tube Boundaries
+$$
+C_i^{\min}(t) = \sum_k \Omega_k(t) C_{i,k}^{\min}, \qquad C_i^{\max}(t) = \sum_k \Omega_k(t) C_{i,k}^{\max}
+\tag{4.3}
+$$
+
+---
+
+## 5. Functional Data Analysis & Model Learning
+
+### 5.1 Functional PCA Eigenequation & Scores
+$$
+\int_0^T \Sigma(s,t)\,\psi_k(t)\,\mathrm{d}t = \lambda_k\,\psi_k(s)
+\tag{5.1}
+$$
+$$
+\xi_k = \int_0^T \big(\mathbf{S}(t) - \mu(t)\big)\,\psi_k(t)\,\mathrm{d}t, \qquad \mathbf{S}(t) \approx \mu(t) + \sum_{k=1}^K \xi_k\,\psi_k(t)
+\tag{5.2}
+$$
+
+### 5.2 Dynamic Time Warping (DTW) Cumulative Distance
+$$
+\mathcal{D}(i,j) = \min\Big\{\mathcal{D}(i-1,j),\, \mathcal{D}(i,j-1),\, \mathcal{D}(i-1,j-1)\Big\} + d(\mathbf{S}_i, \hat{\mathbf{S}}_j)
+\tag{5.3}
+$$
+
+### 5.3 Neural Ordinary Differential Equations (NODE)
+Forward rollout and adjoint sensitivity backpropagation:
+$$
+\frac{\mathrm{d}\mathbf{S}}{\mathrm{d}t} = F_{\boldsymbol{\theta}}(\mathbf{S}(t), t), \qquad \mathbf{S}(t_1) = \mathbf{S}(t_0) + \int_{t_0}^{t_1} F_{\boldsymbol{\theta}}\,\mathrm{d}t
+\tag{5.4}
+$$
+$$
+\frac{\mathrm{d}\mathbf{a}}{\mathrm{d}t} = -\mathbf{a}^T \frac{\partial F_{\boldsymbol{\theta}}}{\partial \mathbf{S}}, \qquad \frac{\mathrm{d}\mathcal{L}}{\mathrm{d}\boldsymbol{\theta}} = -\int_{t_1}^{t_0} \mathbf{a}^T \frac{\partial F_{\boldsymbol{\theta}}}{\partial \boldsymbol{\theta}}\,\mathrm{d}t
+\tag{5.5}
+$$
+
+### 5.4 Physics-Informed Neural Network (PINN) Loss Formulation
+$$
+\mathcal{L}(\boldsymbol{\theta}) = \lambda_D \mathcal{L}_{\mathrm{data}} + \lambda_P \mathcal{L}_{\mathrm{PDE}} + \lambda_B \mathcal{L}_{\mathrm{BC/IC}}
+\tag{5.6}
+$$
+$$
+\mathcal{L}_{\mathrm{PDE}} = \left\lVert \frac{\partial \hat{\mathbf{S}}}{\partial t} + \nabla\cdot(\mathbf{u}\hat{\mathbf{S}}) - \nabla\cdot\big(D_{\mathrm{eff}}(\mathbf{x},t)\nabla\hat{\mathbf{S}}\big) - \hat{\mathcal{R}} \right\rVert^2
+\tag{5.7}
+$$
+
+### 5.5 Uncertainty Quantification & Active Learning
+Hamiltonian Monte Carlo (HMC) posterior sampling with Upper Confidence Bound (UCB) selection:
+$$
+H(\boldsymbol{\theta},\mathbf{p}) = U(\boldsymbol{\theta}) + K(\mathbf{p}), \qquad U(\boldsymbol{\theta}) = -\log p(\mathcal{D}\mid\boldsymbol{\theta}) - \log\pi(\boldsymbol{\theta})
+\tag{5.8}
+$$
+$$
+\Pr\big(\mathbf{S}(t)\in \mathrm{RTZ}(t)\mid\mathcal{D}\big) = \int \mathbf{1}_{\mathrm{RTZ}}\big(\hat{\mathbf{S}}_{\boldsymbol{\theta}}(t)\big)\,p(\boldsymbol{\theta}\mid\mathcal{D})\,\mathrm{d}\boldsymbol{\theta}
+\tag{5.9}
+$$
+$$
+\mathrm{UCB}(\mathbf{x}) = \mu_{\mathrm{GP}}(\mathbf{x}) + \beta_t\,\sigma_{\mathrm{GP}}(\mathbf{x})
+\tag{5.10}
+$$
+
+---
+
+## 📌 Implementation Notes
+- **Renderer Compatibility**: Formatted strictly for GitHub's native MathJax/KaTeX backend.
+- **Traceability**: Equation tags match section indices (`§X.Y`) for explicit cross-referencing across source code comments and test suites.
