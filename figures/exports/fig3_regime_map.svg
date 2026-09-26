@@ -59,7 +59,7 @@ plt.rcParams.update({
     "xtick.major.width": 1.1,
     "ytick.major.width": 1.1,
     "mathtext.fontset": "dejavusans",
-    "svg.fonttype": "none",
+    "svg.fonttype": "path",  # Changed from "none" to "path" to fix SVG text rendering
 })
 
 fig, ax = plt.subplots(figsize=(7.2, 6.6), dpi=300)
@@ -164,7 +164,8 @@ fig.tight_layout()
 # ----------------------------------------------------------------------
 # EXPORT (vector + high-res raster)
 # ----------------------------------------------------------------------
-fig.savefig("/mnt/user-data/outputs/da_pe_regime_map.pdf", bbox_inches="tight")
-fig.savefig("/mnt/user-data/outputs/da_pe_regime_map.svg", bbox_inches="tight")
-fig.savefig("/mnt/user-data/outputs/da_pe_regime_map.png", bbox_inches="tight", dpi=600)
-print("Saved PDF, SVG, and 600-dpi PNG to /mnt/user-data/outputs/")
+# Changed export paths to avoid FileNotFoundError on machines without /mnt/user-data/
+fig.savefig("da_pe_regime_map.pdf", bbox_inches="tight")
+fig.savefig("da_pe_regime_map.svg", bbox_inches="tight")
+fig.savefig("da_pe_regime_map.png", bbox_inches="tight", dpi=600)
+print("Saved PDF, SVG, and 600-dpi PNG to the current directory.")
