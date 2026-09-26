@@ -23,14 +23,14 @@
 Exchange of network-modifying cations with hydronium ions at the solid-liquid interface:
 
 $$
-\equiv\mathrm{Si\text{--}O^-M^+_{(s)}} + \mathrm{H_3O^+_{(aq)}} \rightleftharpoons \equiv\mathrm{Si\text{--}OH_{(s)}} + \mathrm{M^+_{(aq)}} + \mathrm{H_2O}
+\equiv\mathrm{Si{-}O^-M^+_{(s)}} + \mathrm{H_3O^+_{(aq)}} \rightleftharpoons \equiv\mathrm{Si{-}OH_{(s)}} + \mathrm{M^+_{(aq)}} + \mathrm{H_2O}
 $$
 
 ### 1.2 Siloxane Hydrolysis Reaction
 Alkaline breakdown of the silica backbone network:
 
 $$
-\equiv\mathrm{Si\text{--}O\text{--}Si}\equiv \;+\; \mathrm{OH^-} \longrightarrow \equiv\mathrm{Si\text{--}OH} \;+\; \mathrm{^-O\text{--}Si}\equiv
+\equiv\mathrm{Si{-}O{-}Si}\equiv \;+\; \mathrm{OH^-} \longrightarrow \equiv\mathrm{Si{-}OH} \;+\; \mathrm{^-O{-}Si}\equiv
 $$
 
 ### 1.3 Arrhenius-Weighted Network Reactivity
@@ -51,7 +51,7 @@ $$
 Interfacial mass flux across a dynamic silica-rich gel barrier layer of thickness $\delta_g(\mathbf{x},t)$:
 
 $$
-J_i(\mathbf{x},t) = \frac{D_g}{\delta_g(\mathbf{x},t)}\Big(C_{i,s}(\mathbf{x},t) - C_{i,b}(\mathbf{x},t)\Big)
+J_i(\mathbf{x},t) = \frac{D_g}{\delta_g(\mathbf{x},t)}\left(C_{i,s}(\mathbf{x},t) - C_{i,b}(\mathbf{x},t)\right)
 $$
 
 ### 1.6 Hydroxycarbonate Apatite (HCA) Saturation Index
@@ -72,14 +72,14 @@ $$
 Coupled proton consumption and hydroxide-accelerated matrix degradation:
 
 $$
-\frac{\mathrm{d}[\mathrm{H}^+]}{\mathrm{d}t} = -\mathcal{A}_1 r_{\mathrm{ex}} + \mathcal{A}_2 k_{\mathrm{hydr}}[\mathrm{OH}^-]^m, \qquad k_{\mathrm{hydr}}\big([\mathrm{OH}^-]\big) = k_{\mathrm{hydr}}^0\Big(1 + \chi [\mathrm{OH}^-]^m\Big)
+\frac{\mathrm{d}[\mathrm{H}^+]}{\mathrm{d}t} = -\mathcal{A}_1 r_{\mathrm{ex}} + \mathcal{A}_2 k_{\mathrm{hydr}}[\mathrm{OH}^-]^m, \qquad k_{\mathrm{hydr}}([\mathrm{OH}^-]) = k_{\mathrm{hydr}}^0\left(1 + \chi [\mathrm{OH}^-]^m\right)
 $$
 
 ### 1.9 Surface Non-Bridging Oxygen (NBO/BO) Metric
 Spectroscopic structural ratio tracking active network dissolution:
 
 $$
-\left(\frac{\mathrm{NBO}}{\mathrm{BO}}\right)_{\!s}(t) = \frac{A_{\mathrm{NBO}}(t)}{A_{\mathrm{BO}}(t)} \propto \alpha\big(Q_{\mathrm{front}}^n(t)\big)
+\left(\frac{\mathrm{NBO}}{\mathrm{BO}}\right)_{\!s}(t) = \frac{A_{\mathrm{NBO}}(t)}{A_{\mathrm{BO}}(t)} \propto \alpha\left(Q_{\mathrm{front}}^n(t)\right)
 $$
 
 ---
@@ -104,7 +104,7 @@ $$
 Time-dependent transport properties as porosity changes under dissolution:
 
 $$
-D_{\mathrm{eff}}(\mathbf{x},t) = D_0\,\frac{\big[\varepsilon(\mathbf{x},t)\big]^{3/2}}{\big[\kappa(\mathbf{x},t)\big]^{2}}, \qquad \kappa(\mathbf{x},t) = \kappa_0\left(\frac{\varepsilon(\mathbf{x},0)}{\varepsilon(\mathbf{x},t)}\right)^{q}
+D_{\mathrm{eff}}(\mathbf{x},t) = D_0\,\frac{[\varepsilon(\mathbf{x},t)]^{3/2}}{[\kappa(\mathbf{x},t)]^2}, \qquad \kappa(\mathbf{x},t) = \kappa_0\left(\frac{\varepsilon(\mathbf{x},0)}{\varepsilon(\mathbf{x},t)}\right)^{q}
 $$
 
 ---
@@ -122,28 +122,28 @@ $$
 Instantaneous specific surface area for eroding cylindrical struts:
 
 $$
-\beta(\mathbf{x},t) = \frac{\mathrm{SA}}{V} = \frac{3\big(1-\varepsilon(\mathbf{x},t)\big)}{r_s(\mathbf{x},t)}
+\beta(\mathbf{x},t) = \frac{\mathrm{SA}}{V} = \frac{3(1-\varepsilon(\mathbf{x},t))}{r_s(\mathbf{x},t)}
 $$
 
 ### 3.3 Coupled Master Advection-Diffusion-Reaction Equation
 Governs the spatial-temporal ionic concentration field $C_i$:
 
 $$
-\frac{\partial C_i}{\partial t} + \underbrace{\nabla\cdot(\mathbf{u} C_i)}_{\text{Convection}} = \underbrace{\nabla\cdot\Big[D_{\mathrm{eff}}(\mathbf{x},t)\nabla C_i\Big]}_{\text{Diffusion}} + \underbrace{k_{\mathrm{diss},i}^{\circ}\,\alpha(Q^n,t)\,\beta(\mathbf{x},t)\,\phi(\mathrm{SI}_{\mathrm{HCA}})}_{\text{Dissolution Source}} - \underbrace{k_{\mathrm{precip},i}\,\gamma(\mathrm{SI}_{\mathrm{HCA}})}_{\text{Precipitation Sink}}
+\frac{\partial C_i}{\partial t} + \underbrace{\nabla\cdot(\mathbf{u} C_i)}_{\text{Convection}} = \underbrace{\nabla\cdot\left[D_{\mathrm{eff}}(\mathbf{x},t)\nabla C_i\right]}_{\text{Diffusion}} + \underbrace{k_{\mathrm{diss},i}^{\circ}\,\alpha(Q^n,t)\,\beta(\mathbf{x},t)\,\phi(\mathrm{SI}_{\mathrm{HCA}})}_{\text{Dissolution Source}} - \underbrace{k_{\mathrm{precip},i}\,\gamma(\mathrm{SI}_{\mathrm{HCA}})}_{\text{Precipitation Sink}}
 $$
 
 ### 3.4 Reaction-Diffusion Modifiers
 Non-linear switches governing crystallization and saturation dynamics:
 
 $$
-\phi(\mathrm{SI}_{\mathrm{HCA}}) = 1 - e^{-\mathrm{SI}_{\mathrm{HCA}}^2}, \qquad \gamma(\mathrm{SI}_{\mathrm{HCA}}) = \max\Big(0,\, 1 - e^{-(\mathrm{SI}_{\mathrm{HCA}} - \mathrm{SI}_{\mathrm{HCA}}^{\mathrm{crit}})}\Big)
+\phi(\mathrm{SI}_{\mathrm{HCA}}) = 1 - e^{-\mathrm{SI}_{\mathrm{HCA}}^2}, \qquad \gamma(\mathrm{SI}_{\mathrm{HCA}}) = \max\left(0,\, 1 - e^{-(\mathrm{SI}_{\mathrm{HCA}} - \mathrm{SI}_{\mathrm{HCA}}^{\mathrm{crit}})}\right)
 $$
 
 ### 3.5 Brinkman Porous Media Convection
 Coupled momentum balance in evolving porous architectures:
 
 $$
--\nabla p + \mu_{\mathrm{eff}}\nabla^2\mathbf{u} - \frac{\mu}{\kappa_m\big(\varepsilon(\mathbf{x},t)\big)}\mathbf{u} = \mathbf{0}, \qquad \nabla\cdot\mathbf{u} = 0
+-\nabla p + \mu_{\mathrm{eff}}\nabla^2\mathbf{u} - \frac{\mu}{\kappa_m(\varepsilon(\mathbf{x},t))}\mathbf{u} = \mathbf{0}, \qquad \nabla\cdot\mathbf{u} = 0
 $$
 
 ### 3.6 Dimensionless Transport Numbers
@@ -168,14 +168,14 @@ $$
 The functional domain preserving cytocompatibility and biological viability:
 
 $$
-\mathrm{RTZ}(t) = \left\{ \mathbf{S}(\cdot) \in C^0\big([0,T];\mathbb{R}^6\big) \;\middle|\; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),\; [\mathrm{H}^+](t) \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},\; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},\; \forall t \in (0,T] \right\}
+\mathrm{RTZ}(t) = \left\lbrace \mathbf{S}(\cdot) \in C^0([0,T];\mathbb{R}^6) \;\middle|\; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),\; [\mathrm{H}^+](t) \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},\; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},\; \forall t \in (0,T] \right\rbrace
 $$
 
 ### 4.2 Tube Distance Metric
 Maximum functional Euclidean distance to the admissibility projection:
 
 $$
-d_{\mathrm{RTZ}}(\mathbf{S}) = \max_{t\in[0,T]}\big\lVert\mathbf{S}(t) - \Pi_{\mathrm{RTZ}}(\mathbf{S}(t))\big\rVert_2, \qquad \mathbf{S}\in\mathrm{RTZ} \iff d_{\mathrm{RTZ}}(\mathbf{S}) \le \delta^*
+d_{\mathrm{RTZ}}(\mathbf{S}) = \max_{t\in[0,T]}\left\lVert\mathbf{S}(t) - \Pi_{\mathrm{RTZ}}(\mathbf{S}(t))\right\rVert_2, \qquad \mathbf{S}\in\mathrm{RTZ} \iff d_{\mathrm{RTZ}}(\mathbf{S}) \le \delta^*
 $$
 
 ### 4.3 Phase-Indexed Tube Boundaries
@@ -197,14 +197,14 @@ $$
 $$
 
 $$
-\xi_k = \int_0^T \big(\mathbf{S}(t) - \mu(t)\big)\,\psi_k(t)\,\mathrm{d}t, \qquad \mathbf{S}(t) \approx \mu(t) + \sum_{k=1}^K \xi_k\,\psi_k(t)
+\xi_k = \int_0^T \left(\mathbf{S}(t) - \mu(t)\right)\psi_k(t)\,\mathrm{d}t, \qquad \mathbf{S}(t) \approx \mu(t) + \sum_{k=1}^K \xi_k\,\psi_k(t)
 $$
 
 ### 5.2 Dynamic Time Warping (DTW) Cumulative Distance
 Alignment cost for non-linear temporal dynamics:
 
 $$
-\mathcal{D}(i,j) = \min\Big\{\mathcal{D}(i-1,j),\, \mathcal{D}(i,j-1),\, \mathcal{D}(i-1,j-1)\Big\} + d(\mathbf{S}_i, \hat{\mathbf{S}}_j)
+\mathcal{D}(i,j) = \min\left[ \mathcal{D}(i-1,j),\, \mathcal{D}(i,j-1),\, \mathcal{D}(i-1,j-1) \right] + d(\mathbf{S}_i, \hat{\mathbf{S}}_j)
 $$
 
 ### 5.3 Neural Ordinary Differential Equations (NODE)
@@ -226,7 +226,7 @@ $$
 $$
 
 $$
-\mathcal{L}_{\mathrm{PDE}} = \left\lVert \frac{\partial \hat{\mathbf{S}}}{\partial t} + \nabla\cdot(\mathbf{u}\hat{\mathbf{S}}) - \nabla\cdot\big(D_{\mathrm{eff}}(\mathbf{x},t)\nabla\hat{\mathbf{S}}\big) - \hat{\mathcal{R}} \right\rVert^2
+\mathcal{L}_{\mathrm{PDE}} = \left\lVert \frac{\partial \hat{\mathbf{S}}}{\partial t} + \nabla\cdot(\mathbf{u}\hat{\mathbf{S}}) - \nabla\cdot\left(D_{\mathrm{eff}}(\mathbf{x},t)\nabla\hat{\mathbf{S}}\right) - \hat{\mathcal{R}} \right\rVert^2
 $$
 
 ### 5.5 Uncertainty Quantification & Active Learning
@@ -237,7 +237,7 @@ H(\boldsymbol{\theta},\mathbf{p}) = U(\boldsymbol{\theta}) + K(\mathbf{p}), \qqu
 $$
 
 $$
-\Pr\big(\mathbf{S}(t)\in \mathrm{RTZ}(t)\mid\mathcal{D}\big) = \int \mathbf{1}_{\mathrm{RTZ}}\big(\hat{\mathbf{S}}_{\boldsymbol{\theta}}(t)\big)\,p(\boldsymbol{\theta}\mid\mathcal{D})\,\mathrm{d}\boldsymbol{\theta}
+\Pr\left(\mathbf{S}(t)\in \mathrm{RTZ}(t)\mid\mathcal{D}\right) = \int \mathbf{1}_{\mathrm{RTZ}}\left(\hat{\mathbf{S}}_{\boldsymbol{\theta}}(t)\right) p(\boldsymbol{\theta}\mid\mathcal{D})\,\mathrm{d}\boldsymbol{\theta}
 $$
 
 $$
@@ -247,5 +247,5 @@ $$
 ---
 
 ## 📌 Implementation Notes
-- **Renderer Compatibility**: Formatted strictly for GitHub's native MathJax/KaTeX backend without unsupported `\tag{}` flexbox environments.
-- **Traceability**: Section numbers (`§X.Y`) correspond directly to model functions and unit tests in the codebase.
+- **Renderer Compatibility**: Fully tested for GitHub's native KaTeX engine; uses Markdown-safe macro names (`\lbrace`, `\rbrace`, `\left[ ... \right]`) to prevent parser collisions.
+- **Traceability**: Section numbers (`§X.Y`) correspond directly to model functions and test cases in the codebase.
