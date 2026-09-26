@@ -169,3 +169,4 @@ fig.savefig("da_pe_regime_map.pdf", bbox_inches="tight")
 fig.savefig("da_pe_regime_map.svg", bbox_inches="tight")
 fig.savefig("da_pe_regime_map.png", bbox_inches="tight", dpi=600)
 print("Saved PDF, SVG, and 600-dpi PNG to the current directory.")
+plt.rcParams['svg.hashsalt'] = None # Resets metadata
