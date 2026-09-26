@@ -8,15 +8,16 @@ authors:
     orcid: "https://orcid.org/0000-0003-3162-4257"
 repository-code: "https://github.com/andualembelachew2/KineticAI-AWGC"
 abstract: >-
-  Open computational infrastructure for modeling chemistry-architecture-transport
-  trajectories in apatite-wollastonite glass-ceramics through moving-boundary
+  An open-source computational framework for modeling chemistry-architecture-transport
+  trajectories in apatite-wollastonite glass-ceramics via moving-boundary
   reaction-diffusion, regime analysis, and regenerative target-zone validation.
 keywords:
-  - apatite-wollastonite glass-ceramics
+  - glass-ceramics
   - bioactive materials
   - kinetic modeling
   - machine learning
   - materials informatics
+  - regenerative target-zone
 license: MIT
 identifiers:
   - type: doi
