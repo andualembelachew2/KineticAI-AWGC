@@ -1,76 +1,117 @@
+"""Fig. 3 - Damkohler-Peclet regime map (KineticAI-AWGC).
+
+Usage:  python scripts/fig3_regime_map.py --out figures/exports
+Outputs: fig3_regime_map.{svg,pdf,png}  (deterministic: no timestamps, fixed hash salt)
+
+To overlay a simulated trajectory (Da(t), Pe(t) from the moving-boundary solver):
+    build_figure(trajectories=[("700 C sample", pe_t, da_t)])
+"""
+import argparse
+from pathlib import Path
+
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import Rectangle, Patch
+import numpy as np
 from matplotlib.lines import Line2D
+from matplotlib.patches import Patch, Rectangle
+
+# ---- single source of truth for the design corridor (decades around Da = Pe = 1)
+CORRIDOR_HALF_WIDTH = 0.5          # 10**-0.5 .. 10**0.5  ->  Da, Pe ~ 0.3 - 3
+AXIS_LIM = 2.0                     # 10**-2 .. 10**2
+
+INK, GRID = "#1f2933", "#7b8794"
+TEAL, TEAL_FILL = "#0b6e69", "#2a9d8f"
+TINT_A, TINT_B = "#eef2f7", "#e3e9f1"     # neutral checkerboard: colour carries no "good/bad" meaning
 
 plt.rcParams.update({
-    "font.family": "DejaVu Sans",
-    "font.size": 10,
-    "axes.linewidth": 0.9,
-    "svg.fonttype": "none",      # use "path" only if the journal requires outlined text
+    "font.family": "DejaVu Sans", "mathtext.fontset": "dejavusans",
+    "svg.fonttype": "path",            # robust on GitHub (no font dependency)
+    "svg.hashsalt": "kineticai-fig3",  # stable ids -> clean git diffs
+    "pdf.fonttype": 42,
 })
 
-XMIN, XMAX = -2, 2
-YMIN, YMAX = -2, 2
-B = 0  # boundary: Pe = 1, Da = 1
+TICKS = [-2, -1, 0, 1, 2]
+TICK_LABELS = [r"$10^{-2}$", r"$10^{-1}$", "1", "10", r"$10^{2}$"]
 
-regions = [
-    # x, y, w, h, color, title, implication
-    (XMIN, YMIN, B-XMIN, B-YMIN, "#e8f1fb",
-     "R1 — reaction-limited", "slow plateau"),
-    (XMIN, B,    B-XMIN, YMAX-B, "#f3ecf9",
-     "R2 — diffusion-limited", "burst / passivation"),
-    (B,    YMIN, XMAX-B, B-YMIN, "#e9f6ee",
-     "R3 — convective washout", "washout regime"),
-    (B,    B,    XMAX-B, YMAX-B, "#fef3df",
-     "R4 — convection-amplified", "amplified transport"),
-]
 
-fig, ax = plt.subplots(figsize=(7.2, 6.4), constrained_layout=True)
+def build_figure(trajectories=None):
+    fig, ax = plt.subplots(figsize=(6.6, 6.5), facecolor="white")
+    L = AXIS_LIM
+    ax.set_xlim(-L, L)
+    ax.set_ylim(-L, L)
+    ax.set_aspect("equal")
 
-for x, y, w, h, color, title, note in regions:
-    ax.add_patch(Rectangle((x, y), w, h, facecolor=color,
-                           edgecolor="none", zorder=0))
-    cx, cy = x + w/2, y + h/2
-    ax.text(cx, cy + 0.18, title, ha="center", va="center",
-            fontsize=12, fontweight="bold", zorder=2)
-    ax.text(cx, cy - 0.22, note, ha="center", va="center",
-            fontsize=9, style="italic", color="#333333", zorder=2)
+    # quadrants (neutral checkerboard)
+    for (x0, y0, c) in [(-L, -L, TINT_A), (-L, 0, TINT_B), (0, -L, TINT_B), (0, 0, TINT_A)]:
+        ax.add_patch(Rectangle((x0, y0), L, L, fc=c, ec="none", zorder=0))
+    ax.axhline(0, color=GRID, lw=0.9, ls=(0, (4, 2)), zorder=1)
+    ax.axvline(0, color=GRID, lw=0.9, ls=(0, (4, 2)), zorder=1)
 
-# Boundaries Pe = 1 and Da = 1
-ax.axvline(B, color="0.45", lw=1.0, ls=(0, (4, 2)), zorder=1)
-ax.axhline(B, color="0.45", lw=1.0, ls=(0, (4, 2)), zorder=1)
+    # regime labels: outer corners, away from the crosshair and the corridor
+    pad = 0.12
+    # top quadrants: title above note
+    for x, ha, t, n in [(-L + pad, "left", "Diffusion-limited", "burst, then passivation"),
+                        (L - pad, "right", "Convection-amplified", "flow-accelerated dissolution")]:
+        ax.text(x, L - pad, t, ha=ha, va="top", fontsize=10, fontweight="bold", color=INK, zorder=6)
+        ax.text(x, L - pad - 0.24, n, ha=ha, va="top", fontsize=9, color=INK, zorder=6)
+    # bottom quadrants: title above note
+    for x, ha, t, n in [(-L + pad, "left", "Reaction-limited", "slow plateau"),
+                        (L - pad, "right", "Convective washout", "ions swept away")]:
+        ax.text(x, -L + pad + 0.24, t, ha=ha, va="bottom", fontsize=10, fontweight="bold", color=INK, zorder=6)
+        ax.text(x, -L + pad, n, ha=ha, va="bottom", fontsize=9, color=INK, zorder=6)
 
-# Design corridor and target locus: keep them visually distinct
-corridor = Rectangle((-0.38, -0.34), 0.76, 0.68,
-                     fill=False, edgecolor="#a91d33",
-                     lw=2.0, ls=(0, (6, 3)), zorder=3)
-ax.add_patch(corridor)
-ax.scatter([0.05], [0.02], marker="*", s=190, color="#a91d33",
-           edgecolor="white", linewidth=0.8, zorder=4, label="Target locus")
+    # design corridor + target locus (explained in legend, not floating text)
+    w = CORRIDOR_HALF_WIDTH
+    ax.add_patch(Rectangle((-w, -w), 2 * w, 2 * w, fc=TEAL_FILL, alpha=0.30, ec="none", zorder=2))
+    ax.add_patch(Rectangle((-w, -w), 2 * w, 2 * w, fc="none", ec=TEAL, lw=2.0, zorder=3))
+    ax.plot(0, 0, marker="*", ms=13, color=TEAL, mec="white", mew=0.8, zorder=5, ls="none")
 
-ax.annotate("Design corridor", xy=(0.38, 0.34), xytext=(0.72, 0.86),
-            fontsize=9, color="#a91d33",
-            arrowprops=dict(arrowstyle="-", color="#a91d33", lw=1.0))
+    handles = [
+        Patch(fc=TEAL_FILL, ec=TEAL, alpha=0.8, lw=1.5,
+              label=f"Design corridor  (Da, Pe = {10**-w:.1f}\u2013{10**w:.0f})"),
+        Line2D([], [], marker="*", ms=11, color=TEAL, ls="none", mec="white",
+               label="Target locus (Da = Pe = 1)"),
+    ]
 
-ax.set_xlim(XMIN, XMAX)
-ax.set_ylim(YMIN, YMAX)
-ax.set_box_aspect(1)
-ax.set_xticks(range(XMIN, XMAX + 1))
-ax.set_yticks(range(YMIN, YMAX + 1))
-ax.set_xlabel(r"$\log_{10}(\mathrm{Pe})$  [convection / diffusion]")
-ax.set_ylabel(r"$\log_{10}(\mathrm{Da})$  [reaction / diffusion]")
+    # optional simulated trajectories, drawn with a direction arrow
+    palette = ["#1f5aa8", "#b5541c", "#6b4fa8"]
+    for i, (name, pe, da) in enumerate(trajectories or []):
+        x, y, c = np.log10(pe), np.log10(da), palette[i % len(palette)]
+        ax.plot(x, y, color=c, lw=1.8, zorder=4)
+        ax.annotate("", xy=(x[-1], y[-1]), xytext=(x[-2], y[-2]),
+                    arrowprops=dict(arrowstyle="-|>", color=c, lw=1.8), zorder=4)
+        handles.append(Line2D([], [], color=c, lw=1.8, label=f"{name} (arrow = time)"))
 
-handles = [
-    Patch(facecolor="#e8f1fb", edgecolor="none", label="R1 reaction-limited"),
-    Patch(facecolor="#f3ecf9", edgecolor="none", label="R2 diffusion-limited"),
-    Patch(facecolor="#e9f6ee", edgecolor="none", label="R3 convective washout"),
-    Patch(facecolor="#fef3df", edgecolor="none", label="R4 convection-amplified"),
-    Line2D([0], [0], marker="*", color="none", markerfacecolor="#a91d33",
-           markeredgecolor="white", markersize=11, label="Target locus"),
-]
-ax.legend(handles=handles, loc="center left", bbox_to_anchor=(1.02, 0.5),
-          frameon=False, fontsize=9)
+    ax.set_xticks(TICKS, TICK_LABELS)
+    ax.set_yticks(TICKS, TICK_LABELS)
+    ax.tick_params(labelsize=9, length=3.5, color=GRID)
+    ax.set_xlabel(r"Pe = $UL/D_{\mathrm{eff}}$   (convection / diffusion)", fontsize=10.5, labelpad=6)
+    ax.set_ylabel(r"Da = $k^{\circ}_{\mathrm{diss}}\,\alpha\,\beta_0 L^{2}/(D_{\mathrm{eff}}C_0)$   (reaction / diffusion)",
+                  fontsize=10.5, labelpad=6)
+    for s in ax.spines.values():
+        s.set_color(GRID)
+        s.set_linewidth(0.8)
 
-fig.savefig("pe_da_regime_map.svg", bbox_inches="tight",
-            metadata={"Title": "Pe-Da regime map",
-                      "Creator": "Matplotlib"})
+    ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.12),
+              frameon=False, fontsize=9, ncol=1, handlelength=1.6)
+    return fig
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", default="figures/exports")
+    out = Path(ap.parse_args().out)
+    out.mkdir(parents=True, exist_ok=True)
+    fig = build_figure()
+    meta_svg = {"Date": None, "Title": "Damkohler-Peclet regime map",
+                "Description": "Log-log map of Da versus Pe with four transport/reaction regimes "
+                               "(reaction-limited, diffusion-limited, convective washout, "
+                               "convection-amplified) and a central design corridor at Da, Pe of about 1."}
+    fig.savefig(out / "fig3_regime_map.svg", bbox_inches="tight", metadata=meta_svg)
+    fig.savefig(out / "fig3_regime_map.pdf", bbox_inches="tight", metadata={"CreationDate": None})
+    fig.savefig(out / "fig3_regime_map.png", bbox_inches="tight", dpi=300)
+
+
+if __name__ == "__main__":
+    main()
