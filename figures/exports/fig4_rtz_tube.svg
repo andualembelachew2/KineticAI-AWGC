@@ -1,69 +1,101 @@
-\documentclass[tikz,border=5mm]{standalone}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
+<svg xmlns="http://www.w3.org/2000/svg" width="712.800859pt" height="410.400859pt"
+     viewBox="0 0 712.800859 410.400859" role="img" aria-labelledby="title desc">
+  <title id="title">Ion concentration or flux versus time</title>
+  <desc id="desc">Time-phase plot with phases I, II and III. Solid curves show admissible, overshoot and undershoot behavior. Dashed red curves show constraints. Replace placeholder tick labels and legend text with physical units and curve names.</desc>
 
-% Okabe-Ito palette (colour-blind safe); line styles differ too, so it also survives grayscale
-\definecolor{cbGreen}{HTML}{009E73}
-\definecolor{cbVermilion}{HTML}{D55E00}
-\definecolor{cbBlue}{HTML}{0072B2}
-\definecolor{ink}{HTML}{1F2933}
+  <style>
+    text { font-family: "DejaVu Sans", Arial, sans-serif; fill: #222; }
+    .axis { stroke: #222; stroke-width: 1.2; }
+    .boundary { stroke: #777; stroke-width: 1.2; stroke-dasharray: 6 4; }
+    .phase { font-size: 20px; font-weight: 700; }
+    .phase-sub { font-size: 16px; }
+    .curve-label { font-size: 17px; font-weight: 700; }
+    .tick { font-size: 14px; text-anchor: middle; }
+    .axis-label { font-size: 20px; text-anchor: middle; }
+    .legend { font-size: 14px; }
+  </style>
 
-% ---- single source of truth for the admissible window (normalised units) ----
-\pgfmathsetmacro{\lo}{0.3}
-\pgfmathsetmacro{\hi}{0.7}
+  <defs>
+    <clipPath id="plotClip">
+      <rect x="22.200859" y="7.2" width="683.4" height="381"/>
+    </clipPath>
+  </defs>
 
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[
-    width=14cm, height=8.4cm,
-    xlabel={Time (days)},
-    ylabel={Normalised concentration, $c/c_{\mathrm{ref}}$},
-    xmin=0, xmax=14, ymin=0, ymax=1.16,      % top strip (1.0--1.16) is reserved for phase labels
-    xtick={0,2,7,14},
-    ytick={0,0.3,0.7,1},                     % ticks sit on the window edges
-    axis lines=left, tick align=outside,
-    label style={font=\small}, tick label style={font=\small},
-    legend columns=2,
-    legend cell align={left},
-    legend style={at={(0.5,-0.19)}, anchor=north, draw=none, font=\footnotesize,
-                  /tikz/every even column/.append style={column sep=0.6cm}},
-]
+  <!-- Phase bands: make boundaries and labels consistent -->
+  <rect x="22.200859" y="7.2" width="126.280435" height="381" fill="#fbe5e7" opacity="0.8"/>
+  <rect x="148.481294" y="7.2" width="200.563044" height="381" fill="#e8f7ef" opacity="0.8"/>
+  <rect x="349.044338" y="7.2" width="334.271739" height="381" fill="#e8f0fb" opacity="0.8"/>
 
-% 1. Admissible window (drawn first = behind everything) + its legend swatch
-\fill[gray!18] (axis cs:0,\lo) rectangle (axis cs:14,\hi);
-\addlegendimage{area legend, fill=gray!18, draw=none}
-\addlegendentry{Admissible window (0.3--0.7)}
+  <!-- Axes -->
+  <line class="axis" x1="22.200859" y1="388.2" x2="705.600859" y2="388.2"/>
+  <line class="axis" x1="22.200859" y1="7.2" x2="22.200859" y2="388.2"/>
 
-% 2. Phase dividers and labels, all inside the reserved top strip
-\draw[gray!70, semithick, dashed] (axis cs:2,0) -- (axis cs:2,1.16);
-\draw[gray!70, semithick, dashed] (axis cs:7,0) -- (axis cs:7,1.16);
-\node[align=center, font=\footnotesize, text=ink] at (axis cs:1,1.08)    {\textbf{Phase I}\\[-1pt]\scriptsize 0--2\,d};
-\node[align=center, font=\footnotesize, text=ink] at (axis cs:4.5,1.08)  {\textbf{Phase II}\\[-1pt]\scriptsize 2--7\,d};
-\node[align=center, font=\footnotesize, text=ink] at (axis cs:10.5,1.08) {\textbf{Phase III}\\[-1pt]\scriptsize 7--14\,d};
+  <!-- Add real x ticks and y ticks; do not leave the axis unscaled -->
+  <g id="x-ticks">
+    <!-- example: 0, 2, 7, 14 days; replace with your true mapping -->
+    <text class="tick" x="22.200859" y="408">0</text>
+    <text class="tick" x="148.481294" y="408">2</text>
+    <text class="tick" x="349.044338" y="408">7</text>
+    <text class="tick" x="683.316077" y="408">14</text>
+  </g>
+  <g id="y-ticks">
+    <!-- Replace with actual values and units; if normalized use 0 to 1 -->
+    <text class="tick" x="14" y="392" text-anchor="end">0</text>
+    <text class="tick" x="14" y="297" text-anchor="end">25</text>
+    <text class="tick" x="14" y="201" text-anchor="end">50</text>
+    <text class="tick" x="14" y="106" text-anchor="end">75</text>
+    <text class="tick" x="14" y="12"  text-anchor="end">100</text>
+  </g>
 
-% 3. Schematic trajectories (functions: smooth, no spline ringing) -- REPLACE with solver output
-% Target: stays inside the window
-\addplot[cbGreen, line width=1.8pt, domain=0:14, samples=120]
-    {0.42 + 0.16*exp(-(x-3)^2/6)};
-\addlegendentry{Target trajectory (stays in window)}
+  <text class="axis-label" x="363.900859" y="399">Time (days)</text>
+  <text class="axis-label" x="15" y="197.7" transform="rotate(-90 15 197.7)">
+    Ion concentration or flux (units)
+  </text>
 
-% Overshoot: fast burst, transient exit above the window, then settles
-\addplot[cbVermilion, dashed, line width=1.5pt, domain=0:14, samples=200]
-    {0.15 + 0.72/(1+exp(-(x-2.2)/0.22)) * (0.62 + 0.38*exp(-(x-2.2)/2.0))};
-\addlegendentry{Burst (overshoot)}
+  <!-- Phase boundaries: choose one convention, e.g. 0–2 d, 2–7 d, &gt;7 d -->
+  <line class="boundary" x1="148.481294" y1="7.2" x2="148.481294" y2="388.2"/>
+  <line class="boundary" x1="349.044338" y1="7.2" x2="349.044338" y2="388.2"/>
 
-% Undershoot: sustained release that decays below the window
-\addplot[cbBlue, dashdotted, line width=1.5pt, domain=0:14, samples=120]
-    {0.12 + 0.33*exp(-x/11.5)};
-\addlegendentry{Depleting (undershoot)}
+  <text class="phase" x="64" y="43">Phase I</text>
+  <text class="phase-sub" x="65" y="62">0–2 d</text>
 
-% 4. Annotations: point at the exact exit, colour matched to the curve, clear of other text
-\node[anchor=west, font=\footnotesize\bfseries, text=cbVermilion!85!black] (ov) at (axis cs:4.3,0.93) {Overshoot};
-\draw[->, cbVermilion!85!black, semithick] (ov.west) -- (axis cs:3.1,0.775);
+  <text class="phase" x="226" y="43">Phase II</text>
+  <text class="phase-sub" x="229" y="62">2–7 d</text>
 
-\node[anchor=north, font=\footnotesize\bfseries, text=cbBlue!85!black] (un) at (axis cs:10.8,0.15) {Undershoot};
-\draw[->, cbBlue!85!black, semithick] (un.north west) -- (axis cs:10,0.264);
+  <text class="phase" x="492" y="43">Phase III</text>
+  <text class="phase-sub" x="499" y="62">&gt;7 d</text>
 
-\end{axis}
-\end{tikzpicture}
-\end{document}
+  <!-- Curves: paste the original Matplotlib path d attributes here -->
+  <g clip-path="url(#plotClip)" fill="none" stroke-width="2">
+    <path id="constraint-a" stroke="#a91d33" stroke-width="2" stroke-dasharray="7.4 3.2"
+          d="M 22.200859 148.148997 L 683.316077 225.230767"/>
+    <path id="constraint-b" stroke="#a91d33" stroke-width="2" stroke-dasharray="7.4 3.2"
+          d="M 22.200859 315.941379 L 683.316077 334.177681"/>
+    <path id="admissible" stroke="#1d7a6d" stroke-width="2.8" stroke-linecap="square"
+          d="M 22.200859 237.113793 L 683.316077 296.86334"/>
+    <path id="overshoot" stroke="#6b4fa8" stroke-width="2.8" stroke-linecap="square"
+          d="M 22.200859 322.510328 L 683.316077 171.424138"/>
+    <path id="undershoot" stroke="#1f5aa8" stroke-width="2.8" stroke-linecap="square"
+          d="M 22.200859 355.355172 L 683.316077 345.501724"/>
+  </g>
+
+  <text class="curve-label" fill="#1d7a6d" x="394" y="178">admissible</text>
+  <text class="curve-label" fill="#6b4fa8" x="186" y="139">overshoot</text>
+  <text class="curve-label" fill="#1f5aa8" x="483" y="355">undershoot</text>
+
+  <!-- Legend: name every curve, including dashed constraints -->
+  <g id="legend" transform="translate(500,250)">
+    <rect x="0" y="0" width="190" height="128" fill="white" stroke="#bbb"/>
+    <line x1="14" y1="24" x2="48" y2="24" stroke="#1d7a6d" stroke-width="2.8"/>
+    <text class="legend" x="58" y="29">admissible</text>
+
+    <line x1="14" y1="52" x2="48" y2="52" stroke="#6b4fa8" stroke-width="2.8"/>
+    <text class="legend" x="58" y="57">overshoot</text>
+
+    <line x1="14" y1="80" x2="48" y2="80" stroke="#1f5aa8" stroke-width="2.8"/>
+    <text class="legend" x="58" y="85">undershoot</text>
+
+    <line x1="14" y1="108" x2="48" y2="108" stroke="#a91d33" stroke-width="2" stroke-dasharray="7 3"/>
+    <text class="legend" x="58" y="113">constraint</text>
+  </g>
+</svg>
