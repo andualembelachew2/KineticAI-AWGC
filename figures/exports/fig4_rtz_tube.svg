@@ -1,125 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
-  <title id="title">Ion Concentration Kinetics Model</title>
-  <desc id="desc">Kinetic regimes showing Target, Burst (Overshoot), and Depleting (Undershoot) trajectories relative to an admissible therapeutic window across Phases I, II, and III.</desc>
-
-  <!-- Solid white canvas background for GitHub Dark Mode compatibility -->
-  <rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="100%" height="100%">
+  <!-- Deep white background -->
+  <rect x="0" y="0" width="720" height="480" fill="#FFFFFF"/>
 
   <style>
-    text { font-family: "DejaVu Sans", Arial, sans-serif; fill: #1F2933; }
-    .axis { stroke: #1F2933; stroke-width: 1.2; }
-    .boundary { stroke: #616E7C; stroke-width: 1.2; stroke-dasharray: 6 4; }
-    .tick { font-size: 12px; text-anchor: middle; fill: #1F2933; }
-    .tick-y { font-size: 12px; text-anchor: end; fill: #1F2933; }
-    .axis-label { font-size: 14px; text-anchor: middle; font-weight: 500; fill: #1F2933; }
-    .phase-title { font-size: 13px; font-weight: bold; text-anchor: middle; fill: #1F2933; }
-    .phase-sub { font-size: 11px; text-anchor: middle; fill: #52606D; }
-    .legend-text { font-size: 11px; fill: #1F2933; }
-    .annotation { font-size: 12px; font-weight: bold; }
+    .axis { stroke: #1F2933; stroke-width: 1.5; }
+    .grid { stroke: #B3B0B8; stroke-dasharray: 4,4; stroke-width: 1; }
+    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; fill: #1F2933; }
+    .label { font-size: 15px; text-anchor: middle; }
+    .tick-label { font-size: 13px; }
+    .phase-title { font-size: 14px; font-weight: bold; text-anchor: middle; }
+    .phase-sub { font-size: 11.5px; fill: #486581; text-anchor: middle; }
+    .legend-text { font-size: 12.5px; }
   </style>
 
-  <defs>
-    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 10 5 L 0 9 z" fill="#D55E00" />
-    </marker>
-    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0072B2" />
-    </marker>
-  </defs>
+  <!-- Plot Area Background & Shaded Admissible Window -->
+  <!-- Plot Box: X from 70 to 670 (width 600), Y from 40 to 360 (height 320) -->
+  <rect x="70" y="132.8" width="600" height="110.3" fill="#E4E7EB" opacity="0.8"/>
 
-  <!-- 1. Admissible Therapeutic Window (c = 0.3 to 0.7) -->
-  <rect x="80" y="181.67" width="620" height="113.33" fill="#E4E7EB"/>
-  <text x="690" y="243" font-size="11" font-weight="bold" fill="#7B8794" text-anchor="end">Admissible Window</text>
+  <!-- Phase Dividers (x=2 -> X=155.7, x=7 -> X=370) -->
+  <line class="grid" x1="155.7" y1="40" x2="155.7" y2="360"/>
+  <line class="grid" x1="370" y1="40" x2="370" y2="360"/>
 
-  <!-- 2. Phase Vertical Boundaries -->
-  <line class="boundary" x1="168.57" y1="50" x2="168.57" y2="380"/>
-  <line class="boundary" x1="390" y1="50" x2="390" y2="380"/>
-
-  <!-- Phase Header Labels -->
+  <!-- Phase Labels in Reserved Top Band -->
   <g id="phase-labels">
-    <!-- Phase I -->
-    <text class="phase-title" x="124.28" y="66">Phase I</text>
-    <text class="phase-sub" x="124.28" y="80">0–2 d</text>
+    <text class="text phase-title" x="112.8" y="55">Phase I</text>
+    <text class="text phase-sub" x="112.8" y="68">0–2 d</text>
 
-    <!-- Phase II -->
-    <text class="phase-title" x="279.28" y="66">Phase II</text>
-    <text class="phase-sub" x="279.28" y="80">2–7 d</text>
+    <text class="text phase-title" x="262.8" y="55">Phase II</text>
+    <text class="text phase-sub" x="262.8" y="68">2–7 d</text>
 
-    <!-- Phase III -->
-    <text class="phase-title" x="545" y="66">Phase III</text>
-    <text class="phase-sub" x="545" y="80">7–14 d</text>
+    <text class="text phase-title" x="520" y="55">Phase III</text>
+    <text class="text phase-sub" x="520" y="68">7–14 d</text>
   </g>
 
-  <!-- 3. Axes -->
-  <line class="axis" x1="80" y1="380" x2="700" y2="380"/>
-  <line class="axis" x1="80" y1="50" x2="80" y2="380"/>
+  <!-- Trajectories -->
+  <!-- 1. Target Trajectory (Green) -->
+  <path d="M 70,244 C 112.8,244 140,200 198.5,200 C 257,200 280,244 670,244" 
+        fill="none" stroke="#009E73" stroke-width="2.5"/>
 
-  <!-- X-Axis Ticks -->
-  <g id="x-ticks">
-    <line class="axis" x1="80" y1="380" x2="80" y2="386"/>
-    <text class="tick" x="80" y="402">0</text>
+  <!-- 2. Overshoot / Burst Trajectory (Vermilion / Dashed) -->
+  <path d="M 70,318 C 120,318 140,318 155.7,300 C 170,200 185,80 203,80 C 230,80 270,220 370,230 C 470,240 570,280 670,285" 
+        fill="none" stroke="#D55E00" stroke-width="2" stroke-dasharray="6,4"/>
 
-    <line class="axis" x1="168.57" y1="380" x2="168.57" y2="386"/>
-    <text class="tick" x="168.57" y="402">2</text>
+  <!-- 3. Undershoot / Depleting Trajectory (Blue / Dash-Dot) -->
+  <path d="M 70,326 C 200,328 370,332 520,340 C 580,343 630,347 670,348" 
+        fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="8,4,2,4"/>
 
-    <line class="axis" x1="390" y1="380" x2="390" y2="386"/>
-    <text class="tick" x="390" y="402">7</text>
+  <!-- Axes & Ticks -->
+  <line class="axis" x1="70" y1="360" x2="670" y2="360"/> <!-- X axis -->
+  <line class="axis" x1="70" y1="40" x2="70" y2="360"/>   <!-- Y axis -->
 
-    <line class="axis" x1="700" y1="380" x2="700" y2="386"/>
-    <text class="tick" x="700" y="402">14</text>
+  <!-- X Ticks -->
+  <g class="text tick-label" text-anchor="middle">
+    <line class="axis" x1="70" y1="360" x2="70" y2="365"/>
+    <text x="70" y="380">0</text>
+
+    <line class="axis" x1="155.7" y1="360" x2="155.7" y2="365"/>
+    <text x="155.7" y="380">2</text>
+
+    <line class="axis" x1="370" y1="360" x2="370" y2="365"/>
+    <text x="370" y="380">7</text>
+
+    <line class="axis" x1="670" y1="360" x2="670" y2="365"/>
+    <text x="670" y="380">14</text>
   </g>
 
-  <!-- Y-Axis Ticks -->
-  <g id="y-ticks">
-    <line class="axis" x1="74" y1="380" x2="80" y2="380"/>
-    <text class="tick-y" x="68" y="384">0</text>
+  <!-- Y Ticks -->
+  <g class="text tick-label" text-anchor="end">
+    <line class="axis" x1="65" y1="360" x2="70" y2="360"/>
+    <text x="60" y="364">0</text>
 
-    <line class="axis" x1="74" y1="295" x2="80" y2="295"/>
-    <text class="tick-y" x="68" y="299">0.3</text>
+    <line class="axis" x1="65" y1="243.1" x2="70" y2="243.1"/>
+    <text x="60" y="247">0.3</text>
 
-    <line class="axis" x1="74" y1="181.67" x2="80" y2="181.67"/>
-    <text class="tick-y" x="68" y="185">0.7</text>
+    <line class="axis" x1="65" y1="132.8" x2="70" y2="132.8"/>
+    <text x="60" y="137">0.7</text>
 
-    <line class="axis" x1="74" y1="96.67" x2="80" y2="96.67"/>
-    <text class="tick-y" x="68" y="100">1.0</text>
+    <line class="axis" x1="65" y1="50" x2="70" y2="50"/>
+    <text x="60" y="54">1.0</text>
   </g>
 
   <!-- Axis Titles -->
-  <text class="axis-label" x="390" y="432">Time (days)</text>
-  <text class="axis-label" x="25" y="215" transform="rotate(-90 25 215)">Normalised concentration, c/c<tspan font-size="10" dy="3">ref</tspan></text>
+  <text class="text label" x="370" y="412">Time (days)</text>
+  <text class="text label" x="20" y="200" transform="rotate(-90, 20, 200)">Normalised concentration, c/c<tspan font-size="10" dy="3">ref</tspan></text>
 
-  <!-- 4. Trajectories -->
-  <!-- Target Trajectory (cbGreen #009E73) -->
-  <path fill="none" stroke="#009E73" stroke-width="3" 
-        d="M 80 261 C 120 261, 150 215, 213 215 C 280 215, 340 261, 700 261"/>
+  <!-- Annotations & Arrows -->
+  <g>
+    <!-- Overshoot Annotation -->
+    <text x="260" y="105" font-size="13" font-weight="bold" fill="#D55E00" class="text">Overshoot</text>
+    <path d="M 255,102 L 208,102" fill="none" stroke="#D55E00" stroke-width="1.2" marker-end="url(#arrow-red)"/>
 
-  <!-- Overshoot Trajectory (cbVermilion #D55E00 - Dashed) -->
-  <path fill="none" stroke="#D55E00" stroke-width="2.5" stroke-dasharray="7 4"
-        d="M 80 338 C 150 338, 175 110, 220 140 C 260 165, 320 238, 700 280"/>
+    <!-- Undershoot Annotation -->
+    <text x="530" y="320" font-size="13" font-weight="bold" fill="#0072B2" class="text" text-anchor="middle">Undershoot</text>
+    <path d="M 500,323 L 480,334" fill="none" stroke="#0072B2" stroke-width="1.2" marker-end="url(#arrow-blue)"/>
+  </g>
 
-  <!-- Undershoot Trajectory (cbBlue #0072B2 - Dash-dotted) -->
-  <path fill="none" stroke="#0072B2" stroke-width="2.5" stroke-dasharray="8 3 2 3"
-        d="M 80 348 C 130 350, 160 355, 210 360 C 280 365, 450 368, 700 368"/>
+  <!-- Markers for Arrows -->
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D55E00"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0072B2"/>
+    </marker>
+  </defs>
 
-  <!-- 5. Targeted Point Annotations -->
-  <text class="annotation" x="245" y="115" fill="#D55E00">Overshoot</text>
-  <path fill="none" stroke="#D55E00" stroke-width="1.2" marker-end="url(#arrow-red)" d="M 240 115 L 205 130"/>
+  <!-- Legend (Centered at Bottom) -->
+  <g id="legend" transform="translate(70, 435)">
+    <!-- Swatch 1: Admissible window -->
+    <rect x="0" y="0" width="16" height="12" fill="#E4E7EB"/>
+    <text class="text legend-text" x="22" y="10">Admissible window (0.3–0.7)</text>
 
-  <text class="annotation" x="520" y="335" fill="#0072B2" text-anchor="middle">Undershoot</text>
-  <path fill="none" stroke="#0072B2" stroke-width="1.2" marker-end="url(#arrow-blue)" d="M 480 335 L 440 362"/>
+    <!-- Swatch 2: Target -->
+    <line x1="220" y1="6" x2="240" y2="6" stroke="#009E73" stroke-width="2.5"/>
+    <text class="text legend-text" x="246" y="10">Target trajectory</text>
 
-  <!-- 6. Legend Area -->
-  <g id="legend" transform="translate(100, 458)">
-    <rect x="0" y="0" width="18" height="12" fill="#E4E7EB"/>
-    <text class="legend-text" x="24" y="10">Admissible window (0.3–0.7)</text>
+    <!-- Swatch 3: Burst -->
+    <line x1="0" y1="22" x2="20" y2="22" stroke="#D55E00" stroke-width="2" stroke-dasharray="5,3"/>
+    <text class="text legend-text" x="22" y="26">Burst (overshoot)</text>
 
-    <line x1="0" y1="26" x2="18" y2="26" stroke="#D55E00" stroke-width="2.5" stroke-dasharray="5 3"/>
-    <text class="legend-text" x="24" y="30">Burst (overshoot)</text>
-
-    <line x1="280" y1="6" x2="298" y2="6" stroke="#009E73" stroke-width="3"/>
-    <text class="legend-text" x="304" y="10">Target trajectory (stays in window)</text>
-
-    <line x1="280" y1="26" x2="298" y2="26" stroke="#0072B2" stroke-width="2.5" stroke-dasharray="6 2 2 2"/>
-    <text class="legend-text" x="304" y="30">Depleting (undershoot)</text>
+    <!-- Swatch 4: Depleting -->
+    <line x1="220" y1="22" x2="240" y2="22" stroke="#0072B2" stroke-width="2" stroke-dasharray="6,3,1,3"/>
+    <text class="text legend-text" x="246" y="26">Depleting (undershoot)</text>
   </g>
 </svg>
