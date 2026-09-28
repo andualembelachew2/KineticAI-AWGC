@@ -7,6 +7,7 @@
     .axis { stroke: #222; stroke-width: 1.2; }
     .boundary { stroke: #777; stroke-width: 1.1; stroke-dasharray: 6 4; }
     .region-title { font-size: 18px; font-weight: 700; text-anchor: middle; }
+    .region-subtitle { font-size: 14px; font-weight: 700; text-anchor: middle; fill: #222; }
     .region-note { font-size: 13px; font-style: italic; text-anchor: middle; fill: #444; }
     .tick { font-size: 13px; text-anchor: middle; }
     .axis-label { font-size: 16px; text-anchor: middle; }
@@ -49,17 +50,25 @@
 
   <!-- region labels -->
   <g id="region-labels">
-    <text class="region-title" x="170" y="322">R1 — reaction-limited</text>
-    <text class="region-note" x="170" y="346">slow plateau</text>
+    <!-- R1 -->
+    <text class="region-title" x="170" y="300">R1</text>
+    <text class="region-subtitle" x="170" y="320">reaction-limited</text>
+    <text class="region-note" x="170" y="340">slow plateau</text>
 
-    <text class="region-title" x="170" y="142">R2 — diffusion-limited</text>
-    <text class="region-note" x="170" y="166">burst / passivation</text>
+    <!-- R2 -->
+    <text class="region-title" x="170" y="120">R2</text>
+    <text class="region-subtitle" x="170" y="140">diffusion-limited</text>
+    <text class="region-note" x="170" y="160">burst / passivation</text>
 
-    <text class="region-title" x="350" y="322">R3 — convective washout</text>
-    <text class="region-note" x="350" y="346">washout regime</text>
+    <!-- R3 -->
+    <text class="region-title" x="350" y="300">R3</text>
+    <text class="region-subtitle" x="350" y="320">convective washout</text>
+    <text class="region-note" x="350" y="340">washout regime</text>
 
-    <text class="region-title" x="350" y="142">R4 — convection-amplified</text>
-    <text class="region-note" x="350" y="166">amplified transport</text>
+    <!-- R4 -->
+    <text class="region-title" x="350" y="120">R4</text>
+    <text class="region-subtitle" x="350" y="140">convection-amplified</text>
+    <text class="region-note" x="350" y="160">amplified transport</text>
   </g>
 
   <!-- design corridor and target -->
@@ -67,8 +76,8 @@
         stroke="#a91d33" stroke-width="2.5" stroke-dasharray="8 4"/>
   <path id="target-locus" class="red" stroke="white" stroke-width="1"
         d="M260 224 l6.2 12.6 13.9 2 -10 9.8 2.4 13.8 -12.5 -6.6 -12.5 6.6 2.4 -13.8 -10 -9.8 13.9 -2 z"/>
-  <line x1="300" y1="208" x2="405" y2="120" stroke="#a91d33" stroke-width="1.2"/>
-  <text class="red" x="410" y="116" font-size="14" font-weight="700">Design corridor</text>
+  <line x1="280" y1="200" x2="350" y2="95" stroke="#a91d33" stroke-width="1.2"/>
+  <text class="red" x="350" y="88" font-size="14" font-weight="700" text-anchor="middle">Design corridor</text>
 
   <!-- legend -->
   <g id="legend" transform="translate(470,80)">
