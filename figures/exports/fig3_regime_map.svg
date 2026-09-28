@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc"
+     preserveAspectRatio="xMidYMid meet" style="background:#FFFFFF; color-scheme:light" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkNTdjMDY2NC03OTI2LTRhZWEtOGYyYi02ODY5MTYyYTJiMjUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIHQCW4Ol0oTG0uLky7JnLwAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4Njc3ZjEyZi0wYTY4LTQ0NDItODE0Zi0yYjE4ZDdjNzg1N2VscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoY4HsUaEIFhnls6seMhG2FQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg88CERwYeJs2BzYAKv7+qCQjkn2cdeCroJ8U2hyYlOs2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaBOkBIOyMuZU2GIMm/s9rgIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIDExdbJFa9pqKaTkQJP5oxNJCLMhIVTYmLBKW8NlJVlSZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmQ1N2MwNjY0LTc5MjYtNGFlYS04ZjJiLTY4NjkxNjJhMmIyNS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmI0NzE1ZGNiLTRkODktNDIyNS1hNjFhLTdjMTg3MjBkYThiM3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDzwIRHBh4mzYHNgAq/v6oJCOSfZx14KugnxTaHJiU6zaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggfu8CmD9w1RQe8ZEEnd9kRD5rmPE90JVyW2AfK+XV52OiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg8wGJNpgIPY7ATkIRpmBkvFvfv6ZA5voATEyqSrL453t0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQA43rdbG1uhj4furIA0sVwedJjcnJb7C9/1NQtuioXJFin3xJglyS4Z5OnXzO1pL5jKYBulhMB/bczYju5mEGcw=</c2pa:manifest></metadata>
   <title id="title">Pe-Da regime map</title>
-  <desc id="desc">Regime map with log10 Pe on the horizontal axis and log10 Da on the vertical axis. Regimes are named R1 to R4 by increasing Pe and Da. Dashed lines mark Pe equals 1 and Da equals 1. A red dashed rectangle is the design corridor and a red star is the target locus.</desc>
+  <desc id="desc">Regime map with log10 Pe on the horizontal axis and log10 Da on the vertical axis. Regimes are named R1 to R4 by increasing Pe and Da. Dashed lines mark Pe equals 1 and Da equals 1. A red dashed square is the design corridor (Da and Pe between about 0.3 and 3) and a red star at Pe equals Da equals 1 is the target locus.</desc>
 
   <style>
     text { font-family: "DejaVu Sans", Arial, sans-serif; fill: #222; }
     .axis { stroke: #222; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9aa5b1; stroke-width: 1; }
     .boundary { stroke: #777; stroke-width: 1.1; stroke-dasharray: 6 4; }
     .region-title { font-size: 18px; font-weight: 700; text-anchor: middle; }
     .region-subtitle { font-size: 14px; font-weight: 700; text-anchor: middle; fill: #222; }
@@ -15,11 +17,15 @@
     .legend { font-size: 13px; }
   </style>
 
-  <!-- plot background: x=80..440, y=60..420; data x/y = [-2,2] -->
+  <!-- pure white canvas: covers the whole figure so no dark page/theme colour shows through -->
+  <rect id="canvas" x="0" y="0" width="760" height="520" fill="#FFFFFF"/>
+
+  <!-- plot background: x=80..440, y=60..420; data x/y = [-2,2], 90 px per decade -->
   <rect id="r1-low-pe-low-da" x="80" y="240" width="180" height="180" fill="#e8f1fb"/>
   <rect id="r2-low-pe-high-da" x="80" y="60" width="180" height="180" fill="#f3ecf9"/>
   <rect id="r3-high-pe-low-da" x="260" y="240" width="180" height="180" fill="#e9f6ee"/>
   <rect id="r4-high-pe-high-da" x="260" y="60" width="180" height="180" fill="#fef3df"/>
+  <rect id="plot-frame" class="frame" x="80" y="60" width="360" height="360"/>
 
   <!-- axes -->
   <line class="axis" x1="80" y1="420" x2="440" y2="420"/>
@@ -29,7 +35,21 @@
   <line id="pe-equals-1" class="boundary" x1="260" y1="60" x2="260" y2="420"/>
   <line id="da-equals-1" class="boundary" x1="80" y1="240" x2="440" y2="240"/>
 
-  <!-- ticks: data -2,-1,0,1,2 -->
+  <!-- tick marks + labels: data -2,-1,0,1,2 -->
+  <g id="x-tick-marks">
+    <line class="axis" x1="80" y1="420" x2="80" y2="425"/>
+    <line class="axis" x1="170" y1="420" x2="170" y2="425"/>
+    <line class="axis" x1="260" y1="420" x2="260" y2="425"/>
+    <line class="axis" x1="350" y1="420" x2="350" y2="425"/>
+    <line class="axis" x1="440" y1="420" x2="440" y2="425"/>
+  </g>
+  <g id="y-tick-marks">
+    <line class="axis" x1="75" y1="420" x2="80" y2="420"/>
+    <line class="axis" x1="75" y1="330" x2="80" y2="330"/>
+    <line class="axis" x1="75" y1="240" x2="80" y2="240"/>
+    <line class="axis" x1="75" y1="150" x2="80" y2="150"/>
+    <line class="axis" x1="75" y1="60" x2="80" y2="60"/>
+  </g>
   <g id="x-ticks">
     <text class="tick" x="80" y="445">−2</text>
     <text class="tick" x="170" y="445">−1</text>
@@ -38,50 +58,50 @@
     <text class="tick" x="440" y="445">2</text>
   </g>
   <g id="y-ticks">
-    <text class="tick" x="60" y="425" text-anchor="end">−2</text>
-    <text class="tick" x="60" y="335" text-anchor="end">−1</text>
-    <text class="tick" x="60" y="245" text-anchor="end">0</text>
-    <text class="tick" x="60" y="155" text-anchor="end">1</text>
-    <text class="tick" x="60" y="65" text-anchor="end">2</text>
+    <text class="tick" x="66" y="425" text-anchor="end">−2</text>
+    <text class="tick" x="66" y="335" text-anchor="end">−1</text>
+    <text class="tick" x="66" y="245" text-anchor="end">0</text>
+    <text class="tick" x="66" y="155" text-anchor="end">1</text>
+    <text class="tick" x="66" y="65" text-anchor="end">2</text>
   </g>
 
   <text class="axis-label" x="260" y="485">log₁₀(Pe) — convection / diffusion</text>
-  <text class="axis-label" x="28" y="240" transform="rotate(-90 28 240)">log₁₀(Da) — reaction / diffusion</text>
+  <text class="axis-label" x="26" y="240" transform="rotate(-90 26 240)">log₁₀(Da) — reaction / diffusion</text>
 
-  <!-- region labels -->
+  <!-- region labels: moved to the outer edge of each quadrant, clear of the corridor -->
   <g id="region-labels">
     <!-- R1 -->
-    <text class="region-title" x="170" y="300">R1</text>
-    <text class="region-subtitle" x="170" y="320">reaction-limited</text>
-    <text class="region-note" x="170" y="340">slow plateau</text>
+    <text class="region-title" x="170" y="356">R1</text>
+    <text class="region-subtitle" x="170" y="376">reaction-limited</text>
+    <text class="region-note" x="170" y="396">slow plateau</text>
 
     <!-- R2 -->
-    <text class="region-title" x="170" y="120">R2</text>
-    <text class="region-subtitle" x="170" y="140">diffusion-limited</text>
-    <text class="region-note" x="170" y="160">burst / passivation</text>
+    <text class="region-title" x="170" y="96">R2</text>
+    <text class="region-subtitle" x="170" y="116">diffusion-limited</text>
+    <text class="region-note" x="170" y="136">burst / passivation</text>
 
     <!-- R3 -->
-    <text class="region-title" x="350" y="300">R3</text>
-    <text class="region-subtitle" x="350" y="320">convective washout</text>
-    <text class="region-note" x="350" y="340">washout regime</text>
+    <text class="region-title" x="350" y="356">R3</text>
+    <text class="region-subtitle" x="350" y="376">convective washout</text>
+    <text class="region-note" x="350" y="396">washout regime</text>
 
     <!-- R4 -->
-    <text class="region-title" x="350" y="120">R4</text>
-    <text class="region-subtitle" x="350" y="140">convection-amplified</text>
-    <text class="region-note" x="350" y="160">amplified transport</text>
+    <text class="region-title" x="350" y="96">R4</text>
+    <text class="region-subtitle" x="350" y="116">convection-amplified</text>
+    <text class="region-note" x="350" y="136">amplified transport</text>
   </g>
 
-  <!-- design corridor and target -->
-  <rect id="design-corridor" x="220" y="200" width="80" height="80" fill="none"
+  <!-- design corridor: +/-0.5 decade around Pe = Da = 1 (45 px); target star centred exactly on (260,240) -->
+  <rect id="design-corridor" x="215" y="195" width="90" height="90" fill="none"
         stroke="#a91d33" stroke-width="2.5" stroke-dasharray="8 4"/>
-  <path id="target-locus" class="red" stroke="white" stroke-width="1"
+  <path id="target-locus" class="red" stroke="white" stroke-width="1" transform="translate(0,-5)"
         d="M260 224 l6.2 12.6 13.9 2 -10 9.8 2.4 13.8 -12.5 -6.6 -12.5 6.6 2.4 -13.8 -10 -9.8 13.9 -2 z"/>
-  <line x1="280" y1="200" x2="350" y2="95" stroke="#a91d33" stroke-width="1.2"/>
-  <text class="red" x="350" y="88" font-size="14" font-weight="700" text-anchor="middle">Design corridor</text>
+  <!-- direct label beside the box (no leader line crossing other text) -->
+  <text class="red" x="313" y="190" font-size="14" font-weight="700" text-anchor="start">Design corridor</text>
 
   <!-- legend -->
   <g id="legend" transform="translate(470,80)">
-    <rect x="0" y="0" width="250" height="190" fill="white" stroke="#bbb"/>
+    <rect x="0" y="0" width="270" height="228" fill="white" stroke="#bbb"/>
     <text x="14" y="26" font-weight="700" font-size="15">Legend</text>
 
     <rect x="14" y="44" width="18" height="18" fill="#e8f1fb" stroke="#999"/>
@@ -96,7 +116,11 @@
     <rect x="14" y="134" width="18" height="18" fill="#fef3df" stroke="#999"/>
     <text class="legend" x="42" y="148">R4 convection-amplified</text>
 
-    <rect x="14" y="160" width="18" height="14" fill="none" stroke="#a91d33" stroke-width="2" stroke-dasharray="6 3"/>
-    <text class="legend" x="42" y="172">target / corridor</text>
+    <rect x="14" y="164" width="18" height="14" fill="none" stroke="#a91d33" stroke-width="2" stroke-dasharray="6 3"/>
+    <text class="legend" x="42" y="176">Design corridor (Da, Pe ≈ 0.3–3)</text>
+
+    <path class="red" stroke="white" stroke-width="0.6" transform="translate(23,203) scale(0.5)"
+          d="M0 -21.1 l6.2 12.6 13.9 2 -10 9.8 2.4 13.8 -12.5 -6.6 -12.5 6.6 2.4 -13.8 -10 -9.8 13.9 -2 z"/>
+    <text class="legend" x="42" y="208">Target locus (Pe = Da = 1)</text>
   </g>
 </svg>
