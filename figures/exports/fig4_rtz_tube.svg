@@ -1,69 +1,123 @@
-\documentclass[tikz,border=5mm]{standalone}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="100%" height="100%">
+  <style>
+    .axis { stroke: #1F2933; stroke-width: 1.5; }
+    .grid { stroke: #B3B0B8; stroke-dasharray: 4,4; stroke-width: 1; }
+    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; fill: #1F2933; }
+    .label { font-size: 13px; text-anchor: middle; }
+    .tick-label { font-size: 11px; }
+    .phase-title { font-size: 12px; font-weight: bold; text-anchor: middle; }
+    .phase-sub { font-size: 10px; fill: #486581; text-anchor: middle; }
+    .legend-text { font-size: 11px; }
+  </style>
 
-% Okabe-Ito palette (colour-blind safe); line styles differ too, so it also survives grayscale
-\definecolor{cbGreen}{HTML}{009E73}
-\definecolor{cbVermilion}{HTML}{D55E00}
-\definecolor{cbBlue}{HTML}{0072B2}
-\definecolor{ink}{HTML}{1F2933}
+  <!-- Plot Area Background & Shaded Admissible Window -->
+  <!-- Plot Box: X from 70 to 670 (width 600), Y from 40 to 360 (height 320) -->
+  <rect x="70" y="132.8" width="600" height="110.3" fill="#E4E7EB" opacity="0.8"/>
 
-% ---- single source of truth for the admissible window (normalised units) ----
-\pgfmathsetmacro{\lo}{0.3}
-\pgfmathsetmacro{\hi}{0.7}
+  <!-- Phase Dividers (x=2 -> X=155.7, x=7 -> X=370) -->
+  <line class="grid" x1="155.7" y1="40" x2="155.7" y2="360"/>
+  <line class="grid" x1="370" y1="40" x2="370" y2="360"/>
 
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[
-    width=14cm, height=8.4cm,
-    xlabel={Time (days)},
-    ylabel={Normalised concentration, $c/c_{\mathrm{ref}}$},
-    xmin=0, xmax=14, ymin=0, ymax=1.16,      % top strip (1.0--1.16) is reserved for phase labels
-    xtick={0,2,7,14},
-    ytick={0,0.3,0.7,1},                     % ticks sit on the window edges
-    axis lines=left, tick align=outside,
-    label style={font=\small}, tick label style={font=\small},
-    legend columns=2,
-    legend cell align={left},
-    legend style={at={(0.5,-0.19)}, anchor=north, draw=none, font=\footnotesize,
-                  /tikz/every even column/.append style={column sep=0.6cm}},
-]
+  <!-- Phase Labels in Reserved Top Band -->
+  <g id="phase-labels">
+    <text class="text phase-title" x="112.8" y="55">Phase I</text>
+    <text class="text phase-sub" x="112.8" y="68">0–2 d</text>
+    
+    <text class="text phase-title" x="262.8" y="55">Phase II</text>
+    <text class="text phase-sub" x="262.8" y="68">2–7 d</text>
+    
+    <text class="text phase-title" x="520" y="55">Phase III</text>
+    <text class="text phase-sub" x="520" y="68">7–14 d</text>
+  </g>
 
-% 1. Admissible window (drawn first = behind everything) + its legend swatch
-\fill[gray!18] (axis cs:0,\lo) rectangle (axis cs:14,\hi);
-\addlegendimage{area legend, fill=gray!18, draw=none}
-\addlegendentry{Admissible window (0.3--0.7)}
+  <!-- Trajectories -->
+  <!-- 1. Target Trajectory (Green) -->
+  <path d="M 70,244 C 112.8,244 140,200 198.5,200 C 257,200 280,244 670,244" 
+        fill="none" stroke="#009E73" stroke-width="2.5"/>
 
-% 2. Phase dividers and labels, all inside the reserved top strip
-\draw[gray!70, semithick, dashed] (axis cs:2,0) -- (axis cs:2,1.16);
-\draw[gray!70, semithick, dashed] (axis cs:7,0) -- (axis cs:7,1.16);
-\node[align=center, font=\footnotesize, text=ink] at (axis cs:1,1.08)    {\textbf{Phase I}\\[-1pt]\scriptsize 0--2\,d};
-\node[align=center, font=\footnotesize, text=ink] at (axis cs:4.5,1.08)  {\textbf{Phase II}\\[-1pt]\scriptsize 2--7\,d};
-\node[align=center, font=\footnotesize, text=ink] at (axis cs:10.5,1.08) {\textbf{Phase III}\\[-1pt]\scriptsize 7--14\,d};
+  <!-- 2. Overshoot / Burst Trajectory (Vermilion / Dashed) -->
+  <path d="M 70,318 C 120,318 140,318 155.7,300 C 170,200 185,80 203,80 C 230,80 270,220 370,230 C 470,240 570,280 670,285" 
+        fill="none" stroke="#D55E00" stroke-width="2" stroke-dasharray="6,4"/>
 
-% 3. Schematic trajectories (functions: smooth, no spline ringing) -- REPLACE with solver output
-% Target: stays inside the window
-\addplot[cbGreen, line width=1.8pt, domain=0:14, samples=120]
-    {0.42 + 0.16*exp(-(x-3)^2/6)};
-\addlegendentry{Target trajectory (stays in window)}
+  <!-- 3. Undershoot / Depleting Trajectory (Blue / Dash-Dot) -->
+  <path d="M 70,326 C 200,328 370,332 520,340 C 580,343 630,347 670,348" 
+        fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="8,4,2,4"/>
 
-% Overshoot: fast burst, transient exit above the window, then settles
-\addplot[cbVermilion, dashed, line width=1.5pt, domain=0:14, samples=200]
-    {0.15 + 0.72/(1+exp(-(x-2.2)/0.22)) * (0.62 + 0.38*exp(-(x-2.2)/2.0))};
-\addlegendentry{Burst (overshoot)}
+  <!-- Axes & Ticks -->
+  <line class="axis" x1="70" y1="360" x2="670" y2="360"/> <!-- X axis -->
+  <line class="axis" x1="70" y1="40" x2="70" y2="360"/>   <!-- Y axis -->
 
-% Undershoot: sustained release that decays below the window
-\addplot[cbBlue, dashdotted, line width=1.5pt, domain=0:14, samples=120]
-    {0.12 + 0.33*exp(-x/11.5)};
-\addlegendentry{Depleting (undershoot)}
+  <!-- X Ticks -->
+  <g class="text tick-label" text-anchor="middle">
+    <line class="axis" x1="70" y1="360" x2="70" y2="365"/>
+    <text x="70" y="380">0</text>
+    
+    <line class="axis" x1="155.7" y1="360" x2="155.7" y2="365"/>
+    <text x="155.7" y="380">2</text>
+    
+    <line class="axis" x1="370" y1="360" x2="370" y2="365"/>
+    <text x="370" y="380">7</text>
+    
+    <line class="axis" x1="670" y1="360" x2="670" y2="365"/>
+    <text x="670" y="380">14</text>
+  </g>
 
-% 4. Annotations: point at the exact exit, colour matched to the curve, clear of other text
-\node[anchor=west, font=\footnotesize\bfseries, text=cbVermilion!85!black] (ov) at (axis cs:4.3,0.93) {Overshoot};
-\draw[->, cbVermilion!85!black, semithick] (ov.west) -- (axis cs:3.1,0.775);
+  <!-- Y Ticks -->
+  <g class="text tick-label" text-anchor="end">
+    <line class="axis" x1="65" y1="360" x2="70" y2="360"/>
+    <text x="60" y="364">0</text>
+    
+    <line class="axis" x1="65" y1="243.1" x2="70" y2="243.1"/>
+    <text x="60" y="247">0.3</text>
+    
+    <line class="axis" x1="65" y1="132.8" x2="70" y2="132.8"/>
+    <text x="60" y="137">0.7</text>
+    
+    <line class="axis" x1="65" y1="50" x2="70" y2="50"/>
+    <text x="60" y="54">1.0</text>
+  </g>
 
-\node[anchor=north, font=\footnotesize\bfseries, text=cbBlue!85!black] (un) at (axis cs:10.8,0.15) {Undershoot};
-\draw[->, cbBlue!85!black, semithick] (un.north west) -- (axis cs:10,0.264);
+  <!-- Axis Titles -->
+  <text class="text label" x="370" y="412">Time (days)</text>
+  <text class="text label" x="20" y="200" transform="rotate(-90, 20, 200)">Normalised concentration, c/c<tspan font-size="9" dy="3">ref</tspan></text>
 
-\end{axis}
-\end{tikzpicture}
-\end{document}
+  <!-- Annotations & Arrows -->
+  <g>
+    <!-- Overshoot Annotation -->
+    <text x="260" y="105" font-size="11" font-weight="bold" fill="#D55E00" class="text">Overshoot</text>
+    <path d="M 255,102 L 208,102" fill="none" stroke="#D55E00" stroke-width="1.2" marker-end="url(#arrow-red)"/>
+
+    <!-- Undershoot Annotation -->
+    <text x="530" y="320" font-size="11" font-weight="bold" fill="#0072B2" class="text" text-anchor="middle">Undershoot</text>
+    <path d="M 500,323 L 480,334" fill="none" stroke="#0072B2" stroke-width="1.2" marker-end="url(#arrow-blue)"/>
+  </g>
+
+  <!-- Markers for Arrows -->
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D55E00"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0072B2"/>
+    </marker>
+  </defs>
+
+  <!-- Legend (Centered at Bottom) -->
+  <g id="legend" transform="translate(70, 435)">
+    <!-- Swatch 1: Admissible window -->
+    <rect x="0" y="0" width="16" height="12" fill="#E4E7EB"/>
+    <text class="text legend-text" x="22" y="10">Admissible window (0.3–0.7)</text>
+
+    <!-- Swatch 2: Target -->
+    <line x1="220" y1="6" x2="240" y2="6" stroke="#009E73" stroke-width="2.5"/>
+    <text class="text legend-text" x="246" y="10">Target trajectory</text>
+
+    <!-- Swatch 3: Burst -->
+    <line x1="0" y1="22" x2="20" y2="22" stroke="#D55E00" stroke-width="2" stroke-dasharray="5,3"/>
+    <text class="text legend-text" x="22" y="26">Burst (overshoot)</text>
+
+    <!-- Swatch 4: Depleting -->
+    <line x1="220" y1="22" x2="240" y2="22" stroke="#0072B2" stroke-width="2" stroke-dasharray="6,3,1,3"/>
+    <text class="text legend-text" x="246" y="26">Depleting (undershoot)</text>
+  </g>
+</svg>
