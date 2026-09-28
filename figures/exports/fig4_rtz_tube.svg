@@ -2,13 +2,16 @@
   <title id="title">Ion Concentration Kinetics Model</title>
   <desc id="desc">Kinetic regimes showing Target, Burst (Overshoot), and Depleting (Undershoot) trajectories relative to an admissible therapeutic window across Phases I, II, and III.</desc>
 
+  <!-- Solid white background layer to fix Dark Mode rendering on GitHub -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
   <style>
     text { font-family: "DejaVu Sans", Arial, sans-serif; fill: #1F2933; }
     .axis { stroke: #1F2933; stroke-width: 1.2; }
     .boundary { stroke: #616E7C; stroke-width: 1.2; stroke-dasharray: 6 4; }
     .tick { font-size: 12px; text-anchor: middle; fill: #1F2933; }
     .tick-y { font-size: 12px; text-anchor: end; fill: #1F2933; }
-    .axis-label { font-size: 14px; text-anchor: middle; font-weight: 500; }
+    .axis-label { font-size: 14px; text-anchor: middle; font-weight: 500; fill: #1F2933; }
     .phase-title { font-size: 13px; font-weight: bold; text-anchor: middle; fill: #1F2933; }
     .phase-sub { font-size: 11px; text-anchor: middle; fill: #52606D; }
     .legend-text { font-size: 11px; fill: #1F2933; }
@@ -24,19 +27,15 @@
     </marker>
   </defs>
 
-  <!-- Plot Box Bounds: Left=80, Right=700 (W=620), Top=50, Bottom=380 (H=330) -->
-  <!-- X: Day 0=80, Day 2=168.57, Day 7=390, Day 14=700 -->
-  <!-- Y: c=0 -> 380, c=0.3 -> 295, c=0.7 -> 181.67, c=1.0 -> 96.67, ymax(1.15) = 50 -->
-
   <!-- 1. Admissible Therapeutic Window (c = 0.3 to 0.7) -->
-  <rect x="80" y="181.67" width="620" height="113.33" fill="#E4E7EB" opacity="0.85"/>
+  <rect x="80" y="181.67" width="620" height="113.33" fill="#E4E7EB" opacity="0.9"/>
   <text x="690" y="243" font-size="11" font-weight="bold" fill="#7B8794" text-anchor="end">Admissible Window</text>
 
   <!-- 2. Phase Vertical Boundaries -->
   <line class="boundary" x1="168.57" y1="50" x2="168.57" y2="380"/>
   <line class="boundary" x1="390" y1="50" x2="390" y2="380"/>
 
-  <!-- Phase Header Labels (Top Strip Area) -->
+  <!-- Phase Header Labels -->
   <g id="phase-labels">
     <!-- Phase I -->
     <text class="phase-title" x="124.28" y="66">Phase I</text>
@@ -90,7 +89,6 @@
   <text class="axis-label" x="25" y="215" transform="rotate(-90 25 215)">Normalised concentration, c/c<tspan font-size="10" dy="3">ref</tspan></text>
 
   <!-- 4. Trajectories -->
-
   <!-- Target Trajectory (cbGreen #009E73) -->
   <path fill="none" stroke="#009E73" stroke-width="3" 
         d="M 80 261 C 120 261, 150 215, 213 215 C 280 215, 340 261, 700 261"/>
@@ -104,25 +102,20 @@
         d="M 80 348 C 130 350, 160 355, 210 360 C 280 365, 450 368, 700 368"/>
 
   <!-- 5. Targeted Point Annotations -->
-
-  <!-- Overshoot Pointer -->
   <text class="annotation" x="245" y="115" fill="#D55E00">Overshoot</text>
   <path fill="none" stroke="#D55E00" stroke-width="1.2" marker-end="url(#arrow-red)" d="M 240 115 L 205 130"/>
 
-  <!-- Undershoot Pointer -->
   <text class="annotation" x="520" y="335" fill="#0072B2" text-anchor="middle">Undershoot</text>
   <path fill="none" stroke="#0072B2" stroke-width="1.2" marker-end="url(#arrow-blue)" d="M 480 335 L 440 362"/>
 
   <!-- 6. Legend Area -->
   <g id="legend" transform="translate(100, 458)">
-    <!-- Column 1 -->
     <rect x="0" y="0" width="18" height="12" fill="#E4E7EB"/>
     <text class="legend-text" x="24" y="10">Admissible window (0.3–0.7)</text>
 
     <line x1="0" y1="26" x2="18" y2="26" stroke="#D55E00" stroke-width="2.5" stroke-dasharray="5 3"/>
     <text class="legend-text" x="24" y="30">Burst (overshoot)</text>
 
-    <!-- Column 2 -->
     <line x1="280" y1="6" x2="298" y2="6" stroke="#009E73" stroke-width="3"/>
     <text class="legend-text" x="304" y="10">Target trajectory (stays in window)</text>
 
