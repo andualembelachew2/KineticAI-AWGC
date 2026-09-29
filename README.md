@@ -165,7 +165,7 @@ KineticAI-AWGC/
 @software{workie_kineticai_awgc,
   author  = {Workie, Andualem Belachew},
   title   = {KineticAI-AWGC: Spatiotemporal Modeling of Bioactive Silicate Ceramics},
-  year    = {2025},
+  year    = {2026},
   doi     = {10.5281/zenodo.21759552},
   url     = {https://github.com/andualembelachew2/KineticAI-AWGC}
 }
