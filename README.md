@@ -118,7 +118,7 @@ python src/visualization.py
 jupyter notebook notebooks
 ```
 
-Current transport-model fits, including Korsmeyer–Peppas analysis for 700 °C and 1100 °C samples, are in [docs/model_validation.md](docs/model_validation.md). Note: current model evaluation uses a random train/test split; leave-one-temperature-out validation is not yet implemented.
+Current transport model fits, including Korsmeyer–Peppas analysis for the 700 °C and 1100 °C samples, are in [docs/model_validation.md](docs/model_validation.md). Status: Model calibration and evaluation are implemented and documented; prospective out-of-sample validation is part of the planned research program.
 
 ## Documentation
 
