@@ -100,9 +100,7 @@
   <text class="red" x="313" y="190" font-size="14" font-weight="700" text-anchor="start">Design corridor</text>
 
  
-  <g id="legend" transform="translate(470,80)">
-    <rect x="0" y="0" width="270" height="228" fill="white" stroke="#bbb"/>
-    <text x="14" y="26" font-weight="700" font-size="15">Legend</text>
+
 
     <rect x="14" y="44" width="18" height="18" fill="#e8f1fb" stroke="#999"/>
     <text class="legend" x="42" y="58">R1 reaction-limited</text>
