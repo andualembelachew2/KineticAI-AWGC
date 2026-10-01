@@ -99,7 +99,7 @@
   <!-- direct label beside the box (no leader line crossing other text) -->
   <text class="red" x="313" y="190" font-size="14" font-weight="700" text-anchor="start">Design corridor</text>
 
-  <!-- legend -->
+ 
   <g id="legend" transform="translate(470,80)">
     <rect x="0" y="0" width="270" height="228" fill="white" stroke="#bbb"/>
     <text x="14" y="26" font-weight="700" font-size="15">Legend</text>
