@@ -84,12 +84,23 @@ $$
 \mathrm{Pe}=\frac{U\,L}{D_{\mathrm{eff}}}
 $$
 
-**Trajectory descriptors:**
+**Trajectory descriptors.** For each species *i*, define the cumulative dose
 
 $$
-\Sigma^{i}_{28}=\int_0^{28}C_i(t)\,\mathrm{d}t,
-\qquad
-\tau^{i}=\min\left\{t:\ \frac{\int_0^{t}C_i(t')\,\mathrm{d}t'}{\Sigma^{i}_{28}}\ge 0.50\right\}
+D_i(t)=\int_0^{t} C_i(t')\,\mathrm{d}t'
+$$
+
+The **28-day cumulative dose** is the total accumulated up to day 28:
+
+$$
+\Sigma^{i}_{28}=D_i(28)=\int_0^{28} C_i(t)\,\mathrm{d}t
+\;\approx\;\sum_j C_i(t_j)\,\Delta t_j
+$$
+
+The **half-dose arrival time** is the earliest time at which half of that dose has accumulated:
+
+$$
+\tau^{i}=\min\big(t\in[0,28]\;:\;D_i(t)\ge 0.5\,\Sigma^{i}_{28}\big)
 $$
 
 ---
