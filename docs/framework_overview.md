@@ -3,7 +3,7 @@
 > **Programming ion-release kinetics in apatite-wollastonite glass-ceramics (AWGC).**
 > A forward-simulation and analysis toolkit that links sintering temperature → dissolution kinetics → ion-release trajectory → biological safety window.
 
-**Part of the [KineticAI-AWGC](https://github.com/) framework** · Author: Dr. Andualem Belachew Workie · License: MIT · DOI: [10.5281/zenodo.21759552](https://doi.org/10.5281/zenodo.21759552)
+**Part of the [KineticAI-AWGC]([https://github.com/](https://github.com/andualembelachew2/KineticAI-AWGC/tree/main2)) framework** · Author: A.B. Workie · License: MIT · DOI: [10.5281/zenodo.21759552](https://doi.org/10.5281/zenodo.21759552)
 
 ---
 
