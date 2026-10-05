@@ -127,22 +127,4 @@ $$
 | 04 | `04_ion_release_stoichiometry.ipynb` | Ca/Si congruent ratio and HCA precipitation sink |
 | 05 | `05_in_vitro_biocompatibility.ipynb` | ISO 10993 cytotoxicity and extract-concentration thresholds |
 
----
 
-## 6. Usage
-
-```bash
-python -m src.project_summary
-```
-
-This prints a terminal summary (materials system, causal hierarchy, dataset audit with present/missing status, equations, notebooks) and writes a Markdown summary to `docs/PROJECT_SUMMARY.md`.
-
----
-
-## Citation
-
-Please cite the archived release: **doi:10.5281/zenodo.21759552**
-
-## License
-
-MIT
