@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Generate publication-style vector figures for the spatiotemporal trajectory engineering manuscript.
-
-This script exports matching SVG and PNG files into both `docs/figures/` and `figures/exports/`.
-It is intentionally Python-native so it does not depend on a LaTeX toolchain.
-"""
+"""Generate manuscript schematics and data-backed publication figures."""
 
 from __future__ import annotations
 
@@ -20,10 +16,6 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.visualization import (
-    fig_cytotoxicity,
-    fig_phase_evolution,
-    fig_ph_dynamics,
-    fig_xrd_stack,
     generate_legacy_figures,
 )
 
@@ -36,9 +28,8 @@ for d in (DOC_FIG_DIR, EXPORT_DIR):
 
 
 def save_figure(fig, stem: str) -> None:
-    for d in (DOC_FIG_DIR, EXPORT_DIR):
-        fig.savefig(d / f"{stem}.svg", format="svg", bbox_inches="tight", dpi=300)
-        fig.savefig(d / f"{stem}.png", format="png", bbox_inches="tight", dpi=300)
+    fig.savefig(DOC_FIG_DIR / f"{stem}.svg", format="svg", bbox_inches="tight", dpi=300)
+    fig.savefig(DOC_FIG_DIR / f"{stem}.png", format="png", bbox_inches="tight", dpi=300)
 
 
 def fig1_chemical_trajectory() -> plt.Figure:
@@ -233,27 +224,11 @@ def main() -> None:
     save_figure(fig4, "fig4_rtz_tube")
     plt.close(fig4)
 
-    for plot_function in (
-        fig_cytotoxicity,
-        fig_phase_evolution,
-        fig_ph_dynamics,
-        fig_xrd_stack,
-    ):
-        fig = plot_function()
-        plt.close(fig)
-
     generate_legacy_figures()
 
-    print("Generated figures:")
-    for d in (DOC_FIG_DIR, EXPORT_DIR):
-        print(f" - {d}")
-        for name in [
-            "fig1_chemical_trajectory",
-            "fig2_moving_boundary_erosion",
-            "fig3_regime_map",
-            "fig4_rtz_tube",
-        ]:
-            print(f"   * {name}.svg, {name}.png")
+    print(f"Generated manuscript schematics: {DOC_FIG_DIR}")
+    print(f"Generated target PNGs: {ROOT / 'figures'}")
+    print(f"Generated target SVGs: {EXPORT_DIR}")
 
 
 if __name__ == "__main__":
