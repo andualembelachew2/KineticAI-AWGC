@@ -39,7 +39,7 @@ The model combines:
   <img src="figures/exports/fig4_rtz_tube.svg" alt="Target-zone trajectory tube" width="85%"/>
 </p>
 
-Additional figures: [phase evolution](exports/characterization__xrd_phase_evolution.png), [feature importance](exports/feature_importance.png), [hydroxyapatite gain](exports/hydroxyapatite_gain_day21.png), [initial phase composition](exports/initial_phase_composition.png), [kinetic blueprint framework](exports/kinetic_blueprint_framework.png), [predicted vs. experimental phases](exports/predicted_vs_experimental_phase_fractions.png), [SBF hydroxyapatite evolution](exports/sbf_hydroxyapatite_evolution.png), [SBF wollastonite evolution](exports/sbf_wollastonite_evolution.png).
+Additional figures: [phase evolution](figures/exports/characterization__xrd_phase_evolution.png), [feature importance](figures/exports/feature_importance.png), [hydroxyapatite gain](figures/exports/hydroxyapatite_gain_day21.png), [initial phase composition](figures/exports/initial_phase_composition.png), [kinetic blueprint framework](figures/exports/kinetic_blueprint_framework.png), [predicted vs. experimental phases](figures/exports/predicted_vs_experimental_phase_fractions.png), [SBF hydroxyapatite evolution](figures/exports/sbf_hydroxyapatite_evolution.png), [SBF wollastonite evolution](figures/exports/sbf_wollastonite_evolution.png).
 
 ## Governing equations
 
