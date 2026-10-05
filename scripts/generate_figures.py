@@ -8,6 +8,7 @@ It is intentionally Python-native so it does not depend on a LaTeX toolchain.
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
 import matplotlib
@@ -15,6 +16,16 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from src.visualization import (
+    fig_cytotoxicity,
+    fig_phase_evolution,
+    fig_ph_dynamics,
+    fig_xrd_stack,
+    generate_legacy_figures,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 DOC_FIG_DIR = ROOT / "docs" / "figures"
@@ -221,6 +232,17 @@ def main() -> None:
     fig4 = fig4_rtz_tube()
     save_figure(fig4, "fig4_rtz_tube")
     plt.close(fig4)
+
+    for plot_function in (
+        fig_cytotoxicity,
+        fig_phase_evolution,
+        fig_ph_dynamics,
+        fig_xrd_stack,
+    ):
+        fig = plot_function()
+        plt.close(fig)
+
+    generate_legacy_figures()
 
     print("Generated figures:")
     for d in (DOC_FIG_DIR, EXPORT_DIR):
