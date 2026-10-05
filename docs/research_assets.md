@@ -1,8 +1,7 @@
 # Computational Research Assets & Data Manifest
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21759552-1F5AA8)](https://doi.org/10.5281/zenodo.21759552)
-[![Data Standard](https://img.shields.io/badge/FAIR-Compliant%20Data-2EA44F)](data/)
-[![Pipeline](https://img.shields.io/badge/Pipeline-Verified-0A9EDC)](notebooks/)
+
 
 This document catalogues the digitized experimental datasets, validation workflows, and computational summaries that operationalize published empirical findings into reproducible research assets within the **Kinetic Blueprint Framework**.
 
