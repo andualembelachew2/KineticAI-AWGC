@@ -1,146 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="513.200234pt" height="495.799062pt" viewBox="0 0 513.200234 495.799062" version="1.1">
-  <metadata>
-    <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <cc:Work>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <dc:date>2026-10-05</dc:date>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>KineticAI-AWGC Regime Mapper</dc:title>
-          </cc:Agent>
-        </dc:creator>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="630" viewBox="0 0 660 630" font-family="'Times New Roman', Times, 'Liberation Serif', serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiMzEyZTEyNi1hZGFiLTQ5NDItOGI4NC0yNjYyN2JjZmNkODIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaFIfv6mKeaNaqbaUnvtLWYoAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxODVjYWUwZS1mYjY2LTQ4NWEtYmNiMS04Y2QzNDVlZTM0ZGNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoaxDgSnLv1XsXNaEP9V0cAwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggCSK6xu3QJxcBM3s9bY56WD0cA0lO3MjkIQZKbcMrn/2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaA/QagT9MlKWyasfnwxG0YAAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAOxP+9g+SPl816xCeOPh4JMPZa6nveSOLHK+CEgb2XtWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBj/Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmIzMTJlMTI2LWFkYWItNDk0Mi04Yjg0LTI2NjI3YmNmY2Q4Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjk1NjQ5ZjgwLTJjOTEtNDhiYy1hOGRiLWQ5ZDYxOTZlMzMyOHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAJIrrG7dAnFwEzez1tjnpYPRwDSU7cyOQhBkptwyuf/aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg4nrSOGgwR9PCeDpQLq39KFdDtyvroYLbZRH9kMBmlEKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg0DLfmOdOev36UU3+l/wqiJM/Rp/YQynF0UOtHa+Fs390Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEkaxEzXxPv2Cw40MD8oSAfidBmmwxY/W0pMVT32GN0AsW5jBNf3jqAvtZho2aUEq0CI1VEHb/vvjRDM0bPv/os=</c2pa:manifest></metadata>
   <defs>
-    <style type="text/css">
-      .bg-q1 { fill: #dfeaf7; fill-opacity: 0.75; }
-      .bg-q2 { fill: #f3eaf9; fill-opacity: 0.75; }
-      .bg-q3 { fill: #eaf7ee; fill-opacity: 0.75; }
-      .bg-q4 { fill: #fef5df; fill-opacity: 0.75; }
-      .axis-frame { fill: none; stroke: #2c3e50; stroke-width: 2; }
-      .grid-divide { stroke: #7f8c8d; stroke-width: 1.5; stroke-dasharray: 5,4; }
-      .target-corridor { fill: #ffffff; fill-opacity: 0.9; stroke: #a91d33; stroke-width: 2; stroke-dasharray: 6,3; }
-      .label-title { font-family: 'DejaVu Sans', Helvetica, Arial, sans-serif; font-weight: bold; }
-      .label-sub { font-family: 'DejaVu Sans', Helvetica, Arial, sans-serif; font-size: 10px; }
-      .label-desc { font-family: 'DejaVu Sans', Helvetica, Arial, sans-serif; font-size: 9px; font-style: italic; }
-    </style>
+    <linearGradient id="bandV" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bandH" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
   </defs>
+  <rect width="660" height="630" fill="#ffffff"/>
 
-  <!-- Canvas Background -->
-  <rect x="0" y="0" width="513.200234" height="495.799062" fill="#ffffff"/>
+  <!-- Plot area: x 90-570, y 40-520; centre (330,280); diagonal x+y = 610 -->
+  <!-- regime fills -->
+  <rect x="90"  y="280" width="240" height="240" fill="#dfeaf7"/>  <!-- Q1 -->
+  <rect x="90"  y="40"  width="240" height="240" fill="#f3eaf9"/>  <!-- Q2 -->
+  <rect x="330" y="280" width="240" height="240" fill="#eaf7ee"/>  <!-- Q3 -->
+  <rect x="330" y="40"  width="240" height="240" fill="#fef5df"/>  <!-- Q4 -->
 
-  <g id="figure_1" transform="translate(10, 10)">
-    
-    <!-- Quadrant Background Regions -->
-    <!-- Q2: Top-Left (Diffusion-Limited) -->
-    <rect class="bg-q2" x="65" y="40" width="195" height="185" rx="4"/>
-    <!-- Q4: Top-Right (Convection-Amplified) -->
-    <rect class="bg-q4" x="260" y="40" width="195" height="185" rx="4"/>
-    <!-- Q1: Bottom-Left (Reaction-Limited) -->
-    <rect class="bg-q1" x="65" y="225" width="195" height="185" rx="4"/>
-    <!-- Q3: Bottom-Right (Convective Washout) -->
-    <rect class="bg-q3" x="260" y="225" width="195" height="185" rx="4"/>
+  <!-- crossover zones around Pe ~ 1 and Da ~ 1 -->
+  <rect x="295" y="40"  width="70" height="480" fill="url(#bandV)"/>
+  <rect x="90"  y="245" width="480" height="70" fill="url(#bandH)"/>
 
-    <!-- Kinetic Regime Divide Lines -->
-    <line class="grid-divide" x1="260" y1="40" x2="260" y2="410"/>
-    <line class="grid-divide" x1="65" y1="225" x2="455" y2="225"/>
+  <!-- Da = Pe line (tau_C = tau_R) -->
+  <line x1="90" y1="520" x2="570" y2="40" stroke="#444" stroke-width="1" stroke-dasharray="1.5,3"/>
 
-    <!-- Central Target Locus / Design Corridor -->
-    <rect class="target-corridor" x="212" y="177" width="96" height="96" rx="8" ry="8"/>
-    <circle cx="260" cy="225" r="5" fill="#a91d33"/>
-    <circle cx="260" cy="225" r="14" fill="none" stroke="#a91d33" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- regime boundaries -->
+  <line x1="330" y1="40"  x2="330" y2="520" stroke="#7a7a7a" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="90"  y1="280" x2="570" y2="280" stroke="#7a7a7a" stroke-width="1" stroke-dasharray="5,3"/>
 
-    <!-- Bounding Frame -->
-    <rect class="axis-frame" x="65" y="40" width="390" height="370"/>
+  <!-- frame -->
+  <rect x="90" y="40" width="480" height="480" fill="none" stroke="#000" stroke-width="1.2"/>
 
-    <!-- State Markers -->
-    <circle cx="140" cy="110" r="6" fill="#4a235a"/>
-    <circle cx="380" cy="110" r="6" fill="#7d6608"/>
-    <circle cx="140" cy="340" r="6" fill="#1b4f72"/>
-    <circle cx="380" cy="340" r="6" fill="#0e6655"/>
-
-    <!-- Annotations & Labels -->
-    <!-- Q2: Diffusion-Limited -->
+  <!-- ticks -->
+  <g stroke="#000" stroke-width="1.2">
+    <line x1="90"  y1="520" x2="90"  y2="526"/>
+    <line x1="330" y1="520" x2="330" y2="526"/>
+    <line x1="570" y1="520" x2="570" y2="526"/>
+    <line x1="84" y1="520" x2="90" y2="520"/>
+    <line x1="84" y1="280" x2="90" y2="280"/>
+    <line x1="84" y1="40"  x2="90" y2="40"/>
+  </g>
+  <g font-size="14" fill="#000">
     <g text-anchor="middle">
-      <text x="140" y="132" class="label-title" font-size="12" fill="#4a235a">Diffusion-Limited</text>
-      <text x="140" y="146" class="label-sub" fill="#7d3c98">Pe « 1, Da » 1</text>
-      <text x="140" y="160" class="label-desc" fill="#5d6d7e">Passivation / burst boundary</text>
+      <text x="90"  y="544">≪ 1</text>
+      <text x="330" y="544">∼ 1</text>
+      <text x="570" y="544">≫ 1</text>
+    </g>
+    <g text-anchor="end">
+      <text x="78" y="524.5">≪ 1</text>
+      <text x="78" y="284.5">∼ 1</text>
+      <text x="78" y="44.5">≫ 1</text>
+    </g>
+  </g>
+
+  <!-- axis titles -->
+  <text x="330" y="568" font-size="15" text-anchor="middle" fill="#000">log<tspan font-size="10.5" dy="4">10</tspan><tspan dy="-4"> (Pe)  —  convection / diffusion  →</tspan></text>
+  <text transform="translate(26,280) rotate(-90)" font-size="15" text-anchor="middle" fill="#000">log<tspan font-size="10.5" dy="4">10</tspan><tspan dy="-4"> (Da)  —  reaction / diffusion  →</tspan></text>
+
+  <!-- margin annotations -->
+  <g font-size="11.5" font-style="italic" fill="#444">
+    <text x="90"  y="30" text-anchor="start">← diffusion-dominated transport</text>
+    <text x="570" y="30" text-anchor="end">convection-dominated transport →</text>
+    <text transform="translate(590,40) rotate(90)"  text-anchor="start">fast reaction (Da ≫ 1)</text>
+    <text transform="translate(590,520) rotate(90)" text-anchor="end">slow reaction (Da ≪ 1)</text>
+  </g>
+
+  <!-- Da = Pe label (rotated along the line) -->
+  <g transform="translate(185,425) rotate(-45)">
+    <text x="0" y="-5" font-size="11" text-anchor="middle" fill="#222">Da = Pe  (<tspan font-style="italic">τ</tspan><tspan font-size="8" dy="2.5">C</tspan><tspan dy="-2.5"> = </tspan><tspan font-style="italic">τ</tspan><tspan font-size="8" dy="2.5">R</tspan><tspan dy="-2.5">)</tspan></text>
+  </g>
+
+  <!-- ===== Quadrant annotations (top-left corner of each quadrant) ===== -->
+  <g fill="#000">
+    <!-- Q2 -->
+    <text x="100" y="62" font-size="15" font-weight="bold">Q2</text>
+    <text x="100" y="78" font-size="12.5" font-style="italic">diffusion-limited</text>
+    <g font-size="10.5" fill="#333">
+      <text x="100" y="94">Thiele <tspan font-style="italic">φ</tspan><tspan font-size="8" dy="-4">2</tspan><tspan dy="4"> = Da ≫ 1</tspan></text>
+      <text x="100" y="107"><tspan font-style="italic">η</tspan> ∼ Da<tspan font-size="8" dy="-4">−1/2</tspan></text>
+      <text x="100" y="120">steep internal gradient</text>
     </g>
 
-    <!-- Q4: Convection-Amplified -->
-    <g text-anchor="middle">
-      <text x="380" y="132" class="label-title" font-size="12" fill="#7d6608">Convection-Amplified</text>
-      <text x="380" y="146" class="label-sub" fill="#b7950b">Pe » 1, Da » 1</text>
-      <text x="380" y="160" class="label-desc" fill="#5d6d7e">Fast conversion + advection</text>
+    <!-- Q4 -->
+    <text x="340" y="62" font-size="15" font-weight="bold">Q4</text>
+    <text x="340" y="78" font-size="12.5" font-style="italic">convection-amplified</text>
+    <g font-size="10.5" fill="#333">
+      <text x="340" y="94">Sh ∼ Pe<tspan font-size="8" dy="-4">1/3</tspan></text>
+      <text x="340" y="107">thin boundary layer</text>
     </g>
 
-    <!-- Q1: Reaction-Limited -->
-    <g text-anchor="middle">
-      <text x="140" y="295" class="label-title" font-size="12" fill="#1b4f72">Reaction-Limited</text>
-      <text x="140" y="309" class="label-sub" fill="#2e86c1">Pe « 1, Da « 1</text>
-      <text x="140" y="323" class="label-desc" fill="#5d6d7e">Slow plateau state</text>
+    <!-- Q1 -->
+    <text x="100" y="302" font-size="15" font-weight="bold">Q1</text>
+    <text x="100" y="318" font-size="12.5" font-style="italic">reaction-limited</text>
+    <g font-size="10.5" fill="#333">
+      <text x="100" y="334">kinetic control</text>
+      <text x="100" y="347"><tspan font-style="italic">η</tspan> ≈ 1, uniform <tspan font-style="italic">c</tspan></text>
     </g>
 
-    <!-- Q3: Convective Washout -->
-    <g text-anchor="middle">
-      <text x="380" y="295" class="label-title" font-size="12" fill="#0e6655">Convective Washout</text>
-      <text x="380" y="309" class="label-sub" fill="#16a085">Pe » 1, Da « 1</text>
-      <text x="380" y="323" class="label-desc" fill="#5d6d7e">Advective species depletion</text>
+    <!-- Q3 -->
+    <text x="340" y="302" font-size="15" font-weight="bold">Q3</text>
+    <text x="340" y="318" font-size="12.5" font-style="italic">convective washout</text>
+    <g font-size="10.5" fill="#333">
+      <text x="340" y="334"><tspan font-style="italic">τ</tspan><tspan font-size="8" dy="2.5">res</tspan><tspan dy="-2.5"> &lt; </tspan><tspan font-style="italic">τ</tspan><tspan font-size="8" dy="2.5">R</tspan></text>
+      <text x="340" y="349">incomplete conversion</text>
     </g>
+  </g>
 
-    <!-- Design Corridor Label -->
-    <g text-anchor="middle">
-      <text x="260" y="198" class="label-title" font-size="11" fill="#a91d33">Design Corridor</text>
-      <text x="260" y="211" class="label-desc" fill="#7b241c">(Pe ~ 1, Da ~ 1)</text>
-      <text x="260" y="254" class="label-sub" font-size="9" fill="#a91d33" font-weight="bold">TARGET LOCUS</text>
-    </g>
+  <!-- ===== Target locus ===== -->
+  <rect x="295" y="245" width="70" height="70" fill="none" stroke="#a91d33" stroke-width="2" stroke-dasharray="7,3"/>
+  <circle cx="330" cy="280" r="5" fill="#a91d33" stroke="#fff" stroke-width="1.2"/>
+  <text x="374" y="259" font-size="13" font-weight="bold" fill="#a91d33">Design corridor</text>
+  <text x="374" y="272" font-size="11" fill="#a91d33">target locus (Pe, Da ∼ 1)</text>
 
-    <!-- Axis Ticks & Numerical Scale -->
-    <!-- X-Axis -->
-    <g font-family="'DejaVu Sans', Helvetica, Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">
-      <line x1="65" y1="410" x2="65" y2="415" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="65" y="428">-2</text>
+  <!-- ===== Representative regimes ===== -->
+  <circle cx="150" cy="205" r="4.5" fill="#6b4fa8" stroke="#fff" stroke-width="1.2"/>
+  <text x="160" y="209" font-size="12" fill="#6b4fa8">burst / passivation</text>
 
-      <line x1="162.5" y1="410" x2="162.5" y2="415" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="162.5" y="428">-1</text>
+  <circle cx="180" cy="498" r="4.5" fill="#1f5aa8" stroke="#fff" stroke-width="1.2"/>
+  <text x="190" y="502" font-size="12" fill="#1f5aa8">slow plateau</text>
 
-      <line x1="260" y1="410" x2="260" y2="415" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="260" y="428">0</text>
+  <circle cx="500" cy="455" r="4.5" fill="#1d7a6d" stroke="#fff" stroke-width="1.2"/>
+  <text x="490" y="459" font-size="12" fill="#1d7a6d" text-anchor="end">washout regime</text>
 
-      <line x1="357.5" y1="410" x2="357.5" y2="415" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="357.5" y="428">1</text>
-
-      <line x1="455" y1="410" x2="455" y2="415" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="455" y="428">2</text>
-    </g>
-
-    <!-- Y-Axis -->
-    <g font-family="'DejaVu Sans', Helvetica, Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="end">
-      <line x1="65" y1="410" x2="60" y2="410" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="54" y="413">-2</text>
-
-      <line x1="65" y1="317.5" x2="60" y2="317.5" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="54" y="320.5">-1</text>
-
-      <line x1="65" y1="225" x2="60" y2="225" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="54" y="228">0</text>
-
-      <line x1="65" y1="132.5" x2="60" y2="132.5" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="54" y="135.5">1</text>
-
-      <line x1="65" y1="40" x2="60" y2="40" stroke="#2c3e50" stroke-width="1.5"/>
-      <text x="54" y="43">2</text>
-    </g>
-
-    <!-- Axis Titles -->
-    <text x="260" y="458" class="label-title" font-size="13" fill="#2c3e50" text-anchor="middle">log₁₀(Pe)</text>
-    <text x="18" y="225" class="label-title" font-size="13" fill="#2c3e50" text-anchor="middle" transform="rotate(-90 18 225)">log₁₀(Da)</text>
-
+  <!-- ===== Definitions ===== -->
+  <g font-size="11.5" fill="#000" text-anchor="middle">
+    <text x="330" y="592">Pe = <tspan font-style="italic">τ</tspan><tspan font-size="8.5" dy="2.5">D</tspan><tspan dy="-2.5">/</tspan><tspan font-style="italic">τ</tspan><tspan font-size="8.5" dy="2.5">C</tspan><tspan dy="-2.5"> = </tspan><tspan font-style="italic">UL</tspan>/<tspan font-style="italic">D</tspan>;   Da = <tspan font-style="italic">τ</tspan><tspan font-size="8.5" dy="2.5">D</tspan><tspan dy="-2.5">/</tspan><tspan font-style="italic">τ</tspan><tspan font-size="8.5" dy="2.5">R</tspan><tspan dy="-2.5">;   Da/Pe = </tspan><tspan font-style="italic">τ</tspan><tspan font-size="8.5" dy="2.5">C</tspan><tspan dy="-2.5">/</tspan><tspan font-style="italic">τ</tspan><tspan font-size="8.5" dy="2.5">R</tspan><tspan dy="-2.5"> (convective Damköhler number)</tspan></text>
+    <text x="330" y="607" font-size="10.5" font-style="italic" fill="#333">τ<tspan font-size="8" dy="2.5">D</tspan><tspan dy="-2.5">, τ</tspan><tspan font-size="8" dy="2.5">C</tspan><tspan dy="-2.5">, τ</tspan><tspan font-size="8" dy="2.5">R</tspan><tspan dy="-2.5">: diffusion, convection and reaction time scales; </tspan><tspan>η: effectiveness factor; Sh: Sherwood number.</tspan></text>
+    <text x="330" y="621" font-size="10.5" font-style="italic" fill="#333">Schematic: boundaries are order-of-magnitude (Pe, Da ≈ 1); shaded bands mark crossover zones.</text>
   </g>
 </svg>
