@@ -30,6 +30,7 @@ for d in (DOC_FIG_DIR, EXPORT_DIR):
 def save_figure(fig, stem: str) -> None:
     fig.savefig(DOC_FIG_DIR / f"{stem}.svg", format="svg", bbox_inches="tight", dpi=300)
     fig.savefig(DOC_FIG_DIR / f"{stem}.png", format="png", bbox_inches="tight", dpi=300)
+    fig.savefig(EXPORT_DIR / f"{stem}.svg", format="svg", bbox_inches="tight", dpi=300)
 
 
 def fig1_chemical_trajectory() -> plt.Figure:
