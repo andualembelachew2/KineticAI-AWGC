@@ -1,109 +1,152 @@
-## 🧪 Kinetic Blueprint: Computational Engine
+# Kinetic Blueprint: A Computational Framework for Programmable Ion Release in Bioactive Glass-Ceramics
 
-> **Programming ion-release kinetics in apatite-wollastonite glass-ceramics (AWGC).**
-> A forward-simulation and analysis toolkit that links sintering temperature → dissolution kinetics → ion-release trajectory → biological safety window.
+**Kinetic Blueprint** is a simulation and analysis framework that connects *processing* (sintering temperature) to *microstructure* (amorphous fraction, connectivity, porosity), to *dissolution kinetics*, to the *ion-release trajectory*, and finally to a *biological admissibility check*. It is built around apatite-wollastonite glass-ceramic (AWGC) scaffolds, and the same logic can be applied to other silicate bioceramics.
 
-**Part of the [KineticAI-AWGC]([https://github.com/](https://github.com/andualembelachew2/KineticAI-AWGC/tree/main2)) framework** · Author: A.B. Workie · License: MIT · DOI: [10.5281/zenodo.21759552](https://doi.org/10.5281/zenodo.21759552)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21759552-informational)](https://doi.org/10.5281/zenodo.21759552)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 
 ---
 
-### What it does
+## 1. Concept
 
-| Module | Purpose |
+Instead of reporting release curves after the fact, the framework treats the release **trajectory** as a design target:
+
+```mermaid
+flowchart LR
+    A[Processing<br/>sintering T] --> B[Microstructure<br/>α, Qⁿ, ε₀, r]
+    B --> C[Reaction-diffusion-advection<br/>moving-boundary model]
+    C --> D[Regime coordinates<br/>Da, Pe]
+    C --> E[Kinetic descriptors<br/>k, n, τ, Σ₂₈]
+    C --> F[Si, Ca, pH<br/>trajectories]
+    F --> G{Regenerative<br/>Target Zone}
+    D --> H[Regime map]
+    E --> H
+    G --> H
+```
+
+---
+
+## 2. Mathematical model
+
+### 2.1 Governing equations
+
+Ion transport (Si and Ca) in a one-dimensional pore domain:
+
+$$
+\frac{\partial C}{\partial t} + u\,\frac{\partial C}{\partial x}
+= \frac{\partial}{\partial x}\!\left(D_{\mathrm{eff}}(\varepsilon)\,\frac{\partial C}{\partial x}\right) + S(x,t) - R(x,t)
+$$
+
+Moving-boundary evolution of the solid matrix:
+
+$$
+\frac{\partial \varepsilon}{\partial t} = k_{\mathrm{diss}}\,\alpha\,\beta(t)\,V_m\left(1-\frac{C}{C_{\mathrm{sat}}}\right),
+\qquad
+\frac{\mathrm{d}r}{\mathrm{d}t} = -k_{\mathrm{diss}}\,V_m\left(1-\frac{C}{C_{\mathrm{sat}}}\right)
+$$
+
+### 2.2 Constitutive closures
+
+| Quantity | Closure |
 |---|---|
-| `CeramicParameters` | Material descriptor: sintering temperature, reactive amorphous fraction α, intrinsic dissolution rate, Qⁿ connectivity, porosity, strut radius, density |
-| `MovingBoundaryDissolutionSolver` | 1D moving-boundary reaction-diffusion-advection solver for strut dissolution (explicit finite differences) |
-| `KineticBlueprintAnalyzer` | Dimensionless regime mapping (Da, Pe), Korsmeyer-Peppas fit (k, n, R²), trajectory descriptors (τ, Σ₂₈) |
-| `RegenerativeTargetZone` | Checks whether Si, Ca and pH trajectories remain inside a therapeutic, sub-cytotoxic window |
-| `generate_framework_figure` | Four-panel publication figure (SVG + 600 DPI PNG) |
+| Specific surface area | β = 3(1 − ε) / r |
+| Effective diffusivity | D_eff = D₀ · ε^1.5 (Archie-type) |
+| Driving force | Si undersaturation, 1 − C_Si / C_sat,Si (clipped to [0, 1]) |
+| Congruent release | S_Ca = 3 · S_Si (Ca/Si = 3.0) |
+| Ca sink | HCA-type precipitation, R = 0.15 · max(C_Ca − 2.5, 0)^1.5 |
+| Boundaries | Zero flux at the strut wall (x = 0); zero gradient at the pore exit (x = L) |
+| Discretisation | Central differences (diffusion), upwind (advection), explicit time stepping |
 
 ---
 
-### Governing model
+## 3. Analysis layers
 
-**Mass conservation (Si and Ca):**
+### 3.1 Regime coordinates
 
-$$\frac{\partial C}{\partial t} + u\,\frac{\partial C}{\partial x} = \frac{\partial}{\partial x}\!\left(D_{\mathrm{eff}}(\varepsilon)\,\frac{\partial C}{\partial x}\right) + S(x,t) - R(x,t)$$
+$$
+\mathrm{Da}=\frac{k_{\mathrm{diss}}\,\alpha\,\beta_0\,L^2}{D_{\mathrm{eff}}\,C_0},
+\qquad
+\mathrm{Pe}=\frac{U\,L}{D_{\mathrm{eff}}}
+$$
 
-**Moving boundary (porosity evolution):**
+| Region | Da | Regime | Expected behaviour |
+|:---:|:---:|---|---|
+| I | > 2 | Reactive burst | Dissolution outpaces transport |
+| II | 0.5 – 2 | Balanced | Reaction and transport comparable |
+| III | < 0.5 | Transport-limited | Slow, sustained release |
 
-$$\frac{\partial \varepsilon}{\partial t} = k_{\mathrm{diss}}\,\alpha\,\beta(t)\,V_m\left(1 - \frac{C}{C_{\mathrm{sat}}}\right)$$
+### 3.2 Release-kinetics descriptors
 
-**Closures used in the code**
+| Descriptor | Definition |
+|---|---|
+| **k, n** | Korsmeyer-Peppas fit, M_t / M_∞ = k · tⁿ, on the first ~60% of mass loss (bounds: k ∈ [10⁻⁴, 5], n ∈ [0.05, 1.2]) |
+| **R²** | Goodness of the power-law fit |
+| **Σ₂₈** | 28-day cumulative dose, ∫₀²⁸ C(t) dt (mM·day) |
+| **τ** | Half-dose arrival time: first day cumulative dose reaches 0.5 · Σ₂₈ |
 
-- Specific surface area: β = 3(1 − ε) / r
-- Effective diffusivity (Archie-type): D_eff = D₀ · ε^1.5
-- Congruent release: Ca/Si = 3.0 (Ca source = 3 × Si source)
-- Ca sink: HCA-type precipitation above 2.5 mM, rate = 0.15 · (C_Ca − 2.5)^1.5
-- Numerics: central differences for diffusion, upwind for advection; zero-flux at the strut wall, zero-gradient outflow at the pore exit
+Together, (τ, Σ₂₈) places each material at a point in a **trajectory space**, and Da places it on the **regime map**.
 
----
+### 3.3 Regenerative Target Zone (RTZ)
 
-### Regime map (Damköhler number)
-
-| Region | Condition | Interpretation |
-|---|---|---|
-| **I** | Da > 2 | Reactive burst: dissolution outpaces transport |
-| **II** | 0.5 ≤ Da ≤ 2 | Balanced transport and reaction |
-| **III** | Da < 0.5 | Transport-limited: slow, sustained release |
-
-Da = (k_diss · α · β₀ · L²) / (D_eff · C₀) and Pe = (U · L) / D_eff
-
----
-
-### Kinetic and trajectory descriptors
-
-- **Korsmeyer-Peppas:** M_t / M_∞ = k · tⁿ, fitted on the first ~60% of mass loss, returning *k*, *n* and *R²*
-- **Σ₂₈:** cumulative 28-day dose, ∫ C(t) dt (mM·day)
-- **τ:** half-dose arrival time, the day when cumulative dose reaches 50% of Σ₂₈
-
----
-
-### Regenerative Target Zone (RTZ)
+A trajectory is admissible if the fraction of time points satisfying *all* bounds meets a pre-registered tolerance.
 
 | Variable | Admissible range |
 |---|---|
-| Silicon [Si] | 0.2 – 1.5 mM |
-| Calcium [Ca] | 1.0 – 5.0 mM |
+| Silicon | 0.2 – 1.5 mM |
+| Calcium | 1.0 – 5.0 mM |
 | pH | 7.35 – 7.85 |
+| **Tolerance** | ≥ 85% of time points in-zone |
 
-A trajectory is **admissible** when at least **85%** of time points satisfy all three bounds (pre-registered tolerance).
-
----
-
-### Built-in test materials
-
-| Label | Sintering T | α (amorphous) | k_diss,0 (mol m⁻² day⁻¹) | Qⁿ | Porosity ε₀ | Density (g cm⁻³) |
-|---|---|---|---|---|---|---|
-| `700C` | 700 °C | 0.522 | 0.0471 | 1.85 | 0.35 | 2.02 |
-| `900C` | 900 °C | 0.360 | 0.0185 | 2.40 | 0.28 | 2.61 |
-| `1100C` | 1100 °C | 0.226 | 0.00455 | 3.20 | 0.18 | 2.78 |
-
-All three use a 150 µm strut radius and a 28-day simulation window.
+The figure additionally marks pH > 8.2 as an alkaline-shock (cytotoxic) region.
 
 ---
 
-### Quick start
+## 4. Reference material set
+
+Three sintering conditions span the three regimes (150 µm struts, 28-day window):
+
+| ID | Sintering T (°C) | α | k_diss,0 (mol m⁻² day⁻¹) | Qⁿ | ε₀ | ρ (g cm⁻³) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 700C | 700 | 0.522 | 0.0471 | 1.85 | 0.35 | 2.02 |
+| 900C | 900 | 0.360 | 0.0185 | 2.40 | 0.28 | 2.61 |
+| 1100C | 1100 | 0.226 | 0.00455 | 3.20 | 0.18 | 2.78 |
+
+Higher sintering temperature lowers the reactive amorphous fraction and raises network connectivity, which slows dissolution.
+
+---
+
+## 5. Software architecture
+
+```
+src/
+└── kinetic_blueprint.py
+    ├── CeramicParameters                  # material descriptor (dataclass)
+    ├── MovingBoundaryDissolutionSolver    # forward PDE simulation
+    ├── KineticBlueprintAnalyzer           # Da, Pe, k, n, τ, Σ₂₈
+    ├── RegenerativeTargetZone             # admissibility validator
+    └── generate_framework_figure()        # 4-panel figure export
+```
+
+---
+
+## 6. Usage
 
 ```bash
 pip install numpy scipy matplotlib
 python src/kinetic_blueprint.py
 ```
 
-**Console output per material:** regime, (Da, Pe), Korsmeyer-Peppas (n, k, R²), (τ, Σ₂₈) and RTZ pass/fail with % in-zone.
-
-**Figures** are saved to `figures/exports/`:
+Outputs per material: regime, (Da, Pe), (n, k, R²), (τ, Σ₂₈) and RTZ pass/fail with percentage in-zone. Figures are written to `figures/exports/` as SVG and 600 DPI PNG:
 
 | Panel | Content |
-|---|---|
-| (a) | Cumulative mass loss and exponent *n* |
-| (b) | Microenvironmental pH vs. the RTZ buffer and alkaline-shock bands |
-| (c) | Si vs. Ca release against the 3:1 congruent line |
-| (d) | (τ, Σ₂₈) trajectory-space map labelled with Da |
+|:---:|---|
+| a | Cumulative mass loss and exponent n |
+| b | pH trajectories against the RTZ band and alkaline-shock band |
+| c | Si vs. Ca release against the 3:1 congruent line |
+| d | (τ, Σ₂₈) trajectory space annotated with Da |
 
----
-
-### Use it on your own material
+### Applying it to a new material
 
 ```python
 from src.kinetic_blueprint import (
@@ -129,6 +172,19 @@ rtz = RegenerativeTargetZone().check_admissibility(
 
 ---
 
-### Citation
+## 7. Model scope
 
-If you use this engine, please cite the Zenodo archive: **doi:10.5281/zenodo.21759552**
+- One-dimensional, single-strut-scale transport; no 3D scaffold geometry.
+- pH is a phenomenological proxy tied to effluent Ca and amorphous fraction, not a full speciation calculation.
+- RTZ bounds and the 85% tolerance are design thresholds and should be re-derived for each cell type or application.
+- Parameters in the reference set should be calibrated against experimental release data before quantitative use.
+
+---
+
+## Citation
+
+Please cite the archived release: **doi:10.5281/zenodo.21759552**
+
+## License
+
+MIT
