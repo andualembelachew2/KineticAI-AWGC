@@ -82,6 +82,26 @@ $$
 \left(\frac{\mathrm{NBO}}{\mathrm{BO}}\right)_{\!s}(t) = \frac{A_{\mathrm{NBO}}(t)}{A_{\mathrm{BO}}(t)} \propto \alpha\left(Q_{\mathrm{front}}^n(t)\right)
 $$
 
+### 1.10 Congruent Ion Release Stoichiometry
+Stoichiometric ratio of network-modifying cations to silica network dissolution across thermal schedules:
+
+$$
+R_{\mathrm{Ca/Si}} = \frac{[\mathrm{Ca}^{2+}]_{\mathrm{release}}(t)}{[\mathrm{Si}^{4+}]_{\mathrm{release}}(t)} \approx 3.00 \pm 0.02
+$$
+
+Thermal processing shifts the overall dissolution rate constant $k$ by an order of magnitude while maintaining stoichiometric congruence in the dissolving amorphous grain-boundary matrix.
+
+### 1.11 Conservative Tracer Formulation & Mineral Precipitation Balance
+Because silicon remains soluble as orthosilicic acid $\mathrm{Si(OH)}_4$ without secondary mineral phase precipitation, silicon serves as the conservative tracer of glass network dissolution. Net aqueous calcium flux reflects the competitive balance between matrix release and apatite consumption:
+
+$$
+J_{\mathrm{Ca}}^{\mathrm{net}}(\mathbf{x},t) = \underbrace{R_{\mathrm{Ca/Si}}\,J_{\mathrm{Si}}(\mathbf{x},t)}_{\text{Stoichiometric Release}} - \underbrace{R_{\mathrm{HCA}}(\mathbf{x},t)}_{\text{Precipitation Sink}}
+$$
+
+$$
+R_{\mathrm{HCA}}(\mathbf{x},t) = k_{\mathrm{precip}}\,\gamma(\mathrm{SI}_{\mathrm{HCA}})
+$$
+
 ---
 
 ## 2. Architectural Transport Metrics
@@ -106,6 +126,18 @@ Time-dependent transport properties as porosity changes under dissolution:
 $$
 D_{\mathrm{eff}}(\mathbf{x},t) = D_0\,\frac{[\varepsilon(\mathbf{x},t)]^{3/2}}{[\kappa(\mathbf{x},t)]^2}, \qquad \kappa(\mathbf{x},t) = \kappa_0\left(\frac{\varepsilon(\mathbf{x},0)}{\varepsilon(\mathbf{x},t)}\right)^{q}
 $$
+
+### 2.4 Korsmeyer–Peppas Transport Regime Scaling
+Empirical short-to-intermediate time fractional release power law:
+
+$$
+\frac{M_t}{M_\infty} = k\,t^n \iff \ln\left(\frac{M_t}{M_\infty}\right) = \ln(k) + n\ln(t)
+$$
+
+The transport mechanism is classified by the kinetic exponent $n$:
+- $n = 0.25$ ($700\,^\circ\mathrm{C}$): **Quasi-Fickian burst release** characterized by high boundary dissolution.
+- $0.38 \le n \le 0.49$ ($800\text{--}1000\,^\circ\mathrm{C}$): **Anomalous (non-Fickian) transport** combining diffusion and matrix structural relaxation.
+- $n = 0.58$ ($1100\,^\circ\mathrm{C}$): **Diffusion-governed transport** controlled by a dense fluorapatite/wollastonite mineral barrier.
 
 ---
 
@@ -164,12 +196,11 @@ $$
 
 ## 4. Biological Validation & Real-Time Zone (RTZ) Tube
 
- ## 4.1 Continuous Admissibility Tube Definition
-
+### 4.1 Continuous Admissibility Tube Definition
 The functional domain preserving cytocompatibility and biological viability:
 
 $$
-\mathrm{RTZ}(t) = \left\lbrace \mathbf{S}(\cdot) \in C^0([0,T];\mathbb{R}^6) ;\middle|; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),; \mathrm{H}^+ \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},; \forall t \in (0,T] \right\rbrace
+\mathrm{RTZ}(t) = \left\lbrace \mathbf{S}(\cdot) \in C^0([0,T];\mathbb{R}^6) \;\middle|\; C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t),\; \mathrm{H}^+ \in [\mathrm{H}^+]^{\mathrm{lo},\mathrm{hi}},\; \varepsilon(t) \ge \varepsilon^{\mathrm{perc}},\; \forall t \in (0,T] \right\rbrace
 $$
 
 ### 4.2 Tube Distance Metric
@@ -179,14 +210,27 @@ $$
 d_{\mathrm{RTZ}}(\mathbf{S}) = \max_{t\in[0,T]}\left\lVert\mathbf{S}(t) - \Pi_{\mathrm{RTZ}}(\mathbf{S}(t))\right\rVert_2, \qquad \mathbf{S}\in\mathrm{RTZ} \iff d_{\mathrm{RTZ}}(\mathbf{S}) \le \delta^*
 $$
 
-
-
 ### 4.3 Phase-Indexed Tube Boundaries
 Convex combination of stage-specific physiological bounds:
 
 $$
 C_i^{\min}(t) = \sum_k \Omega_k(t) C_{i,k}^{\min}, \qquad C_i^{\max}(t) = \sum_k \Omega_k(t) C_{i,k}^{\max}
 $$
+
+### 4.4 Characteristic Release Time & Cumulative Dose Coordinates
+Parameterization of the continuous ion release curve into discrete trajectory descriptors $(\tau, \Sigma_{28})$:
+
+$$
+\Sigma_{28}^i = \int_0^{28} C_i(t)\,\mathrm{d}t \quad (\text{28-day Cumulative Exposure Dose})
+$$
+
+$$
+\tau^i = \inf \left\lbrace t \in (0, 28] \;\middle|\; \int_0^t C_i(t')\,\mathrm{d}t' \ge \frac{1}{2}\,\Sigma_{28}^i \right\rbrace \quad (\text{Characteristic Arrival Time})
+$$
+
+Scaffolds with identical 28-day cumulative dose $\Sigma_{28}$ are separated into distinct osteoinductive temporal regimes:
+- **Fast early pulse** ($\tau \le 5\,\mathrm{d}$): Drives early macrophage pro-inflammatory clearance and M1-to-M2 phenotype resolution.
+- **Sustained release** ($\tau \ge 14\,\mathrm{d}$): Maintains long-term calcium/phosphate levels for osteogenic mineralization.
 
 ---
 
