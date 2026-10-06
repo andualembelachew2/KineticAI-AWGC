@@ -1,442 +1,176 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="497.691094pt" height="328.231641pt" viewBox="0 0 497.691094 328.231641" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T03:57:37.648441</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 328.231641 
-L 497.691094 328.231641 
-L 497.691094 0 
-L 0 0 
-z
-" style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 44.513203 266.467891 
-L 490.491094 266.467891 
-L 490.491094 41.527454 
-L 44.513203 41.527454 
-z
-" style="fill: #ffffff"/>
-   </g>
-   <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <defs>
-       <path id="mc6ba4d4fd1" d="M 0 0 
-L 0 3 
-" style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="52.621892" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_1">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="52.621892" y="279.046016" transform="rotate(-0 52.621892 279.046016)">0</text>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_2">
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="72.893614" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_2">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="72.893614" y="279.046016" transform="rotate(-0 72.893614 279.046016)">1</text>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="113.437059" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="113.437059" y="279.046016" transform="rotate(-0 113.437059 279.046016)">3</text>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4">
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="153.980504" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="153.980504" y="279.046016" transform="rotate(-0 153.980504 279.046016)">5</text>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5">
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="194.523948" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_5">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="194.523948" y="279.046016" transform="rotate(-0 194.523948 279.046016)">7</text>
-     </g>
-    </g>
-    <g id="xtick_6">
-     <g id="line2d_6">
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="336.426004" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="336.426004" y="279.046016" transform="rotate(-0 336.426004 279.046016)">14</text>
-     </g>
-    </g>
-    <g id="xtick_7">
-     <g id="line2d_7">
-      <g>
-       <use xlink:href="#mc6ba4d4fd1" x="478.32806" y="266.467891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_7">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="478.32806" y="279.046016" transform="rotate(-0 478.32806 279.046016)">21</text>
-     </g>
-    </g>
-    <g id="text_8">
-     <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="267.502148" y="291.806484" transform="rotate(-0 267.502148 291.806484)">SBF immersion (days)</text>
-    </g>
-   </g>
-   <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_8">
-      <defs>
-       <path id="m61fdb067c6" d="M 0 0 
-L -3 0 
-" style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="246.211236" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_9">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="249.250299" transform="rotate(-0 38.013203 249.250299)">5.0</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_9">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="217.048186" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_10">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="220.087249" transform="rotate(-0 38.013203 220.087249)">7.5</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_10">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="187.885136" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_11">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="190.924199" transform="rotate(-0 38.013203 190.924199)">10.0</text>
-     </g>
-    </g>
-    <g id="ytick_4">
-     <g id="line2d_11">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="158.722086" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_12">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="161.761149" transform="rotate(-0 38.013203 161.761149)">12.5</text>
-     </g>
-    </g>
-    <g id="ytick_5">
-     <g id="line2d_12">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="129.559036" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_13">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="132.598099" transform="rotate(-0 38.013203 132.598099)">15.0</text>
-     </g>
-    </g>
-    <g id="ytick_6">
-     <g id="line2d_13">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="100.395986" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_14">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="103.435049" transform="rotate(-0 38.013203 103.435049)">17.5</text>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="line2d_14">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="71.232936" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_15">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="74.271999" transform="rotate(-0 38.013203 74.271999)">20.0</text>
-     </g>
-    </g>
-    <g id="ytick_8">
-     <g id="line2d_15">
-      <g>
-       <use xlink:href="#m61fdb067c6" x="44.513203" y="42.069887" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_16">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="38.013203" y="45.108949" transform="rotate(-0 38.013203 45.108949)">22.5</text>
-     </g>
-    </g>
-    <g id="text_17">
-     <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="14.038594" y="153.997672" transform="rotate(-90 14.038594 153.997672)">Wollastonite phase fraction (wt%)</text>
-    </g>
-   </g>
-   <g id="line2d_16">
-    <path d="M 52.621892 256.243325 
-L 113.437059 249.127541 
-L 153.980504 250.877324 
-L 194.523948 240.961887 
-L 336.426004 240.495278 
-L 478.32806 245.744627 
-" clip-path="url(#p687cca2125)" style="fill: none; stroke: #d55e00; stroke-width: 1.2; stroke-linecap: square"/>
-    <defs>
-     <path id="mfe144052bc" d="M 0 1.75 
-C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
-C 1.565609 0.909265 1.75 0.464105 1.75 0 
-C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
-C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
-C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
-C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
-C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
-C -0.909265 1.565609 -0.464105 1.75 0 1.75 
-z
-" style="stroke: #d55e00"/>
-    </defs>
-    <g clip-path="url(#p687cca2125)">
-     <use xlink:href="#mfe144052bc" x="52.621892" y="256.243325" style="fill: #d55e00; stroke: #d55e00"/>
-     <use xlink:href="#mfe144052bc" x="113.437059" y="249.127541" style="fill: #d55e00; stroke: #d55e00"/>
-     <use xlink:href="#mfe144052bc" x="153.980504" y="250.877324" style="fill: #d55e00; stroke: #d55e00"/>
-     <use xlink:href="#mfe144052bc" x="194.523948" y="240.961887" style="fill: #d55e00; stroke: #d55e00"/>
-     <use xlink:href="#mfe144052bc" x="336.426004" y="240.495278" style="fill: #d55e00; stroke: #d55e00"/>
-     <use xlink:href="#mfe144052bc" x="478.32806" y="245.744627" style="fill: #d55e00; stroke: #d55e00"/>
-    </g>
-   </g>
-   <g id="line2d_17">
-    <path d="M 52.621892 186.718614 
-L 113.437059 146.123649 
-L 153.980504 131.308819 
-L 194.523948 134.808385 
-L 336.426004 126.876036 
-L 478.32806 132.475341 
-" clip-path="url(#p687cca2125)" style="fill: none; stroke: #e69f00; stroke-width: 1.2; stroke-linecap: square"/>
-    <defs>
-     <path id="mc26719cbde" d="M 0 1.75 
-C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
-C 1.565609 0.909265 1.75 0.464105 1.75 0 
-C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
-C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
-C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
-C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
-C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
-C -0.909265 1.565609 -0.464105 1.75 0 1.75 
-z
-" style="stroke: #e69f00"/>
-    </defs>
-    <g clip-path="url(#p687cca2125)">
-     <use xlink:href="#mc26719cbde" x="52.621892" y="186.718614" style="fill: #e69f00; stroke: #e69f00"/>
-     <use xlink:href="#mc26719cbde" x="113.437059" y="146.123649" style="fill: #e69f00; stroke: #e69f00"/>
-     <use xlink:href="#mc26719cbde" x="153.980504" y="131.308819" style="fill: #e69f00; stroke: #e69f00"/>
-     <use xlink:href="#mc26719cbde" x="194.523948" y="134.808385" style="fill: #e69f00; stroke: #e69f00"/>
-     <use xlink:href="#mc26719cbde" x="336.426004" y="126.876036" style="fill: #e69f00; stroke: #e69f00"/>
-     <use xlink:href="#mc26719cbde" x="478.32806" y="132.475341" style="fill: #e69f00; stroke: #e69f00"/>
-    </g>
-   </g>
-   <g id="line2d_18">
-    <path d="M 52.621892 192.551224 
-L 113.437059 203.866488 
-L 153.980504 205.966227 
-L 194.523948 193.717746 
-L 336.426004 197.217312 
-L 478.32806 204.216444 
-" clip-path="url(#p687cca2125)" style="fill: none; stroke: #56b4e9; stroke-width: 1.2; stroke-linecap: square"/>
-    <defs>
-     <path id="mfcac0dc51d" d="M 0 1.75 
-C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
-C 1.565609 0.909265 1.75 0.464105 1.75 0 
-C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
-C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
-C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
-C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
-C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
-C -0.909265 1.565609 -0.464105 1.75 0 1.75 
-z
-" style="stroke: #56b4e9"/>
-    </defs>
-    <g clip-path="url(#p687cca2125)">
-     <use xlink:href="#mfcac0dc51d" x="52.621892" y="192.551224" style="fill: #56b4e9; stroke: #56b4e9"/>
-     <use xlink:href="#mfcac0dc51d" x="113.437059" y="203.866488" style="fill: #56b4e9; stroke: #56b4e9"/>
-     <use xlink:href="#mfcac0dc51d" x="153.980504" y="205.966227" style="fill: #56b4e9; stroke: #56b4e9"/>
-     <use xlink:href="#mfcac0dc51d" x="194.523948" y="193.717746" style="fill: #56b4e9; stroke: #56b4e9"/>
-     <use xlink:href="#mfcac0dc51d" x="336.426004" y="197.217312" style="fill: #56b4e9; stroke: #56b4e9"/>
-     <use xlink:href="#mfcac0dc51d" x="478.32806" y="204.216444" style="fill: #56b4e9; stroke: #56b4e9"/>
-    </g>
-   </g>
-   <g id="line2d_19">
-    <path d="M 52.621892 136.324864 
-L 113.437059 123.493122 
-L 153.980504 141.690865 
-L 194.523948 130.25895 
-L 336.426004 136.09156 
-L 478.32806 130.725558 
-" clip-path="url(#p687cca2125)" style="fill: none; stroke: #009e73; stroke-width: 1.2; stroke-linecap: square"/>
-    <defs>
-     <path id="m1b65cd4dc9" d="M 0 1.75 
-C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
-C 1.565609 0.909265 1.75 0.464105 1.75 0 
-C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
-C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
-C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
-C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
-C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
-C -0.909265 1.565609 -0.464105 1.75 0 1.75 
-z
-" style="stroke: #009e73"/>
-    </defs>
-    <g clip-path="url(#p687cca2125)">
-     <use xlink:href="#m1b65cd4dc9" x="52.621892" y="136.324864" style="fill: #009e73; stroke: #009e73"/>
-     <use xlink:href="#m1b65cd4dc9" x="113.437059" y="123.493122" style="fill: #009e73; stroke: #009e73"/>
-     <use xlink:href="#m1b65cd4dc9" x="153.980504" y="141.690865" style="fill: #009e73; stroke: #009e73"/>
-     <use xlink:href="#m1b65cd4dc9" x="194.523948" y="130.25895" style="fill: #009e73; stroke: #009e73"/>
-     <use xlink:href="#m1b65cd4dc9" x="336.426004" y="136.09156" style="fill: #009e73; stroke: #009e73"/>
-     <use xlink:href="#m1b65cd4dc9" x="478.32806" y="130.725558" style="fill: #009e73; stroke: #009e73"/>
-    </g>
-   </g>
-   <g id="line2d_20">
-    <path d="M 52.621892 51.752019 
-L 113.437059 74.61585 
-L 153.980504 71.93285 
-L 194.523948 71.349589 
-L 336.426004 63.183935 
-L 478.32806 55.601542 
-" clip-path="url(#p687cca2125)" style="fill: none; stroke: #0072b2; stroke-width: 1.2; stroke-linecap: square"/>
-    <defs>
-     <path id="m7a6e35842a" d="M 0 1.75 
-C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
-C 1.565609 0.909265 1.75 0.464105 1.75 0 
-C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
-C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
-C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
-C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
-C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
-C -0.909265 1.565609 -0.464105 1.75 0 1.75 
-z
-" style="stroke: #0072b2"/>
-    </defs>
-    <g clip-path="url(#p687cca2125)">
-     <use xlink:href="#m7a6e35842a" x="52.621892" y="51.752019" style="fill: #0072b2; stroke: #0072b2"/>
-     <use xlink:href="#m7a6e35842a" x="113.437059" y="74.61585" style="fill: #0072b2; stroke: #0072b2"/>
-     <use xlink:href="#m7a6e35842a" x="153.980504" y="71.93285" style="fill: #0072b2; stroke: #0072b2"/>
-     <use xlink:href="#m7a6e35842a" x="194.523948" y="71.349589" style="fill: #0072b2; stroke: #0072b2"/>
-     <use xlink:href="#m7a6e35842a" x="336.426004" y="63.183935" style="fill: #0072b2; stroke: #0072b2"/>
-     <use xlink:href="#m7a6e35842a" x="478.32806" y="55.601542" style="fill: #0072b2; stroke: #0072b2"/>
-    </g>
-   </g>
-   <g id="patch_3">
-    <path d="M 44.513203 266.467891 
-L 44.513203 41.527454 
-" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 44.513203 266.467891 
-L 490.491094 266.467891 
-" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-  </g>
-  <g id="text_18">
-   <text style="font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="248.211094" y="319.35" transform="rotate(-0 248.211094 319.35)">Transport regime from mass-loss fits: 700 °C, n = 0.25 (quasi-Fickian); 1100 °C, n = 0.58 (anomalous).</text>
-  </g>
-  <g id="legend_1">
-   <g id="line2d_21">
-    <path d="M 96.723398 13.273828 
-L 104.223398 13.273828 
-L 111.723398 13.273828 
-" style="fill: none; stroke: #d55e00; stroke-width: 1.2; stroke-linecap: square"/>
-    <g>
-     <use xlink:href="#mfe144052bc" x="104.223398" y="13.273828" style="fill: #d55e00; stroke: #d55e00"/>
-    </g>
-   </g>
-   <g id="text_19">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="117.723398" y="15.898828" transform="rotate(-0 117.723398 15.898828)">700 °C</text>
-   </g>
-   <g id="line2d_22">
-    <path d="M 158.409727 13.273828 
-L 165.909727 13.273828 
-L 173.409727 13.273828 
-" style="fill: none; stroke: #e69f00; stroke-width: 1.2; stroke-linecap: square"/>
-    <g>
-     <use xlink:href="#mc26719cbde" x="165.909727" y="13.273828" style="fill: #e69f00; stroke: #e69f00"/>
-    </g>
-   </g>
-   <g id="text_20">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="179.409727" y="15.898828" transform="rotate(-0 179.409727 15.898828)">800 °C</text>
-   </g>
-   <g id="line2d_23">
-    <path d="M 220.096055 13.273828 
-L 227.596055 13.273828 
-L 235.096055 13.273828 
-" style="fill: none; stroke: #56b4e9; stroke-width: 1.2; stroke-linecap: square"/>
-    <g>
-     <use xlink:href="#mfcac0dc51d" x="227.596055" y="13.273828" style="fill: #56b4e9; stroke: #56b4e9"/>
-    </g>
-   </g>
-   <g id="text_21">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="241.096055" y="15.898828" transform="rotate(-0 241.096055 15.898828)">900 °C</text>
-   </g>
-   <g id="line2d_24">
-    <path d="M 281.782383 13.273828 
-L 289.282383 13.273828 
-L 296.782383 13.273828 
-" style="fill: none; stroke: #009e73; stroke-width: 1.2; stroke-linecap: square"/>
-    <g>
-     <use xlink:href="#m1b65cd4dc9" x="289.282383" y="13.273828" style="fill: #009e73; stroke: #009e73"/>
-    </g>
-   </g>
-   <g id="text_22">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="302.782383" y="15.898828" transform="rotate(-0 302.782383 15.898828)">1000 °C</text>
-   </g>
-   <g id="line2d_25">
-    <path d="M 348.240586 13.273828 
-L 355.740586 13.273828 
-L 363.240586 13.273828 
-" style="fill: none; stroke: #0072b2; stroke-width: 1.2; stroke-linecap: square"/>
-    <g>
-     <use xlink:href="#m7a6e35842a" x="355.740586" y="13.273828" style="fill: #0072b2; stroke: #0072b2"/>
-    </g>
-   </g>
-   <g id="text_23">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="369.240586" y="15.898828" transform="rotate(-0 369.240586 15.898828)">1100 °C</text>
-   </g>
-  </g>
- </g>
- <defs>
-  <clipPath id="p687cca2125">
-   <rect x="44.513203" y="41.527454" width="445.977891" height="224.940437"/>
-  </clipPath>
- </defs>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxODIwZDUzZS02YmMzLTQ4ZGQtYmYwYi0xMzMwNmFlMTZlNWUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAfp96PjuwH25owjYVrMLy4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozYzcxYTc2MS1jMTMyLTQ2ODMtOTBmOS0yZGZhYWQ3YjE0NzNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoW7xvv99Gsw4l4t7m4nHIpQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggvFUEruv/eRPoZtBlDVoMhdGl+TyoSDzAQffSTbO9eiykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIt+OFF5t1xwtl0C5w5reR8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBSXQNYrNX290zk/fX9lBzsCCM1pqA6yQVUWEgsVar87mRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjE4MjBkNTNlLTZiYzMtNDhkZC1iZjBiLTEzMzA2YWUxNmU1ZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjFhYmMwYzExLTVhZmQtNDM2Ni1hZTYxLWUyYWY1MGZkOTI4MXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC8VQSu6/95E+hm0GUNWgyF0aX5PKhIPMBB99JNs716LKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggnfeOahdB53XKnTMiQEnFab7EvOKBxaBEuSL+kIpT2ICiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggF/G4W5kGagTJv/CKM8GL2vxEAxhM8yeqNIW7SeXebJ50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQM/msjUt+YTjQinZ1MLZQ2wuOVT6ZfRC+Qy8TwHqUcRmOcnNvSipbpcbpLi24lHzzRJmbPnCbj5ETgILp+TUDck=</c2pa:manifest></metadata>
+<title id="t">Wollastonite phase fraction during SBF immersion for ceramics sintered at 700 to 1100 °C</title>
+<desc id="d">Left: wollastonite weight percent versus immersion time. Right: change relative to day 0.</desc>
+<style>
+svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif}
+.bg{fill:#fff}.card{fill:#f6f8fa;stroke:#d0d7de}.fg{fill:#1f2328}.ln{stroke:#1f2328}.gr{stroke:#e1e4e8}.mut{fill:#57606a}.mut2{stroke:#57606a}
+.s1{--c:#5E4FA2}.s2{--c:#2F7FC1}.s3{--c:#1E9E8C}.s4{--c:#D98E04}.s5{--c:#D1482F}
+.ln2{stroke:var(--c)}.k{fill:var(--c)}.bd{stroke:#fff;stroke-width:2}
+@media (prefers-color-scheme:dark){
+.bg{fill:#0d1117}.card{fill:#151b23;stroke:#30363d}.fg{fill:#e6edf3}.ln{stroke:#e6edf3}.gr{stroke:#262d36}.mut{fill:#8b949e}.mut2{stroke:#8b949e}
+.s1{--c:#A99CF0}.s2{--c:#66B2F0}.s3{--c:#4CD0B8}.s4{--c:#F5C060}.s5{--c:#FF7F63}.bd{stroke:#0d1117}}
+</style>
+<rect class="bg" width="1600" height="900" rx="14"/>
+<text class="fg" x="60" y="62" font-size="38" font-weight="700">Wollastonite stability in simulated body fluid</text>
+<text class="mut" x="60" y="100" font-size="23">Phase fraction of bioactive silicate ceramics sintered at 700–1100 °C, followed over 21 days of SBF immersion</text>
+<rect class="card" x="150" y="190" width="490" height="460" rx="6"/>
+<line class="gr" x1="163.2" y1="190" x2="163.2" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="229.5" y1="190" x2="229.5" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="273.6" y1="190" x2="273.6" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="317.7" y1="190" x2="317.7" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="472.3" y1="190" x2="472.3" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="626.8" y1="190" x2="626.8" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="150" y1="650.0" x2="640" y2="650.0" stroke-width="1.2"/>
+<line class="ln" x1="142" y1="650.0" x2="150" y2="650.0" stroke-width="1.8"/>
+<text class="fg" x="134" y="658.0" font-size="22" text-anchor="end">0</text>
+<line class="gr" x1="150" y1="558.0" x2="640" y2="558.0" stroke-width="1.2"/>
+<line class="ln" x1="142" y1="558.0" x2="150" y2="558.0" stroke-width="1.8"/>
+<text class="fg" x="134" y="566.0" font-size="22" text-anchor="end">5</text>
+<line class="gr" x1="150" y1="466.0" x2="640" y2="466.0" stroke-width="1.2"/>
+<line class="ln" x1="142" y1="466.0" x2="150" y2="466.0" stroke-width="1.8"/>
+<text class="fg" x="134" y="474.0" font-size="22" text-anchor="end">10</text>
+<line class="gr" x1="150" y1="374.0" x2="640" y2="374.0" stroke-width="1.2"/>
+<line class="ln" x1="142" y1="374.0" x2="150" y2="374.0" stroke-width="1.8"/>
+<text class="fg" x="134" y="382.0" font-size="22" text-anchor="end">15</text>
+<line class="gr" x1="150" y1="282.0" x2="640" y2="282.0" stroke-width="1.2"/>
+<line class="ln" x1="142" y1="282.0" x2="150" y2="282.0" stroke-width="1.8"/>
+<text class="fg" x="134" y="290.0" font-size="22" text-anchor="end">20</text>
+<line class="gr" x1="150" y1="190.0" x2="640" y2="190.0" stroke-width="1.2"/>
+<line class="ln" x1="142" y1="190.0" x2="150" y2="190.0" stroke-width="1.8"/>
+<text class="fg" x="134" y="198.0" font-size="22" text-anchor="end">25</text>
+<g class="s1"><path class="ln2" d="M163.2 573.8 L229.5 562.6 L273.6 565.4 L317.7 549.7 L472.3 549.0 L626.8 557.3" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<circle class="bd k" cx="163.2" cy="573.8" r="9"/>
+<circle class="bd k" cx="229.5" cy="562.6" r="9"/>
+<circle class="bd k" cx="273.6" cy="565.4" r="9"/>
+<circle class="bd k" cx="317.7" cy="549.7" r="9"/>
+<circle class="bd k" cx="472.3" cy="549.0" r="9"/>
+<circle class="bd k" cx="626.8" cy="557.3" r="9"/>
+</g>
+<g class="s2"><path class="ln2" d="M163.2 464.2 L229.5 400.1 L273.6 376.8 L317.7 382.3 L472.3 369.8 L626.8 378.6" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<rect class="bd k" x="154.2" y="455.2" width="18" height="18"/>
+<rect class="bd k" x="220.5" y="391.1" width="18" height="18"/>
+<rect class="bd k" x="264.6" y="367.8" width="18" height="18"/>
+<rect class="bd k" x="308.7" y="373.3" width="18" height="18"/>
+<rect class="bd k" x="463.3" y="360.8" width="18" height="18"/>
+<rect class="bd k" x="617.8" y="369.6" width="18" height="18"/>
+</g>
+<g class="s3"><path class="ln2" d="M163.2 473.4 L229.5 491.2 L273.6 494.5 L317.7 475.2 L472.3 480.7 L626.8 491.8" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<path class="bd k" d="M163.2 462.4L174.2 482.4L152.2 482.4Z"/>
+<path class="bd k" d="M229.5 480.2L240.5 500.2L218.5 500.2Z"/>
+<path class="bd k" d="M273.6 483.5L284.6 503.5L262.6 503.5Z"/>
+<path class="bd k" d="M317.7 464.2L328.7 484.2L306.7 484.2Z"/>
+<path class="bd k" d="M472.3 469.7L483.3 489.7L461.3 489.7Z"/>
+<path class="bd k" d="M626.8 480.8L637.8 500.8L615.8 500.8Z"/>
+</g>
+<g class="s4"><path class="ln2" d="M163.2 384.7 L229.5 364.4 L273.6 393.1 L317.7 375.1 L472.3 384.3 L626.8 375.8" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<path class="bd k" d="M163.2 372.7L175.2 384.7L163.2 396.7L151.2 384.7Z"/>
+<path class="bd k" d="M229.5 352.4L241.5 364.4L229.5 376.4L217.5 364.4Z"/>
+<path class="bd k" d="M273.6 381.1L285.6 393.1L273.6 405.1L261.6 393.1Z"/>
+<path class="bd k" d="M317.7 363.1L329.7 375.1L317.7 387.1L305.7 375.1Z"/>
+<path class="bd k" d="M472.3 372.3L484.3 384.3L472.3 396.3L460.3 384.3Z"/>
+<path class="bd k" d="M626.8 363.8L638.8 375.8L626.8 387.8L614.8 375.8Z"/>
+</g>
+<g class="s5"><path class="ln2" d="M163.2 251.3 L229.5 287.3 L273.6 283.1 L317.7 282.2 L472.3 269.3 L626.8 257.3" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<path class="bd k" d="M152.2 242.3L174.2 242.3L163.2 262.3Z"/>
+<path class="bd k" d="M218.5 278.3L240.5 278.3L229.5 298.3Z"/>
+<path class="bd k" d="M262.6 274.1L284.6 274.1L273.6 294.1Z"/>
+<path class="bd k" d="M306.7 273.2L328.7 273.2L317.7 293.2Z"/>
+<path class="bd k" d="M461.3 260.3L483.3 260.3L472.3 280.3Z"/>
+<path class="bd k" d="M615.8 248.3L637.8 248.3L626.8 268.3Z"/>
+</g>
+<text class="s5 k" x="658" y="265.3" font-size="24" font-weight="700">1100 °C</text>
+<text class="s4 k" x="658" y="383.8" font-size="24" font-weight="700">1000 °C</text>
+<text class="s2 k" x="658" y="413.8" font-size="24" font-weight="700">800 °C</text>
+<text class="s3 k" x="658" y="499.8" font-size="24" font-weight="700">900 °C</text>
+<text class="s1 k" x="658" y="565.3" font-size="24" font-weight="700">700 °C</text>
+<line class="ln" x1="150" y1="650" x2="640" y2="650" stroke-width="2"/><line class="ln" x1="150" y1="190" x2="150" y2="650" stroke-width="2"/>
+<line class="ln" x1="163.2" y1="650" x2="163.2" y2="659" stroke-width="1.8"/><text class="fg" x="163.2" y="688" font-size="22" text-anchor="middle">0</text>
+<line class="ln" x1="229.5" y1="650" x2="229.5" y2="659" stroke-width="1.8"/><text class="fg" x="229.5" y="688" font-size="22" text-anchor="middle">3</text>
+<line class="ln" x1="273.6" y1="650" x2="273.6" y2="659" stroke-width="1.8"/><text class="fg" x="273.6" y="688" font-size="22" text-anchor="middle">5</text>
+<line class="ln" x1="317.7" y1="650" x2="317.7" y2="659" stroke-width="1.8"/><text class="fg" x="317.7" y="688" font-size="22" text-anchor="middle">7</text>
+<line class="ln" x1="472.3" y1="650" x2="472.3" y2="659" stroke-width="1.8"/><text class="fg" x="472.3" y="688" font-size="22" text-anchor="middle">14</text>
+<line class="ln" x1="626.8" y1="650" x2="626.8" y2="659" stroke-width="1.8"/><text class="fg" x="626.8" y="688" font-size="22" text-anchor="middle">21</text>
+<text class="fg" x="395" y="728" font-size="24" text-anchor="middle">SBF immersion time (days)</text>
+<text class="fg" font-size="24" transform="translate(76 420) rotate(-90)" text-anchor="middle">Wollastonite (wt%)</text>
+<text class="fg" x="150" y="168" font-size="28" font-weight="700">(a) Wollastonite fraction</text>
+<rect class="card" x="930" y="190" width="490" height="460" rx="6"/>
+<line class="gr" x1="943.2" y1="190" x2="943.2" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="1009.5" y1="190" x2="1009.5" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="1053.6" y1="190" x2="1053.6" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="1097.7" y1="190" x2="1097.7" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="1252.3" y1="190" x2="1252.3" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="1406.8" y1="190" x2="1406.8" y2="650" stroke-width="1.2" stroke-dasharray="3 7"/>
+<line class="gr" x1="930" y1="598.9" x2="1420" y2="598.9" stroke-width="1.2"/>
+<line class="ln" x1="922" y1="598.9" x2="930" y2="598.9" stroke-width="1.8"/>
+<text class="fg" x="914" y="606.9" font-size="22" text-anchor="end">-2</text>
+<line class="gr" x1="930" y1="496.7" x2="1420" y2="496.7" stroke-width="1.2"/>
+<line class="ln" x1="922" y1="496.7" x2="930" y2="496.7" stroke-width="1.8"/>
+<text class="fg" x="914" y="504.7" font-size="22" text-anchor="end">0</text>
+<line class="gr" x1="930" y1="394.4" x2="1420" y2="394.4" stroke-width="1.2"/>
+<line class="ln" x1="922" y1="394.4" x2="930" y2="394.4" stroke-width="1.8"/>
+<text class="fg" x="914" y="402.4" font-size="22" text-anchor="end">2</text>
+<line class="gr" x1="930" y1="292.2" x2="1420" y2="292.2" stroke-width="1.2"/>
+<line class="ln" x1="922" y1="292.2" x2="930" y2="292.2" stroke-width="1.8"/>
+<text class="fg" x="914" y="300.2" font-size="22" text-anchor="end">4</text>
+<line class="gr" x1="930" y1="190.0" x2="1420" y2="190.0" stroke-width="1.2"/>
+<line class="ln" x1="922" y1="190.0" x2="930" y2="190.0" stroke-width="1.8"/>
+<text class="fg" x="914" y="198.0" font-size="22" text-anchor="end">6</text>
+<line class="mut2" x1="930" y1="496.7" x2="1420" y2="496.7" stroke-width="2.2" stroke-dasharray="8 6"/>
+<g class="s1"><path class="ln2" d="M943.2 496.7 L1009.5 465.5 L1053.6 473.2 L1097.7 429.7 L1252.3 427.7 L1406.8 450.7" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<circle class="bd k" cx="943.2" cy="496.7" r="9"/>
+<circle class="bd k" cx="1009.5" cy="465.5" r="9"/>
+<circle class="bd k" cx="1053.6" cy="473.2" r="9"/>
+<circle class="bd k" cx="1097.7" cy="429.7" r="9"/>
+<circle class="bd k" cx="1252.3" cy="427.7" r="9"/>
+<circle class="bd k" cx="1406.8" cy="450.7" r="9"/>
+</g>
+<g class="s2"><path class="ln2" d="M943.2 496.7 L1009.5 318.8 L1053.6 253.9 L1097.7 269.2 L1252.3 234.5 L1406.8 259.0" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<rect class="bd k" x="934.2" y="487.7" width="18" height="18"/>
+<rect class="bd k" x="1000.5" y="309.8" width="18" height="18"/>
+<rect class="bd k" x="1044.6" y="244.9" width="18" height="18"/>
+<rect class="bd k" x="1088.7" y="260.2" width="18" height="18"/>
+<rect class="bd k" x="1243.3" y="225.5" width="18" height="18"/>
+<rect class="bd k" x="1397.8" y="250.0" width="18" height="18"/>
+</g>
+<g class="s3"><path class="ln2" d="M943.2 496.7 L1009.5 546.2 L1053.6 555.4 L1097.7 501.8 L1252.3 517.1 L1406.8 547.8" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<path class="bd k" d="M943.2 485.7L954.2 505.7L932.2 505.7Z"/>
+<path class="bd k" d="M1009.5 535.2L1020.5 555.2L998.5 555.2Z"/>
+<path class="bd k" d="M1053.6 544.4L1064.6 564.4L1042.6 564.4Z"/>
+<path class="bd k" d="M1097.7 490.8L1108.7 510.8L1086.7 510.8Z"/>
+<path class="bd k" d="M1252.3 506.1L1263.3 526.1L1241.3 526.1Z"/>
+<path class="bd k" d="M1406.8 536.8L1417.8 556.8L1395.8 556.8Z"/>
+</g>
+<g class="s4"><path class="ln2" d="M943.2 496.7 L1009.5 440.4 L1053.6 520.2 L1097.7 470.1 L1252.3 495.6 L1406.8 472.1" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<path class="bd k" d="M943.2 484.7L955.2 496.7L943.2 508.7L931.2 496.7Z"/>
+<path class="bd k" d="M1009.5 428.4L1021.5 440.4L1009.5 452.4L997.5 440.4Z"/>
+<path class="bd k" d="M1053.6 508.2L1065.6 520.2L1053.6 532.2L1041.6 520.2Z"/>
+<path class="bd k" d="M1097.7 458.1L1109.7 470.1L1097.7 482.1L1085.7 470.1Z"/>
+<path class="bd k" d="M1252.3 483.6L1264.3 495.6L1252.3 507.6L1240.3 495.6Z"/>
+<path class="bd k" d="M1406.8 460.1L1418.8 472.1L1406.8 484.1L1394.8 472.1Z"/>
+</g>
+<g class="s5"><path class="ln2" d="M943.2 496.7 L1009.5 596.8 L1053.6 585.1 L1097.7 582.5 L1252.3 546.8 L1406.8 513.5" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+<path class="bd k" d="M932.2 487.7L954.2 487.7L943.2 507.7Z"/>
+<path class="bd k" d="M998.5 587.8L1020.5 587.8L1009.5 607.8Z"/>
+<path class="bd k" d="M1042.6 576.1L1064.6 576.1L1053.6 596.1Z"/>
+<path class="bd k" d="M1086.7 573.5L1108.7 573.5L1097.7 593.5Z"/>
+<path class="bd k" d="M1241.3 537.8L1263.3 537.8L1252.3 557.8Z"/>
+<path class="bd k" d="M1395.8 504.5L1417.8 504.5L1406.8 524.5Z"/>
+</g>
+<text class="s2 k" x="1438" y="267.0" font-size="24" font-weight="700">800 °C</text>
+<text class="s1 k" x="1438" y="458.7" font-size="24" font-weight="700">700 °C</text>
+<text class="s4 k" x="1438" y="488.7" font-size="24" font-weight="700">1000 °C</text>
+<text class="s5 k" x="1438" y="521.5" font-size="24" font-weight="700">1100 °C</text>
+<text class="s3 k" x="1438" y="555.8" font-size="24" font-weight="700">900 °C</text>
+<line class="ln" x1="930" y1="650" x2="1420" y2="650" stroke-width="2"/><line class="ln" x1="930" y1="190" x2="930" y2="650" stroke-width="2"/>
+<line class="ln" x1="943.2" y1="650" x2="943.2" y2="659" stroke-width="1.8"/><text class="fg" x="943.2" y="688" font-size="22" text-anchor="middle">0</text>
+<line class="ln" x1="1009.5" y1="650" x2="1009.5" y2="659" stroke-width="1.8"/><text class="fg" x="1009.5" y="688" font-size="22" text-anchor="middle">3</text>
+<line class="ln" x1="1053.6" y1="650" x2="1053.6" y2="659" stroke-width="1.8"/><text class="fg" x="1053.6" y="688" font-size="22" text-anchor="middle">5</text>
+<line class="ln" x1="1097.7" y1="650" x2="1097.7" y2="659" stroke-width="1.8"/><text class="fg" x="1097.7" y="688" font-size="22" text-anchor="middle">7</text>
+<line class="ln" x1="1252.3" y1="650" x2="1252.3" y2="659" stroke-width="1.8"/><text class="fg" x="1252.3" y="688" font-size="22" text-anchor="middle">14</text>
+<line class="ln" x1="1406.8" y1="650" x2="1406.8" y2="659" stroke-width="1.8"/><text class="fg" x="1406.8" y="688" font-size="22" text-anchor="middle">21</text>
+<text class="fg" x="1175" y="728" font-size="24" text-anchor="middle">SBF immersion time (days)</text>
+<text class="fg" font-size="24" transform="translate(856 420) rotate(-90)" text-anchor="middle">Δ wollastonite (wt%)</text>
+<text class="fg" x="930" y="168" font-size="28" font-weight="700">(b) Change relative to day 0</text>
+<text class="mut" x="60" y="838" font-size="21">Mass-loss kinetics (power-law fit): 700 °C, n = 0.25 (quasi-Fickian); 1100 °C, n = 0.58 (anomalous transport).</text>
+<text class="mut" x="60" y="870" font-size="21">Wollastonite fraction is set mainly by sintering temperature; after day 3 it stays varies by less than 1.7 wt% (day 3–21) at every temperature.</text>
 </svg>
