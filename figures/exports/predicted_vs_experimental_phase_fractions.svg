@@ -1,361 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="370.458594pt" height="368.278594pt" viewBox="0 0 370.458594 368.278594" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T03:57:35.209018</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 368.278594 
-L 370.458594 368.278594 
-L 370.458594 0 
-L 0 0 
-z
-" style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 36.880703 333.577891 
-L 363.258594 333.577891 
-L 363.258594 7.2 
-L 36.880703 7.2 
-z
-" style="fill: #ffffff"/>
-   </g>
-   <g id="PathCollection_1">
-    <defs>
-     <path id="m97ccc3eee6" d="M 0 2.645751 
-C 0.701661 2.645751 1.374679 2.366978 1.870829 1.870829 
-C 2.366978 1.374679 2.645751 0.701661 2.645751 0 
-C 2.645751 -0.701661 2.366978 -1.374679 1.870829 -1.870829 
-C 1.374679 -2.366978 0.701661 -2.645751 0 -2.645751 
-C -0.701661 -2.645751 -1.374679 -2.366978 -1.870829 -1.870829 
-C -2.366978 -1.374679 -2.645751 -0.701661 -2.645751 0 
-C -2.645751 0.701661 -2.366978 1.374679 -1.870829 1.870829 
-C -1.374679 2.366978 -0.701661 2.645751 0 2.645751 
-z
-" style="stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-    </defs>
-    <g clip-path="url(#p7b44778d6d)">
-     <use xlink:href="#m97ccc3eee6" x="137.131653" y="239.719546" style="fill: #009e73; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m97ccc3eee6" x="126.929833" y="232.521238" style="fill: #009e73; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m97ccc3eee6" x="52.94656" y="315.845201" style="fill: #009e73; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m97ccc3eee6" x="180.991443" y="193.955148" style="fill: #009e73; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m97ccc3eee6" x="82.668396" y="282.63386" style="fill: #009e73; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-    </g>
-   </g>
-   <g id="PathCollection_2">
-    <defs>
-     <path id="mb57f932aa8" d="M 0 2.645751 
-C 0.701661 2.645751 1.374679 2.366978 1.870829 1.870829 
-C 2.366978 1.374679 2.645751 0.701661 2.645751 0 
-C 2.645751 -0.701661 2.366978 -1.374679 1.870829 -1.870829 
-C 1.374679 -2.366978 0.701661 -2.645751 0 -2.645751 
-C -0.701661 -2.645751 -1.374679 -2.366978 -1.870829 -1.870829 
-C -2.366978 -1.374679 -2.645751 -0.701661 -2.645751 0 
-C -2.645751 0.701661 -2.366978 1.374679 -1.870829 1.870829 
-C -1.374679 2.366978 -0.701661 2.645751 0 2.645751 
-z
-" style="stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-    </defs>
-    <g clip-path="url(#p7b44778d6d)">
-     <use xlink:href="#mb57f932aa8" x="96.324375" y="271.102591" style="fill: #0072b2; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#mb57f932aa8" x="171.994563" y="183.943709" style="fill: #0072b2; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#mb57f932aa8" x="319.720121" y="44.786073" style="fill: #0072b2; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#mb57f932aa8" x="109.739366" y="260.40514" style="fill: #0072b2; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#mb57f932aa8" x="173.119173" y="189.659941" style="fill: #0072b2; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-    </g>
-   </g>
-   <g id="PathCollection_3">
-    <defs>
-     <path id="m17d0e357fa" d="M 0 2.645751 
-C 0.701661 2.645751 1.374679 2.366978 1.870829 1.870829 
-C 2.366978 1.374679 2.645751 0.701661 2.645751 0 
-C 2.645751 -0.701661 2.366978 -1.374679 1.870829 -1.870829 
-C 1.374679 -2.366978 0.701661 -2.645751 0 -2.645751 
-C -0.701661 -2.645751 -1.374679 -2.366978 -1.870829 -1.870829 
-C -2.366978 -1.374679 -2.645751 -0.701661 -2.645751 0 
-C -2.645751 0.701661 -2.366978 1.374679 -1.870829 1.870829 
-C -1.374679 2.366978 -0.701661 2.645751 0 2.645751 
-z
-" style="stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-    </defs>
-    <g clip-path="url(#p7b44778d6d)">
-     <use xlink:href="#m17d0e357fa" x="300.200104" y="85.194114" style="fill: #e69f00; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m17d0e357fa" x="284.294905" y="60.131377" style="fill: #e69f00; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m17d0e357fa" x="91.022642" y="275.519096" style="fill: #e69f00; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m17d0e357fa" x="347.192736" y="30.878664" style="fill: #e69f00; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     <use xlink:href="#m17d0e357fa" x="240.917091" y="117.074398" style="fill: #e69f00; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-    </g>
-   </g>
-   <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <defs>
-       <path id="m8f0f792a30" d="M 0 0 
-L 0 3 
-" style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#m8f0f792a30" x="54.954793" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_1">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="54.954793" y="346.156016" transform="rotate(-0 54.954793 346.156016)">5</text>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_2">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="95.119436" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_2">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="95.119436" y="346.156016" transform="rotate(-0 95.119436 346.156016)">10</text>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="135.284079" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="135.284079" y="346.156016" transform="rotate(-0 135.284079 346.156016)">15</text>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="175.448722" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="175.448722" y="346.156016" transform="rotate(-0 175.448722 346.156016)">20</text>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="215.613365" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_5">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="215.613365" y="346.156016" transform="rotate(-0 215.613365 346.156016)">25</text>
-     </g>
-    </g>
-    <g id="xtick_6">
-     <g id="line2d_6">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="255.778009" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="255.778009" y="346.156016" transform="rotate(-0 255.778009 346.156016)">30</text>
-     </g>
-    </g>
-    <g id="xtick_7">
-     <g id="line2d_7">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="295.942652" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_7">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="295.942652" y="346.156016" transform="rotate(-0 295.942652 346.156016)">35</text>
-     </g>
-    </g>
-    <g id="xtick_8">
-     <g id="line2d_8">
-      <g>
-       <use xlink:href="#m8f0f792a30" x="336.107295" y="333.577891" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_8">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="336.107295" y="346.156016" transform="rotate(-0 336.107295 346.156016)">40</text>
-     </g>
-    </g>
-    <g id="text_9">
-     <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="200.069648" y="358.916484" transform="rotate(-0 200.069648 358.916484)">Experimental phase fraction (wt%)</text>
-    </g>
-   </g>
-   <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_9">
-      <defs>
-       <path id="mdfb7d747fe" d="M 0 0 
-L -3 0 
-" style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="315.503801" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_10">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="318.542864" transform="rotate(-0 30.380703 318.542864)">5</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_10">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="275.339158" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_11">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="278.37822" transform="rotate(-0 30.380703 278.37822)">10</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_11">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="235.174515" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_12">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="238.213577" transform="rotate(-0 30.380703 238.213577)">15</text>
-     </g>
-    </g>
-    <g id="ytick_4">
-     <g id="line2d_12">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="195.009872" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_13">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="198.048934" transform="rotate(-0 30.380703 198.048934)">20</text>
-     </g>
-    </g>
-    <g id="ytick_5">
-     <g id="line2d_13">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="154.845228" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_14">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="157.884291" transform="rotate(-0 30.380703 157.884291)">25</text>
-     </g>
-    </g>
-    <g id="ytick_6">
-     <g id="line2d_14">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="114.680585" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_15">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="117.719648" transform="rotate(-0 30.380703 117.719648)">30</text>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="line2d_15">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="74.515942" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_16">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="77.555004" transform="rotate(-0 30.380703 77.555004)">35</text>
-     </g>
-    </g>
-    <g id="ytick_8">
-     <g id="line2d_16">
-      <g>
-       <use xlink:href="#mdfb7d747fe" x="36.880703" y="34.351299" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_17">
-      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="30.380703" y="37.390361" transform="rotate(-0 30.380703 37.390361)">40</text>
-     </g>
-    </g>
-    <g id="text_18">
-     <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="14.038594" y="170.388945" transform="rotate(-90 14.038594 170.388945)">Predicted phase fraction (wt%)</text>
-    </g>
-   </g>
-   <g id="line2d_17">
-    <path d="M 36.880703 333.577891 
-L 363.258594 7.2 
-" clip-path="url(#p7b44778d6d)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #666666"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 36.880703 333.577891 
-L 36.880703 7.2 
-" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 36.880703 333.577891 
-L 363.258594 333.577891 
-" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="text_19">
-    <g id="patch_5">
-     <path d="M 49.935819 49.135682 
-L 146.91785 49.135682 
-Q 148.79285 49.135682 148.79285 47.260682 
-L 148.79285 20.255116 
-Q 148.79285 18.380116 146.91785 18.380116 
-L 49.935819 18.380116 
-Q 48.060819 18.380116 48.060819 20.255116 
-L 48.060819 47.260682 
-Q 48.060819 49.135682 49.935819 49.135682 
-z
-" style="fill: #ffffff; opacity: 0.9; stroke: #bbbbbb; stroke-linejoin: miter"/>
-    </g>
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(49.935819 26.704676)">All-phase test R² = 0.933</text>
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(49.935819 35.706141)">RMSE = 2.08 wt%</text>
-    <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(49.935819 44.708192)">Random 20% row holdout</text>
-   </g>
-   <g id="legend_1">
-    <g id="PathCollection_4">
-     <g>
-      <use xlink:href="#m97ccc3eee6" x="285.48125" y="289.305625" style="fill: #009e73; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     </g>
-    </g>
-    <g id="text_20">
-     <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="298.98125" y="291.274375" transform="rotate(-0 298.98125 291.274375)">Wollastonite</text>
-    </g>
-    <g id="PathCollection_5">
-     <g>
-      <use xlink:href="#mb57f932aa8" x="285.48125" y="300.556211" style="fill: #0072b2; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     </g>
-    </g>
-    <g id="text_21">
-     <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="298.98125" y="302.524961" transform="rotate(-0 298.98125 302.524961)">Hydroxyapatite</text>
-    </g>
-    <g id="PathCollection_6">
-     <g>
-      <use xlink:href="#m17d0e357fa" x="285.48125" y="311.806797" style="fill: #e69f00; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.45"/>
-     </g>
-    </g>
-    <g id="text_22">
-     <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="298.98125" y="313.775547" transform="rotate(-0 298.98125 313.775547)">Whitlockite</text>
-    </g>
-    <g id="line2d_18">
-     <path d="M 277.98125 322.401133 
-L 285.48125 322.401133 
-L 292.98125 322.401133 
-" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #666666"/>
-    </g>
-    <g id="text_23">
-     <text style="font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="298.98125" y="325.026133" transform="rotate(-0 298.98125 325.026133)">Identity</text>
-    </g>
-   </g>
-  </g>
- </g>
- <defs>
-  <clipPath id="p7b44778d6d">
-   <rect x="36.880703" y="7.2" width="326.377891" height="326.377891"/>
-  </clipPath>
- </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="660" viewBox="0 0 860 660" font-family="Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMzE2MzdhNy02NzQzLTQ2NmYtYmFiNC1hNmRlNjgwNTEyNjkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDR+Oh73it3uXP8cYISvp4cAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowOWQ2YzBmOC1hYjhhLTQzMTEtYWI5ZC1jYTY5NzE2NWE0YTRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoLCAa6bYqIm5WZH6xScPTwAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgguk+Rfda9Mbn2gImrC/Tnmu1Xqyc5drbm4dtqimyPxGOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKjgP+NmqG4Dm3vQOS731EkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBd1ZzP6dHMDxCL6Ucb4TMRirckDev50YTWqROMBY8vMWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjmZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMzMTYzN2E3LTY3NDMtNDY2Zi1iYWI0LWE2ZGU2ODA1MTI2OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjMyODg0Mjk4LWRhOTUtNDA4Zi05ODI1LTRjMTE5OTk5YmYzN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC6T5F91r0xufaAiasL9Oea7VerJzl2tubh22qKbI/EY6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggL6fj+J/QJgn11vQJQfexNbAETHqOoJ+3P2pqYOHZWoeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggovzryWHeygBWHp4KJvG3YFUHt8NQx40R7YO6CTMdJEd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIo0nN+onLKFoRXfHM2SOIR3SagKMbLH66cjDvrZQ4DqA+jbf1nyUKdIKNQZcGIcXe8VOqDIao/zdW5k4SCSoNs=</c2pa:manifest></metadata>
+<title id="t">Predicted vs experimental phase fractions in Ca–Si–P–O glass-ceramics</title>
+<desc id="d">Parity plot for wollastonite, hydroxyapatite and whitlockite; test R2 = 0.933, RMSE = 2.08 wt%, random 20% row holdout.</desc>
+<style>
+:root{--bg:#ffffff;--fg:#1f2328;--mut:#656d76;--grid:#e6e9ed;--card:#f6f8fa;--line:#d0d7de;--acc:#0969da}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--mut:#8b949e;--grid:#21262d;--card:#161b22;--line:#30363d;--acc:#58a6ff}}
+text{fill:var(--fg)} .m{fill:var(--mut)} .pt{stroke:var(--bg);stroke-width:1.2;fill-opacity:.92}
+</style>
+<defs><clipPath id="c"><rect x="90" y="90" width="450" height="450"/></clipPath>
+<linearGradient id="hdr" x1="0" x2="1"><stop offset="0" stop-color="#009e73"/><stop offset=".5" stop-color="#0072b2"/><stop offset="1" stop-color="#e69f00"/></linearGradient></defs>
+<rect width="860" height="660" fill="var(--bg)"/>
+<rect x="30" y="26" width="5" height="46" rx="2.5" fill="url(#hdr)"/>
+<text x="46" y="48" font-size="20" font-weight="700">Kinetic Blueprint · Phase-Fraction Prediction</text>
+<text x="46" y="68" font-size="12.5" class="m">Held-out test set · Ca–Si–P–O bioactive glass-ceramics · wollastonite, hydroxyapatite, whitlockite</text>
+
+<line x1="90.0" y1="90" x2="90.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="540.0" x2="540" y2="540.0" stroke="var(--grid)"/>
+<text x="90.0" y="557" font-size="11" text-anchor="middle" class="m">0</text><text x="81" y="544.0" font-size="11" text-anchor="end" class="m">0</text>
+<line x1="140.0" y1="90" x2="140.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="490.0" x2="540" y2="490.0" stroke="var(--grid)"/>
+<text x="140.0" y="557" font-size="11" text-anchor="middle" class="m">5</text><text x="81" y="494.0" font-size="11" text-anchor="end" class="m">5</text>
+<line x1="190.0" y1="90" x2="190.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="440.0" x2="540" y2="440.0" stroke="var(--grid)"/>
+<text x="190.0" y="557" font-size="11" text-anchor="middle" class="m">10</text><text x="81" y="444.0" font-size="11" text-anchor="end" class="m">10</text>
+<line x1="240.0" y1="90" x2="240.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="390.0" x2="540" y2="390.0" stroke="var(--grid)"/>
+<text x="240.0" y="557" font-size="11" text-anchor="middle" class="m">15</text><text x="81" y="394.0" font-size="11" text-anchor="end" class="m">15</text>
+<line x1="290.0" y1="90" x2="290.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="340.0" x2="540" y2="340.0" stroke="var(--grid)"/>
+<text x="290.0" y="557" font-size="11" text-anchor="middle" class="m">20</text><text x="81" y="344.0" font-size="11" text-anchor="end" class="m">20</text>
+<line x1="340.0" y1="90" x2="340.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="290.0" x2="540" y2="290.0" stroke="var(--grid)"/>
+<text x="340.0" y="557" font-size="11" text-anchor="middle" class="m">25</text><text x="81" y="294.0" font-size="11" text-anchor="end" class="m">25</text>
+<line x1="390.0" y1="90" x2="390.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="240.0" x2="540" y2="240.0" stroke="var(--grid)"/>
+<text x="390.0" y="557" font-size="11" text-anchor="middle" class="m">30</text><text x="81" y="244.0" font-size="11" text-anchor="end" class="m">30</text>
+<line x1="440.0" y1="90" x2="440.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="190.0" x2="540" y2="190.0" stroke="var(--grid)"/>
+<text x="440.0" y="557" font-size="11" text-anchor="middle" class="m">35</text><text x="81" y="194.0" font-size="11" text-anchor="end" class="m">35</text>
+<line x1="490.0" y1="90" x2="490.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="140.0" x2="540" y2="140.0" stroke="var(--grid)"/>
+<text x="490.0" y="557" font-size="11" text-anchor="middle" class="m">40</text><text x="81" y="144.0" font-size="11" text-anchor="end" class="m">40</text>
+<line x1="540.0" y1="90" x2="540.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="90.0" x2="540" y2="90.0" stroke="var(--grid)"/>
+<text x="540.0" y="557" font-size="11" text-anchor="middle" class="m">45</text><text x="81" y="94.0" font-size="11" text-anchor="end" class="m">45</text>
+<g clip-path="url(#c)"><polygon points="90.0,519.2 540.0,69.20000000000005 540.0,110.79999999999995 90.0,560.8" fill="var(--acc)" fill-opacity=".12"/>
+<line x1="90.0" y1="540.0" x2="540.0" y2="90.0" stroke="var(--mut)" stroke-width="1.5" stroke-dasharray="6 4"/>
+<circle cx="242.3" cy="395.7" r="6" fill="#009e73" class="pt"/>
+<circle cx="229.6" cy="386.7" r="6" fill="#009e73" class="pt"/>
+<circle cx="137.5" cy="490.4" r="6" fill="#009e73" class="pt"/>
+<circle cx="296.9" cy="338.7" r="6" fill="#009e73" class="pt"/>
+<circle cx="174.5" cy="449.1" r="6" fill="#009e73" class="pt"/>
+<rect x="186.0" y="429.2" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="280.2" y="320.7" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="464.1" y="147.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="202.7" y="415.9" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="281.6" y="327.8" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<path d="M445.3 196.3 L451.8 208.3 L438.8 208.3Z" fill="#e69f00" class="pt"/>
+<path d="M425.5 165.1 L432.0 177.1 L419.0 177.1Z" fill="#e69f00" class="pt"/>
+<path d="M184.9 433.2 L191.4 445.2 L178.4 445.2Z" fill="#e69f00" class="pt"/>
+<path d="M503.8 128.7 L510.3 140.7 L497.3 140.7Z" fill="#e69f00" class="pt"/>
+<path d="M371.5 236.0 L378.0 248.0 L365.0 248.0Z" fill="#e69f00" class="pt"/>
+</g>
+<rect x="90" y="90" width="450" height="450" fill="none" stroke="var(--fg)" stroke-width="1.2"/>
+<text x="315.0" y="582" font-size="13" font-weight="600" text-anchor="middle">Experimental phase fraction (wt%)</text>
+<text transform="translate(34 315.0) rotate(-90)" font-size="13" font-weight="600" text-anchor="middle">Predicted phase fraction (wt%)</text>
+<text x="430.0" y="265.0" font-size="10.5" class="m" transform="rotate(-45 430.0 265.0)" text-anchor="middle">y = x (ideal)</text>
+<text x="140.0" y="130.0" font-size="10.5" fill="var(--acc)" style="fill:var(--acc)">Shaded band: ±RMSE (±2.08 wt%)</text>
+<rect x="590" y="96" width="240" height="132" rx="8" fill="var(--card)" stroke="var(--line)"/>
+<text x="606" y="120" font-size="11" font-weight="700" class="m" letter-spacing="1">PERFORMANCE · ALL PHASES</text>
+<text x="606" y="158" font-size="30" font-weight="700">R² = 0.933</text>
+<text x="606" y="184" font-size="17" font-weight="600">RMSE = 2.08 wt%</text>
+<text x="606" y="208" font-size="11.5" class="m">Random 20% row hold-out · n = 15</text>
+<rect x="590" y="244" width="240" height="130" rx="8" fill="var(--card)" stroke="var(--line)"/>
+<text x="606" y="266" font-size="11" font-weight="700" class="m" letter-spacing="1">PHASE</text>
+<circle cx="616.0" cy="286.0" r="6" fill="#009e73" class="pt"/><text x="634" y="290" font-size="13.5">Wollastonite</text>
+<rect x="610.5" y="304.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/><text x="634" y="314" font-size="13.5">Hydroxyapatite</text>
+<path d="M616.0 327.0 L622.5 339.0 L609.5 339.0Z" fill="#e69f00" class="pt"/><text x="634" y="338" font-size="13.5">Whitlockite</text>
+<line x1="606" y1="354" x2="626" y2="354" stroke="var(--mut)" stroke-width="1.5" stroke-dasharray="5 3"/><text x="634" y="358" font-size="13.5">Identity (y = x)</text>
+<rect x="590" y="390" width="240" height="162" rx="8" fill="var(--card)" stroke="var(--line)"/>
+<text x="606" y="412" font-size="11" font-weight="700" class="m" letter-spacing="1">RESIDUALS (PRED − EXP, wt%)</text>
+<rect x="666.736" y="426" width="86.52800000000002" height="98" fill="var(--acc)" fill-opacity=".12"/>
+<line x1="710.0" y1="426" x2="710.0" y2="524" stroke="var(--mut)" stroke-dasharray="4 3"/>
+<text x="626.8" y="538" font-size="10" text-anchor="middle" class="m">-4</text>
+<text x="668.4" y="538" font-size="10" text-anchor="middle" class="m">-2</text>
+<text x="710.0" y="538" font-size="10" text-anchor="middle" class="m">0</text>
+<text x="751.6" y="538" font-size="10" text-anchor="middle" class="m">2</text>
+<text x="793.2" y="538" font-size="10" text-anchor="middle" class="m">4</text>
+<circle cx="693.4" cy="450.0" r="5" fill="#009e73" class="pt"/>
+<circle cx="738.5" cy="450.0" r="5" fill="#009e73" class="pt"/>
+<circle cx="714.4" cy="450.0" r="5" fill="#009e73" class="pt"/>
+<circle cx="698.4" cy="450.0" r="5" fill="#009e73" class="pt"/>
+<circle cx="723.3" cy="450.0" r="5" fill="#009e73" class="pt"/>
+<rect x="712.4" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="742.1" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="719.9" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="705.3" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<rect x="724.5" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
+<path d="M671.3 507.0 L677.8 519.0 L664.8 519.0Z" fill="#e69f00" class="pt"/>
+<path d="M777.4 507.0 L783.9 519.0 L770.9 519.0Z" fill="#e69f00" class="pt"/>
+<path d="M720.2 507.0 L726.7 519.0 L713.7 519.0Z" fill="#e69f00" class="pt"/>
+<path d="M690.2 507.0 L696.7 519.0 L683.7 519.0Z" fill="#e69f00" class="pt"/>
+<path d="M742.2 507.0 L748.7 519.0 L735.7 519.0Z" fill="#e69f00" class="pt"/>
+<text x="90" y="618" font-size="11" class="m">Phase fractions in wt%. Test points drawn from a random 20% row split; markers differ in shape and colour (colour-blind-safe Okabe–Ito palette).</text>
 </svg>
