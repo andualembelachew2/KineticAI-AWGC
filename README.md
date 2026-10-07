@@ -20,7 +20,7 @@ The model combines:
 ## Figures
 
 <p align="center">
-  <img figures="figures/exports/kinetic_blueprint_framework.svg" width="85%"/>
+  <img figures="figures/exports/kinetic_blueprint_framework.svg"/>
 </p>
 
 <p align="center">
