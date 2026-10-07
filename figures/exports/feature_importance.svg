@@ -1,778 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="763.2pt" height="504pt" viewBox="0 0 763.2 504" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:c2pa="http://c2pa.org/manifest">
- <metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5NmMwYzE3MS1mNzEyLTQ2YjEtYmZiNC1iZTcwOWU3YTFhNmYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaA5EuyKVCOu8zXQnOlwyh0YAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3ZGQ3NDJkMS1mY2ZjLTQyNDAtYWIxZC0wYTcxOGNlZTMxMDBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo8EBhdLxmStnImWSHsUvaCwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggZcfIRWDHq+1NmSRmj5RRKqVq3QZ/gL8ryCVqsVkoN3KkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOkJ+iTmt82y7dMCOfx6XGYAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIJmXRfBCWjvt47cDnHumHi7VFr6I+0bXS8SwIR5xhP1EZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQF1Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjk2YzBjMTcxLWY3MTItNDZiMS1iZmI0LWJlNzA5ZTdhMWE2Zi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmQzMDE5MjZiLTM3YWUtNGVhYy04MWE5LWFmNDAyZWNlNzZjYXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBlx8hFYMer7U2ZJGaPlFEqpWrdBn+AvyvIJWqxWSg3cqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg12XDp1/KkxskTcmIwGtL3acZKN5yBK2U900rIku2nayiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggq40nfaJybeb0UOFaobABlOJtLXolmC3RUIteltJTcfh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDVP5mz5LFrF8J2TPtSEwuQplG5D/4VCV8MxKSoDnq0sW3Bjg6834BxxbbYC1EkxqnauMf0iKCpEmANiKmy13+o=</c2pa:manifest>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T04:59:12.297541</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 504 
-L 763.2 504 
-L 763.2 0 
-L 0 0 
-z
-" style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 187.251363 75.6 
-C 229.543338 75.6 229.543338 75.6 271.835312 75.6 
-L 271.835312 142.209375 
-C 229.543338 142.209375 229.543338 142.209375 187.251363 142.209375 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2; opacity: 0.45"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 181.612433 142.209375 
-L 187.251363 142.209375 
-L 187.251363 75.6 
-L 181.612433 75.6 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 187.251363 147.2625 
-C 229.543338 147.2625 229.543338 142.209375 271.835312 142.209375 
-L 271.835312 189.525 
-C 229.543338 189.525 229.543338 194.578125 187.251363 194.578125 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2; opacity: 0.45"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 181.612433 194.578125 
-L 187.251363 194.578125 
-L 187.251363 147.2625 
-L 181.612433 147.2625 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 187.251363 199.63125 
-C 229.543338 199.63125 229.543338 189.525 271.835312 189.525 
-L 271.835312 226.045313 
-C 229.543338 226.045313 229.543338 236.151563 187.251363 236.151563 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2; opacity: 0.45"/>
-   </g>
-   <g id="patch_7">
-    <path d="M 181.612433 236.151563 
-L 187.251363 236.151563 
-L 187.251363 199.63125 
-L 181.612433 199.63125 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2"/>
-   </g>
-   <g id="patch_8">
-    <path d="M 187.251363 252.321563 
-C 229.543338 252.321563 229.543338 237.162188 271.835312 237.162188 
-L 271.835312 257.604375 
-C 229.543338 257.604375 229.543338 272.76375 187.251363 272.76375 
-z
-" clip-path="url(#p1282096fef)" style="fill: #e69f00; opacity: 0.45"/>
-   </g>
-   <g id="patch_9">
-    <path d="M 181.612433 272.76375 
-L 187.251363 272.76375 
-L 187.251363 252.321562 
-L 181.612433 252.321562 
-z
-" clip-path="url(#p1282096fef)" style="fill: #e69f00"/>
-   </g>
-   <g id="patch_10">
-    <path d="M 187.251363 277.816875 
-C 229.543338 277.816875 229.543338 257.604375 271.835312 257.604375 
-L 271.835312 269.08875 
-C 229.543338 269.08875 229.543338 289.30125 187.251363 289.30125 
-z
-" clip-path="url(#p1282096fef)" style="fill: #e69f00; opacity: 0.45"/>
-   </g>
-   <g id="patch_11">
-    <path d="M 181.612433 289.30125 
-L 187.251363 289.30125 
-L 187.251363 277.816875 
-L 181.612433 277.816875 
-z
-" clip-path="url(#p1282096fef)" style="fill: #e69f00"/>
-   </g>
-   <g id="patch_12">
-    <path d="M 187.251363 305.47125 
-C 229.543338 305.47125 229.543338 280.205625 271.835312 280.205625 
-L 271.835312 321.319688 
-C 229.543338 321.319688 229.543338 346.585313 187.251363 346.585313 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73; opacity: 0.45"/>
-   </g>
-   <g id="patch_13">
-    <path d="M 181.612433 346.585312 
-L 187.251363 346.585312 
-L 187.251363 305.47125 
-L 181.612433 305.47125 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73"/>
-   </g>
-   <g id="patch_14">
-    <path d="M 187.251363 351.638438 
-C 229.543338 351.638438 229.543338 321.319688 271.835312 321.319688 
-L 271.835312 327.52125 
-C 229.543338 327.52125 229.543338 357.84 187.251363 357.84 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73; opacity: 0.45"/>
-   </g>
-   <g id="patch_15">
-    <path d="M 181.612433 357.84 
-L 187.251363 357.84 
-L 187.251363 351.638438 
-L 181.612433 351.638438 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73"/>
-   </g>
-   <g id="patch_16">
-    <path d="M 336.683006 75.6 
-C 371.926318 75.6 371.926318 75.6 407.169631 75.6 
-L 407.169631 226.045313 
-C 371.926318 226.045313 371.926318 226.045313 336.683006 226.045313 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2; opacity: 0.55"/>
-   </g>
-   <g id="patch_17">
-    <path d="M 271.835312 226.045313 
-L 336.683006 226.045313 
-L 336.683006 75.6 
-L 271.835312 75.6 
-z
-" clip-path="url(#p1282096fef)" style="fill: #0072b2"/>
-   </g>
-   <g id="patch_18">
-    <path d="M 336.683006 237.162188 
-C 371.926318 237.162188 371.926318 226.045313 407.169631 226.045313 
-L 407.169631 257.971875 
-C 371.926318 257.971875 371.926318 269.08875 336.683006 269.08875 
-z
-" clip-path="url(#p1282096fef)" style="fill: #e69f00; opacity: 0.55"/>
-   </g>
-   <g id="patch_19">
-    <path d="M 271.835312 269.08875 
-L 336.683006 269.08875 
-L 336.683006 237.162187 
-L 271.835312 237.162187 
-z
-" clip-path="url(#p1282096fef)" style="fill: #e69f00"/>
-   </g>
-   <g id="patch_20">
-    <path d="M 336.683006 280.205625 
-C 371.926318 280.205625 371.926318 257.971875 407.169631 257.971875 
-L 407.169631 305.2875 
-C 371.926318 305.2875 371.926318 327.52125 336.683006 327.52125 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73; opacity: 0.55"/>
-   </g>
-   <g id="patch_21">
-    <path d="M 271.835312 327.52125 
-L 336.683006 327.52125 
-L 336.683006 280.205625 
-L 271.835312 280.205625 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73"/>
-   </g>
-   <g id="patch_22">
-    <path d="M 407.169631 305.2875 
-L 412.808561 305.2875 
-L 412.808561 75.6 
-L 407.169631 75.6 
-z
-" clip-path="url(#p1282096fef)" style="fill: #1f2328; opacity: 0.85"/>
-   </g>
-   <g id="patch_23">
-    <path d="M 33.872469 324.026518 
-Q 33.872469 240.950519 33.872469 159.327965 
-" clip-path="url(#p1282096fef)" style="fill: none; stroke-dasharray: 3.9,2.6; stroke-dashoffset: 0; stroke: #009e73; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 32.072469 162.927965 
-L 33.872469 159.327965 
-L 35.672469 162.927965 
-z
-" clip-path="url(#p1282096fef)" style="fill: #009e73; stroke-dasharray: 3.9,2.6; stroke-dashoffset: 0; stroke: #009e73; stroke-width: 1.3; stroke-linecap: round"/>
-   </g>
-   <g id="text_1">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="111.664062" transform="rotate(-0 177.101289 111.664062)">Hydroxyapatite</text>
-   </g>
-   <g id="text_2">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="190.634721" y="111.388125" transform="rotate(-0 190.634721 111.388125)">29.0</text>
-   </g>
-   <g id="text_3">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="173.679688" transform="rotate(-0 177.101289 173.679688)">Whitlockite</text>
-   </g>
-   <g id="text_4">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="190.634721" y="173.40375" transform="rotate(-0 190.634721 173.40375)">20.6</text>
-   </g>
-   <g id="text_5">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="220.650781" transform="rotate(-0 177.101289 220.650781)">Wollastonite</text>
-   </g>
-   <g id="text_6">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="190.634721" y="220.374844" transform="rotate(-0 190.634721 220.374844)">15.9</text>
-   </g>
-   <g id="text_7">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="265.302031" transform="rotate(-0 177.101289 265.302031)">Amorphous fraction</text>
-   </g>
-   <g id="text_8">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="190.634721" y="265.026094" transform="rotate(-0 190.634721 265.026094)">8.9</text>
-   </g>
-   <g id="text_9">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="286.318437" transform="rotate(-0 177.101289 286.318437)">Crystallinity</text>
-   </g>
-   <g id="text_10">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="328.787656" transform="rotate(-0 177.101289 328.787656)">Sintering temperature</text>
-   </g>
-   <g id="text_11">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="190.634721" y="328.511719" transform="rotate(-0 190.634721 328.511719)">17.9</text>
-   </g>
-   <g id="text_12">
-    <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="177.101289" y="357.498594" transform="rotate(-0 177.101289 357.498594)">SBF soaking time</text>
-   </g>
-   <g id="text_13">
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(270.361448 142.968005)">Initial phase</text>
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(271.701261 153.461359)">assemblage</text>
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(287.433448 164.030495)">65.5%</text>
-   </g>
-   <g id="text_14">
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #1f2328" transform="translate(276.630831 245.308709)">Structural</text>
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #1f2328" transform="translate(289.382542 255.802063)">order</text>
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #1f2328" transform="translate(287.433448 266.295416)">13.9%</text>
-   </g>
-   <g id="text_15">
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(270.995737 296.008787)">Processing /</text>
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(279.017183 306.577922)">exposure</text>
-    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(287.433448 317.071276)">20.6%</text>
-   </g>
-   <g id="text_16">
-    <text style="font-weight: 700; font-size: 10.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #1f2328" transform="translate(355.3269 321.961013)">HA evolution in SBF</text>
-    <text style="font-weight: 700; font-size: 10.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #1f2328" transform="translate(382.856775 334.05465)">(response)</text>
-   </g>
-   <g id="text_17">
-    <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #009e73" transform="translate(15.839862 246.163359) rotate(-90)">T also sets the</text>
-    <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #009e73" transform="translate(25.234034 240.117891) rotate(-90)">initial phases</text>
-   </g>
-  </g>
-  <g id="axes_2">
-   <g id="patch_24">
-    <path d="M 515.16 229.32 
-L 744.12 229.32 
-L 744.12 78.12 
-L 515.16 78.12 
-z
-" style="fill: #ffffff"/>
-   </g>
-   <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <defs>
-       <path id="mfa5a742c8a" d="M 0 0 
-L 0 2.5 
-" style="stroke: #656d76; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="538.056" y="229.32" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_2">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="583.848" y="229.32" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="629.64" y="229.32" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="675.432" y="229.32" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="721.224" y="229.32" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-    </g>
-   </g>
-   <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_6">
-      <path d="M 515.16 229.32 
-L 744.12 229.32 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_7">
-      <defs>
-       <path id="m9d66360faf" d="M 0 0 
-L -2.5 0 
-" style="stroke: #656d76; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="229.32" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_18">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="232.739297" transform="rotate(-0 509.16 232.739297)">0</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_8">
-      <path d="M 515.16 196.450435 
-L 744.12 196.450435 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_9">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="196.450435" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_19">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="199.869732" transform="rotate(-0 509.16 199.869732)">10</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_10">
-      <path d="M 515.16 163.58087 
-L 744.12 163.58087 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_11">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="163.58087" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_20">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="167.000166" transform="rotate(-0 509.16 167.000166)">20</text>
-     </g>
-    </g>
-    <g id="ytick_4">
-     <g id="line2d_12">
-      <path d="M 515.16 130.711304 
-L 744.12 130.711304 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_13">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="130.711304" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_21">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="134.130601" transform="rotate(-0 509.16 134.130601)">30</text>
-     </g>
-    </g>
-    <g id="ytick_5">
-     <g id="line2d_14">
-      <path d="M 515.16 97.841739 
-L 744.12 97.841739 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_15">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="97.841739" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_22">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="101.261036" transform="rotate(-0 509.16 101.261036)">40</text>
-     </g>
-    </g>
-    <g id="text_23">
-     <text style="font-size: 10.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2328" x="491.586219" y="153.72" transform="rotate(-90 491.586219 153.72)">HA fraction (wt%)</text>
-    </g>
-   </g>
-   <g id="line2d_16">
-    <path d="M 538.056 106.683652 
-L 583.848 207.198783 
-L 629.64 155.692174 
-L 675.432 162.989217 
-L 721.224 188.627478 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke-dasharray: 1.2,1.98; stroke-dashoffset: 0; stroke: #8b98a2; stroke-width: 1.2"/>
-   </g>
-   <g id="line2d_17">
-    <path d="M 538.056 96.888522 
-L 583.848 197.009217 
-L 629.64 163.383652 
-L 675.432 160.786957 
-L 721.224 189.252 
-" clip-path="url(#pb3eb4d36bf)" style="fill: none; stroke: #0072b2; stroke-width: 1.4; stroke-linecap: square"/>
-   </g>
-   <g id="patch_25">
-    <path d="M 515.16 229.32 
-L 515.16 78.12 
-" style="fill: none; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_26">
-    <path d="M 515.16 229.32 
-L 744.12 229.32 
-" style="fill: none; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_18">
-    <defs>
-     <path id="md5136a6155" d="M 0 3.25 
-C 0.86191 3.25 1.688635 2.907559 2.298097 2.298097 
-C 2.907559 1.688635 3.25 0.86191 3.25 0 
-C 3.25 -0.86191 2.907559 -1.688635 2.298097 -2.298097 
-C 1.688635 -2.907559 0.86191 -3.25 0 -3.25 
-C -0.86191 -3.25 -1.688635 -2.907559 -2.298097 -2.298097 
-C -2.907559 -1.688635 -3.25 -0.86191 -3.25 0 
-C -3.25 0.86191 -2.907559 1.688635 -2.298097 2.298097 
-C -1.688635 2.907559 -0.86191 3.25 0 3.25 
-z
-" style="stroke: #ffffff"/>
-    </defs>
-    <g clip-path="url(#pb3eb4d36bf)">
-     <use xlink:href="#md5136a6155" x="538.056" y="106.683652" style="fill: #8b98a2; stroke: #ffffff"/>
-     <use xlink:href="#md5136a6155" x="583.848" y="207.198783" style="fill: #8b98a2; stroke: #ffffff"/>
-     <use xlink:href="#md5136a6155" x="629.64" y="155.692174" style="fill: #8b98a2; stroke: #ffffff"/>
-     <use xlink:href="#md5136a6155" x="675.432" y="162.989217" style="fill: #8b98a2; stroke: #ffffff"/>
-     <use xlink:href="#md5136a6155" x="721.224" y="188.627478" style="fill: #8b98a2; stroke: #ffffff"/>
-    </g>
-   </g>
-   <g id="line2d_19">
-    <defs>
-     <path id="me3c21d5d9c" d="M 0 3.25 
-C 0.86191 3.25 1.688635 2.907559 2.298097 2.298097 
-C 2.907559 1.688635 3.25 0.86191 3.25 0 
-C 3.25 -0.86191 2.907559 -1.688635 2.298097 -2.298097 
-C 1.688635 -2.907559 0.86191 -3.25 0 -3.25 
-C -0.86191 -3.25 -1.688635 -2.907559 -2.298097 -2.298097 
-C -2.907559 -1.688635 -3.25 -0.86191 -3.25 0 
-C -3.25 0.86191 -2.907559 1.688635 -2.298097 2.298097 
-C -1.688635 2.907559 -0.86191 3.25 0 3.25 
-z
-" style="stroke: #ffffff"/>
-    </defs>
-    <g clip-path="url(#pb3eb4d36bf)">
-     <use xlink:href="#me3c21d5d9c" x="538.056" y="96.888522" style="fill: #0072b2; stroke: #ffffff"/>
-     <use xlink:href="#me3c21d5d9c" x="583.848" y="197.009217" style="fill: #0072b2; stroke: #ffffff"/>
-     <use xlink:href="#me3c21d5d9c" x="629.64" y="163.383652" style="fill: #0072b2; stroke: #ffffff"/>
-     <use xlink:href="#me3c21d5d9c" x="675.432" y="160.786957" style="fill: #0072b2; stroke: #ffffff"/>
-     <use xlink:href="#me3c21d5d9c" x="721.224" y="189.252" style="fill: #0072b2; stroke: #ffffff"/>
-    </g>
-   </g>
-   <g id="legend_1">
-    <g id="line2d_20"/>
-    <g id="line2d_21">
-     <g>
-      <use xlink:href="#md5136a6155" x="646.536094" y="85.408594" style="fill: #8b98a2; stroke: #ffffff"/>
-     </g>
-    </g>
-    <g id="text_24">
-     <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="658.236094" y="88.558594" transform="rotate(-0 658.236094 88.558594)">Initial (day 0)</text>
-    </g>
-    <g id="line2d_22"/>
-    <g id="line2d_23">
-     <g>
-      <use xlink:href="#me3c21d5d9c" x="646.536094" y="98.618906" style="fill: #0072b2; stroke: #ffffff"/>
-     </g>
-    </g>
-    <g id="text_25">
-     <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="658.236094" y="101.768906" transform="rotate(-0 658.236094 101.768906)">After SBF (day 21)</text>
-    </g>
-   </g>
-  </g>
-  <g id="axes_3">
-   <g id="patch_27">
-    <path d="M 515.16 335.16 
-L 744.12 335.16 
-L 744.12 269.64 
-L 515.16 269.64 
-z
-" style="fill: #ffffff"/>
-   </g>
-   <g id="matplotlib.axis_3">
-    <g id="xtick_6">
-     <g id="line2d_24">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="538.056" y="335.16" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_26">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #656d76" x="538.056" y="347.998594" transform="rotate(-0 538.056 347.998594)">700</text>
-     </g>
-    </g>
-    <g id="xtick_7">
-     <g id="line2d_25">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="583.848" y="335.16" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_27">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #656d76" x="583.848" y="347.998594" transform="rotate(-0 583.848 347.998594)">800</text>
-     </g>
-    </g>
-    <g id="xtick_8">
-     <g id="line2d_26">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="629.64" y="335.16" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_28">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #656d76" x="629.64" y="347.998594" transform="rotate(-0 629.64 347.998594)">900</text>
-     </g>
-    </g>
-    <g id="xtick_9">
-     <g id="line2d_27">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="675.432" y="335.16" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_29">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #656d76" x="675.432" y="347.998594" transform="rotate(-0 675.432 347.998594)">1000</text>
-     </g>
-    </g>
-    <g id="xtick_10">
-     <g id="line2d_28">
-      <g>
-       <use xlink:href="#mfa5a742c8a" x="721.224" y="335.16" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_30">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #656d76" x="721.224" y="347.998594" transform="rotate(-0 721.224 347.998594)">1100</text>
-     </g>
-    </g>
-    <g id="text_31">
-     <text style="font-size: 10.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2328" x="629.64" y="361.620719" transform="rotate(-0 629.64 361.620719)">Sintering temperature (°C)</text>
-    </g>
-   </g>
-   <g id="matplotlib.axis_4">
-    <g id="ytick_6">
-     <g id="line2d_29">
-      <path d="M 515.16 329.203636 
-L 744.12 329.203636 
-" clip-path="url(#p19d16e82ba)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_30">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="329.203636" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_32">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="332.622933" transform="rotate(-0 509.16 332.622933)">−4</text>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="line2d_31">
-      <path d="M 515.16 305.378182 
-L 744.12 305.378182 
-" clip-path="url(#p19d16e82ba)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_32">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="305.378182" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_33">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="308.797479" transform="rotate(-0 509.16 308.797479)">0</text>
-     </g>
-    </g>
-    <g id="ytick_8">
-     <g id="line2d_33">
-      <path d="M 515.16 281.552727 
-L 744.12 281.552727 
-" clip-path="url(#p19d16e82ba)" style="fill: none; stroke: #d8dee4; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_34">
-      <g>
-       <use xlink:href="#m9d66360faf" x="515.16" y="281.552727" style="fill: #656d76; stroke: #656d76; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_34">
-      <text style="font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: end; fill: #656d76" x="509.16" y="284.972024" transform="rotate(-0 509.16 284.972024)">4</text>
-     </g>
-    </g>
-    <g id="text_35">
-     <text style="font-size: 10.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2328" x="489.77075" y="302.4" transform="rotate(-90 489.77075 302.4)">Δ (wt%)</text>
-    </g>
-   </g>
-   <g id="line2d_35">
-    <path d="M 515.16 305.378182 
-L 744.12 305.378182 
-" clip-path="url(#p19d16e82ba)" style="fill: none; stroke: #656d76; stroke-width: 0.8; stroke-linecap: square"/>
-   </g>
-   <g id="patch_28">
-    <path d="M 515.16 335.16 
-L 515.16 269.64 
-" style="fill: none; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_29">
-    <path d="M 515.16 335.16 
-L 744.12 335.16 
-" style="fill: none; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_30">
-    <path d="M 527.06592 305.378182 
-L 549.04608 305.378182 
-L 549.04608 287.628218 
-L 527.06592 287.628218 
-z
-" clip-path="url(#p19d16e82ba)" style="fill: #007a5a"/>
-   </g>
-   <g id="patch_31">
-    <path d="M 572.85792 305.378182 
-L 594.83808 305.378182 
-L 594.83808 286.913455 
-L 572.85792 286.913455 
-z
-" clip-path="url(#p19d16e82ba)" style="fill: #007a5a"/>
-   </g>
-   <g id="patch_32">
-    <path d="M 618.64992 305.378182 
-L 640.63008 305.378182 
-L 640.63008 319.316073 
-L 618.64992 319.316073 
-z
-" clip-path="url(#p19d16e82ba)" style="fill: #c4510a"/>
-   </g>
-   <g id="patch_33">
-    <path d="M 664.44192 305.378182 
-L 686.42208 305.378182 
-L 686.42208 301.387418 
-L 664.44192 301.387418 
-z
-" clip-path="url(#p19d16e82ba)" style="fill: #007a5a"/>
-   </g>
-   <g id="patch_34">
-    <path d="M 710.23392 305.378182 
-L 732.21408 305.378182 
-L 732.21408 306.509891 
-L 710.23392 306.509891 
-z
-" clip-path="url(#p19d16e82ba)" style="fill: #c4510a"/>
-   </g>
-   <g id="text_36">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #007a5a" x="538.056" y="283.076136" transform="rotate(-0 538.056 283.076136)">+3.0</text>
-   </g>
-   <g id="text_37">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #007a5a" x="583.848" y="282.361372" transform="rotate(-0 583.848 282.361372)">+3.1</text>
-   </g>
-   <g id="text_38">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #c4510a" x="629.64" y="328.83503" transform="rotate(-0 629.64 328.83503)">−2.3</text>
-   </g>
-   <g id="text_39">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #007a5a" x="675.432" y="296.835336" transform="rotate(-0 675.432 296.835336)">+0.7</text>
-   </g>
-   <g id="text_40">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: middle; fill: #c4510a" x="721.224" y="316.028848" transform="rotate(-0 721.224 316.028848)">−0.2</text>
-   </g>
-  </g>
-  <g id="patch_35">
-   <path d="M 32.0544 483.84 
-L 246.5136 483.84 
-Q 255.672 483.84 255.672 477.792 
-L 255.672 414.288 
-Q 255.672 408.24 246.5136 408.24 
-L 32.0544 408.24 
-Q 22.896 408.24 22.896 414.288 
-L 22.896 477.792 
-Q 22.896 483.84 32.0544 483.84 
-z
-" style="fill: #f6f8fa; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter"/>
-  </g>
-  <g id="patch_36">
-   <path d="M 282.0024 483.84 
-L 496.4616 483.84 
-Q 505.62 483.84 505.62 477.792 
-L 505.62 414.288 
-Q 505.62 408.24 496.4616 408.24 
-L 282.0024 408.24 
-Q 272.844 408.24 272.844 414.288 
-L 272.844 477.792 
-Q 272.844 483.84 282.0024 483.84 
-z
-" style="fill: #f6f8fa; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter"/>
-  </g>
-  <g id="patch_37">
-   <path d="M 531.9504 483.84 
-L 746.4096 483.84 
-Q 755.568 483.84 755.568 477.792 
-L 755.568 414.288 
-Q 755.568 408.24 746.4096 408.24 
-L 531.9504 408.24 
-Q 522.792 408.24 522.792 414.288 
-L 522.792 477.792 
-Q 522.792 483.84 531.9504 483.84 
-z
-" style="fill: #f6f8fa; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter"/>
-  </g>
-  <g id="text_41">
-   <text style="font-weight: 700; font-size: 16px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="22.896" y="21.2295" transform="rotate(-0 22.896 21.2295)">From initial state to bioactive response: what the model says matters</text>
-  </g>
-  <g id="text_42">
-   <text style="font-size: 10.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #656d76" x="22.896" y="40.006406" transform="rotate(-0 22.896 40.006406)">AW glass-ceramics, SBF immersion · importances normalised to 100 %</text>
-  </g>
-  <g id="text_43">
-   <text style="font-weight: 700; font-size: 14.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="22.896" y="64.512" transform="rotate(-0 22.896 64.512)">a</text>
-  </g>
-  <g id="text_44">
-   <text style="font-size: 10.9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="38.16" y="64.512" transform="rotate(-0 38.16 64.512)">Importance flow  (ribbon width ∝ relative importance)</text>
-  </g>
-  <g id="text_45">
-   <text style="font-weight: 700; font-size: 14.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="507.528" y="64.512" transform="rotate(-0 507.528 64.512)">b</text>
-  </g>
-  <g id="text_46">
-   <text style="font-size: 10.9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="522.792" y="64.512" transform="rotate(-0 522.792 64.512)">Initial state is non-monotonic in T</text>
-  </g>
-  <g id="text_47">
-   <text style="font-size: 8.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #656d76" x="515.16" y="378.334687" transform="rotate(-0 515.16 378.334687)">Δ = day 21 − day 0; green gain, orange loss.</text>
-  </g>
-  <g id="text_48">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="33.5808" y="425.670281" transform="rotate(-0 33.5808 425.670281)">1  State outweighs knob</text>
-  </g>
-  <g id="text_49">
-   <text style="font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #656d76" transform="translate(33.5808 446.858484)">Initial phases carry 65.5 % of importance;</text>
-   <text style="font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #656d76" transform="translate(33.5808 458.825935)">processing variables 20.6 %.</text>
-  </g>
-  <g id="text_50">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="283.5288" y="425.670281" transform="rotate(-0 283.5288 425.670281)">2  Temperature acts twice</text>
-  </g>
-  <g id="text_51">
-   <text style="font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #656d76" transform="translate(283.5288 446.858484)">Directly (17.9 %) and by setting initial HA:</text>
-   <text style="font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #656d76" transform="translate(283.5288 458.825935)">37.3 → 6.7 → 22.4 → 20.2 → 12.4 wt%.</text>
-  </g>
-  <g id="text_52">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="533.4768" y="425.670281" transform="rotate(-0 533.4768 425.670281)">3  Exposure time is minor</text>
-  </g>
-  <g id="text_53">
-   <text style="font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #656d76" transform="translate(533.4768 446.858484)">SBF soaking time: 2.7 %. Check that time</text>
-   <text style="font-size: 9.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; fill: #656d76" transform="translate(533.4768 458.825935)">was varied before reading as kinetics.</text>
-  </g>
-  <g id="text_54">
-   <text style="font-size: 8.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Avant Garde', sans-serif; text-anchor: start; fill: #656d76" x="22.896" y="497.952" transform="rotate(-0 22.896 497.952)">Descriptive, n = 5 temperatures; importances are model-dependent and not causal estimates.</text>
-  </g>
- </g>
- <defs>
-  <clipPath id="p1282096fef">
-   <rect x="15.264" y="75.6" width="442.656" height="282.24"/>
-  </clipPath>
-  <clipPath id="pb3eb4d36bf">
-   <rect x="515.16" y="78.12" width="228.96" height="151.2"/>
-  </clipPath>
-  <clipPath id="p19d16e82ba">
-   <rect x="515.16" y="269.64" width="228.96" height="65.52"/>
-  </clipPath>
- </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1100" viewBox="0 0 1100 1100" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphMjIzYmY4Yi02OWVlLTRjNTgtYjlhNS1iMDkyYmVmN2IxMjEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaCI/+5EvjP4tIcZ0f9CLmWYAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyMzRlZjJjMy0xZTQ0LTRiNTMtODVkYi05MzE3N2NhM2U4ZmJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNodGRM2mfe1JO+hRcZR4lF1gAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg/hHTVpBhENReAqAPc2WXJdimaB8v19vXgMl5e7S2ycmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaG0vinE+9LiFkj1MTqXP7DgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCSMt6JPYPFZuZ/qNT5FZWeyu8ZvJ0QPBfrkY3hRZpnxGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBj1Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmEyMjNiZjhiLTY5ZWUtNGM1OC1iOWE1LWIwOTJiZWY3YjEyMS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjIwNDNhNWVjLTg2YzAtNGI5NC05ZThiLTZlMDA3NWNiN2QwNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD+EdNWkGEQ1F4CoA9zZZcl2KZoHy/X29eAyXl7tLbJyaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggvBaIkynVbopLE4W1OAgs+lTVvnLjBSyhOAf47mmfam+iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggH/jgNqnUcDjFFd+YHibw1GSinDFtVPzzAT5XT6EhNjR0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDcR01dhvvMiUqNQkSJawxQLunojIfSkbcpf9aedg0cXo6NI6vFnG0WSLQe/hT1FrgXtkTu4yeGOAROLGccEL74=</c2pa:manifest></metadata>
+<title id="t">Model-based importance of initial phase state, processing and exposure for hydroxyapatite evolution in simulated body fluid</title>
+<desc id="d">Panel a: flow diagram of relative feature importance. Initial phases 65.5%, structural order 13.9%, processing and exposure 20.6%. Panel b: hydroxyapatite fraction before and after 21 days in SBF for five sintering temperatures. Panel c: net change in hydroxyapatite fraction.</desc>
+<rect width="1100" height="1100" fill="#fff"/>
+<text x="40.0" y="44.0" font-size="23" font-weight="700" text-anchor="start" fill="#111" >From initial state to bioactive response: what matters most</text>
+<text x="40.0" y="66.0" font-size="13" font-weight="400" text-anchor="start" fill="#555" >Apatite–wollastonite (AW) glass-ceramics · immersion in simulated body fluid (SBF) · importances normalised to 100%</text>
+<line x1="40" y1="78" x2="1060" y2="78" stroke="#111"/>
+<text x="40.0" y="112.0" font-size="22" font-weight="700" text-anchor="start" fill="#111" >a</text>
+<text x="74.0" y="110.0" font-size="15" font-weight="700" text-anchor="start" fill="#111" >Which inputs drive hydroxyapatite (HA) evolution?</text>
+<text x="74.0" y="128.0" font-size="11.5" font-weight="400" text-anchor="start" fill="#555" >Ribbon height is proportional to relative importance; the three groups sum to 100%</text>
+<text x="260.0" y="152.0" font-size="11.5" font-weight="700" text-anchor="end" fill="#555" >Model inputs</text>
+<text x="597.5" y="152.0" font-size="11.5" font-weight="700" text-anchor="middle" fill="#555" >Predictor group</text>
+<text x="924.0" y="152.0" font-size="11.5" font-weight="700" text-anchor="start" fill="#555" >Response</text>
+<path d="M284.0 165.0C384.5 165.0 384.5 171.0 485.0 171.0L485.0 234.8C384.5 234.8 384.5 228.8 284.0 228.8Z" fill="#0072b2" fill-opacity="0.4"/>
+<path d="M284.0 234.8C384.5 234.8 384.5 234.8 485.0 234.8L485.0 280.1C384.5 280.1 384.5 280.1 284.0 280.1Z" fill="#0072b2" fill-opacity="0.4"/>
+<path d="M284.0 286.1C384.5 286.1 384.5 280.1 485.0 280.1L485.0 315.1C384.5 315.1 384.5 321.1 284.0 321.1Z" fill="#0072b2" fill-opacity="0.4"/>
+<path d="M284.0 339.1C384.5 339.1 384.5 342.1 485.0 342.1L485.0 361.7C384.5 361.7 384.5 358.7 284.0 358.7Z" fill="#e69f00" fill-opacity="0.4"/>
+<path d="M284.0 364.7C384.5 364.7 384.5 361.7 485.0 361.7L485.0 372.7C384.5 372.7 384.5 375.7 284.0 375.7Z" fill="#e69f00" fill-opacity="0.4"/>
+<path d="M284.0 393.7C384.5 393.7 384.5 396.7 485.0 396.7L485.0 436.1C384.5 436.1 384.5 433.1 284.0 433.1Z" fill="#009e73" fill-opacity="0.4"/>
+<path d="M284.0 439.1C384.5 439.1 384.5 436.1 485.0 436.1L485.0 442.0C384.5 442.0 384.5 445.0 284.0 445.0Z" fill="#009e73" fill-opacity="0.4"/>
+<path d="M710.0 171.0C805.0 171.0 805.0 195.0 900.0 195.0L900.0 339.1C805.0 339.1 805.0 315.1 710.0 315.1Z" fill="#0072b2" fill-opacity="0.4"/>
+<path d="M710.0 342.1C805.0 342.1 805.0 339.1 900.0 339.1L900.0 369.7C805.0 369.7 805.0 372.7 710.0 372.7Z" fill="#e69f00" fill-opacity="0.4"/>
+<path d="M710.0 396.7C805.0 396.7 805.0 369.7 900.0 369.7L900.0 415.0C805.0 415.0 805.0 442.0 710.0 442.0Z" fill="#009e73" fill-opacity="0.4"/>
+<rect x="270" y="165.0" width="14" height="63.8" fill="#0072b2"/>
+<text x="260" y="201.4" font-size="12.5" text-anchor="end" fill="#111">Hydroxyapatite  <tspan font-weight="700" fill="#111">29.0%</tspan></text>
+<rect x="270" y="234.8" width="14" height="45.3" fill="#0072b2"/>
+<text x="260" y="262.0" font-size="12.5" text-anchor="end" fill="#111">Whitlockite  <tspan font-weight="700" fill="#111">20.6%</tspan></text>
+<rect x="270" y="286.1" width="14" height="35.0" fill="#0072b2"/>
+<text x="260" y="308.1" font-size="12.5" text-anchor="end" fill="#111">Wollastonite  <tspan font-weight="700" fill="#111">15.9%</tspan></text>
+<rect x="270" y="339.1" width="14" height="19.6" fill="#e69f00"/>
+<text x="260" y="353.4" font-size="12.5" text-anchor="end" fill="#111">Amorphous fraction  <tspan font-weight="700" fill="#111">8.9%</tspan></text>
+<rect x="270" y="364.7" width="14" height="11.0" fill="#e69f00"/>
+<text x="260" y="374.7" font-size="12.5" text-anchor="end" fill="#111">Crystallinity  <tspan font-weight="700" fill="#111">5.0%</tspan></text>
+<rect x="270" y="393.7" width="14" height="39.4" fill="#009e73"/>
+<text x="260" y="417.9" font-size="12.5" text-anchor="end" fill="#111">Sintering temperature  <tspan font-weight="700" fill="#111">17.9%</tspan></text>
+<rect x="270" y="439.1" width="14" height="5.9" fill="#009e73"/>
+<text x="260" y="446.5" font-size="12.5" text-anchor="end" fill="#111">SBF soaking time  <tspan font-weight="700" fill="#111">2.7%</tspan></text>
+<rect x="485" y="171.0" width="225" height="144.1" fill="#0072b2"/>
+<text x="597.5" y="241.1" font-size="14" font-weight="700" text-anchor="middle" fill="#fff" >Initial phases</text>
+<text x="597.5" y="260.1" font-size="16" font-weight="700" text-anchor="middle" fill="#fff" >65.5%</text>
+<rect x="485" y="342.1" width="225" height="30.6" fill="#e69f00"/>
+<text x="597.5" y="362.4" font-size="13" font-weight="700" text-anchor="middle" fill="#111" >Structural order  13.9%</text>
+<rect x="485" y="396.7" width="225" height="45.3" fill="#009e73"/>
+<text x="597.5" y="424.3" font-size="13" font-weight="700" text-anchor="middle" fill="#fff" >Processing / exposure  20.6%</text>
+<rect x="900" y="195.0" width="14" height="220.0" fill="#444"/>
+<text x="924.0" y="301.0" font-size="13.5" font-weight="700" text-anchor="start" fill="#111" >HA evolution</text>
+<text x="924.0" y="318.0" font-size="13.5" font-weight="700" text-anchor="start" fill="#111" >in SBF</text>
+<text x="924.0" y="336.0" font-size="12" font-weight="400" text-anchor="start" fill="#555" >(response)</text>
+<text x="40.0" y="473.0" font-size="12" font-weight="400" text-anchor="start" fill="#007a5a" >Note: sintering temperature acts twice. Directly (17.9%) and by setting the initial phase assemblage (see panel b).</text>
+<text x="40.0" y="510.0" font-size="22" font-weight="700" text-anchor="start" fill="#111" >b</text>
+<text x="74.0" y="508.0" font-size="15" font-weight="700" text-anchor="start" fill="#111" >HA fraction before and after SBF</text>
+<text x="74.0" y="526.0" font-size="11.5" font-weight="400" text-anchor="start" fill="#555" >The initial HA fraction is non-monotonic in T: 37.3 → 6.7 → 22.4 → 20.2 → 12.4 wt%</text>
+<line x1="110" y1="748.0" x2="490" y2="748.0" stroke="#ebedf0"/>
+<text x="102.0" y="752.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >0</text>
+<line x1="110" y1="708.0" x2="490" y2="708.0" stroke="#ebedf0"/>
+<text x="102.0" y="712.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >10</text>
+<line x1="110" y1="668.0" x2="490" y2="668.0" stroke="#ebedf0"/>
+<text x="102.0" y="672.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >20</text>
+<line x1="110" y1="628.0" x2="490" y2="628.0" stroke="#ebedf0"/>
+<text x="102.0" y="632.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >30</text>
+<line x1="110" y1="588.0" x2="490" y2="588.0" stroke="#ebedf0"/>
+<text x="102.0" y="592.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >40</text>
+<line x1="110" y1="548.0" x2="490" y2="548.0" stroke="#ebedf0"/>
+<text x="102.0" y="552.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >50</text>
+<rect x="117.0" y="598.8" width="30" height="149.2" fill="#9aa4ad"/>
+<text x="132.0" y="593.8" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >37.3</text>
+<rect x="149.0" y="586.8" width="30" height="161.2" fill="#0072b2"/>
+<text x="164.0" y="581.8" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >40.3</text>
+<text x="148.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >700</text>
+<rect x="193.0" y="721.2" width="30" height="26.8" fill="#9aa4ad"/>
+<text x="208.0" y="716.2" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >6.7</text>
+<rect x="225.0" y="708.8" width="30" height="39.2" fill="#0072b2"/>
+<text x="240.0" y="703.8" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >9.8</text>
+<text x="224.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >800</text>
+<rect x="269.0" y="658.4" width="30" height="89.6" fill="#9aa4ad"/>
+<text x="284.0" y="653.4" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >22.4</text>
+<rect x="301.0" y="667.6" width="30" height="80.4" fill="#0072b2"/>
+<text x="316.0" y="662.6" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >20.1</text>
+<text x="300.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >900</text>
+<rect x="345.0" y="667.2" width="30" height="80.8" fill="#9aa4ad"/>
+<text x="360.0" y="662.2" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >20.2</text>
+<rect x="377.0" y="664.4" width="30" height="83.6" fill="#0072b2"/>
+<text x="392.0" y="659.4" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >20.9</text>
+<text x="376.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >1000</text>
+<rect x="421.0" y="698.4" width="30" height="49.6" fill="#9aa4ad"/>
+<text x="436.0" y="693.4" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >12.4</text>
+<rect x="453.0" y="699.2" width="30" height="48.8" fill="#0072b2"/>
+<text x="468.0" y="694.2" font-size="11" font-weight="600" text-anchor="middle" fill="#111" >12.2</text>
+<text x="452.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >1100</text>
+<path d="M110 548V748H490" fill="none" stroke="#111" stroke-width="1.2"/>
+<text x="300.0" y="788.0" font-size="13" font-weight="600" text-anchor="middle" fill="#111" >Sintering temperature (°C)</text>
+<text transform="translate(58 648.0) rotate(-90)" font-size="13" font-weight="600" text-anchor="middle" fill="#111">HA fraction (wt%)</text>
+<rect x="110" y="806" width="13" height="13" fill="#9aa4ad"/>
+<text x="129.0" y="817.0" font-size="12" font-weight="400" text-anchor="start" fill="#111" >Initial (day 0)</text>
+<rect x="240" y="806" width="13" height="13" fill="#0072b2"/>
+<text x="259.0" y="817.0" font-size="12" font-weight="400" text-anchor="start" fill="#111" >After SBF (day 21)</text>
+<text x="570.0" y="510.0" font-size="22" font-weight="700" text-anchor="start" fill="#111" >c</text>
+<text x="604.0" y="508.0" font-size="15" font-weight="700" text-anchor="start" fill="#111" >Net change in HA after 21 days in SBF</text>
+<text x="604.0" y="526.0" font-size="11.5" font-weight="400" text-anchor="start" fill="#555" >Δ = day 21 − day 0: gain at 700, 800 and 1000 °C; loss at 900 and 1100 °C</text>
+<line x1="640" y1="748.0" x2="1020" y2="748.0" stroke="#ebedf0"/>
+<text x="632.0" y="752.0" font-size="12" font-weight="400" text-anchor="end" fill="#555" >−4</text>
+<line x1="640" y1="703.6" x2="1020" y2="703.6" stroke="#ebedf0"/>
+<text x="632.0" y="707.6" font-size="12" font-weight="400" text-anchor="end" fill="#555" >−2</text>
+<line x1="640" y1="659.1" x2="1020" y2="659.1" stroke="#ebedf0"/>
+<text x="632.0" y="663.1" font-size="12" font-weight="400" text-anchor="end" fill="#555" >0</text>
+<line x1="640" y1="614.7" x2="1020" y2="614.7" stroke="#ebedf0"/>
+<text x="632.0" y="618.7" font-size="12" font-weight="400" text-anchor="end" fill="#555" >+2</text>
+<line x1="640" y1="570.2" x2="1020" y2="570.2" stroke="#ebedf0"/>
+<text x="632.0" y="574.2" font-size="12" font-weight="400" text-anchor="end" fill="#555" >+4</text>
+<rect x="654.0" y="592.4" width="48" height="66.7" fill="#007a5a"/>
+<text x="678.0" y="586.4" font-size="12" font-weight="700" text-anchor="middle" fill="#007a5a" >+3.0</text>
+<text x="678.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >700</text>
+<rect x="730.0" y="590.2" width="48" height="68.9" fill="#007a5a"/>
+<text x="754.0" y="584.2" font-size="12" font-weight="700" text-anchor="middle" fill="#007a5a" >+3.1</text>
+<text x="754.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >800</text>
+<rect x="806.0" y="659.1" width="48" height="51.1" fill="#c4510a"/>
+<text x="830.0" y="726.2" font-size="12" font-weight="700" text-anchor="middle" fill="#c4510a" >−2.3</text>
+<text x="830.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >900</text>
+<rect x="882.0" y="643.6" width="48" height="15.6" fill="#007a5a"/>
+<text x="906.0" y="637.6" font-size="12" font-weight="700" text-anchor="middle" fill="#007a5a" >+0.7</text>
+<text x="906.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >1000</text>
+<rect x="958.0" y="659.1" width="48" height="4.4" fill="#c4510a"/>
+<text x="982.0" y="679.6" font-size="12" font-weight="700" text-anchor="middle" fill="#c4510a" >−0.2</text>
+<text x="982.0" y="767.0" font-size="12" font-weight="400" text-anchor="middle" fill="#555" >1100</text>
+<line x1="640" y1="659.1" x2="1020" y2="659.1" stroke="#555" stroke-width="1"/>
+<path d="M640 548V748H1020" fill="none" stroke="#111" stroke-width="1.2"/>
+<text x="830.0" y="788.0" font-size="13" font-weight="600" text-anchor="middle" fill="#111" >Sintering temperature (°C)</text>
+<text transform="translate(588 648.0) rotate(-90)" font-size="13" font-weight="600" text-anchor="middle" fill="#111">Δ HA fraction (wt%)</text>
+<rect x="640" y="806" width="13" height="13" fill="#007a5a"/>
+<text x="659.0" y="817.0" font-size="12" font-weight="400" text-anchor="start" fill="#111" >Gain</text>
+<rect x="720" y="806" width="13" height="13" fill="#c4510a"/>
+<text x="739.0" y="817.0" font-size="12" font-weight="400" text-anchor="start" fill="#111" >Loss</text>
+<line x1="40" y1="840" x2="1060" y2="840" stroke="#111"/>
+<text x="40.0" y="860.0" font-size="14" font-weight="700" text-anchor="start" fill="#111" >Key findings</text>
+<text x="40.0" y="888.0" font-size="13.5" font-weight="700" text-anchor="start" fill="#111" >1  Initial state matters most</text>
+<text x="40.0" y="910.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >Initial phases carry 65.5% of the model importance</text>
+<text x="40.0" y="927.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >(HA 29.0%, whitlockite 20.6%, wollastonite 15.9%);</text>
+<text x="40.0" y="944.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >processing variables carry 20.6%.</text>
+<text x="390.0" y="888.0" font-size="13.5" font-weight="700" text-anchor="start" fill="#111" >2  Temperature acts twice</text>
+<text x="390.0" y="910.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >It acts directly (17.9%) and by setting the initial</text>
+<text x="390.0" y="927.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >HA fraction, which falls from 37.3 to 6.7 wt%</text>
+<text x="390.0" y="944.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >between 700 and 800 °C and then varies non-</text>
+<text x="390.0" y="961.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >monotonically.</text>
+<text x="740.0" y="888.0" font-size="13.5" font-weight="700" text-anchor="start" fill="#111" >3  Exposure time is minor</text>
+<text x="740.0" y="910.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >SBF soaking time carries only 2.7%. Confirm that</text>
+<text x="740.0" y="927.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >time was actually varied before reading this as</text>
+<text x="740.0" y="944.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#555" >kinetics.</text>
+<line x1="40" y1="977" x2="1060" y2="977" stroke="#c9cdd2"/>
+<text x="40" y="995" font-size="12.5" fill="#111"><tspan font-weight="700">Figure 1 |</tspan> Model-based importance of initial state, processing and exposure for hydroxyapatite (HA) evolution of apatite–wollastonite (AW) glass-</text>
+<text x="40.0" y="1012.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >ceramics in simulated body fluid (SBF). (a) Flow diagram of relative feature importance (normalised to 100%); ribbon height is proportional to</text>
+<text x="40.0" y="1029.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >importance and features are grouped into initial phases, structural order and processing/exposure. (b) HA fraction before (day 0) and after (day 21)</text>
+<text x="40.0" y="1046.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >SBF immersion at five sintering temperatures. (c) Net change in HA fraction, Δ = day 21 − day 0 (green, gain; orange, loss). The analysis is</text>
+<text x="40.0" y="1063.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >descriptive (n = 5 sintering temperatures); importances are model-dependent and are not causal estimates.</text>
 </svg>
