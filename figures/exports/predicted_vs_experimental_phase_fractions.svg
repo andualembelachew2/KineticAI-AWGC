@@ -1,95 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="660" viewBox="0 0 860 660" font-family="Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMzE2MzdhNy02NzQzLTQ2NmYtYmFiNC1hNmRlNjgwNTEyNjkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDR+Oh73it3uXP8cYISvp4cAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowOWQ2YzBmOC1hYjhhLTQzMTEtYWI5ZC1jYTY5NzE2NWE0YTRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoLCAa6bYqIm5WZH6xScPTwAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgguk+Rfda9Mbn2gImrC/Tnmu1Xqyc5drbm4dtqimyPxGOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKjgP+NmqG4Dm3vQOS731EkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBd1ZzP6dHMDxCL6Ucb4TMRirckDev50YTWqROMBY8vMWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjmZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMzMTYzN2E3LTY3NDMtNDY2Zi1iYWI0LWE2ZGU2ODA1MTI2OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjMyODg0Mjk4LWRhOTUtNDA4Zi05ODI1LTRjMTE5OTk5YmYzN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC6T5F91r0xufaAiasL9Oea7VerJzl2tubh22qKbI/EY6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggL6fj+J/QJgn11vQJQfexNbAETHqOoJ+3P2pqYOHZWoeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggovzryWHeygBWHp4KJvG3YFUHt8NQx40R7YO6CTMdJEd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIo0nN+onLKFoRXfHM2SOIR3SagKMbLH66cjDvrZQ4DqA+jbf1nyUKdIKNQZcGIcXe8VOqDIao/zdW5k4SCSoNs=</c2pa:manifest></metadata>
-<title id="t">Predicted vs experimental phase fractions in Ca–Si–P–O glass-ceramics</title>
-<desc id="d">Parity plot for wollastonite, hydroxyapatite and whitlockite; test R2 = 0.933, RMSE = 2.08 wt%, random 20% row holdout.</desc>
-<style>
-:root{--bg:#ffffff;--fg:#1f2328;--mut:#656d76;--grid:#e6e9ed;--card:#f6f8fa;--line:#d0d7de;--acc:#0969da}
-@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--mut:#8b949e;--grid:#21262d;--card:#161b22;--line:#30363d;--acc:#58a6ff}}
-text{fill:var(--fg)} .m{fill:var(--mut)} .pt{stroke:var(--bg);stroke-width:1.2;fill-opacity:.92}
-</style>
-<defs><clipPath id="c"><rect x="90" y="90" width="450" height="450"/></clipPath>
-<linearGradient id="hdr" x1="0" x2="1"><stop offset="0" stop-color="#009e73"/><stop offset=".5" stop-color="#0072b2"/><stop offset="1" stop-color="#e69f00"/></linearGradient></defs>
-<rect width="860" height="660" fill="var(--bg)"/>
-<rect x="30" y="26" width="5" height="46" rx="2.5" fill="url(#hdr)"/>
-<text x="46" y="48" font-size="20" font-weight="700">Kinetic Blueprint · Phase-Fraction Prediction</text>
-<text x="46" y="68" font-size="12.5" class="m">Held-out test set · Ca–Si–P–O bioactive glass-ceramics · wollastonite, hydroxyapatite, whitlockite</text>
-
-<line x1="90.0" y1="90" x2="90.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="540.0" x2="540" y2="540.0" stroke="var(--grid)"/>
-<text x="90.0" y="557" font-size="11" text-anchor="middle" class="m">0</text><text x="81" y="544.0" font-size="11" text-anchor="end" class="m">0</text>
-<line x1="140.0" y1="90" x2="140.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="490.0" x2="540" y2="490.0" stroke="var(--grid)"/>
-<text x="140.0" y="557" font-size="11" text-anchor="middle" class="m">5</text><text x="81" y="494.0" font-size="11" text-anchor="end" class="m">5</text>
-<line x1="190.0" y1="90" x2="190.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="440.0" x2="540" y2="440.0" stroke="var(--grid)"/>
-<text x="190.0" y="557" font-size="11" text-anchor="middle" class="m">10</text><text x="81" y="444.0" font-size="11" text-anchor="end" class="m">10</text>
-<line x1="240.0" y1="90" x2="240.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="390.0" x2="540" y2="390.0" stroke="var(--grid)"/>
-<text x="240.0" y="557" font-size="11" text-anchor="middle" class="m">15</text><text x="81" y="394.0" font-size="11" text-anchor="end" class="m">15</text>
-<line x1="290.0" y1="90" x2="290.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="340.0" x2="540" y2="340.0" stroke="var(--grid)"/>
-<text x="290.0" y="557" font-size="11" text-anchor="middle" class="m">20</text><text x="81" y="344.0" font-size="11" text-anchor="end" class="m">20</text>
-<line x1="340.0" y1="90" x2="340.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="290.0" x2="540" y2="290.0" stroke="var(--grid)"/>
-<text x="340.0" y="557" font-size="11" text-anchor="middle" class="m">25</text><text x="81" y="294.0" font-size="11" text-anchor="end" class="m">25</text>
-<line x1="390.0" y1="90" x2="390.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="240.0" x2="540" y2="240.0" stroke="var(--grid)"/>
-<text x="390.0" y="557" font-size="11" text-anchor="middle" class="m">30</text><text x="81" y="244.0" font-size="11" text-anchor="end" class="m">30</text>
-<line x1="440.0" y1="90" x2="440.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="190.0" x2="540" y2="190.0" stroke="var(--grid)"/>
-<text x="440.0" y="557" font-size="11" text-anchor="middle" class="m">35</text><text x="81" y="194.0" font-size="11" text-anchor="end" class="m">35</text>
-<line x1="490.0" y1="90" x2="490.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="140.0" x2="540" y2="140.0" stroke="var(--grid)"/>
-<text x="490.0" y="557" font-size="11" text-anchor="middle" class="m">40</text><text x="81" y="144.0" font-size="11" text-anchor="end" class="m">40</text>
-<line x1="540.0" y1="90" x2="540.0" y2="540" stroke="var(--grid)"/><line x1="90" y1="90.0" x2="540" y2="90.0" stroke="var(--grid)"/>
-<text x="540.0" y="557" font-size="11" text-anchor="middle" class="m">45</text><text x="81" y="94.0" font-size="11" text-anchor="end" class="m">45</text>
-<g clip-path="url(#c)"><polygon points="90.0,519.2 540.0,69.20000000000005 540.0,110.79999999999995 90.0,560.8" fill="var(--acc)" fill-opacity=".12"/>
-<line x1="90.0" y1="540.0" x2="540.0" y2="90.0" stroke="var(--mut)" stroke-width="1.5" stroke-dasharray="6 4"/>
-<circle cx="242.3" cy="395.7" r="6" fill="#009e73" class="pt"/>
-<circle cx="229.6" cy="386.7" r="6" fill="#009e73" class="pt"/>
-<circle cx="137.5" cy="490.4" r="6" fill="#009e73" class="pt"/>
-<circle cx="296.9" cy="338.7" r="6" fill="#009e73" class="pt"/>
-<circle cx="174.5" cy="449.1" r="6" fill="#009e73" class="pt"/>
-<rect x="186.0" y="429.2" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="280.2" y="320.7" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="464.1" y="147.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="202.7" y="415.9" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="281.6" y="327.8" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<path d="M445.3 196.3 L451.8 208.3 L438.8 208.3Z" fill="#e69f00" class="pt"/>
-<path d="M425.5 165.1 L432.0 177.1 L419.0 177.1Z" fill="#e69f00" class="pt"/>
-<path d="M184.9 433.2 L191.4 445.2 L178.4 445.2Z" fill="#e69f00" class="pt"/>
-<path d="M503.8 128.7 L510.3 140.7 L497.3 140.7Z" fill="#e69f00" class="pt"/>
-<path d="M371.5 236.0 L378.0 248.0 L365.0 248.0Z" fill="#e69f00" class="pt"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 830" width="1200" height="830" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo0OTcwM2NhZC00MDQyLTQ0ODAtOWI5My05ZDg5NzZmMjUyZjQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIthzXNMVMm9BelQmLB69gMAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2NTY1OTA0Zi02OTcxLTQ0ZmEtOGFkNy05NzU3MTc5ZGNiNzlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobbUAu1LC6WPq+AsM/GBGDAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggO9g+jhA3t+VxmaMbb+S0WFio0LY77Vuk+m3+HCfm9WikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNL0eiUr58gZFMtyVa93YlEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAlkyZCoI9MXLJsn6oMaGYl17crMq1lVHSzgPxVa9akfmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjQ5NzAzY2FkLTQwNDItNDQ4MC05YjkzLTlkODk3NmYyNTJmNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjRmMWRlMWUzLWMyOTMtNDkxZC04MzZlLTBmNzA3NTA0Zjc0OHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCA72D6OEDe35XGZoxtv5LRYWKjQtjvtW6T6bf4cJ+b1aKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggit2aSgyOr/1FT+12+juSAxTclIjJnz+tPBT/U/3m8AGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg4F9+O1JdbkPMFA0QyFBe0ic+1DBpWKVW8TJXW8lFIfN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNh4NxRUlBkDG6aweltqFzf6muHoLV9UBsobDtsW9XdRlLtGuUcSeMU1ckGbf/tHqN1qkPxQbIH41vFK85b/DUY=</c2pa:manifest></metadata><title id="t">Predicted vs experimental phase fractions in Ca–Si–P–O glass-ceramics</title><desc id="d">Parity plot and residual strip plot for wollastonite, hydroxyapatite and whitlockite on a held-out test set; R2 = 0.933, RMSE = 2.08 wt%.</desc>
+<style>svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif}text{fill:#1f2328}.m{fill:#57606a}.g{stroke:#e5e8ec;stroke-width:1}</style>
+<defs><clipPath id="c"><rect x="120" y="130" width="540" height="540"/></clipPath><linearGradient id="h" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#009e73"/><stop offset=".5" stop-color="#0072b2"/><stop offset="1" stop-color="#e69f00"/></linearGradient></defs>
+<rect width="1200" height="830" fill="#fff"/>
+<rect x="40" y="32" width="6" height="56" rx="3" fill="url(#h)"/>
+<text x="62" y="58" font-size="30" font-weight="700">Kinetic Blueprint · Phase-fraction prediction</text>
+<text x="62" y="86" font-size="18" class="m">Held-out test set · Ca–Si–P–O bioactive glass-ceramics · wollastonite, hydroxyapatite, whitlockite</text>
+<text x="40" y="128" font-size="26" font-weight="700">a</text>
+<rect x="120" y="130" width="540" height="540" fill="#fafbfc"/>
+<line class="g" x1="120" x2="120" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="670" y2="670"/>
+<line class="g" x1="180" x2="180" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="610" y2="610"/>
+<line class="g" x1="240" x2="240" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="550" y2="550"/>
+<line class="g" x1="300" x2="300" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="490" y2="490"/>
+<line class="g" x1="360" x2="360" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="430" y2="430"/>
+<line class="g" x1="420" x2="420" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="370" y2="370"/>
+<line class="g" x1="480" x2="480" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="310" y2="310"/>
+<line class="g" x1="540" x2="540" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="250" y2="250"/>
+<line class="g" x1="600" x2="600" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="190" y2="190"/>
+<line class="g" x1="660" x2="660" y1="130" y2="670"/><line class="g" x1="120" x2="660" y1="130" y2="130"/>
+<g clip-path="url(#c)">
+<polygon points="120,645.04 660,105.03999999999996 660,154.96000000000004 120,694.96" fill="#0969da" fill-opacity=".12"/>
+<line x1="120" y1="670" x2="660" y2="130" stroke="#57606a" stroke-width="1.8" stroke-dasharray="7 5"/>
+<circle cx="302.8" cy="496.8" r="7" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="287.5" cy="486.0" r="7" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="177.0" cy="610.5" r="7" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="368.3" cy="428.4" r="7" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="221.4" cy="560.9" r="7" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="235.3" y="537.1" width="13" height="13" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="348.3" y="406.9" width="13" height="13" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="569.0" y="199.1" width="13" height="13" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="255.3" y="521.2" width="13" height="13" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="350.0" y="415.5" width="13" height="13" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M546.4 257.5L554.9 273.0L537.9 273.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M522.6 220.0L531.1 235.5L514.1 235.5Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M233.9 541.7L242.4 557.2L225.4 557.2Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M616.6 176.3L625.1 191.8L608.1 191.8Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M457.8 305.1L466.3 320.6L449.3 320.6Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
 </g>
-<rect x="90" y="90" width="450" height="450" fill="none" stroke="var(--fg)" stroke-width="1.2"/>
-<text x="315.0" y="582" font-size="13" font-weight="600" text-anchor="middle">Experimental phase fraction (wt%)</text>
-<text transform="translate(34 315.0) rotate(-90)" font-size="13" font-weight="600" text-anchor="middle">Predicted phase fraction (wt%)</text>
-<text x="430.0" y="265.0" font-size="10.5" class="m" transform="rotate(-45 430.0 265.0)" text-anchor="middle">y = x (ideal)</text>
-<text x="140.0" y="130.0" font-size="10.5" fill="var(--acc)" style="fill:var(--acc)">Shaded band: ±RMSE (±2.08 wt%)</text>
-<rect x="590" y="96" width="240" height="132" rx="8" fill="var(--card)" stroke="var(--line)"/>
-<text x="606" y="120" font-size="11" font-weight="700" class="m" letter-spacing="1">PERFORMANCE · ALL PHASES</text>
-<text x="606" y="158" font-size="30" font-weight="700">R² = 0.933</text>
-<text x="606" y="184" font-size="17" font-weight="600">RMSE = 2.08 wt%</text>
-<text x="606" y="208" font-size="11.5" class="m">Random 20% row hold-out · n = 15</text>
-<rect x="590" y="244" width="240" height="130" rx="8" fill="var(--card)" stroke="var(--line)"/>
-<text x="606" y="266" font-size="11" font-weight="700" class="m" letter-spacing="1">PHASE</text>
-<circle cx="616.0" cy="286.0" r="6" fill="#009e73" class="pt"/><text x="634" y="290" font-size="13.5">Wollastonite</text>
-<rect x="610.5" y="304.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/><text x="634" y="314" font-size="13.5">Hydroxyapatite</text>
-<path d="M616.0 327.0 L622.5 339.0 L609.5 339.0Z" fill="#e69f00" class="pt"/><text x="634" y="338" font-size="13.5">Whitlockite</text>
-<line x1="606" y1="354" x2="626" y2="354" stroke="var(--mut)" stroke-width="1.5" stroke-dasharray="5 3"/><text x="634" y="358" font-size="13.5">Identity (y = x)</text>
-<rect x="590" y="390" width="240" height="162" rx="8" fill="var(--card)" stroke="var(--line)"/>
-<text x="606" y="412" font-size="11" font-weight="700" class="m" letter-spacing="1">RESIDUALS (PRED − EXP, wt%)</text>
-<rect x="666.736" y="426" width="86.52800000000002" height="98" fill="var(--acc)" fill-opacity=".12"/>
-<line x1="710.0" y1="426" x2="710.0" y2="524" stroke="var(--mut)" stroke-dasharray="4 3"/>
-<text x="626.8" y="538" font-size="10" text-anchor="middle" class="m">-4</text>
-<text x="668.4" y="538" font-size="10" text-anchor="middle" class="m">-2</text>
-<text x="710.0" y="538" font-size="10" text-anchor="middle" class="m">0</text>
-<text x="751.6" y="538" font-size="10" text-anchor="middle" class="m">2</text>
-<text x="793.2" y="538" font-size="10" text-anchor="middle" class="m">4</text>
-<circle cx="693.4" cy="450.0" r="5" fill="#009e73" class="pt"/>
-<circle cx="738.5" cy="450.0" r="5" fill="#009e73" class="pt"/>
-<circle cx="714.4" cy="450.0" r="5" fill="#009e73" class="pt"/>
-<circle cx="698.4" cy="450.0" r="5" fill="#009e73" class="pt"/>
-<circle cx="723.3" cy="450.0" r="5" fill="#009e73" class="pt"/>
-<rect x="712.4" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="742.1" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="719.9" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="705.3" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<rect x="724.5" y="476.5" width="11" height="11" rx="1.5" fill="#0072b2" class="pt"/>
-<path d="M671.3 507.0 L677.8 519.0 L664.8 519.0Z" fill="#e69f00" class="pt"/>
-<path d="M777.4 507.0 L783.9 519.0 L770.9 519.0Z" fill="#e69f00" class="pt"/>
-<path d="M720.2 507.0 L726.7 519.0 L713.7 519.0Z" fill="#e69f00" class="pt"/>
-<path d="M690.2 507.0 L696.7 519.0 L683.7 519.0Z" fill="#e69f00" class="pt"/>
-<path d="M742.2 507.0 L748.7 519.0 L735.7 519.0Z" fill="#e69f00" class="pt"/>
-<text x="90" y="618" font-size="11" class="m">Phase fractions in wt%. Test points drawn from a random 20% row split; markers differ in shape and colour (colour-blind-safe Okabe–Ito palette).</text>
+<rect x="120" y="130" width="540" height="540" fill="none" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="120" x2="120" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="120" y="697" font-size="17" text-anchor="middle">0</text>
+<line x1="113" x2="120" y1="670" y2="670" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="676" font-size="17" text-anchor="end">0</text>
+<line x1="180" x2="180" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="180" y="697" font-size="17" text-anchor="middle">5</text>
+<line x1="113" x2="120" y1="610" y2="610" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="616" font-size="17" text-anchor="end">5</text>
+<line x1="240" x2="240" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="240" y="697" font-size="17" text-anchor="middle">10</text>
+<line x1="113" x2="120" y1="550" y2="550" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="556" font-size="17" text-anchor="end">10</text>
+<line x1="300" x2="300" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="300" y="697" font-size="17" text-anchor="middle">15</text>
+<line x1="113" x2="120" y1="490" y2="490" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="496" font-size="17" text-anchor="end">15</text>
+<line x1="360" x2="360" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="360" y="697" font-size="17" text-anchor="middle">20</text>
+<line x1="113" x2="120" y1="430" y2="430" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="436" font-size="17" text-anchor="end">20</text>
+<line x1="420" x2="420" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="420" y="697" font-size="17" text-anchor="middle">25</text>
+<line x1="113" x2="120" y1="370" y2="370" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="376" font-size="17" text-anchor="end">25</text>
+<line x1="480" x2="480" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="480" y="697" font-size="17" text-anchor="middle">30</text>
+<line x1="113" x2="120" y1="310" y2="310" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="316" font-size="17" text-anchor="end">30</text>
+<line x1="540" x2="540" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="540" y="697" font-size="17" text-anchor="middle">35</text>
+<line x1="113" x2="120" y1="250" y2="250" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="256" font-size="17" text-anchor="end">35</text>
+<line x1="600" x2="600" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="600" y="697" font-size="17" text-anchor="middle">40</text>
+<line x1="113" x2="120" y1="190" y2="190" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="196" font-size="17" text-anchor="end">40</text>
+<line x1="660" x2="660" y1="670" y2="677" stroke="#1f2328" stroke-width="1.5"/><text x="660" y="697" font-size="17" text-anchor="middle">45</text>
+<line x1="113" x2="120" y1="130" y2="130" stroke="#1f2328" stroke-width="1.5"/><text x="107" y="136" font-size="17" text-anchor="end">45</text>
+<text x="390.0" y="732" font-size="20" font-weight="600" text-anchor="middle">Experimental phase fraction (wt%)</text>
+<text transform="translate(52 400.0) rotate(-90)" font-size="20" font-weight="600" text-anchor="middle">Predicted phase fraction (wt%)</text>
+<line x1="456" x2="492" y1="598" y2="598" stroke="#57606a" stroke-width="1.8" stroke-dasharray="7 5"/><text x="501.6" y="604" font-size="16" class="m">y = x (ideal)</text>
+<text x="134.4" y="154" font-size="16" font-weight="600" fill="#0969da" style="fill:#0969da">Shaded band: ±RMSE (±2.08 wt%)</text>
+<text x="508.6" y="220.5" font-size="15" font-weight="600" text-anchor="end" style="fill:#e69f00">+3.2 wt% (largest)</text>
+<rect x="760" y="130" width="400" height="150" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="780" y="160" font-size="14" font-weight="700" letter-spacing="1.2" class="m">PERFORMANCE · ALL PHASES</text>
+<text x="780" y="212" font-size="44" font-weight="700">R² = 0.933</text>
+<text x="780" y="244" font-size="24" font-weight="600">RMSE = 2.08 wt%</text>
+<text x="780" y="268" font-size="14" class="m">Random 20% row hold-out · n = 15 (5 per phase)</text>
+<rect x="760" y="298" width="400" height="128" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="780" y="326" font-size="14" font-weight="700" letter-spacing="1.2" class="m">PHASE</text>
+<circle cx="790.0" cy="354.0" r="7" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<text x="814" y="360" font-size="18">Wollastonite</text>
+<rect x="783.5" y="375.5" width="13" height="13" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<text x="814" y="388" font-size="18">Hydroxyapatite</text>
+<path d="M790.0 401.5L798.5 417.0L781.5 417.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<text x="814" y="416" font-size="18">Whitlockite</text>
+<rect x="760" y="444" width="400" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="780" y="472" font-size="14" font-weight="700" letter-spacing="1.2" class="m">RESIDUALS (PRED − EXP, wt%)</text>
+<text x="780" y="444" font-size="1" fill="none"></text>
+<rect x="889.1" y="486" width="149.8" height="154" fill="#0969da" fill-opacity=".12"/>
+<line class="g" x1="820" x2="820" y1="486" y2="640"/>
+<line class="g" x1="892" x2="892" y1="486" y2="640"/>
+<line class="g" x1="964" x2="964" y1="486" y2="640"/>
+<line class="g" x1="1036" x2="1036" y1="486" y2="640"/>
+<line class="g" x1="1108" x2="1108" y1="486" y2="640"/>
+<line x1="964" x2="964" y1="486" y2="640" stroke="#57606a" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line class="g" x1="820" x2="1108" y1="512" y2="512"/>
+<text x="812" y="517" font-size="14" text-anchor="end" fill="#009e73" font-weight="600" style="fill:#009e73">Wo</text>
+<circle cx="935.2" cy="512.0" r="6" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="1013.3" cy="512.0" r="6" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="971.6" cy="512.0" r="6" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="943.8" cy="512.0" r="6" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<circle cx="987.0" cy="512.0" r="6" fill="#009e73" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<line class="g" x1="820" x2="1108" y1="562" y2="562"/>
+<text x="812" y="567" font-size="14" text-anchor="end" fill="#0072b2" font-weight="600" style="fill:#0072b2">HA</text>
+<rect x="972.2" y="556.5" width="11" height="11" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="1023.7" y="556.5" width="11" height="11" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="985.1" y="556.5" width="11" height="11" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="959.9" y="556.5" width="11" height="11" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<rect x="993.1" y="556.5" width="11" height="11" rx="1.5" fill="#0072b2" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<line class="g" x1="820" x2="1108" y1="612" y2="612"/>
+<text x="812" y="617" font-size="14" text-anchor="end" fill="#e69f00" font-weight="600" style="fill:#e69f00">Wh</text>
+<path d="M897.0 604.5L904.5 618.0L889.5 618.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M1080.6 604.5L1088.1 618.0L1073.1 618.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M981.6 604.5L989.1 618.0L974.1 618.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M929.8 604.5L937.3 618.0L922.3 618.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<path d="M1019.8 604.5L1027.3 618.0L1012.3 618.0Z" fill="#e69f00" stroke="#fff" stroke-width="1.4" fill-opacity=".95"/>
+<line x1="820" x2="1108" y1="640" y2="640" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="820" x2="820" y1="640" y2="646" stroke="#1f2328" stroke-width="1.4"/><text x="820" y="664" font-size="15" text-anchor="middle">-4</text>
+<line x1="892" x2="892" y1="640" y2="646" stroke="#1f2328" stroke-width="1.4"/><text x="892" y="664" font-size="15" text-anchor="middle">-2</text>
+<line x1="964" x2="964" y1="640" y2="646" stroke="#1f2328" stroke-width="1.4"/><text x="964" y="664" font-size="15" text-anchor="middle">0</text>
+<line x1="1036" x2="1036" y1="640" y2="646" stroke="#1f2328" stroke-width="1.4"/><text x="1036" y="664" font-size="15" text-anchor="middle">2</text>
+<line x1="1108" x2="1108" y1="640" y2="646" stroke="#1f2328" stroke-width="1.4"/><text x="1108" y="664" font-size="15" text-anchor="middle">4</text>
+<text x="964" y="686" font-size="15" class="m" text-anchor="middle">shaded: ±RMSE</text>
+<text x="40" y="782" font-size="16" class="m">Phase fractions in wt%. Points are from a random 20% row split; shape and colour distinguish phases (colour-blind-safe Okabe–Ito palette).</text>
+<text x="40" y="806" font-size="16" class="m">The ±RMSE band is a reference for typical error, not a confidence interval.</text>
 </svg>
