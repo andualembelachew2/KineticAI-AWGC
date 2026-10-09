@@ -17,7 +17,7 @@ The model combines:
 - Damköhler–Péclet dimensionless analysis to classify reaction- vs. transport-limited regimes,
 - a defined target range ("regenerative target zone") that acceptable ion-release trajectories must stay within over time.
 
-## Figures
+## Supportive Figures
 
 <p align="center">
   <img src="figures/exports/kinetic_blueprint_framework.svg"alt="kinetic blueprint framework
