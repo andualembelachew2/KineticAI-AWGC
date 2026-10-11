@@ -6,7 +6,6 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21759552-1F5AA8)](https://doi.org/10.5281/zenodo.21759552)
 
 ## Overview
-
 This repository models bioactive silicate ceramics (apatite–wollastonite glass-ceramics) not just by static composition or endpoint bioactivity, but as a coupled, time-resolved process:
 
 **network chemistry → ion release → transport → pH/supersaturation → mineralization**
