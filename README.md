@@ -159,7 +159,7 @@ KineticAI-AWGC/
 
 ## Related publications
 
-1. A. B. Workie, "From Static Material Design to Predictive Open-Loop Control via Chemistry–Architecture Coupling in a Moving-Boundary Reaction–Diffusion Framework," *ChemRxiv* (2026). [doi:10.26434/chemrxiv.15008964/v2](https://doi.org/10.26434/chemrxiv.15008964/v2). Under review in *J. Mater. Chem. B*.
+1. A. B. Workie, "From Static Material Design to Predictive Open-Loop Control via Chemistry–Architecture Coupling in a Moving-Boundary Reaction–Diffusion Framework," *ChemRxiv* (2026). [doi:10.26434/chemrxiv.15008964/v2](https://doi.org/10.26434/chemrxiv.15008964/v2).
 2. A. B. Workie, M. B. Taye, F. P. W. Melchels and A. Mamo, "Predictive Mass-Transport Kinetics in Phase-Programmed Silicate Glass-Ceramics for Controlled Microenvironmental Engineering," *Biomater. Sci.* **14**(4), 890–902 (2026). [doi:10.1039/D6BM00997B](https://doi.org/10.1039/D6BM00997B)
 3. A. B. Workie and S.-J. Shih, "A Kinetic Blueprint for Bioactive Ceramics: Programming the Bio-interface through Thermal Processing," *Ceram. Int.* **51**(3), 3410–3422 (2025). [doi:10.1016/j.ceramint.2025.11.191](https://doi.org/10.1016/j.ceramint.2025.11.191)
 4. M. B. Taye, A. B. Workie and S.-J. Shih, "Rational Engineering of Mesoporous Bioactive Glass Surface Reactivity: NBO/BO Ratio Control via Synergistic Ag and Ce Co-Doping by Spray Pyrolysis," *Ceram. Int.* **52**(8), 1102–1115 (2026). [doi:10.1016/j.ceramint.2026.01.486](https://doi.org/10.1016/j.ceramint.2026.01.486)
@@ -198,4 +198,4 @@ Citation metadata is also available in [`CITATION.cff`](CITATION.cff).
 
 Released under the [MIT License](LICENSE).
 
-**Andualem Belachew Workie** · [Google Scholar](https://scholar.google.com/citations?user=4_xBo44AAAAJ) · [ORCID](https://orcid.org/0000-0003-3162-4257) · [Website](https://andualemworkie.owlstown.net/)
+**Andualem B. Workie** · [Google Scholar](https://scholar.google.com/citations?user=4_xBo44AAAAJ) · [ORCID](https://orcid.org/0000-0003-3162-4257) · [Website](https://andualemworkie.owlstown.net/)
