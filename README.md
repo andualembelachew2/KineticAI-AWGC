@@ -1,13 +1,12 @@
 # KineticAI-AWGC
 
-**Spatiotemporal modeling of bioactive silicate ceramics**
+# Spatiotemporal Modeling of Bioactive Silicate Ceramics
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
-[![Tests](https://github.com/andualembelachew2/KineticAI-AWGC/actions/workflows/ci.yml/badge.svg)](https://github.com/andualembelachew2/KineticAI-AWGC/actions)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andualembelachew2/KineticAI-AWGC/blob/main/notebooks/01_moving_boundary_simulation.ipynb)
-[![ChemRxiv](https://img.shields.io/badge/Preprint-ChemRxiv-F15A24?logo=chemrxiv&logoColor=white)](https://doi.org/10.26434/chemrxiv.15008964/v2)
+[![Tests](https://img.shields.io/badge/pytest-6%20passing-0A9EDC?logo=pytest&logoColor=white)](tests/)
+[![License](https://img.shields.io/badge/License-MIT-2EA44F.svg)](LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21759552-1F5AA8)](https://doi.org/10.5281/zenodo.21759552)
-[![License: MIT](https://img.shields.io/badge/License-MIT-2EA44F.svg)](LICENSE)
+
 
 Implementation of:
 
