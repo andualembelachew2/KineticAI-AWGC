@@ -9,9 +9,9 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21759552-1F5AA8)](https://doi.org/10.5281/zenodo.21759552)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2EA44F.svg)](LICENSE)
 
-Official implementation of:
+Implementation of:
 
-> A. B. Workie, *From Static Material Design to Predictive Open-Loop Control via Chemistry–Architecture Coupling in a Moving-Boundary Reaction–Diffusion Framework* (2026). ChemRxiv, [doi:10.26434/chemrxiv.15008964/v2](https://doi.org/10.26434/chemrxiv.15008964/v2). Under review in *Journal of Materials Chemistry B*.
+> A. B. Workie, *From Static Material Design to Predictive Open-Loop Control via Chemistry–Architecture Coupling in a Moving-Boundary Reaction–Diffusion Framework* (2026). ChemRxiv, [doi:10.26434/chemrxiv.15008964/v2](https://doi.org/10.26434/chemrxiv.15008964/v2).
 
 ---
 
