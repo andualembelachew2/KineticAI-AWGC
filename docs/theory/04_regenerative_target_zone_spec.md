@@ -1,84 +1,77 @@
-# 04. Regenerative Target Zone Specification
+# 04. Regenerative Target Zone (RTZ) Specification
 
 ## 4.1 Functional specification of trajectory admissibility
 
-The Regenerative Target Zone (RTZ) is defined as a continuous admissibility tube in the state space of the evolving scaffold trajectory. Let the local state vector be
+The Regenerative Target Zone (RTZ) is a continuous admissibility tube in the state space of the evolving scaffold. The local state vector is
 
 $$
-\mathbf{S}(t)=\left[C_{\mathrm{Ca}}(t), C_{\mathrm{Si}}(t), C_{\mathrm{Mg}}(t), \mathrm{pH}(t), \varepsilon(t), D_{\mathrm{eff}}(t)\right]^T.
+\mathbf{S}(t) = \left[ C_{\mathrm{Ca}}(t),\ C_{\mathrm{Si}}(t),\ C_{\mathrm{Mg}}(t),\ \mathrm{pH}(t),\ \varepsilon(t),\ D_{\mathrm{eff}}(t) \right]^{T}
 $$
 
-The RTZ is then the set
+The RTZ is the set of continuous trajectories that remain inside the time-dependent bounds:
 
 $$
-\RZT(t)=\left\{\mathbf{S}(\cdot)\in C^0([0,T];\mathbb R^6)\;\middle|\; C_i^{\min}(t)\le C_i(t)\le C_i^{\max}(t),\; [\ce{H+}](t)\in[\ce{H+}]^{\mathrm{lo},\mathrm{hi}},\; \varepsilon(t)\ge \varepsilon^{\mathrm{perc}}\right\},
+\mathrm{RTZ} = \left\{ \mathbf{S} \in C^{0}([0,T];\mathbb{R}^{6}) \ \middle|\
+\begin{aligned}
+& C_i^{\min}(t) \le C_i(t) \le C_i^{\max}(t), \quad i \in \{\mathrm{Ca}, \mathrm{Si}, \mathrm{Mg}\}, \\
+& [\mathrm{H}^{+}]_{\mathrm{lo}} \le [\mathrm{H}^{+}](t) \le [\mathrm{H}^{+}]_{\mathrm{hi}}, \\
+& \varepsilon(t) \ge \varepsilon_{\mathrm{perc}}
+\end{aligned}
+\right\}
+\quad \text{for all } t \in (0,T].
 $$
 
-for all $t\in(0,T]$.
-
-This formulation emphasizes the key idea that biological admissibility is temporal and continuous; it is not a single static endpoint.
+Biological admissibility is **temporal and continuous**. It is not a single static endpoint.
 
 ## 4.2 Projection-based distance metric
 
-To test whether a predicted trajectory belongs to the RTZ, define the orthogonal projection onto the admissible tube $\Pi_{\RZT}$ and the tube-distance metric
+To test whether a predicted trajectory belongs to the RTZ, let $\Pi_{\mathrm{RTZ}}$ be the orthogonal projection onto the admissible tube. The tube-distance metric is
 
 $$
- d_{\RZT}(\mathbf{S}) = \max_{t\in[0,T]} \left\|\mathbf{S}(t)-\Pi_{\RZT}(\mathbf{S}(t))\right\|_2.
+d_{\mathrm{RTZ}}(\mathbf{S}) = \max_{t \in [0,T]} \left\| \mathbf{S}(t) - \Pi_{\mathrm{RTZ}}\big(\mathbf{S}(t)\big) \right\|_{2}
 $$
 
-Then the admissibility criterion is
+and the admissibility criterion is
 
 $$
-\mathbf{S}\in \RZT \iff d_{\RZT}(\mathbf{S})\le \delta^*.
+\mathbf{S} \in \mathrm{RTZ} \iff d_{\mathrm{RTZ}}(\mathbf{S}) \le \delta^{*}
 $$
 
-This directly gives a measurable scalar for trajectory quality.
+where $\delta^{*}$ is the tolerance. This gives a single measurable scalar for trajectory quality.
 
 ## 4.3 Phase-indexed biological logic
 
-The trajectory is partitioned into three operational phases:
+The trajectory is partitioned into three operational phases.
 
-### Phase I: inflammation / M1 gating
-
-- Window: $0<t\le 48\,\mathrm{h}$
-- Goal: allow effective debris clearance and recruitment without excessive inflammatory overshoot
-- Constraint: keep pH and ionic doses below a permissible ceiling
-
-### Phase II: M1 $\to$ M2 transition
-
-- Window: Days 3–7
-- Goal: sustain pro-regenerative polarization and M2 dominance
-- Constraint: ion dose must remain within an intermediate, sustained band
-
-### Phase III: HCA mineralization and osteogenic maturation
-
-- Window: $t\gtrsim 14\,\mathrm{days}$
-- Goal: support mineralization and osteogenic consolidation
-- Constraint: maintain both active mineralization and sufficient open porosity for vascular infiltration
+| Phase | Window | Goal | Constraint |
+|---|---|---|---|
+| **I. Inflammation / M1 gating** | $0 < t \le 48\ \mathrm{h}$ | Allow debris clearance and cell recruitment without excessive inflammatory overshoot | Keep pH and ionic doses below a permissible ceiling |
+| **II. M1 → M2 transition** | Days 3–7 | Sustain pro-regenerative polarization and M2 dominance | Keep ion dose within an intermediate, sustained band |
+| **III. HCA mineralization and osteogenic maturation** | $t \gtrsim 14\ \mathrm{days}$ | Support mineralization and osteogenic consolidation | Maintain active mineralization and enough open porosity for vascular infiltration |
 
 ## 4.4 Phase-weighted tube bounds
 
-The overall tube is a phase-scheduled specification. With phase weights $\Omega_k(t)$ satisfying
+The tube is a phase-scheduled specification. With phase weights $\Omega_k(t)$ satisfying
 
 $$
-\sum_k \Omega_k(t)=1,
+\sum_k \Omega_k(t) = 1,
 $$
 
-we define the time-dependent minimum and maximum bounds:
+the time-dependent bounds are
 
 $$
-C_i^{\min}(t)=\sum_k \Omega_k(t) C_{i,k}^{\min},\qquad
-C_i^{\max}(t)=\sum_k \Omega_k(t) C_{i,k}^{\max}.
+C_i^{\min}(t) = \sum_k \Omega_k(t)\, C_{i,k}^{\min}, \qquad
+C_i^{\max}(t) = \sum_k \Omega_k(t)\, C_{i,k}^{\max}.
 $$
 
-The biological design problem becomes:
+The design problem is then:
 
 $$
-\text{find } (\alpha,\beta_0) \text{ such that } \mathbf{S}(t) \in \RZT(t) \text{ for all } t\in[0,T].
+\text{find } (\alpha, \beta_0) \ \text{ such that } \ \mathbf{S}(t) \in \mathrm{RTZ}(t) \quad \forall\, t \in [0,T].
 $$
 
-This is not a discrete threshold test but an entire trajectory specification.
+This is a full trajectory specification, not a discrete threshold test.
 
-## 4.5 Why the RTZ is scientifically stronger than endpoint testing
+## 4.5 Advantage over endpoint testing
 
-Endpoint tests cannot distinguish between e.g. a burst-and-passivation profile and a controlled gradual profile if both satisfy a single endpoint criterion. By contrast, the RTZ uses the full temporal envelope to judge the trajectory. This makes it directly relevant to tissue repair biology, where timing is often more important than the final average value.
+An endpoint test cannot distinguish a burst-and-passivation profile from a controlled gradual profile if both meet the same endpoint criterion. The RTZ judges the full temporal envelope instead. This matters in tissue repair, where timing is often more important than the final average value.
