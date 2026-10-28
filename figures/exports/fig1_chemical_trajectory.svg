@@ -69,7 +69,7 @@
   <!-- Footnote / caption -->
   <line x1="70" y1="486" x2="910" y2="486" stroke="#ccc" stroke-width="1"/>
   <g font-size="11.5" fill="#333">
-    <text x="70" y="508"><tspan font-weight="700">Figure.</tspan> Conceptual release profiles for three network designs. A highly depolymerized glass (high NBO/BO) dissolves quickly: it</text>
+    <text x="70" y="508"><tspan font-weight="700"></tspan> Conceptual release profiles for three network designs. A highly depolymerized glass (high NBO/BO) dissolves quickly: it</text>
     <text x="70" y="525">releases a burst of ions, then the gel layer and apatite film choke the flux below the useful range. A highly connected glass (low</text>
     <text x="70" y="542">NBO/BO) is too durable to reach the therapeutic threshold. An intermediate NBO/BO, tuned by co-doping (Ce³⁺, Sr²⁺, Ag⁺), keeps</text>
     <text x="70" y="559">the flux inside the RTZ across all three stages, which is the design goal.</text>
