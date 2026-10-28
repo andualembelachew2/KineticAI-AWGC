@@ -102,7 +102,7 @@
   <!-- Caption -->
   <line x1="20" y1="478" x2="1060" y2="478" stroke="#ccc"/>
   <g font-size="12" fill="#333">
-    <text x="20" y="500"><tspan font-weight="700">Figure.</tspan> Moving-boundary description of a degrading scaffold strut. <tspan font-weight="700">(a)</tspan> Cross-section of a strut in pore solution. The outer surface recedes inward from its</text>
+    <text x="20" y="500"><tspan font-weight="700"> </tspan> Moving-boundary description of a degrading scaffold strut. <tspan font-weight="700">(a)</tspan> Cross-section of a strut in pore solution. The outer surface recedes inward from its</text>
     <text x="20" y="518">initial position (dashed) as the material dissolves. A gel layer of thickness <tspan font-style="italic">δ</tspan><tspan font-size="9" dy="3">g</tspan><tspan dy="-3">(</tspan><tspan font-style="italic">t</tspan>) forms around an unreacted core of radius <tspan font-style="italic">r</tspan><tspan font-size="9" dy="3">s</tspan><tspan dy="-3">(</tspan><tspan font-style="italic">t</tspan>).</text>
     <text x="20" y="536"><tspan font-weight="700">(b)</tspan> As the boundary recedes, porosity <tspan font-style="italic">ε</tspan> and effective diffusivity <tspan font-style="italic">D</tspan><tspan font-size="9" dy="3">eff</tspan><tspan dy="-3"> rise while mean pore-wall curvature</tspan> <tspan font-style="italic">κ̄</tspan> falls. In the shaded late stage the strut</text>
     <text x="20" y="554">approaches structural collapse, so transport and mechanics can no longer be treated independently.</text>
