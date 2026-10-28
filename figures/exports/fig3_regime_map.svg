@@ -119,7 +119,7 @@
   <!-- Caption -->
   <line x1="20" y1="592" x2="660" y2="592" stroke="#ccc"/>
   <g font-size="11.5" fill="#222">
-    <text x="20" y="610"><tspan font-weight="bold">Figure.</tspan> Regime map for a degrading, ion-releasing scaffold. The Péclet number (Pe) compares convective and diffusive</text>
+    <text x="20" y="610"><tspan font-weight="bold"></tspan> Regime map for a degrading, ion-releasing scaffold. The Péclet number (Pe) compares convective and diffusive</text>
     <text x="20" y="625">transport; the Damköhler number (Da) compares reaction and diffusion. Together they split release behaviour into four</text>
     <text x="20" y="640">regimes: reaction-limited (Q1), diffusion-limited (Q2), convective washout (Q3) and convection-amplified (Q4). Release is</text>
     <text x="20" y="655">most controllable near Pe, Da ∼ 1 (red box), where no single process dominates. Dashed arrows show the design aim of</text>
