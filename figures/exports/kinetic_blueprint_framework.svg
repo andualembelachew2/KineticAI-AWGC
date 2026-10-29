@@ -255,7 +255,7 @@
 <line x1="100" y1="940" x2="640" y2="940" stroke="#111" stroke-width="1.2"/>
 <text x="100.0" y="958.0" font-size="11.5" font-weight="400" text-anchor="start" fill="#555" >Release is ≈ 4× higher at 700 °C; the Ca : Si ratio is unchanged at both temperatures.</text>
 <line x1="40" y1="976" x2="1060" y2="976" stroke="#c9cdd2"/>
-<text x="40" y="992" font-size="12.5" fill="#111"><tspan font-weight="700">Figure 1 |</tspan> Sintering temperature programs phase assemblage, dissolution, interfacial pH and cytocompatibility of Ca–Si–P–O glass-ceramics. (A) Phase</text>
+<text x="40" y="992" font-size="12.5" fill="#111"><tspan font-weight="700"></tspan> Sintering temperature programs phase assemblage, dissolution, interfacial pH and cytocompatibility of Ca–Si–P–O glass-ceramics. (A) Phase</text>
 <text x="40.0" y="1009.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >fractions (stacked bars, wt%) and bulk density (dashed line, right axis) after sintering at 700–1100 °C. (B) Cumulative mass loss during immersion;</text>
 <text x="40.0" y="1026.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >symbols are measured values and lines are Korsmeyer–Peppas fits (M = k·tⁿ). (C) Interfacial pH over 21 d; the shaded band marks the physiological</text>
 <text x="40.0" y="1043.0" font-size="12.5" font-weight="400" text-anchor="start" fill="#111" >window (pH 7.35–7.85) and the dashed line marks pH 8.2. (D) Cell viability versus extract concentration relative to untreated control; the dashed line</text>
